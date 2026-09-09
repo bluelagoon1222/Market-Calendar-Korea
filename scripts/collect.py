@@ -7,6 +7,7 @@ v1 실행(2026-09-09) 결과 반영
   · kr_universe=0                 → KRX 다운로드 차단. 네이버 시가총액 + 필터 방식으로 교체
   · dart_list status 100 (4건)     → corp_code 없이 3개월 초과 조회 불가. 종목별 조회로 전환
   · corp 452건 중 54건만 이벤트화  → 날짜 필드 라벨 확장 + 신탁계약 서식 분리
+  · 전환사채(CB) 건수 과다        → CB·BW·EB 추적 제외, 기업행위는 시총상위 220종목으로 한정 (요청)
 
 국내 실적발표일은 사전 공표 제도가 없어 전 종목 '잠정(추정)'으로 산출한다.
 확정값은 DART 결산실적공시예고가 있는 기업만 표시한다.
@@ -380,9 +381,6 @@ CORP_RULES = [                      # (공시명 키워드, API, 표시명, 중�
     ("유무상증자", "pifricDecsn", "유·무상증자 결정", 3, "유무상증자"),
     ("유상증자", "piicDecsn", "유상증자 결정", 3, "유상증자"),
     ("무상증자", "fricDecsn", "무상증자 결정", 2, "무상증자"),
-    ("전환사채", "cvbdIsDecsn", "전환사채(CB) 발행 결정", 3, "CB"),
-    ("신주인수권부사채", "bdwtIsDecsn", "신주인수권부사채(BW) 발행 결정", 3, "BW"),
-    ("교환사채", "exbdIsDecsn", "교환사채(EB) 발행 결정", 2, "EB"),
     ("자기주식취득", "tsstkAqDecsn", "자기주식 취득 결정", 3, "자사주 취득"),
     ("자기주식처분", "tsstkDpDecsn", "자기주식 처분 결정", 2, "자사주 처분"),
 ]
@@ -392,9 +390,6 @@ FIELD_LABEL = {
     "sbscpd": "청약일", "pymd": "납입일", "pym_dt": "납입일",
     "nstk_dlprd": "신주 교부 예정일", "nstk_dlprd_bgd": "신주 교부 시작일",
     "nstk_lstprd": "신주 상장 예정일", "lstprd": "상장 예정일", "nstk_lstd": "신주 상장일",
-    "cvrqpd_bgd": "전환청구 가능 시작일", "cvrqpd_edd": "전환청구 가능 종료일",
-    "expd_bgd": "권리행사 시작일", "expd_edd": "권리행사 종료일",
-    "exrqpd_bgd": "교환청구 시작일", "exrqpd_edd": "교환청구 종료일",
     "aq_pl_bgd": "취득 예정 시작일", "aq_pl_edd": "취득 예정 종료일",
     "dp_pl_bgd": "처분 예정 시작일", "dp_pl_edd": "처분 예정 종료일",
     "ctr_pd_bgd": "신탁계약 시작일", "ctr_pd_edd": "신탁계약 종료일",
@@ -406,9 +401,6 @@ CORP_DESC = {
     "유상증자": "발행주식수 증가로 기존 주주 지분이 희석됩니다. 신주배정기준일 전날이 권리락일이며 그날 주가가 기술적으로 조정됩니다. 주주배정·제3자배정 여부와 할인율이 핵심입니다.",
     "무상증자": "기업가치 변화는 없으나 기준일 전 수급이 붙는 경우가 많습니다. 권리락 후 주가 착시에 대한 사전 설명이 필요합니다.",
     "유무상증자": "유상·무상증자가 함께 결정된 건으로 일정이 두 단계로 진행됩니다.",
-    "CB": "전환가액과 전환청구 가능 시작일이 핵심입니다. 시작일부터 오버행이 실제 매도 물량으로 전환되며, 주가 하락 시 리픽싱 조항 유무를 확인해야 합니다.",
-    "BW": "신주인수권 행사 시작일부터 희석이 발생합니다. 워런트 분리 여부를 확인해야 합니다.",
-    "EB": "발행사 보유 타사 주식으로 교환되는 사채로, 교환 대상 주식에 오버행이 생깁니다.",
     "자사주 취득": "취득 기간 중 실제 매입 이행률이 중요합니다. 직접 취득은 일별 한도가 적용됩니다.",
     "자사주 처분": "일반적으로 수급 부담 요인입니다. 처분 목적(임직원 상여·교환 등) 확인이 필요합니다.",
     "자사주 신탁": "신탁 계약 기간 중 증권사가 재량으로 매입합니다. 계약 종료일과 실제 집행률을 함께 봐야 합니다.",
@@ -417,20 +409,26 @@ CORP_DESC = {
 
 
 def kr_corp_actions(uni, cc_map):
+    """추적 대상은 시총상위 유니버스(KR_TOP 종목)로 제한한다 (2026-09-09 요청)."""
     inv = {v: k for k, v in cc_map.items()}
+    uni_corps = {cc_map[c] for c in uni if c in cc_map}
     bgn = (date.today() - timedelta(days=60)).strftime("%Y%m%d")
     end = date.today().strftime("%Y%m%d")
     filings = dart_list_long(bgn, end, pblntf_ty="B")
     note("corp.filings", count=len(filings))
 
-    want = {}
+    want, skipped = {}, 0
     for f in filings:
         nm = (f.get("report_nm") or "").replace(" ", "")
         for kw, api, label, imp, kind in CORP_RULES:
             if kw in nm:
-                want.setdefault((f.get("corp_code"), api), (label, imp, kind))
+                if f.get("corp_code") not in uni_corps:   # 시총상위 외 종목은 제외
+                    skipped += 1
+                else:
+                    want.setdefault((f.get("corp_code"), api), (label, imp, kind))
                 break
-    note("corp.targets", count=len(want))
+    note("corp.targets", count=len(want), skipped_outside_universe=skipped,
+         universe=len(uni_corps))
 
     events, done = [], 0
     for (corp, api), (label, imp, kind) in want.items():
@@ -446,6 +444,8 @@ def kr_corp_actions(uni, cc_map):
                 continue
             stock = inv.get(corp, "")
             meta = uni.get(stock)
+            if not meta:
+                continue
             for rec in j.get("list") or []:
                 for fld, d, txt in _future_dates(rec):
                     lab = FIELD_LABEL.get(fld)
@@ -458,7 +458,7 @@ def kr_corp_actions(uni, cc_map):
                         "date": d.isoformat(), "market": "KR", "cat": "corp",
                         "title": f"{rec.get('corp_name', '')} — {label} · {lab}",
                         "ticker": stock, "kind": kind,
-                        "imp": imp if meta else max(1, imp - 1),
+                        "imp": imp,
                         "status": "confirmed",
                         "index": (meta or {}).get("idx", []),
                         "desc": CORP_DESC.get(kind, ""),
