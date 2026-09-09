@@ -1,1 +1,1 @@
-window.EARNINGS_DATA = {"generated_at":"","count":0,"events":[]};
+window.EARNINGS_DATA = {"generated_at":"2026-09-09T11:58:16","count":0,"events":[]};

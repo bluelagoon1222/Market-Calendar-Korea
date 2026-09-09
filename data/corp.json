@@ -1,1 +1,1356 @@
-{"generated_at":"","count":0,"events":[]}
+{
+ "generated_at": "2026-09-09T11:58:16",
+ "count": 54,
+ "events": [
+  {
+   "id": "corp-01141599-cvbdIsDecsn-bddd-2026-09-09",
+   "date": "2026-09-09",
+   "market": "KR",
+   "cat": "corp",
+   "title": "아리바이오LAB — 전환사채(CB) 발행 결정 · 이사회 결의일",
+   "ticker": "261780",
+   "kind": "CB",
+   "imp": 2,
+   "status": "confirmed",
+   "index": [],
+   "desc": "전환가액과 전환청구 가능일이 핵심입니다. 전환청구 시작일부터 오버행이 실제 매도 물량으로 나옵니다. 주가 하락 시 전환가 리픽싱 조항 유무를 확인해야 합니다.",
+   "checklist": [
+    "공시 원문에서 발행 규모·할인율(전환가)·배정 대상 확인",
+    "보유 고객 통보 및 권리락 전후 대응 안내",
+    "오버행 물량 = 발행주식수 대비 비율 산출"
+   ],
+   "links": [
+    {
+     "label": "DART 공시 원문",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260909000478"
+    }
+   ],
+   "source": "DART 주요사항보고서 (cvbdIsDecsn)"
+  },
+  {
+   "id": "corp-01141599-cvbdIsDecsn-sbd-2026-09-09",
+   "date": "2026-09-09",
+   "market": "KR",
+   "cat": "corp",
+   "title": "아리바이오LAB — 전환사채(CB) 발행 결정 · 청약예정일",
+   "ticker": "261780",
+   "kind": "CB",
+   "imp": 2,
+   "status": "confirmed",
+   "index": [],
+   "desc": "전환가액과 전환청구 가능일이 핵심입니다. 전환청구 시작일부터 오버행이 실제 매도 물량으로 나옵니다. 주가 하락 시 전환가 리픽싱 조항 유무를 확인해야 합니다.",
+   "checklist": [
+    "공시 원문에서 발행 규모·할인율(전환가)·배정 대상 확인",
+    "보유 고객 통보 및 권리락 전후 대응 안내",
+    "오버행 물량 = 발행주식수 대비 비율 산출"
+   ],
+   "links": [
+    {
+     "label": "DART 공시 원문",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260909000478"
+    }
+   ],
+   "source": "DART 주요사항보고서 (cvbdIsDecsn)"
+  },
+  {
+   "id": "corp-01141599-cvbdIsDecsn-pymd-2026-09-22",
+   "date": "2026-09-22",
+   "market": "KR",
+   "cat": "corp",
+   "title": "아리바이오LAB — 전환사채(CB) 발행 결정 · 납입일",
+   "ticker": "261780",
+   "kind": "CB",
+   "imp": 2,
+   "status": "confirmed",
+   "index": [],
+   "desc": "전환가액과 전환청구 가능일이 핵심입니다. 전환청구 시작일부터 오버행이 실제 매도 물량으로 나옵니다. 주가 하락 시 전환가 리픽싱 조항 유무를 확인해야 합니다.",
+   "checklist": [
+    "공시 원문에서 발행 규모·할인율(전환가)·배정 대상 확인",
+    "보유 고객 통보 및 권리락 전후 대응 안내",
+    "오버행 물량 = 발행주식수 대비 비율 산출"
+   ],
+   "links": [
+    {
+     "label": "DART 공시 원문",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260909000478"
+    }
+   ],
+   "source": "DART 주요사항보고서 (cvbdIsDecsn)"
+  },
+  {
+   "id": "corp-00530413-cvbdIsDecsn-pymd-2026-10-06",
+   "date": "2026-10-06",
+   "market": "KR",
+   "cat": "corp",
+   "title": "더코디 — 전환사채(CB) 발행 결정 · 납입일",
+   "ticker": "224060",
+   "kind": "CB",
+   "imp": 2,
+   "status": "confirmed",
+   "index": [],
+   "desc": "전환가액과 전환청구 가능일이 핵심입니다. 전환청구 시작일부터 오버행이 실제 매도 물량으로 나옵니다. 주가 하락 시 전환가 리픽싱 조항 유무를 확인해야 합니다.",
+   "checklist": [
+    "공시 원문에서 발행 규모·할인율(전환가)·배정 대상 확인",
+    "보유 고객 통보 및 권리락 전후 대응 안내",
+    "오버행 물량 = 발행주식수 대비 비율 산출"
+   ],
+   "links": [
+    {
+     "label": "DART 공시 원문",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260908000001"
+    }
+   ],
+   "source": "DART 주요사항보고서 (cvbdIsDecsn)"
+  },
+  {
+   "id": "corp-00317210-cvbdIsDecsn-cvrqpd_bgd-2027-08-14",
+   "date": "2027-08-14",
+   "market": "KR",
+   "cat": "corp",
+   "title": "성호전자 — 전환사채(CB) 발행 결정 · 전환청구 가능 시작일",
+   "ticker": "043260",
+   "kind": "CB",
+   "imp": 2,
+   "status": "confirmed",
+   "index": [],
+   "desc": "전환가액과 전환청구 가능일이 핵심입니다. 전환청구 시작일부터 오버행이 실제 매도 물량으로 나옵니다. 주가 하락 시 전환가 리픽싱 조항 유무를 확인해야 합니다.",
+   "checklist": [
+    "공시 원문에서 발행 규모·할인율(전환가)·배정 대상 확인",
+    "보유 고객 통보 및 권리락 전후 대응 안내",
+    "오버행 물량 = 발행주식수 대비 비율 산출"
+   ],
+   "links": [
+    {
+     "label": "DART 공시 원문",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814001990"
+    }
+   ],
+   "source": "DART 주요사항보고서 (cvbdIsDecsn)"
+  },
+  {
+   "id": "corp-01399992-cvbdIsDecsn-sbd-2026-09-16",
+   "date": "2026-09-16",
+   "market": "KR",
+   "cat": "corp",
+   "title": "뉴라텍 — 전환사채(CB) 발행 결정 · 청약예정일",
+   "ticker": "",
+   "kind": "CB",
+   "imp": 2,
+   "status": "confirmed",
+   "index": [],
+   "desc": "전환가액과 전환청구 가능일이 핵심입니다. 전환청구 시작일부터 오버행이 실제 매도 물량으로 나옵니다. 주가 하락 시 전환가 리픽싱 조항 유무를 확인해야 합니다.",
+   "checklist": [
+    "공시 원문에서 발행 규모·할인율(전환가)·배정 대상 확인",
+    "보유 고객 통보 및 권리락 전후 대응 안내",
+    "오버행 물량 = 발행주식수 대비 비율 산출"
+   ],
+   "links": [
+    {
+     "label": "DART 공시 원문",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260904000531"
+    }
+   ],
+   "source": "DART 주요사항보고서 (cvbdIsDecsn)"
+  },
+  {
+   "id": "corp-01399992-cvbdIsDecsn-pymd-2026-09-18",
+   "date": "2026-09-18",
+   "market": "KR",
+   "cat": "corp",
+   "title": "뉴라텍 — 전환사채(CB) 발행 결정 · 납입일",
+   "ticker": "",
+   "kind": "CB",
+   "imp": 2,
+   "status": "confirmed",
+   "index": [],
+   "desc": "전환가액과 전환청구 가능일이 핵심입니다. 전환청구 시작일부터 오버행이 실제 매도 물량으로 나옵니다. 주가 하락 시 전환가 리픽싱 조항 유무를 확인해야 합니다.",
+   "checklist": [
+    "공시 원문에서 발행 규모·할인율(전환가)·배정 대상 확인",
+    "보유 고객 통보 및 권리락 전후 대응 안내",
+    "오버행 물량 = 발행주식수 대비 비율 산출"
+   ],
+   "links": [
+    {
+     "label": "DART 공시 원문",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260904000531"
+    }
+   ],
+   "source": "DART 주요사항보고서 (cvbdIsDecsn)"
+  },
+  {
+   "id": "corp-01105621-cvbdIsDecsn-pymd-2026-09-10",
+   "date": "2026-09-10",
+   "market": "KR",
+   "cat": "corp",
+   "title": "엔투텍 — 전환사채(CB) 발행 결정 · 납입일",
+   "ticker": "227950",
+   "kind": "CB",
+   "imp": 2,
+   "status": "confirmed",
+   "index": [],
+   "desc": "전환가액과 전환청구 가능일이 핵심입니다. 전환청구 시작일부터 오버행이 실제 매도 물량으로 나옵니다. 주가 하락 시 전환가 리픽싱 조항 유무를 확인해야 합니다.",
+   "checklist": [
+    "공시 원문에서 발행 규모·할인율(전환가)·배정 대상 확인",
+    "보유 고객 통보 및 권리락 전후 대응 안내",
+    "오버행 물량 = 발행주식수 대비 비율 산출"
+   ],
+   "links": [
+    {
+     "label": "DART 공시 원문",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260825000349"
+    }
+   ],
+   "source": "DART 주요사항보고서 (cvbdIsDecsn)"
+  },
+  {
+   "id": "corp-01105621-cvbdIsDecsn-cvrqpd_bgd-2026-11-08",
+   "date": "2026-11-08",
+   "market": "KR",
+   "cat": "corp",
+   "title": "엔투텍 — 전환사채(CB) 발행 결정 · 전환청구 가능 시작일",
+   "ticker": "227950",
+   "kind": "CB",
+   "imp": 2,
+   "status": "confirmed",
+   "index": [],
+   "desc": "전환가액과 전환청구 가능일이 핵심입니다. 전환청구 시작일부터 오버행이 실제 매도 물량으로 나옵니다. 주가 하락 시 전환가 리픽싱 조항 유무를 확인해야 합니다.",
+   "checklist": [
+    "공시 원문에서 발행 규모·할인율(전환가)·배정 대상 확인",
+    "보유 고객 통보 및 권리락 전후 대응 안내",
+    "오버행 물량 = 발행주식수 대비 비율 산출"
+   ],
+   "links": [
+    {
+     "label": "DART 공시 원문",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260904000356"
+    }
+   ],
+   "source": "DART 주요사항보고서 (cvbdIsDecsn)"
+  },
+  {
+   "id": "corp-01105621-cvbdIsDecsn-sbd-2026-10-08",
+   "date": "2026-10-08",
+   "market": "KR",
+   "cat": "corp",
+   "title": "엔투텍 — 전환사채(CB) 발행 결정 · 청약예정일",
+   "ticker": "227950",
+   "kind": "CB",
+   "imp": 2,
+   "status": "confirmed",
+   "index": [],
+   "desc": "전환가액과 전환청구 가능일이 핵심입니다. 전환청구 시작일부터 오버행이 실제 매도 물량으로 나옵니다. 주가 하락 시 전환가 리픽싱 조항 유무를 확인해야 합니다.",
+   "checklist": [
+    "공시 원문에서 발행 규모·할인율(전환가)·배정 대상 확인",
+    "보유 고객 통보 및 권리락 전후 대응 안내",
+    "오버행 물량 = 발행주식수 대비 비율 산출"
+   ],
+   "links": [
+    {
+     "label": "DART 공시 원문",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260904000356"
+    }
+   ],
+   "source": "DART 주요사항보고서 (cvbdIsDecsn)"
+  },
+  {
+   "id": "corp-01105621-cvbdIsDecsn-pymd-2026-10-08",
+   "date": "2026-10-08",
+   "market": "KR",
+   "cat": "corp",
+   "title": "엔투텍 — 전환사채(CB) 발행 결정 · 납입일",
+   "ticker": "227950",
+   "kind": "CB",
+   "imp": 2,
+   "status": "confirmed",
+   "index": [],
+   "desc": "전환가액과 전환청구 가능일이 핵심입니다. 전환청구 시작일부터 오버행이 실제 매도 물량으로 나옵니다. 주가 하락 시 전환가 리픽싱 조항 유무를 확인해야 합니다.",
+   "checklist": [
+    "공시 원문에서 발행 규모·할인율(전환가)·배정 대상 확인",
+    "보유 고객 통보 및 권리락 전후 대응 안내",
+    "오버행 물량 = 발행주식수 대비 비율 산출"
+   ],
+   "links": [
+    {
+     "label": "DART 공시 원문",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260904000356"
+    }
+   ],
+   "source": "DART 주요사항보고서 (cvbdIsDecsn)"
+  },
+  {
+   "id": "corp-00924931-cvbdIsDecsn-sbd-2026-09-14",
+   "date": "2026-09-14",
+   "market": "KR",
+   "cat": "corp",
+   "title": "엔비알모션 — 전환사채(CB) 발행 결정 · 청약예정일",
+   "ticker": "",
+   "kind": "CB",
+   "imp": 2,
+   "status": "confirmed",
+   "index": [],
+   "desc": "전환가액과 전환청구 가능일이 핵심입니다. 전환청구 시작일부터 오버행이 실제 매도 물량으로 나옵니다. 주가 하락 시 전환가 리픽싱 조항 유무를 확인해야 합니다.",
+   "checklist": [
+    "공시 원문에서 발행 규모·할인율(전환가)·배정 대상 확인",
+    "보유 고객 통보 및 권리락 전후 대응 안내",
+    "오버행 물량 = 발행주식수 대비 비율 산출"
+   ],
+   "links": [
+    {
+     "label": "DART 공시 원문",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260904000205"
+    }
+   ],
+   "source": "DART 주요사항보고서 (cvbdIsDecsn)"
+  },
+  {
+   "id": "corp-00924931-cvbdIsDecsn-pymd-2026-09-14",
+   "date": "2026-09-14",
+   "market": "KR",
+   "cat": "corp",
+   "title": "엔비알모션 — 전환사채(CB) 발행 결정 · 납입일",
+   "ticker": "",
+   "kind": "CB",
+   "imp": 2,
+   "status": "confirmed",
+   "index": [],
+   "desc": "전환가액과 전환청구 가능일이 핵심입니다. 전환청구 시작일부터 오버행이 실제 매도 물량으로 나옵니다. 주가 하락 시 전환가 리픽싱 조항 유무를 확인해야 합니다.",
+   "checklist": [
+    "공시 원문에서 발행 규모·할인율(전환가)·배정 대상 확인",
+    "보유 고객 통보 및 권리락 전후 대응 안내",
+    "오버행 물량 = 발행주식수 대비 비율 산출"
+   ],
+   "links": [
+    {
+     "label": "DART 공시 원문",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260904000205"
+    }
+   ],
+   "source": "DART 주요사항보고서 (cvbdIsDecsn)"
+  },
+  {
+   "id": "corp-01051472-cvbdIsDecsn-pymd-2026-09-11",
+   "date": "2026-09-11",
+   "market": "KR",
+   "cat": "corp",
+   "title": "젠큐릭스 — 전환사채(CB) 발행 결정 · 납입일",
+   "ticker": "229000",
+   "kind": "CB",
+   "imp": 2,
+   "status": "confirmed",
+   "index": [],
+   "desc": "전환가액과 전환청구 가능일이 핵심입니다. 전환청구 시작일부터 오버행이 실제 매도 물량으로 나옵니다. 주가 하락 시 전환가 리픽싱 조항 유무를 확인해야 합니다.",
+   "checklist": [
+    "공시 원문에서 발행 규모·할인율(전환가)·배정 대상 확인",
+    "보유 고객 통보 및 권리락 전후 대응 안내",
+    "오버행 물량 = 발행주식수 대비 비율 산출"
+   ],
+   "links": [
+    {
+     "label": "DART 공시 원문",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260903000307"
+    }
+   ],
+   "source": "DART 주요사항보고서 (cvbdIsDecsn)"
+  },
+  {
+   "id": "corp-00152385-cvbdIsDecsn-cvrqpd_bgd-2027-08-22",
+   "date": "2027-08-22",
+   "market": "KR",
+   "cat": "corp",
+   "title": "에이프로젠 — 전환사채(CB) 발행 결정 · 전환청구 가능 시작일",
+   "ticker": "007460",
+   "kind": "CB",
+   "imp": 2,
+   "status": "confirmed",
+   "index": [],
+   "desc": "전환가액과 전환청구 가능일이 핵심입니다. 전환청구 시작일부터 오버행이 실제 매도 물량으로 나옵니다. 주가 하락 시 전환가 리픽싱 조항 유무를 확인해야 합니다.",
+   "checklist": [
+    "공시 원문에서 발행 규모·할인율(전환가)·배정 대상 확인",
+    "보유 고객 통보 및 권리락 전후 대응 안내",
+    "오버행 물량 = 발행주식수 대비 비율 산출"
+   ],
+   "links": [
+    {
+     "label": "DART 공시 원문",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260810000708"
+    }
+   ],
+   "source": "DART 주요사항보고서 (cvbdIsDecsn)"
+  },
+  {
+   "id": "corp-00152385-cvbdIsDecsn-pymd-2026-09-11",
+   "date": "2026-09-11",
+   "market": "KR",
+   "cat": "corp",
+   "title": "에이프로젠 — 전환사채(CB) 발행 결정 · 납입일",
+   "ticker": "007460",
+   "kind": "CB",
+   "imp": 2,
+   "status": "confirmed",
+   "index": [],
+   "desc": "전환가액과 전환청구 가능일이 핵심입니다. 전환청구 시작일부터 오버행이 실제 매도 물량으로 나옵니다. 주가 하락 시 전환가 리픽싱 조항 유무를 확인해야 합니다.",
+   "checklist": [
+    "공시 원문에서 발행 규모·할인율(전환가)·배정 대상 확인",
+    "보유 고객 통보 및 권리락 전후 대응 안내",
+    "오버행 물량 = 발행주식수 대비 비율 산출"
+   ],
+   "links": [
+    {
+     "label": "DART 공시 원문",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260903000285"
+    }
+   ],
+   "source": "DART 주요사항보고서 (cvbdIsDecsn)"
+  },
+  {
+   "id": "corp-00403766-cvbdIsDecsn-sbd-2026-09-10",
+   "date": "2026-09-10",
+   "market": "KR",
+   "cat": "corp",
+   "title": "한국첨단소재 — 전환사채(CB) 발행 결정 · 청약예정일",
+   "ticker": "062970",
+   "kind": "CB",
+   "imp": 2,
+   "status": "confirmed",
+   "index": [],
+   "desc": "전환가액과 전환청구 가능일이 핵심입니다. 전환청구 시작일부터 오버행이 실제 매도 물량으로 나옵니다. 주가 하락 시 전환가 리픽싱 조항 유무를 확인해야 합니다.",
+   "checklist": [
+    "공시 원문에서 발행 규모·할인율(전환가)·배정 대상 확인",
+    "보유 고객 통보 및 권리락 전후 대응 안내",
+    "오버행 물량 = 발행주식수 대비 비율 산출"
+   ],
+   "links": [
+    {
+     "label": "DART 공시 원문",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260902000259"
+    }
+   ],
+   "source": "DART 주요사항보고서 (cvbdIsDecsn)"
+  },
+  {
+   "id": "corp-00403766-cvbdIsDecsn-pymd-2026-09-10",
+   "date": "2026-09-10",
+   "market": "KR",
+   "cat": "corp",
+   "title": "한국첨단소재 — 전환사채(CB) 발행 결정 · 납입일",
+   "ticker": "062970",
+   "kind": "CB",
+   "imp": 2,
+   "status": "confirmed",
+   "index": [],
+   "desc": "전환가액과 전환청구 가능일이 핵심입니다. 전환청구 시작일부터 오버행이 실제 매도 물량으로 나옵니다. 주가 하락 시 전환가 리픽싱 조항 유무를 확인해야 합니다.",
+   "checklist": [
+    "공시 원문에서 발행 규모·할인율(전환가)·배정 대상 확인",
+    "보유 고객 통보 및 권리락 전후 대응 안내",
+    "오버행 물량 = 발행주식수 대비 비율 산출"
+   ],
+   "links": [
+    {
+     "label": "DART 공시 원문",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260902000259"
+    }
+   ],
+   "source": "DART 주요사항보고서 (cvbdIsDecsn)"
+  },
+  {
+   "id": "corp-00403766-cvbdIsDecsn-cvrqpd_bgd-2027-08-04",
+   "date": "2027-08-04",
+   "market": "KR",
+   "cat": "corp",
+   "title": "한국첨단소재 — 전환사채(CB) 발행 결정 · 전환청구 가능 시작일",
+   "ticker": "062970",
+   "kind": "CB",
+   "imp": 2,
+   "status": "confirmed",
+   "index": [],
+   "desc": "전환가액과 전환청구 가능일이 핵심입니다. 전환청구 시작일부터 오버행이 실제 매도 물량으로 나옵니다. 주가 하락 시 전환가 리픽싱 조항 유무를 확인해야 합니다.",
+   "checklist": [
+    "공시 원문에서 발행 규모·할인율(전환가)·배정 대상 확인",
+    "보유 고객 통보 및 권리락 전후 대응 안내",
+    "오버행 물량 = 발행주식수 대비 비율 산출"
+   ],
+   "links": [
+    {
+     "label": "DART 공시 원문",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260727000408"
+    }
+   ],
+   "source": "DART 주요사항보고서 (cvbdIsDecsn)"
+  },
+  {
+   "id": "corp-00126414-cvbdIsDecsn-pymd-2026-09-11",
+   "date": "2026-09-11",
+   "market": "KR",
+   "cat": "corp",
+   "title": "삼성제약 — 전환사채(CB) 발행 결정 · 납입일",
+   "ticker": "001360",
+   "kind": "CB",
+   "imp": 2,
+   "status": "confirmed",
+   "index": [],
+   "desc": "전환가액과 전환청구 가능일이 핵심입니다. 전환청구 시작일부터 오버행이 실제 매도 물량으로 나옵니다. 주가 하락 시 전환가 리픽싱 조항 유무를 확인해야 합니다.",
+   "checklist": [
+    "공시 원문에서 발행 규모·할인율(전환가)·배정 대상 확인",
+    "보유 고객 통보 및 권리락 전후 대응 안내",
+    "오버행 물량 = 발행주식수 대비 비율 산출"
+   ],
+   "links": [
+    {
+     "label": "DART 공시 원문",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260902000227"
+    }
+   ],
+   "source": "DART 주요사항보고서 (cvbdIsDecsn)"
+  },
+  {
+   "id": "corp-01374717-fricDecsn-nstk_asstd-2026-09-17",
+   "date": "2026-09-17",
+   "market": "KR",
+   "cat": "corp",
+   "title": "미트박스 — 무상증자 결정 · 신주배정기준일",
+   "ticker": "475460",
+   "kind": "무상증자",
+   "imp": 1,
+   "status": "confirmed",
+   "index": [],
+   "desc": "자본 항목 간 이동으로 기업가치 변화는 없으나, 기준일 전 수급이 붙는 경우가 많습니다. 권리락 후 주가 착시에 대한 사전 설명이 필요합니다.",
+   "checklist": [
+    "공시 원문에서 발행 규모·할인율(전환가)·배정 대상 확인",
+    "보유 고객 통보 및 권리락 전후 대응 안내",
+    "오버행 물량 = 발행주식수 대비 비율 산출"
+   ],
+   "links": [
+    {
+     "label": "DART 공시 원문",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260902000056"
+    }
+   ],
+   "source": "DART 주요사항보고서 (fricDecsn)"
+  },
+  {
+   "id": "corp-01374717-fricDecsn-nstk_lstprd-2026-10-13",
+   "date": "2026-10-13",
+   "market": "KR",
+   "cat": "corp",
+   "title": "미트박스 — 무상증자 결정 · 신주 상장 예정일",
+   "ticker": "475460",
+   "kind": "무상증자",
+   "imp": 1,
+   "status": "confirmed",
+   "index": [],
+   "desc": "자본 항목 간 이동으로 기업가치 변화는 없으나, 기준일 전 수급이 붙는 경우가 많습니다. 권리락 후 주가 착시에 대한 사전 설명이 필요합니다.",
+   "checklist": [
+    "공시 원문에서 발행 규모·할인율(전환가)·배정 대상 확인",
+    "보유 고객 통보 및 권리락 전후 대응 안내",
+    "오버행 물량 = 발행주식수 대비 비율 산출"
+   ],
+   "links": [
+    {
+     "label": "DART 공시 원문",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260902000056"
+    }
+   ],
+   "source": "DART 주요사항보고서 (fricDecsn)"
+  },
+  {
+   "id": "corp-00526951-cvbdIsDecsn-sbd-2026-09-09",
+   "date": "2026-09-09",
+   "market": "KR",
+   "cat": "corp",
+   "title": "신화프리텍 — 전환사채(CB) 발행 결정 · 청약예정일",
+   "ticker": "095190",
+   "kind": "CB",
+   "imp": 2,
+   "status": "confirmed",
+   "index": [],
+   "desc": "전환가액과 전환청구 가능일이 핵심입니다. 전환청구 시작일부터 오버행이 실제 매도 물량으로 나옵니다. 주가 하락 시 전환가 리픽싱 조항 유무를 확인해야 합니다.",
+   "checklist": [
+    "공시 원문에서 발행 규모·할인율(전환가)·배정 대상 확인",
+    "보유 고객 통보 및 권리락 전후 대응 안내",
+    "오버행 물량 = 발행주식수 대비 비율 산출"
+   ],
+   "links": [
+    {
+     "label": "DART 공시 원문",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260901000319"
+    }
+   ],
+   "source": "DART 주요사항보고서 (cvbdIsDecsn)"
+  },
+  {
+   "id": "corp-00526951-cvbdIsDecsn-pymd-2026-09-09",
+   "date": "2026-09-09",
+   "market": "KR",
+   "cat": "corp",
+   "title": "신화프리텍 — 전환사채(CB) 발행 결정 · 납입일",
+   "ticker": "095190",
+   "kind": "CB",
+   "imp": 2,
+   "status": "confirmed",
+   "index": [],
+   "desc": "전환가액과 전환청구 가능일이 핵심입니다. 전환청구 시작일부터 오버행이 실제 매도 물량으로 나옵니다. 주가 하락 시 전환가 리픽싱 조항 유무를 확인해야 합니다.",
+   "checklist": [
+    "공시 원문에서 발행 규모·할인율(전환가)·배정 대상 확인",
+    "보유 고객 통보 및 권리락 전후 대응 안내",
+    "오버행 물량 = 발행주식수 대비 비율 산출"
+   ],
+   "links": [
+    {
+     "label": "DART 공시 원문",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260901000319"
+    }
+   ],
+   "source": "DART 주요사항보고서 (cvbdIsDecsn)"
+  },
+  {
+   "id": "corp-00838005-cvbdIsDecsn-cvrqpd_bgd-2027-09-01",
+   "date": "2027-09-01",
+   "market": "KR",
+   "cat": "corp",
+   "title": "서진시스템 — 전환사채(CB) 발행 결정 · 전환청구 가능 시작일",
+   "ticker": "178320",
+   "kind": "CB",
+   "imp": 2,
+   "status": "confirmed",
+   "index": [],
+   "desc": "전환가액과 전환청구 가능일이 핵심입니다. 전환청구 시작일부터 오버행이 실제 매도 물량으로 나옵니다. 주가 하락 시 전환가 리픽싱 조항 유무를 확인해야 합니다.",
+   "checklist": [
+    "공시 원문에서 발행 규모·할인율(전환가)·배정 대상 확인",
+    "보유 고객 통보 및 권리락 전후 대응 안내",
+    "오버행 물량 = 발행주식수 대비 비율 산출"
+   ],
+   "links": [
+    {
+     "label": "DART 공시 원문",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260824000325"
+    }
+   ],
+   "source": "DART 주요사항보고서 (cvbdIsDecsn)"
+  },
+  {
+   "id": "corp-00838005-cvbdIsDecsn-cvrqpd_bgd-2027-09-04",
+   "date": "2027-09-04",
+   "market": "KR",
+   "cat": "corp",
+   "title": "서진시스템 — 전환사채(CB) 발행 결정 · 전환청구 가능 시작일",
+   "ticker": "178320",
+   "kind": "CB",
+   "imp": 2,
+   "status": "confirmed",
+   "index": [],
+   "desc": "전환가액과 전환청구 가능일이 핵심입니다. 전환청구 시작일부터 오버행이 실제 매도 물량으로 나옵니다. 주가 하락 시 전환가 리픽싱 조항 유무를 확인해야 합니다.",
+   "checklist": [
+    "공시 원문에서 발행 규모·할인율(전환가)·배정 대상 확인",
+    "보유 고객 통보 및 권리락 전후 대응 안내",
+    "오버행 물량 = 발행주식수 대비 비율 산출"
+   ],
+   "links": [
+    {
+     "label": "DART 공시 원문",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260901000219"
+    }
+   ],
+   "source": "DART 주요사항보고서 (cvbdIsDecsn)"
+  },
+  {
+   "id": "corp-01274310-cvbdIsDecsn-sbd-2026-09-09",
+   "date": "2026-09-09",
+   "market": "KR",
+   "cat": "corp",
+   "title": "이오플로우 — 전환사채(CB) 발행 결정 · 청약예정일",
+   "ticker": "294090",
+   "kind": "CB",
+   "imp": 2,
+   "status": "confirmed",
+   "index": [],
+   "desc": "전환가액과 전환청구 가능일이 핵심입니다. 전환청구 시작일부터 오버행이 실제 매도 물량으로 나옵니다. 주가 하락 시 전환가 리픽싱 조항 유무를 확인해야 합니다.",
+   "checklist": [
+    "공시 원문에서 발행 규모·할인율(전환가)·배정 대상 확인",
+    "보유 고객 통보 및 권리락 전후 대응 안내",
+    "오버행 물량 = 발행주식수 대비 비율 산출"
+   ],
+   "links": [
+    {
+     "label": "DART 공시 원문",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260901000151"
+    }
+   ],
+   "source": "DART 주요사항보고서 (cvbdIsDecsn)"
+  },
+  {
+   "id": "corp-01274310-cvbdIsDecsn-pymd-2026-09-09",
+   "date": "2026-09-09",
+   "market": "KR",
+   "cat": "corp",
+   "title": "이오플로우 — 전환사채(CB) 발행 결정 · 납입일",
+   "ticker": "294090",
+   "kind": "CB",
+   "imp": 2,
+   "status": "confirmed",
+   "index": [],
+   "desc": "전환가액과 전환청구 가능일이 핵심입니다. 전환청구 시작일부터 오버행이 실제 매도 물량으로 나옵니다. 주가 하락 시 전환가 리픽싱 조항 유무를 확인해야 합니다.",
+   "checklist": [
+    "공시 원문에서 발행 규모·할인율(전환가)·배정 대상 확인",
+    "보유 고객 통보 및 권리락 전후 대응 안내",
+    "오버행 물량 = 발행주식수 대비 비율 산출"
+   ],
+   "links": [
+    {
+     "label": "DART 공시 원문",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260901000151"
+    }
+   ],
+   "source": "DART 주요사항보고서 (cvbdIsDecsn)"
+  },
+  {
+   "id": "corp-00186559-cvbdIsDecsn-pymd-2026-09-16",
+   "date": "2026-09-16",
+   "market": "KR",
+   "cat": "corp",
+   "title": "아이티센씨티에스 — 전환사채(CB) 발행 결정 · 납입일",
+   "ticker": "031820",
+   "kind": "CB",
+   "imp": 2,
+   "status": "confirmed",
+   "index": [],
+   "desc": "전환가액과 전환청구 가능일이 핵심입니다. 전환청구 시작일부터 오버행이 실제 매도 물량으로 나옵니다. 주가 하락 시 전환가 리픽싱 조항 유무를 확인해야 합니다.",
+   "checklist": [
+    "공시 원문에서 발행 규모·할인율(전환가)·배정 대상 확인",
+    "보유 고객 통보 및 권리락 전후 대응 안내",
+    "오버행 물량 = 발행주식수 대비 비율 산출"
+   ],
+   "links": [
+    {
+     "label": "DART 공시 원문",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260831001414"
+    }
+   ],
+   "source": "DART 주요사항보고서 (cvbdIsDecsn)"
+  },
+  {
+   "id": "corp-00297989-cvbdIsDecsn-cvrqpd_bgd-2027-09-01",
+   "date": "2027-09-01",
+   "market": "KR",
+   "cat": "corp",
+   "title": "오르비텍 — 전환사채(CB) 발행 결정 · 전환청구 가능 시작일",
+   "ticker": "046120",
+   "kind": "CB",
+   "imp": 2,
+   "status": "confirmed",
+   "index": [],
+   "desc": "전환가액과 전환청구 가능일이 핵심입니다. 전환청구 시작일부터 오버행이 실제 매도 물량으로 나옵니다. 주가 하락 시 전환가 리픽싱 조항 유무를 확인해야 합니다.",
+   "checklist": [
+    "공시 원문에서 발행 규모·할인율(전환가)·배정 대상 확인",
+    "보유 고객 통보 및 권리락 전후 대응 안내",
+    "오버행 물량 = 발행주식수 대비 비율 산출"
+   ],
+   "links": [
+    {
+     "label": "DART 공시 원문",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260827000953"
+    }
+   ],
+   "source": "DART 주요사항보고서 (cvbdIsDecsn)"
+  },
+  {
+   "id": "corp-00138242-cvbdIsDecsn-cvrqpd_bgd-2027-08-11",
+   "date": "2027-08-11",
+   "market": "KR",
+   "cat": "corp",
+   "title": "KG모빌리티 — 전환사채(CB) 발행 결정 · 전환청구 가능 시작일",
+   "ticker": "003620",
+   "kind": "CB",
+   "imp": 2,
+   "status": "confirmed",
+   "index": [],
+   "desc": "전환가액과 전환청구 가능일이 핵심입니다. 전환청구 시작일부터 오버행이 실제 매도 물량으로 나옵니다. 주가 하락 시 전환가 리픽싱 조항 유무를 확인해야 합니다.",
+   "checklist": [
+    "공시 원문에서 발행 규모·할인율(전환가)·배정 대상 확인",
+    "보유 고객 통보 및 권리락 전후 대응 안내",
+    "오버행 물량 = 발행주식수 대비 비율 산출"
+   ],
+   "links": [
+    {
+     "label": "DART 공시 원문",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260803000001"
+    }
+   ],
+   "source": "DART 주요사항보고서 (cvbdIsDecsn)"
+  },
+  {
+   "id": "corp-00138242-cvbdIsDecsn-sbd-2026-09-11",
+   "date": "2026-09-11",
+   "market": "KR",
+   "cat": "corp",
+   "title": "KG모빌리티 — 전환사채(CB) 발행 결정 · 청약예정일",
+   "ticker": "003620",
+   "kind": "CB",
+   "imp": 2,
+   "status": "confirmed",
+   "index": [],
+   "desc": "전환가액과 전환청구 가능일이 핵심입니다. 전환청구 시작일부터 오버행이 실제 매도 물량으로 나옵니다. 주가 하락 시 전환가 리픽싱 조항 유무를 확인해야 합니다.",
+   "checklist": [
+    "공시 원문에서 발행 규모·할인율(전환가)·배정 대상 확인",
+    "보유 고객 통보 및 권리락 전후 대응 안내",
+    "오버행 물량 = 발행주식수 대비 비율 산출"
+   ],
+   "links": [
+    {
+     "label": "DART 공시 원문",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260827000861"
+    }
+   ],
+   "source": "DART 주요사항보고서 (cvbdIsDecsn)"
+  },
+  {
+   "id": "corp-00138242-cvbdIsDecsn-pymd-2026-09-11",
+   "date": "2026-09-11",
+   "market": "KR",
+   "cat": "corp",
+   "title": "KG모빌리티 — 전환사채(CB) 발행 결정 · 납입일",
+   "ticker": "003620",
+   "kind": "CB",
+   "imp": 2,
+   "status": "confirmed",
+   "index": [],
+   "desc": "전환가액과 전환청구 가능일이 핵심입니다. 전환청구 시작일부터 오버행이 실제 매도 물량으로 나옵니다. 주가 하락 시 전환가 리픽싱 조항 유무를 확인해야 합니다.",
+   "checklist": [
+    "공시 원문에서 발행 규모·할인율(전환가)·배정 대상 확인",
+    "보유 고객 통보 및 권리락 전후 대응 안내",
+    "오버행 물량 = 발행주식수 대비 비율 산출"
+   ],
+   "links": [
+    {
+     "label": "DART 공시 원문",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260827000861"
+    }
+   ],
+   "source": "DART 주요사항보고서 (cvbdIsDecsn)"
+  },
+  {
+   "id": "corp-01601222-cvbdIsDecsn-cvrqpd_bgd-2027-09-03",
+   "date": "2027-09-03",
+   "market": "KR",
+   "cat": "corp",
+   "title": "씨피시스템 — 전환사채(CB) 발행 결정 · 전환청구 가능 시작일",
+   "ticker": "413630",
+   "kind": "CB",
+   "imp": 2,
+   "status": "confirmed",
+   "index": [],
+   "desc": "전환가액과 전환청구 가능일이 핵심입니다. 전환청구 시작일부터 오버행이 실제 매도 물량으로 나옵니다. 주가 하락 시 전환가 리픽싱 조항 유무를 확인해야 합니다.",
+   "checklist": [
+    "공시 원문에서 발행 규모·할인율(전환가)·배정 대상 확인",
+    "보유 고객 통보 및 권리락 전후 대응 안내",
+    "오버행 물량 = 발행주식수 대비 비율 산출"
+   ],
+   "links": [
+    {
+     "label": "DART 공시 원문",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260826000286"
+    }
+   ],
+   "source": "DART 주요사항보고서 (cvbdIsDecsn)"
+  },
+  {
+   "id": "corp-01440153-cvbdIsDecsn-pymd-2026-09-22",
+   "date": "2026-09-22",
+   "market": "KR",
+   "cat": "corp",
+   "title": "넥사다이내믹스 — 전환사채(CB) 발행 결정 · 납입일",
+   "ticker": "351320",
+   "kind": "CB",
+   "imp": 2,
+   "status": "confirmed",
+   "index": [],
+   "desc": "전환가액과 전환청구 가능일이 핵심입니다. 전환청구 시작일부터 오버행이 실제 매도 물량으로 나옵니다. 주가 하락 시 전환가 리픽싱 조항 유무를 확인해야 합니다.",
+   "checklist": [
+    "공시 원문에서 발행 규모·할인율(전환가)·배정 대상 확인",
+    "보유 고객 통보 및 권리락 전후 대응 안내",
+    "오버행 물량 = 발행주식수 대비 비율 산출"
+   ],
+   "links": [
+    {
+     "label": "DART 공시 원문",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260824000329"
+    }
+   ],
+   "source": "DART 주요사항보고서 (cvbdIsDecsn)"
+  },
+  {
+   "id": "corp-01299203-cvbdIsDecsn-cvrqpd_bgd-2027-09-01",
+   "date": "2027-09-01",
+   "market": "KR",
+   "cat": "corp",
+   "title": "그리드위즈 — 전환사채(CB) 발행 결정 · 전환청구 가능 시작일",
+   "ticker": "453450",
+   "kind": "CB",
+   "imp": 2,
+   "status": "confirmed",
+   "index": [],
+   "desc": "전환가액과 전환청구 가능일이 핵심입니다. 전환청구 시작일부터 오버행이 실제 매도 물량으로 나옵니다. 주가 하락 시 전환가 리픽싱 조항 유무를 확인해야 합니다.",
+   "checklist": [
+    "공시 원문에서 발행 규모·할인율(전환가)·배정 대상 확인",
+    "보유 고객 통보 및 권리락 전후 대응 안내",
+    "오버행 물량 = 발행주식수 대비 비율 산출"
+   ],
+   "links": [
+    {
+     "label": "DART 공시 원문",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260824000164"
+    }
+   ],
+   "source": "DART 주요사항보고서 (cvbdIsDecsn)"
+  },
+  {
+   "id": "corp-01142075-cvbdIsDecsn-cvrqpd_bgd-2027-08-31",
+   "date": "2027-08-31",
+   "market": "KR",
+   "cat": "corp",
+   "title": "핑거 — 전환사채(CB) 발행 결정 · 전환청구 가능 시작일",
+   "ticker": "163730",
+   "kind": "CB",
+   "imp": 2,
+   "status": "confirmed",
+   "index": [],
+   "desc": "전환가액과 전환청구 가능일이 핵심입니다. 전환청구 시작일부터 오버행이 실제 매도 물량으로 나옵니다. 주가 하락 시 전환가 리픽싱 조항 유무를 확인해야 합니다.",
+   "checklist": [
+    "공시 원문에서 발행 규모·할인율(전환가)·배정 대상 확인",
+    "보유 고객 통보 및 권리락 전후 대응 안내",
+    "오버행 물량 = 발행주식수 대비 비율 산출"
+   ],
+   "links": [
+    {
+     "label": "DART 공시 원문",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260821000597"
+    }
+   ],
+   "source": "DART 주요사항보고서 (cvbdIsDecsn)"
+  },
+  {
+   "id": "corp-00416414-cvbdIsDecsn-cvrqpd_bgd-2027-08-28",
+   "date": "2027-08-28",
+   "market": "KR",
+   "cat": "corp",
+   "title": "넥스턴앤롤코리아 — 전환사채(CB) 발행 결정 · 전환청구 가능 시작일",
+   "ticker": "089140",
+   "kind": "CB",
+   "imp": 2,
+   "status": "confirmed",
+   "index": [],
+   "desc": "전환가액과 전환청구 가능일이 핵심입니다. 전환청구 시작일부터 오버행이 실제 매도 물량으로 나옵니다. 주가 하락 시 전환가 리픽싱 조항 유무를 확인해야 합니다.",
+   "checklist": [
+    "공시 원문에서 발행 규모·할인율(전환가)·배정 대상 확인",
+    "보유 고객 통보 및 권리락 전후 대응 안내",
+    "오버행 물량 = 발행주식수 대비 비율 산출"
+   ],
+   "links": [
+    {
+     "label": "DART 공시 원문",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260820000411"
+    }
+   ],
+   "source": "DART 주요사항보고서 (cvbdIsDecsn)"
+  },
+  {
+   "id": "corp-00115287-cvbdIsDecsn-cvrqpd_bgd-2027-08-28",
+   "date": "2027-08-28",
+   "market": "KR",
+   "cat": "corp",
+   "title": "동방 — 전환사채(CB) 발행 결정 · 전환청구 가능 시작일",
+   "ticker": "004140",
+   "kind": "CB",
+   "imp": 2,
+   "status": "confirmed",
+   "index": [],
+   "desc": "전환가액과 전환청구 가능일이 핵심입니다. 전환청구 시작일부터 오버행이 실제 매도 물량으로 나옵니다. 주가 하락 시 전환가 리픽싱 조항 유무를 확인해야 합니다.",
+   "checklist": [
+    "공시 원문에서 발행 규모·할인율(전환가)·배정 대상 확인",
+    "보유 고객 통보 및 권리락 전후 대응 안내",
+    "오버행 물량 = 발행주식수 대비 비율 산출"
+   ],
+   "links": [
+    {
+     "label": "DART 공시 원문",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260820000396"
+    }
+   ],
+   "source": "DART 주요사항보고서 (cvbdIsDecsn)"
+  },
+  {
+   "id": "corp-01546101-cvbdIsDecsn-cvrqpd_bgd-2027-08-28",
+   "date": "2027-08-28",
+   "market": "KR",
+   "cat": "corp",
+   "title": "아이엠티 — 전환사채(CB) 발행 결정 · 전환청구 가능 시작일",
+   "ticker": "451220",
+   "kind": "CB",
+   "imp": 2,
+   "status": "confirmed",
+   "index": [],
+   "desc": "전환가액과 전환청구 가능일이 핵심입니다. 전환청구 시작일부터 오버행이 실제 매도 물량으로 나옵니다. 주가 하락 시 전환가 리픽싱 조항 유무를 확인해야 합니다.",
+   "checklist": [
+    "공시 원문에서 발행 규모·할인율(전환가)·배정 대상 확인",
+    "보유 고객 통보 및 권리락 전후 대응 안내",
+    "오버행 물량 = 발행주식수 대비 비율 산출"
+   ],
+   "links": [
+    {
+     "label": "DART 공시 원문",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260820000313"
+    }
+   ],
+   "source": "DART 주요사항보고서 (cvbdIsDecsn)"
+  },
+  {
+   "id": "corp-01098792-cvbdIsDecsn-cvrqpd_bgd-2027-08-28",
+   "date": "2027-08-28",
+   "market": "KR",
+   "cat": "corp",
+   "title": "본느 — 전환사채(CB) 발행 결정 · 전환청구 가능 시작일",
+   "ticker": "226340",
+   "kind": "CB",
+   "imp": 2,
+   "status": "confirmed",
+   "index": [],
+   "desc": "전환가액과 전환청구 가능일이 핵심입니다. 전환청구 시작일부터 오버행이 실제 매도 물량으로 나옵니다. 주가 하락 시 전환가 리픽싱 조항 유무를 확인해야 합니다.",
+   "checklist": [
+    "공시 원문에서 발행 규모·할인율(전환가)·배정 대상 확인",
+    "보유 고객 통보 및 권리락 전후 대응 안내",
+    "오버행 물량 = 발행주식수 대비 비율 산출"
+   ],
+   "links": [
+    {
+     "label": "DART 공시 원문",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260731000816"
+    }
+   ],
+   "source": "DART 주요사항보고서 (cvbdIsDecsn)"
+  },
+  {
+   "id": "corp-00276834-cvbdIsDecsn-cvrqpd_bgd-2027-08-27",
+   "date": "2027-08-27",
+   "market": "KR",
+   "cat": "corp",
+   "title": "KX하이텍 — 전환사채(CB) 발행 결정 · 전환청구 가능 시작일",
+   "ticker": "052900",
+   "kind": "CB",
+   "imp": 2,
+   "status": "confirmed",
+   "index": [],
+   "desc": "전환가액과 전환청구 가능일이 핵심입니다. 전환청구 시작일부터 오버행이 실제 매도 물량으로 나옵니다. 주가 하락 시 전환가 리픽싱 조항 유무를 확인해야 합니다.",
+   "checklist": [
+    "공시 원문에서 발행 규모·할인율(전환가)·배정 대상 확인",
+    "보유 고객 통보 및 권리락 전후 대응 안내",
+    "오버행 물량 = 발행주식수 대비 비율 산출"
+   ],
+   "links": [
+    {
+     "label": "DART 공시 원문",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260819000309"
+    }
+   ],
+   "source": "DART 주요사항보고서 (cvbdIsDecsn)"
+  },
+  {
+   "id": "corp-00563518-cvbdIsDecsn-cvrqpd_bgd-2027-08-24",
+   "date": "2027-08-24",
+   "market": "KR",
+   "cat": "corp",
+   "title": "비나텍 — 전환사채(CB) 발행 결정 · 전환청구 가능 시작일",
+   "ticker": "126340",
+   "kind": "CB",
+   "imp": 2,
+   "status": "confirmed",
+   "index": [],
+   "desc": "전환가액과 전환청구 가능일이 핵심입니다. 전환청구 시작일부터 오버행이 실제 매도 물량으로 나옵니다. 주가 하락 시 전환가 리픽싱 조항 유무를 확인해야 합니다.",
+   "checklist": [
+    "공시 원문에서 발행 규모·할인율(전환가)·배정 대상 확인",
+    "보유 고객 통보 및 권리락 전후 대응 안내",
+    "오버행 물량 = 발행주식수 대비 비율 산출"
+   ],
+   "links": [
+    {
+     "label": "DART 공시 원문",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814003891"
+    }
+   ],
+   "source": "DART 주요사항보고서 (cvbdIsDecsn)"
+  },
+  {
+   "id": "corp-00474588-cvbdIsDecsn-cvrqpd_bgd-2027-08-21",
+   "date": "2027-08-21",
+   "market": "KR",
+   "cat": "corp",
+   "title": "한중엔시에스 — 전환사채(CB) 발행 결정 · 전환청구 가능 시작일",
+   "ticker": "107640",
+   "kind": "CB",
+   "imp": 2,
+   "status": "confirmed",
+   "index": [],
+   "desc": "전환가액과 전환청구 가능일이 핵심입니다. 전환청구 시작일부터 오버행이 실제 매도 물량으로 나옵니다. 주가 하락 시 전환가 리픽싱 조항 유무를 확인해야 합니다.",
+   "checklist": [
+    "공시 원문에서 발행 규모·할인율(전환가)·배정 대상 확인",
+    "보유 고객 통보 및 권리락 전후 대응 안내",
+    "오버행 물량 = 발행주식수 대비 비율 산출"
+   ],
+   "links": [
+    {
+     "label": "DART 공시 원문",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260813001787"
+    }
+   ],
+   "source": "DART 주요사항보고서 (cvbdIsDecsn)"
+  },
+  {
+   "id": "corp-01187494-cvbdIsDecsn-cvrqpd_bgd-2027-08-20",
+   "date": "2027-08-20",
+   "market": "KR",
+   "cat": "corp",
+   "title": "덴티스 — 전환사채(CB) 발행 결정 · 전환청구 가능 시작일",
+   "ticker": "261200",
+   "kind": "CB",
+   "imp": 2,
+   "status": "confirmed",
+   "index": [],
+   "desc": "전환가액과 전환청구 가능일이 핵심입니다. 전환청구 시작일부터 오버행이 실제 매도 물량으로 나옵니다. 주가 하락 시 전환가 리픽싱 조항 유무를 확인해야 합니다.",
+   "checklist": [
+    "공시 원문에서 발행 규모·할인율(전환가)·배정 대상 확인",
+    "보유 고객 통보 및 권리락 전후 대응 안내",
+    "오버행 물량 = 발행주식수 대비 비율 산출"
+   ],
+   "links": [
+    {
+     "label": "DART 공시 원문",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260812000755"
+    }
+   ],
+   "source": "DART 주요사항보고서 (cvbdIsDecsn)"
+  },
+  {
+   "id": "corp-00116426-cvbdIsDecsn-cvrqpd_bgd-2027-08-18",
+   "date": "2027-08-18",
+   "market": "KR",
+   "cat": "corp",
+   "title": "이렘 — 전환사채(CB) 발행 결정 · 전환청구 가능 시작일",
+   "ticker": "009730",
+   "kind": "CB",
+   "imp": 2,
+   "status": "confirmed",
+   "index": [],
+   "desc": "전환가액과 전환청구 가능일이 핵심입니다. 전환청구 시작일부터 오버행이 실제 매도 물량으로 나옵니다. 주가 하락 시 전환가 리픽싱 조항 유무를 확인해야 합니다.",
+   "checklist": [
+    "공시 원문에서 발행 규모·할인율(전환가)·배정 대상 확인",
+    "보유 고객 통보 및 권리락 전후 대응 안내",
+    "오버행 물량 = 발행주식수 대비 비율 산출"
+   ],
+   "links": [
+    {
+     "label": "DART 공시 원문",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260807000388"
+    }
+   ],
+   "source": "DART 주요사항보고서 (cvbdIsDecsn)"
+  },
+  {
+   "id": "corp-01480708-cvbdIsDecsn-cvrqpd_bgd-2027-08-14",
+   "date": "2027-08-14",
+   "market": "KR",
+   "cat": "corp",
+   "title": "HEM파마 — 전환사채(CB) 발행 결정 · 전환청구 가능 시작일",
+   "ticker": "376270",
+   "kind": "CB",
+   "imp": 2,
+   "status": "confirmed",
+   "index": [],
+   "desc": "전환가액과 전환청구 가능일이 핵심입니다. 전환청구 시작일부터 오버행이 실제 매도 물량으로 나옵니다. 주가 하락 시 전환가 리픽싱 조항 유무를 확인해야 합니다.",
+   "checklist": [
+    "공시 원문에서 발행 규모·할인율(전환가)·배정 대상 확인",
+    "보유 고객 통보 및 권리락 전후 대응 안내",
+    "오버행 물량 = 발행주식수 대비 비율 산출"
+   ],
+   "links": [
+    {
+     "label": "DART 공시 원문",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260806000534"
+    }
+   ],
+   "source": "DART 주요사항보고서 (cvbdIsDecsn)"
+  },
+  {
+   "id": "corp-00169048-cvbdIsDecsn-cvrqpd_bgd-2027-08-18",
+   "date": "2027-08-18",
+   "market": "KR",
+   "cat": "corp",
+   "title": "HLB글로벌 — 전환사채(CB) 발행 결정 · 전환청구 가능 시작일",
+   "ticker": "003580",
+   "kind": "CB",
+   "imp": 2,
+   "status": "confirmed",
+   "index": [],
+   "desc": "전환가액과 전환청구 가능일이 핵심입니다. 전환청구 시작일부터 오버행이 실제 매도 물량으로 나옵니다. 주가 하락 시 전환가 리픽싱 조항 유무를 확인해야 합니다.",
+   "checklist": [
+    "공시 원문에서 발행 규모·할인율(전환가)·배정 대상 확인",
+    "보유 고객 통보 및 권리락 전후 대응 안내",
+    "오버행 물량 = 발행주식수 대비 비율 산출"
+   ],
+   "links": [
+    {
+     "label": "DART 공시 원문",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260806000407"
+    }
+   ],
+   "source": "DART 주요사항보고서 (cvbdIsDecsn)"
+  },
+  {
+   "id": "corp-00199252-cvbdIsDecsn-cvrqpd_bgd-2027-08-19",
+   "date": "2027-08-19",
+   "market": "KR",
+   "cat": "corp",
+   "title": "HLB — 전환사채(CB) 발행 결정 · 전환청구 가능 시작일",
+   "ticker": "028300",
+   "kind": "CB",
+   "imp": 2,
+   "status": "confirmed",
+   "index": [],
+   "desc": "전환가액과 전환청구 가능일이 핵심입니다. 전환청구 시작일부터 오버행이 실제 매도 물량으로 나옵니다. 주가 하락 시 전환가 리픽싱 조항 유무를 확인해야 합니다.",
+   "checklist": [
+    "공시 원문에서 발행 규모·할인율(전환가)·배정 대상 확인",
+    "보유 고객 통보 및 권리락 전후 대응 안내",
+    "오버행 물량 = 발행주식수 대비 비율 산출"
+   ],
+   "links": [
+    {
+     "label": "DART 공시 원문",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260805000480"
+    }
+   ],
+   "source": "DART 주요사항보고서 (cvbdIsDecsn)"
+  },
+  {
+   "id": "corp-00296078-cvbdIsDecsn-cvrqpd_bgd-2027-08-15",
+   "date": "2027-08-15",
+   "market": "KR",
+   "cat": "corp",
+   "title": "APS — 전환사채(CB) 발행 결정 · 전환청구 가능 시작일",
+   "ticker": "054620",
+   "kind": "CB",
+   "imp": 2,
+   "status": "confirmed",
+   "index": [],
+   "desc": "전환가액과 전환청구 가능일이 핵심입니다. 전환청구 시작일부터 오버행이 실제 매도 물량으로 나옵니다. 주가 하락 시 전환가 리픽싱 조항 유무를 확인해야 합니다.",
+   "checklist": [
+    "공시 원문에서 발행 규모·할인율(전환가)·배정 대상 확인",
+    "보유 고객 통보 및 권리락 전후 대응 안내",
+    "오버행 물량 = 발행주식수 대비 비율 산출"
+   ],
+   "links": [
+    {
+     "label": "DART 공시 원문",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260805000477"
+    }
+   ],
+   "source": "DART 주요사항보고서 (cvbdIsDecsn)"
+  },
+  {
+   "id": "corp-00231044-cvbdIsDecsn-cvrqpd_bgd-2027-08-13",
+   "date": "2027-08-13",
+   "market": "KR",
+   "cat": "corp",
+   "title": "우리기술 — 전환사채(CB) 발행 결정 · 전환청구 가능 시작일",
+   "ticker": "032820",
+   "kind": "CB",
+   "imp": 2,
+   "status": "confirmed",
+   "index": [],
+   "desc": "전환가액과 전환청구 가능일이 핵심입니다. 전환청구 시작일부터 오버행이 실제 매도 물량으로 나옵니다. 주가 하락 시 전환가 리픽싱 조항 유무를 확인해야 합니다.",
+   "checklist": [
+    "공시 원문에서 발행 규모·할인율(전환가)·배정 대상 확인",
+    "보유 고객 통보 및 권리락 전후 대응 안내",
+    "오버행 물량 = 발행주식수 대비 비율 산출"
+   ],
+   "links": [
+    {
+     "label": "DART 공시 원문",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260805000463"
+    }
+   ],
+   "source": "DART 주요사항보고서 (cvbdIsDecsn)"
+  },
+  {
+   "id": "corp-00660750-exbdIsDecsn-sbd-2026-09-14",
+   "date": "2026-09-14",
+   "market": "KR",
+   "cat": "corp",
+   "title": "하나머티리얼즈 — 교환사채(EB) 발행 결정 · 청약예정일",
+   "ticker": "166090",
+   "kind": "EB",
+   "imp": 1,
+   "status": "confirmed",
+   "index": [],
+   "desc": "발행사가 보유한 다른 주식으로 교환되는 사채로, 교환 대상 주식에 오버행이 생깁니다.",
+   "checklist": [
+    "공시 원문에서 발행 규모·할인율(전환가)·배정 대상 확인",
+    "보유 고객 통보 및 권리락 전후 대응 안내",
+    "오버행 물량 = 발행주식수 대비 비율 산출"
+   ],
+   "links": [
+    {
+     "label": "DART 공시 원문",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260804000510"
+    }
+   ],
+   "source": "DART 주요사항보고서 (exbdIsDecsn)"
+  },
+  {
+   "id": "corp-00660750-exbdIsDecsn-pymd-2026-09-14",
+   "date": "2026-09-14",
+   "market": "KR",
+   "cat": "corp",
+   "title": "하나머티리얼즈 — 교환사채(EB) 발행 결정 · 납입일",
+   "ticker": "166090",
+   "kind": "EB",
+   "imp": 1,
+   "status": "confirmed",
+   "index": [],
+   "desc": "발행사가 보유한 다른 주식으로 교환되는 사채로, 교환 대상 주식에 오버행이 생깁니다.",
+   "checklist": [
+    "공시 원문에서 발행 규모·할인율(전환가)·배정 대상 확인",
+    "보유 고객 통보 및 권리락 전후 대응 안내",
+    "오버행 물량 = 발행주식수 대비 비율 산출"
+   ],
+   "links": [
+    {
+     "label": "DART 공시 원문",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260804000510"
+    }
+   ],
+   "source": "DART 주요사항보고서 (exbdIsDecsn)"
+  },
+  {
+   "id": "corp-00181712-cvbdIsDecsn-cvrqpd_bgd-2027-08-18",
+   "date": "2027-08-18",
+   "market": "KR",
+   "cat": "corp",
+   "title": "SK — 전환사채(CB) 발행 결정 · 전환청구 가능 시작일",
+   "ticker": "034730",
+   "kind": "CB",
+   "imp": 2,
+   "status": "confirmed",
+   "index": [],
+   "desc": "전환가액과 전환청구 가능일이 핵심입니다. 전환청구 시작일부터 오버행이 실제 매도 물량으로 나옵니다. 주가 하락 시 전환가 리픽싱 조항 유무를 확인해야 합니다.",
+   "checklist": [
+    "공시 원문에서 발행 규모·할인율(전환가)·배정 대상 확인",
+    "보유 고객 통보 및 권리락 전후 대응 안내",
+    "오버행 물량 = 발행주식수 대비 비율 산출"
+   ],
+   "links": [
+    {
+     "label": "DART 공시 원문",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260803000002"
+    }
+   ],
+   "source": "DART 주요사항보고서 (cvbdIsDecsn)"
+  }
+ ]
+}
