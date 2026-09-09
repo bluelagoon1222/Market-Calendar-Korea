@@ -1,0 +1,49 @@
+name: update-calendar
+
+on:
+  schedule:
+    - cron: '40 22 * * 0-4'   # 07:40 KST, Mon-Fri
+    - cron: '50 8 * * 1-5'    # 17:50 KST, Mon-Fri
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-calendar
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 55
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install deps
+        run: pip install requests
+
+      - name: Build fixed schedule
+        run: python scripts/build_fixed.py
+
+      - name: Collect earnings / corporate actions
+        env:
+          DART_API_KEY: ${{ secrets.DART_API_KEY }}
+          TIME_BUDGET: '2400'
+        run: python scripts/collect.py
+
+      - name: Commit
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data
+          if git diff --cached --quiet; then
+            echo "no change"
+          else
+            git commit -m "data: update $(date -u +'%Y-%m-%d %H:%MZ')"
+            git push
+          fi
