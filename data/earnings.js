@@ -1,0 +1,1 @@
+window.EARNINGS_DATA = {"generated_at":"","count":0,"events":[]};
