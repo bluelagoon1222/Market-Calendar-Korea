@@ -1,6 +1,6 @@
 {
  "version": "v2",
- "started_at": "2026-09-09T13:06:17",
+ "started_at": "2026-09-10T00:35:23",
  "steps": {
   "universe.csv": {
    "source": "main",
@@ -9,35 +9,43 @@
   "universe.wiki.SP500": {
    "tickers": 502
   },
-  "universe.wiki.NDX": {
-   "tickers": 2
+  "universe.ndx": {
+   "tickers": 105,
+   "source": "slickcharts"
   },
   "universe.total": {
-   "tickers": 505
+   "tickers": 521
   },
   "us_earnings.nasdaq": {
-   "raw_rows": 1883,
-   "matched": 323,
-   "events": 323
+   "raw_rows": 1841,
+   "matched": 329,
+   "events": 329
   },
   "kr_universe.코스피 시총상위": {
-   "tickers": 47
+   "tickers": 150,
+   "pages": 4
   },
   "kr_universe.코스닥 시총상위": {
-   "tickers": 50
+   "tickers": 70,
+   "pages": 2
   },
   "kr_universe.total": {
-   "tickers": 97
+   "tickers": 220
+  },
+  "corp_codes": {
+   "listed": 3931
   },
   "corp.filings": {
-   "count": 1477
+   "count": 1481
   },
   "corp.targets": {
-   "count": 593
+   "count": 50,
+   "skipped_outside_universe": 673,
+   "universe": 219
   },
   "corp.events": {
-   "count": 156,
-   "from_targets": 593
+   "count": 18,
+   "from_targets": 50
   },
   "kr_earnings.notice_filings": {
    "count": 0
@@ -46,9 +54,9 @@
    "count": 0
   },
   "kr_earnings.estimated": {
-   "count": 63,
-   "newly_fetched": 97,
-   "companies_with_history": 101
+   "count": 156,
+   "newly_fetched": 219,
+   "companies_with_history": 223
   }
  },
  "errors": [],
@@ -76,18 +84,18 @@
    "현대차",
    "삼성바이오로직스",
    "KB금융",
-   "삼성물산",
    "삼성생명",
+   "삼성물산",
    "두산에너빌리티",
    "한화에어로스페이스"
   ]
  },
- "finished_at": "2026-09-09T13:22:07",
- "elapsed_sec": 950,
+ "finished_at": "2026-09-10T00:52:18",
+ "elapsed_sec": 1015,
  "counts": {
-  "earnings": 386,
-  "us": 323,
-  "kr": 63,
-  "corp": 156
+  "earnings": 485,
+  "us": 329,
+  "kr": 156,
+  "corp": 18
  }
 }
