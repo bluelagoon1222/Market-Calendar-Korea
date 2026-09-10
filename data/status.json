@@ -1,6 +1,6 @@
 {
  "version": "v2",
- "started_at": "2026-09-10T00:35:23",
+ "started_at": "2026-09-10T01:22:28",
  "steps": {
   "universe.csv": {
    "source": "main",
@@ -32,9 +32,6 @@
   "kr_universe.total": {
    "tickers": 220
   },
-  "corp_codes": {
-   "listed": 3931
-  },
   "corp.filings": {
    "count": 1481
   },
@@ -55,7 +52,7 @@
   },
   "kr_earnings.estimated": {
    "count": 156,
-   "newly_fetched": 219,
+   "newly_fetched": 0,
    "companies_with_history": 223
   }
  },
@@ -90,8 +87,8 @@
    "한화에어로스페이스"
   ]
  },
- "finished_at": "2026-09-10T00:52:18",
- "elapsed_sec": 1015,
+ "finished_at": "2026-09-10T01:27:48",
+ "elapsed_sec": 320,
  "counts": {
   "earnings": 485,
   "us": 329,
