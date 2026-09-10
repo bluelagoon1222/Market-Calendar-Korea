@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-10T01:27:48",
+ "generated_at": "2026-09-10T01:37:57",
  "count": 485,
  "events": [
   {
@@ -12722,37 +12722,6 @@
    ]
   },
   {
-   "id": "kr-earn-est-085620-2026-11-16",
-   "date": "2026-11-16",
-   "market": "KR",
-   "cat": "earnings",
-   "title": "미래에셋생명 실적발표 예상",
-   "ticker": "085620",
-   "session": "unknown",
-   "imp": 2,
-   "status": "estimated",
-   "index": [
-    "코스피 시총상위"
-   ],
-   "desc": "국내는 실적발표일을 사전 공표하는 제도가 없어, 과거 2년간 잠정실적 공시일을 기준으로 추정한 일정입니다. 발표 시각(장전·장마감 후)도 사전 확인이 불가하며 국내 잠정실적은 통상 장중~장 마감 후에 공시됩니다. 고객 안내 전 기업 IR 확인이 필요합니다.",
-   "checklist": [
-    "기업 IR 또는 유선으로 실제 발표일 확인",
-    "컨센서스와 직전 분기 수치 비교표 준비",
-    "동일 업종 선행 발표 기업의 결과·가이던스 확인"
-   ],
-   "source": "과거 잠정실적 공시일 기반 추정 (잠정)",
-   "links": [
-    {
-     "label": "네이버 금융",
-     "url": "https://finance.naver.com/item/main.naver?code=085620"
-    },
-    {
-     "label": "DART 기업 공시",
-     "url": "https://dart.fss.or.kr/dsab007/main.do?textCrpNm=085620"
-    }
-   ]
-  },
-  {
    "id": "kr-earn-est-003690-2026-11-16",
    "date": "2026-11-16",
    "market": "KR",
@@ -12780,6 +12749,37 @@
     {
      "label": "DART 기업 공시",
      "url": "https://dart.fss.or.kr/dsab007/main.do?textCrpNm=003690"
+    }
+   ]
+  },
+  {
+   "id": "kr-earn-est-085620-2026-11-16",
+   "date": "2026-11-16",
+   "market": "KR",
+   "cat": "earnings",
+   "title": "미래에셋생명 실적발표 예상",
+   "ticker": "085620",
+   "session": "unknown",
+   "imp": 2,
+   "status": "estimated",
+   "index": [
+    "코스피 시총상위"
+   ],
+   "desc": "국내는 실적발표일을 사전 공표하는 제도가 없어, 과거 2년간 잠정실적 공시일을 기준으로 추정한 일정입니다. 발표 시각(장전·장마감 후)도 사전 확인이 불가하며 국내 잠정실적은 통상 장중~장 마감 후에 공시됩니다. 고객 안내 전 기업 IR 확인이 필요합니다.",
+   "checklist": [
+    "기업 IR 또는 유선으로 실제 발표일 확인",
+    "컨센서스와 직전 분기 수치 비교표 준비",
+    "동일 업종 선행 발표 기업의 결과·가이던스 확인"
+   ],
+   "source": "과거 잠정실적 공시일 기반 추정 (잠정)",
+   "links": [
+    {
+     "label": "네이버 금융",
+     "url": "https://finance.naver.com/item/main.naver?code=085620"
+    },
+    {
+     "label": "DART 기업 공시",
+     "url": "https://dart.fss.or.kr/dsab007/main.do?textCrpNm=085620"
     }
    ]
   }
