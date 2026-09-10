@@ -22,6 +22,7 @@ Status convention
 
 import json
 import os
+import re
 from calendar import monthrange
 from datetime import date, timedelta
 
@@ -111,8 +112,13 @@ US_EARLY_CLOSE = [
     ("2026-12-24", "미국 조기폐장 13:00 ET (KST 03:00) — 크리스마스 이브"),
 ]
 
+def hol_name(title):
+    """달력 배지에 쓸 짧은 공휴일 이름"""
+    return re.split(r"\s*[—(]", title)[0].strip()
+
+
 for d, t, st in KR_HOLIDAYS:
-    add(d, "KR", "market", t, imp=3, status=st,
+    add(d, "KR", "market", t, imp=3, status=st, hol=hol_name(t),
         desc="한국 증시 휴장. 결제일(T+2)이 밀리므로 배당·권리 기준일, 해외주식 환전·결제 일정과 함께 확인해야 합니다.",
         checklist=["휴장 전 마지막 거래일 기준 결제·환전 일정 안내",
                    "미국 시장은 정상 개장 여부 확인 (야간 대응 필요 고객 사전 안내)",
@@ -120,7 +126,7 @@ for d, t, st in KR_HOLIDAYS:
         source="KRX 휴장일 안내")
 
 for d, t, st in US_HOLIDAYS:
-    add(d, "US", "market", t, imp=3, status=st,
+    add(d, "US", "market", t, imp=3, status=st, hol=hol_name(t),
         desc="미국 증시(NYSE·Nasdaq) 휴장. 국내 야간 주문·환전 스케줄에 영향.",
         checklist=["해외주식 주문 접수 가능 여부 안내", "휴장 전후 유동성 축소 구간 주의"],
         source="NYSE Holiday Calendar")
