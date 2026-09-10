@@ -9,6 +9,12 @@ v1 실행(2026-09-09) 결과 반영
   · corp 452건 중 54건만 이벤트화  → 날짜 필드 라벨 확장 + 신탁계약 서식 분리
   · 전환사채(CB) 건수 과다        → CB·BW·EB 추적 제외, 기업행위는 시총상위 220종목으로 한정 (요청)
 
+v3 (v2 실행 결과 반영)
+  · kr_universe 97종목            → 네이버 페이지 중복 판정을 HTML 앞부분으로 해 2·3페이지가 스킵됨.
+                                    신규 종목코드 유입 여부로 판정, 코스피 150 / 코스닥 70 할당
+  · universe.wiki.NDX=2           → 위키 표 구조가 S&P500 과 달라 정규식 실패.
+                                    위키 API 원문 → 슬릭차트 → 고정 목록 3단계로 교체
+
 국내 실적발표일은 사전 공표 제도가 없어 전 종목 '잠정(추정)'으로 산출한다.
 확정값은 DART 결산실적공시예고가 있는 기업만 표시한다.
 """
@@ -32,7 +38,9 @@ BUDGET = int(os.environ.get("TIME_BUDGET", "2400"))
 T0 = time.time()
 
 HORIZON = 100        # 향후 며칠까지 일정을 담을지
-KR_TOP = 220         # 국내 추적 종목 수 (코스피 시총상위 + 코스닥 시총상위)
+KR_MARKETS = ((0, "코스피 시총상위", 8, 150),   # (네이버 sosok, 라벨, 최대 페이지, 종목 상한)
+              (1, "코스닥 시총상위", 6, 70))
+KR_TOP = sum(m[3] for m in KR_MARKETS)
 HIST_YEARS = 2       # 국내 실적발표일 추정에 쓸 과거 공시 이력
 
 UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
@@ -113,6 +121,15 @@ def _wiki_symbols(url, col_hint=(0, 1)):
     return syms
 
 
+NDX_FALLBACK = (
+    "AAPL MSFT NVDA AMZN META AVGO GOOGL GOOG TSLA COST NFLX AMD PEP ADBE LIN CSCO TMUS "
+    "QCOM INTU TXN AMAT ISRG BKNG AMGN HON VRTX PANW ADP MU ADI GILD LRCX MELI SBUX INTC "
+    "MDLZ REGN KLAC CTAS SNPS CDNS MAR CRWD ORLY CSX ASML PYPL ABNB MRVL FTNT ADSK WDAY "
+    "NXPI CHTR PCAR ROP MNST AEP PAYX TTD ODFL FAST KDP ROST VRSK CTSH DDOG EXC XEL GEHC "
+    "CCEP KHC CSGP AZN IDXX ON BIIB CDW MDB GFS ARM APP PLTR AXON"
+).split()
+
+
 def us_universe():
     uni = defaultdict(set)
 
@@ -136,18 +153,42 @@ def us_universe():
         except Exception as e:
             err("universe.csv", e)
 
-    # 2) 위키피디아
-    for tag, url, cols in [
-        ("SP500", "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies", (0, 1)),
-        ("NDX", "https://en.wikipedia.org/wiki/Nasdaq-100", (0, 1, 2)),
-    ]:
+    # 2) 위키피디아 (S&P500 표는 이 방식이 안정적)
+    try:
+        sp = _wiki_symbols("https://en.wikipedia.org/wiki/List_of_S%26P_500_companies", (0, 1))
+        for t in sp:
+            uni[t].add("SP500")
+        note("universe.wiki.SP500", tickers=len(sp))
+    except Exception as e:
+        err("universe.wiki.SP500", e)
+
+    # 2-1) 나스닥100 — 위키 원문 → 슬릭차트 → 고정 목록
+    ndx, ndx_src = set(), ""
+    try:
+        j = get("https://en.wikipedia.org/w/api.php",
+                params={"action": "parse", "page": "Nasdaq-100", "prop": "wikitext",
+                        "format": "json", "formatversion": "2"}, timeout=25).json()
+        wt = (j.get("parse") or {}).get("wikitext") or ""
+        cand = set(re.findall(r"\|\s*([A-Z]{1,5})\s*\|\|", wt))
+        cand |= set(re.findall(r"\{\{\s*(?:NASDAQ|Nasdaq)\s*\|\s*([A-Z]{1,5})\s*\}\}", wt))
+        if len(cand) >= 80:
+            ndx, ndx_src = cand, "wikitext"
+    except Exception as e:
+        err("universe.ndx.wikitext", e)
+    if not ndx:
         try:
-            s = _wiki_symbols(url, cols)
-            for t in s:
-                uni[t].add(tag)
-            note(f"universe.wiki.{tag}", tickers=len(s))
+            html = get("https://www.slickcharts.com/nasdaq100", timeout=25).text
+            cand = set(re.findall(r'/symbol/([A-Z]{1,5})"', html))
+            if len(cand) >= 80:
+                ndx, ndx_src = cand, "slickcharts"
         except Exception as e:
-            err(f"universe.wiki.{tag}", e)
+            err("universe.ndx.slickcharts", e)
+    if not ndx:
+        ndx, ndx_src = set(NDX_FALLBACK), "fallback"
+    tag = "NDX" if ndx_src != "fallback" else "NDX(추정)"
+    for t in ndx:
+        uni[t].add(tag)
+    note("universe.ndx", tickers=len(ndx), source=ndx_src)
 
     # 3) 직전 실행 결과 유지
     prev = load("us_universe", {})
@@ -265,31 +306,35 @@ def is_common_stock(code, name):
 
 def kr_universe():
     uni = {}
-    for sosok, label, pages in ((0, "코스피 시총상위", 3), (1, "코스닥 시총상위", 2)):
-        got, seen_page = 0, set()
+    for sosok, label, pages, cap in KR_MARKETS:
+        got, pages_used = 0, 0
         for p in range(1, pages + 1):
+            if got >= cap or left() < 200:
+                break
             try:
                 r = get("https://finance.naver.com/sise/sise_market_sum.naver",
                         params={"sosok": sosok, "page": p}, timeout=20)
                 r.encoding = "euc-kr"
-                html = r.text
-                if html[:2000] in seen_page:     # 마지막 페이지 반복 방지
-                    break
-                seen_page.add(html[:2000])
-                for code, name in re.findall(
-                        r'/item/main\.naver\?code=(\d{6})"[^>]*>([^<]+)</a>', html):
+                found = re.findall(
+                    r'/item/main\.naver\?code=(\d{6})"[^>]*>([^<]+)</a>', r.text)
+                fresh = 0                      # 새 종목코드가 없으면 마지막 페이지 반복으로 판단
+                for code, name in found:
+                    if code in uni:
+                        continue
+                    fresh += 1
                     name = name.strip()
-                    if not is_common_stock(code, name) or code in uni:
+                    if not is_common_stock(code, name) or got >= cap:
                         continue
                     uni[code] = {"name": name, "idx": [label]}
                     got += 1
+                pages_used = p
+                if fresh == 0:
+                    break
             except Exception as e:
                 err(f"kr_universe.naver.{sosok}.{p}", e)
                 break
             time.sleep(0.2)
-        note(f"kr_universe.{label}", tickers=got)
-    # 시총 순서를 유지한 상태로 상위 KR_TOP 종목만 사용
-    uni = dict(list(uni.items())[:KR_TOP])
+        note(f"kr_universe.{label}", tickers=got, pages=pages_used)
     if len(uni) < 50:
         prev = load("kr_universe", {})
         if prev:
