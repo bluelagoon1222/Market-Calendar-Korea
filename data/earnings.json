@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-09-10T01:37:57",
- "count": 485,
+ "generated_at": "2026-09-10T13:14:45",
+ "count": 576,
  "events": [
   {
    "id": "us-earn-ORCL-2026-09-10",
@@ -15,7 +15,7 @@
    "index": [
     "SP500"
    ],
-   "eps_forecast": "$1.40",
+   "eps_forecast": "$1.39",
    "last_year_eps": "$1.20",
    "fiscal": "Aug/2026",
    "source": "Nasdaq Earnings Calendar",
@@ -298,6 +298,31 @@
    ]
   },
   {
+   "id": "us-earn-PAYX-2026-09-23",
+   "date": "2026-09-23",
+   "market": "US",
+   "cat": "earnings",
+   "title": "PAYX — Paychex, Inc.",
+   "ticker": "PAYX",
+   "session": "pre",
+   "imp": 2,
+   "status": "confirmed",
+   "index": [
+    "NDX",
+    "SP500"
+   ],
+   "eps_forecast": "$1.33",
+   "last_year_eps": "$1.22",
+   "fiscal": "Aug/2026",
+   "source": "Nasdaq Earnings Calendar",
+   "links": [
+    {
+     "label": "Nasdaq",
+     "url": "https://www.nasdaq.com/market-activity/stocks/payx/earnings"
+    }
+   ]
+  },
+  {
    "id": "us-earn-GIS-2026-09-23",
    "date": "2026-09-23",
    "market": "US",
@@ -391,31 +416,6 @@
     {
      "label": "Nasdaq",
      "url": "https://www.nasdaq.com/market-activity/stocks/dri/earnings"
-    }
-   ]
-  },
-  {
-   "id": "us-earn-PAYX-2026-09-29",
-   "date": "2026-09-29",
-   "market": "US",
-   "cat": "earnings",
-   "title": "PAYX — Paychex, Inc.",
-   "ticker": "PAYX",
-   "session": "unknown",
-   "imp": 2,
-   "status": "confirmed",
-   "index": [
-    "NDX",
-    "SP500"
-   ],
-   "eps_forecast": "$1.33",
-   "last_year_eps": "$1.22",
-   "fiscal": "Aug/2026",
-   "source": "Nasdaq Earnings Calendar",
-   "links": [
-    {
-     "label": "Nasdaq",
-     "url": "https://www.nasdaq.com/market-activity/stocks/payx/earnings"
     }
    ]
   },
@@ -932,7 +932,7 @@
    "index": [
     "SP500"
    ],
-   "eps_forecast": "$2.68",
+   "eps_forecast": "$2.67",
    "last_year_eps": "$2.24",
    "fiscal": "Sep/2026",
    "source": "Nasdaq Earnings Calendar",
@@ -980,7 +980,7 @@
    "index": [
     "SP500"
    ],
-   "eps_forecast": "$4.32",
+   "eps_forecast": "$4.33",
    "last_year_eps": "$4.08",
    "fiscal": "Sep/2026",
    "source": "Nasdaq Earnings Calendar",
@@ -1494,7 +1494,7 @@
    "cat": "earnings",
    "title": "RF — Regions Financial Corporation",
    "ticker": "RF",
-   "session": "unknown",
+   "session": "pre",
    "imp": 1,
    "status": "confirmed",
    "index": [
@@ -1627,7 +1627,7 @@
    "index": [
     "SP500"
    ],
-   "eps_forecast": "$0.86",
+   "eps_forecast": "$0.87",
    "last_year_eps": "$0.82",
    "fiscal": "Sep/2026",
    "source": "Nasdaq Earnings Calendar",
@@ -1651,7 +1651,7 @@
    "index": [
     "SP500"
    ],
-   "eps_forecast": "$1.99",
+   "eps_forecast": "$2.01",
    "last_year_eps": "$1.66",
    "fiscal": "Sep/2026",
    "source": "Nasdaq Earnings Calendar",
@@ -1700,7 +1700,7 @@
    "index": [
     "SP500"
    ],
-   "eps_forecast": "$2.26",
+   "eps_forecast": "$2.34",
    "last_year_eps": "$2.24",
    "fiscal": "Sep/2026",
    "source": "Nasdaq Earnings Calendar",
@@ -1785,30 +1785,6 @@
    ]
   },
   {
-   "id": "us-earn-COF-2026-10-20",
-   "date": "2026-10-20",
-   "market": "US",
-   "cat": "earnings",
-   "title": "COF — Capital One Financial Corporation",
-   "ticker": "COF",
-   "session": "unknown",
-   "imp": 2,
-   "status": "confirmed",
-   "index": [
-    "SP500"
-   ],
-   "eps_forecast": "$5.38",
-   "last_year_eps": "$5.95",
-   "fiscal": "Sep/2026",
-   "source": "Nasdaq Earnings Calendar",
-   "links": [
-    {
-     "label": "Nasdaq",
-     "url": "https://www.nasdaq.com/market-activity/stocks/cof/earnings"
-    }
-   ]
-  },
-  {
    "id": "us-earn-CB-2026-10-20",
    "date": "2026-10-20",
    "market": "US",
@@ -1833,26 +1809,26 @@
    ]
   },
   {
-   "id": "us-earn-LMT-2026-10-20",
+   "id": "us-earn-COF-2026-10-20",
    "date": "2026-10-20",
    "market": "US",
    "cat": "earnings",
-   "title": "LMT — Lockheed Martin Corporation",
-   "ticker": "LMT",
+   "title": "COF — Capital One Financial Corporation",
+   "ticker": "COF",
    "session": "unknown",
    "imp": 2,
    "status": "confirmed",
    "index": [
     "SP500"
    ],
-   "eps_forecast": "$7.28",
-   "last_year_eps": "$6.95",
+   "eps_forecast": "$5.38",
+   "last_year_eps": "$5.95",
    "fiscal": "Sep/2026",
    "source": "Nasdaq Earnings Calendar",
    "links": [
     {
      "label": "Nasdaq",
-     "url": "https://www.nasdaq.com/market-activity/stocks/lmt/earnings"
+     "url": "https://www.nasdaq.com/market-activity/stocks/cof/earnings"
     }
    ]
   },
@@ -1878,6 +1854,30 @@
     {
      "label": "Nasdaq",
      "url": "https://www.nasdaq.com/market-activity/stocks/isrg/earnings"
+    }
+   ]
+  },
+  {
+   "id": "us-earn-LMT-2026-10-20",
+   "date": "2026-10-20",
+   "market": "US",
+   "cat": "earnings",
+   "title": "LMT — Lockheed Martin Corporation",
+   "ticker": "LMT",
+   "session": "unknown",
+   "imp": 2,
+   "status": "confirmed",
+   "index": [
+    "SP500"
+   ],
+   "eps_forecast": "$7.28",
+   "last_year_eps": "$6.95",
+   "fiscal": "Sep/2026",
+   "source": "Nasdaq Earnings Calendar",
+   "links": [
+    {
+     "label": "Nasdaq",
+     "url": "https://www.nasdaq.com/market-activity/stocks/lmt/earnings"
     }
    ]
   },
@@ -2327,7 +2327,7 @@
    "index": [
     "SP500"
    ],
-   "eps_forecast": "$3.98",
+   "eps_forecast": "$4.01",
    "last_year_eps": "$4.05",
    "fiscal": "Sep/2026",
    "source": "Nasdaq Earnings Calendar",
@@ -2445,6 +2445,30 @@
     {
      "label": "Nasdaq",
      "url": "https://www.nasdaq.com/market-activity/stocks/ual/earnings"
+    }
+   ]
+  },
+  {
+   "id": "us-earn-NTRS-2026-10-21",
+   "date": "2026-10-21",
+   "market": "US",
+   "cat": "earnings",
+   "title": "NTRS — Northern Trust Corporation",
+   "ticker": "NTRS",
+   "session": "pre",
+   "imp": 1,
+   "status": "confirmed",
+   "index": [
+    "SP500"
+   ],
+   "eps_forecast": "$2.82",
+   "last_year_eps": "$2.29",
+   "fiscal": "Sep/2026",
+   "source": "Nasdaq Earnings Calendar",
+   "links": [
+    {
+     "label": "Nasdaq",
+     "url": "https://www.nasdaq.com/market-activity/stocks/ntrs/earnings"
     }
    ]
   },
@@ -2625,7 +2649,7 @@
    "cat": "earnings",
    "title": "VLO — Valero Energy Corporation",
    "ticker": "VLO",
-   "session": "unknown",
+   "session": "pre",
    "imp": 2,
    "status": "confirmed",
    "index": [
@@ -3020,30 +3044,6 @@
    ]
   },
   {
-   "id": "us-earn-DOV-2026-10-22",
-   "date": "2026-10-22",
-   "market": "US",
-   "cat": "earnings",
-   "title": "DOV — Dover Corporation",
-   "ticker": "DOV",
-   "session": "unknown",
-   "imp": 1,
-   "status": "confirmed",
-   "index": [
-    "SP500"
-   ],
-   "eps_forecast": "$2.86",
-   "last_year_eps": "$2.62",
-   "fiscal": "Sep/2026",
-   "source": "Nasdaq Earnings Calendar",
-   "links": [
-    {
-     "label": "Nasdaq",
-     "url": "https://www.nasdaq.com/market-activity/stocks/dov/earnings"
-    }
-   ]
-  },
-  {
    "id": "us-earn-VRSN-2026-10-22",
    "date": "2026-10-22",
    "market": "US",
@@ -3064,6 +3064,30 @@
     {
      "label": "Nasdaq",
      "url": "https://www.nasdaq.com/market-activity/stocks/vrsn/earnings"
+    }
+   ]
+  },
+  {
+   "id": "us-earn-DOV-2026-10-22",
+   "date": "2026-10-22",
+   "market": "US",
+   "cat": "earnings",
+   "title": "DOV — Dover Corporation",
+   "ticker": "DOV",
+   "session": "unknown",
+   "imp": 1,
+   "status": "confirmed",
+   "index": [
+    "SP500"
+   ],
+   "eps_forecast": "$2.86",
+   "last_year_eps": "$2.62",
+   "fiscal": "Sep/2026",
+   "source": "Nasdaq Earnings Calendar",
+   "links": [
+    {
+     "label": "Nasdaq",
+     "url": "https://www.nasdaq.com/market-activity/stocks/dov/earnings"
     }
    ]
   },
@@ -3104,7 +3128,7 @@
    "index": [
     "SP500"
    ],
-   "eps_forecast": "$2.65",
+   "eps_forecast": "$2.63",
    "last_year_eps": "$2.96",
    "fiscal": "Sep/2026",
    "source": "Nasdaq Earnings Calendar",
@@ -3737,7 +3761,7 @@
    "index": [
     "SP500"
    ],
-   "eps_forecast": "$5.81",
+   "eps_forecast": "$5.80",
    "last_year_eps": "$2.63",
    "fiscal": "Sep/2026",
    "source": "Nasdaq Earnings Calendar",
@@ -3745,31 +3769,6 @@
     {
      "label": "Nasdaq",
      "url": "https://www.nasdaq.com/market-activity/stocks/nue/earnings"
-    }
-   ]
-  },
-  {
-   "id": "us-earn-NXPI-2026-10-26",
-   "date": "2026-10-26",
-   "market": "US",
-   "cat": "earnings",
-   "title": "NXPI — NXP Semiconductors N.V.",
-   "ticker": "NXPI",
-   "session": "unknown",
-   "imp": 2,
-   "status": "confirmed",
-   "index": [
-    "NDX",
-    "SP500"
-   ],
-   "eps_forecast": "$3.77",
-   "last_year_eps": "$2.75",
-   "fiscal": "Sep/2026",
-   "source": "Nasdaq Earnings Calendar",
-   "links": [
-    {
-     "label": "Nasdaq",
-     "url": "https://www.nasdaq.com/market-activity/stocks/nxpi/earnings"
     }
    ]
   },
@@ -4267,30 +4266,6 @@
    ]
   },
   {
-   "id": "us-earn-BRO-2026-10-26",
-   "date": "2026-10-26",
-   "market": "US",
-   "cat": "earnings",
-   "title": "BRO — Brown & Brown, Inc.",
-   "ticker": "BRO",
-   "session": "unknown",
-   "imp": 1,
-   "status": "confirmed",
-   "index": [
-    "SP500"
-   ],
-   "eps_forecast": "$1.09",
-   "last_year_eps": "$1.05",
-   "fiscal": "Sep/2026",
-   "source": "Nasdaq Earnings Calendar",
-   "links": [
-    {
-     "label": "Nasdaq",
-     "url": "https://www.nasdaq.com/market-activity/stocks/bro/earnings"
-    }
-   ]
-  },
-  {
    "id": "us-earn-FFIV-2026-10-26",
    "date": "2026-10-26",
    "market": "US",
@@ -4315,26 +4290,26 @@
    ]
   },
   {
-   "id": "us-earn-RVTY-2026-10-26",
+   "id": "us-earn-BRO-2026-10-26",
    "date": "2026-10-26",
    "market": "US",
    "cat": "earnings",
-   "title": "RVTY — Revvity, Inc.",
-   "ticker": "RVTY",
+   "title": "BRO — Brown & Brown, Inc.",
+   "ticker": "BRO",
    "session": "unknown",
    "imp": 1,
    "status": "confirmed",
    "index": [
     "SP500"
    ],
-   "eps_forecast": "$1.28",
-   "last_year_eps": "$1.18",
+   "eps_forecast": "$1.09",
+   "last_year_eps": "$1.05",
    "fiscal": "Sep/2026",
    "source": "Nasdaq Earnings Calendar",
    "links": [
     {
      "label": "Nasdaq",
-     "url": "https://www.nasdaq.com/market-activity/stocks/rvty/earnings"
+     "url": "https://www.nasdaq.com/market-activity/stocks/bro/earnings"
     }
    ]
   },
@@ -4359,6 +4334,30 @@
     {
      "label": "Nasdaq",
      "url": "https://www.nasdaq.com/market-activity/stocks/eg/earnings"
+    }
+   ]
+  },
+  {
+   "id": "us-earn-RVTY-2026-10-26",
+   "date": "2026-10-26",
+   "market": "US",
+   "cat": "earnings",
+   "title": "RVTY — Revvity, Inc.",
+   "ticker": "RVTY",
+   "session": "unknown",
+   "imp": 1,
+   "status": "confirmed",
+   "index": [
+    "SP500"
+   ],
+   "eps_forecast": "$1.28",
+   "last_year_eps": "$1.18",
+   "fiscal": "Sep/2026",
+   "source": "Nasdaq Earnings Calendar",
+   "links": [
+    {
+     "label": "Nasdaq",
+     "url": "https://www.nasdaq.com/market-activity/stocks/rvty/earnings"
     }
    ]
   },
@@ -4772,6 +4771,31 @@
     {
      "label": "Nasdaq",
      "url": "https://www.nasdaq.com/market-activity/stocks/ter/earnings"
+    }
+   ]
+  },
+  {
+   "id": "us-earn-NXPI-2026-10-27",
+   "date": "2026-10-27",
+   "market": "US",
+   "cat": "earnings",
+   "title": "NXPI — NXP Semiconductors N.V.",
+   "ticker": "NXPI",
+   "session": "post",
+   "imp": 2,
+   "status": "confirmed",
+   "index": [
+    "NDX",
+    "SP500"
+   ],
+   "eps_forecast": "$3.77",
+   "last_year_eps": "$2.75",
+   "fiscal": "Sep/2026",
+   "source": "Nasdaq Earnings Calendar",
+   "links": [
+    {
+     "label": "Nasdaq",
+     "url": "https://www.nasdaq.com/market-activity/stocks/nxpi/earnings"
     }
    ]
   },
@@ -5318,7 +5342,7 @@
    "index": [
     "SP500"
    ],
-   "eps_forecast": "$2.08",
+   "eps_forecast": "$2.05",
    "last_year_eps": "$2.34",
    "fiscal": "Sep/2026",
    "source": "Nasdaq Earnings Calendar",
@@ -5342,7 +5366,7 @@
    "index": [
     "SP500"
    ],
-   "eps_forecast": "$1.41",
+   "eps_forecast": "$1.40",
    "last_year_eps": "$0.97",
    "fiscal": "Sep/2026",
    "source": "Nasdaq Earnings Calendar",
@@ -5620,6 +5644,30 @@
    ]
   },
   {
+   "id": "us-earn-APH-2026-10-28",
+   "date": "2026-10-28",
+   "market": "US",
+   "cat": "earnings",
+   "title": "APH — Amphenol Corporation",
+   "ticker": "APH",
+   "session": "unknown",
+   "imp": 3,
+   "status": "confirmed",
+   "index": [
+    "SP500"
+   ],
+   "eps_forecast": "$0.72",
+   "last_year_eps": "$0.47",
+   "fiscal": "Sep/2026",
+   "source": "Nasdaq Earnings Calendar",
+   "links": [
+    {
+     "label": "Nasdaq",
+     "url": "https://www.nasdaq.com/market-activity/stocks/aph/earnings"
+    }
+   ]
+  },
+  {
    "id": "us-earn-VRT-2026-10-28",
    "date": "2026-10-28",
    "market": "US",
@@ -5640,30 +5688,6 @@
     {
      "label": "Nasdaq",
      "url": "https://www.nasdaq.com/market-activity/stocks/vrt/earnings"
-    }
-   ]
-  },
-  {
-   "id": "us-earn-APH-2026-10-28",
-   "date": "2026-10-28",
-   "market": "US",
-   "cat": "earnings",
-   "title": "APH — Amphenol Corporation",
-   "ticker": "APH",
-   "session": "unknown",
-   "imp": 2,
-   "status": "confirmed",
-   "index": [
-    "SP500"
-   ],
-   "eps_forecast": "$0.72",
-   "last_year_eps": "$0.47",
-   "fiscal": "Sep/2026",
-   "source": "Nasdaq Earnings Calendar",
-   "links": [
-    {
-     "label": "Nasdaq",
-     "url": "https://www.nasdaq.com/market-activity/stocks/aph/earnings"
     }
    ]
   },
@@ -6226,30 +6250,6 @@
    ]
   },
   {
-   "id": "us-earn-NTRS-2026-10-28",
-   "date": "2026-10-28",
-   "market": "US",
-   "cat": "earnings",
-   "title": "NTRS — Northern Trust Corporation",
-   "ticker": "NTRS",
-   "session": "unknown",
-   "imp": 1,
-   "status": "confirmed",
-   "index": [
-    "SP500"
-   ],
-   "eps_forecast": "$2.81",
-   "last_year_eps": "$2.29",
-   "fiscal": "Sep/2026",
-   "source": "Nasdaq Earnings Calendar",
-   "links": [
-    {
-     "label": "Nasdaq",
-     "url": "https://www.nasdaq.com/market-activity/stocks/ntrs/earnings"
-    }
-   ]
-  },
-  {
    "id": "us-earn-CCI-2026-10-28",
    "date": "2026-10-28",
    "market": "US",
@@ -6418,30 +6418,6 @@
    ]
   },
   {
-   "id": "us-earn-LII-2026-10-28",
-   "date": "2026-10-28",
-   "market": "US",
-   "cat": "earnings",
-   "title": "LII — Lennox International, Inc.",
-   "ticker": "LII",
-   "session": "unknown",
-   "imp": 1,
-   "status": "confirmed",
-   "index": [
-    "SP500"
-   ],
-   "eps_forecast": "$7.52",
-   "last_year_eps": "$6.98",
-   "fiscal": "Sep/2026",
-   "source": "Nasdaq Earnings Calendar",
-   "links": [
-    {
-     "label": "Nasdaq",
-     "url": "https://www.nasdaq.com/market-activity/stocks/lii/earnings"
-    }
-   ]
-  },
-  {
    "id": "us-earn-GL-2026-10-28",
    "date": "2026-10-28",
    "market": "US",
@@ -6462,6 +6438,30 @@
     {
      "label": "Nasdaq",
      "url": "https://www.nasdaq.com/market-activity/stocks/gl/earnings"
+    }
+   ]
+  },
+  {
+   "id": "us-earn-LII-2026-10-28",
+   "date": "2026-10-28",
+   "market": "US",
+   "cat": "earnings",
+   "title": "LII — Lennox International, Inc.",
+   "ticker": "LII",
+   "session": "unknown",
+   "imp": 1,
+   "status": "confirmed",
+   "index": [
+    "SP500"
+   ],
+   "eps_forecast": "$7.52",
+   "last_year_eps": "$6.98",
+   "fiscal": "Sep/2026",
+   "source": "Nasdaq Earnings Calendar",
+   "links": [
+    {
+     "label": "Nasdaq",
+     "url": "https://www.nasdaq.com/market-activity/stocks/lii/earnings"
     }
    ]
   },
@@ -6806,6 +6806,30 @@
    ]
   },
   {
+   "id": "us-earn-HWM-2026-10-29",
+   "date": "2026-10-29",
+   "market": "US",
+   "cat": "earnings",
+   "title": "HWM — Howmet Aerospace Inc.",
+   "ticker": "HWM",
+   "session": "unknown",
+   "imp": 2,
+   "status": "confirmed",
+   "index": [
+    "SP500"
+   ],
+   "eps_forecast": "$1.36",
+   "last_year_eps": "$0.95",
+   "fiscal": "Sep/2026",
+   "source": "Nasdaq Earnings Calendar",
+   "links": [
+    {
+     "label": "Nasdaq",
+     "url": "https://www.nasdaq.com/market-activity/stocks/hwm/earnings"
+    }
+   ]
+  },
+  {
    "id": "us-earn-PWR-2026-10-29",
    "date": "2026-10-29",
    "market": "US",
@@ -6826,6 +6850,30 @@
     {
      "label": "Nasdaq",
      "url": "https://www.nasdaq.com/market-activity/stocks/pwr/earnings"
+    }
+   ]
+  },
+  {
+   "id": "us-earn-ICE-2026-10-29",
+   "date": "2026-10-29",
+   "market": "US",
+   "cat": "earnings",
+   "title": "ICE — Intercontinental Exchange Inc.",
+   "ticker": "ICE",
+   "session": "unknown",
+   "imp": 2,
+   "status": "confirmed",
+   "index": [
+    "SP500"
+   ],
+   "eps_forecast": "$1.90",
+   "last_year_eps": "$1.71",
+   "fiscal": "Sep/2026",
+   "source": "Nasdaq Earnings Calendar",
+   "links": [
+    {
+     "label": "Nasdaq",
+     "url": "https://www.nasdaq.com/market-activity/stocks/ice/earnings"
     }
    ]
   },
@@ -6851,54 +6899,6 @@
     {
      "label": "Nasdaq",
      "url": "https://www.nasdaq.com/market-activity/stocks/cmcsa/earnings"
-    }
-   ]
-  },
-  {
-   "id": "us-earn-HWM-2026-10-29",
-   "date": "2026-10-29",
-   "market": "US",
-   "cat": "earnings",
-   "title": "HWM — Howmet Aerospace Inc.",
-   "ticker": "HWM",
-   "session": "unknown",
-   "imp": 2,
-   "status": "confirmed",
-   "index": [
-    "SP500"
-   ],
-   "eps_forecast": "$1.36",
-   "last_year_eps": "$0.95",
-   "fiscal": "Sep/2026",
-   "source": "Nasdaq Earnings Calendar",
-   "links": [
-    {
-     "label": "Nasdaq",
-     "url": "https://www.nasdaq.com/market-activity/stocks/hwm/earnings"
-    }
-   ]
-  },
-  {
-   "id": "us-earn-ICE-2026-10-29",
-   "date": "2026-10-29",
-   "market": "US",
-   "cat": "earnings",
-   "title": "ICE — Intercontinental Exchange Inc.",
-   "ticker": "ICE",
-   "session": "unknown",
-   "imp": 2,
-   "status": "confirmed",
-   "index": [
-    "SP500"
-   ],
-   "eps_forecast": "$1.90",
-   "last_year_eps": "$1.71",
-   "fiscal": "Sep/2026",
-   "source": "Nasdaq Earnings Calendar",
-   "links": [
-    {
-     "label": "Nasdaq",
-     "url": "https://www.nasdaq.com/market-activity/stocks/ice/earnings"
     }
    ]
   },
@@ -7092,30 +7092,6 @@
     {
      "label": "Nasdaq",
      "url": "https://www.nasdaq.com/market-activity/stocks/mstr/earnings"
-    }
-   ]
-  },
-  {
-   "id": "us-earn-AMP-2026-10-29",
-   "date": "2026-10-29",
-   "market": "US",
-   "cat": "earnings",
-   "title": "AMP — AMERIPRISE FINANCIAL SERVICES, LLC",
-   "ticker": "AMP",
-   "session": "unknown",
-   "imp": 2,
-   "status": "confirmed",
-   "index": [
-    "SP500"
-   ],
-   "eps_forecast": "$11.59",
-   "last_year_eps": "$9.92",
-   "fiscal": "Sep/2026",
-   "source": "Nasdaq Earnings Calendar",
-   "links": [
-    {
-     "label": "Nasdaq",
-     "url": "https://www.nasdaq.com/market-activity/stocks/amp/earnings"
     }
    ]
   },
@@ -7528,6 +7504,30 @@
    ]
   },
   {
+   "id": "us-earn-AMP-2026-10-29",
+   "date": "2026-10-29",
+   "market": "US",
+   "cat": "earnings",
+   "title": "AMP — AMERIPRISE FINANCIAL SERVICES, LLC",
+   "ticker": "AMP",
+   "session": "unknown",
+   "imp": 1,
+   "status": "confirmed",
+   "index": [
+    "SP500"
+   ],
+   "eps_forecast": "$11.59",
+   "last_year_eps": "$9.92",
+   "fiscal": "Sep/2026",
+   "source": "Nasdaq Earnings Calendar",
+   "links": [
+    {
+     "label": "Nasdaq",
+     "url": "https://www.nasdaq.com/market-activity/stocks/amp/earnings"
+    }
+   ]
+  },
+  {
    "id": "us-earn-LHX-2026-10-29",
    "date": "2026-10-29",
    "market": "US",
@@ -7600,30 +7600,6 @@
    ]
   },
   {
-   "id": "us-earn-WEC-2026-10-29",
-   "date": "2026-10-29",
-   "market": "US",
-   "cat": "earnings",
-   "title": "WEC — WEC Energy Group, Inc.",
-   "ticker": "WEC",
-   "session": "unknown",
-   "imp": 1,
-   "status": "confirmed",
-   "index": [
-    "SP500"
-   ],
-   "eps_forecast": "$0.91",
-   "last_year_eps": "$0.83",
-   "fiscal": "Sep/2026",
-   "source": "Nasdaq Earnings Calendar",
-   "links": [
-    {
-     "label": "Nasdaq",
-     "url": "https://www.nasdaq.com/market-activity/stocks/wec/earnings"
-    }
-   ]
-  },
-  {
    "id": "us-earn-HSY-2026-10-29",
    "date": "2026-10-29",
    "market": "US",
@@ -7648,26 +7624,26 @@
    ]
   },
   {
-   "id": "us-earn-KMB-2026-10-29",
+   "id": "us-earn-WEC-2026-10-29",
    "date": "2026-10-29",
    "market": "US",
    "cat": "earnings",
-   "title": "KMB — Kimberly-Clark Corporation",
-   "ticker": "KMB",
+   "title": "WEC — WEC Energy Group, Inc.",
+   "ticker": "WEC",
    "session": "unknown",
    "imp": 1,
    "status": "confirmed",
    "index": [
     "SP500"
    ],
-   "eps_forecast": "$1.73",
-   "last_year_eps": "$1.82",
+   "eps_forecast": "$0.91",
+   "last_year_eps": "$0.83",
    "fiscal": "Sep/2026",
    "source": "Nasdaq Earnings Calendar",
    "links": [
     {
      "label": "Nasdaq",
-     "url": "https://www.nasdaq.com/market-activity/stocks/kmb/earnings"
+     "url": "https://www.nasdaq.com/market-activity/stocks/wec/earnings"
     }
    ]
   },
@@ -7692,6 +7668,30 @@
     {
      "label": "Nasdaq",
      "url": "https://www.nasdaq.com/market-activity/stocks/eme/earnings"
+    }
+   ]
+  },
+  {
+   "id": "us-earn-KMB-2026-10-29",
+   "date": "2026-10-29",
+   "market": "US",
+   "cat": "earnings",
+   "title": "KMB — Kimberly-Clark Corporation",
+   "ticker": "KMB",
+   "session": "unknown",
+   "imp": 1,
+   "status": "confirmed",
+   "index": [
+    "SP500"
+   ],
+   "eps_forecast": "$1.73",
+   "last_year_eps": "$1.82",
+   "fiscal": "Sep/2026",
+   "source": "Nasdaq Earnings Calendar",
+   "links": [
+    {
+     "label": "Nasdaq",
+     "url": "https://www.nasdaq.com/market-activity/stocks/kmb/earnings"
     }
    ]
   },
@@ -7816,30 +7816,6 @@
    ]
   },
   {
-   "id": "us-earn-RDDT-2026-10-29",
-   "date": "2026-10-29",
-   "market": "US",
-   "cat": "earnings",
-   "title": "RDDT — Reddit, Inc.",
-   "ticker": "RDDT",
-   "session": "unknown",
-   "imp": 1,
-   "status": "confirmed",
-   "index": [
-    "SP500"
-   ],
-   "eps_forecast": "$1.33",
-   "last_year_eps": "$0.80",
-   "fiscal": "Sep/2026",
-   "source": "Nasdaq Earnings Calendar",
-   "links": [
-    {
-     "label": "Nasdaq",
-     "url": "https://www.nasdaq.com/market-activity/stocks/rddt/earnings"
-    }
-   ]
-  },
-  {
    "id": "us-earn-DTE-2026-10-29",
    "date": "2026-10-29",
    "market": "US",
@@ -7860,6 +7836,30 @@
     {
      "label": "Nasdaq",
      "url": "https://www.nasdaq.com/market-activity/stocks/dte/earnings"
+    }
+   ]
+  },
+  {
+   "id": "us-earn-RDDT-2026-10-29",
+   "date": "2026-10-29",
+   "market": "US",
+   "cat": "earnings",
+   "title": "RDDT — Reddit, Inc.",
+   "ticker": "RDDT",
+   "session": "unknown",
+   "imp": 1,
+   "status": "confirmed",
+   "index": [
+    "SP500"
+   ],
+   "eps_forecast": "$1.33",
+   "last_year_eps": "$0.80",
+   "fiscal": "Sep/2026",
+   "source": "Nasdaq Earnings Calendar",
+   "links": [
+    {
+     "label": "Nasdaq",
+     "url": "https://www.nasdaq.com/market-activity/stocks/rddt/earnings"
     }
    ]
   },
@@ -8104,30 +8104,6 @@
    ]
   },
   {
-   "id": "us-earn-HII-2026-10-29",
-   "date": "2026-10-29",
-   "market": "US",
-   "cat": "earnings",
-   "title": "HII — Huntington Ingalls Industries, Inc.",
-   "ticker": "HII",
-   "session": "unknown",
-   "imp": 1,
-   "status": "confirmed",
-   "index": [
-    "SP500"
-   ],
-   "eps_forecast": "$4.44",
-   "last_year_eps": "$3.68",
-   "fiscal": "Sep/2026",
-   "source": "Nasdaq Earnings Calendar",
-   "links": [
-    {
-     "label": "Nasdaq",
-     "url": "https://www.nasdaq.com/market-activity/stocks/hii/earnings"
-    }
-   ]
-  },
-  {
    "id": "us-earn-ERIE-2026-10-29",
    "date": "2026-10-29",
    "market": "US",
@@ -8148,6 +8124,30 @@
     {
      "label": "Nasdaq",
      "url": "https://www.nasdaq.com/market-activity/stocks/erie/earnings"
+    }
+   ]
+  },
+  {
+   "id": "us-earn-HII-2026-10-29",
+   "date": "2026-10-29",
+   "market": "US",
+   "cat": "earnings",
+   "title": "HII — Huntington Ingalls Industries, Inc.",
+   "ticker": "HII",
+   "session": "unknown",
+   "imp": 1,
+   "status": "confirmed",
+   "index": [
+    "SP500"
+   ],
+   "eps_forecast": "$4.44",
+   "last_year_eps": "$3.68",
+   "fiscal": "Sep/2026",
+   "source": "Nasdaq Earnings Calendar",
+   "links": [
+    {
+     "label": "Nasdaq",
+     "url": "https://www.nasdaq.com/market-activity/stocks/hii/earnings"
     }
    ]
   },
@@ -10269,30 +10269,6 @@
    ]
   },
   {
-   "id": "us-earn-YUM-2026-11-03",
-   "date": "2026-11-03",
-   "market": "US",
-   "cat": "earnings",
-   "title": "YUM — Yum! Brands, Inc.",
-   "ticker": "YUM",
-   "session": "unknown",
-   "imp": 1,
-   "status": "confirmed",
-   "index": [
-    "SP500"
-   ],
-   "eps_forecast": "$1.55",
-   "last_year_eps": "$1.58",
-   "fiscal": "Sep/2026",
-   "source": "Nasdaq Earnings Calendar",
-   "links": [
-    {
-     "label": "Nasdaq",
-     "url": "https://www.nasdaq.com/market-activity/stocks/yum/earnings"
-    }
-   ]
-  },
-  {
    "id": "us-earn-ADM-2026-11-03",
    "date": "2026-11-03",
    "market": "US",
@@ -10365,6 +10341,30 @@
    ]
   },
   {
+   "id": "us-earn-YUM-2026-11-03",
+   "date": "2026-11-03",
+   "market": "US",
+   "cat": "earnings",
+   "title": "YUM — Yum! Brands, Inc.",
+   "ticker": "YUM",
+   "session": "unknown",
+   "imp": 1,
+   "status": "confirmed",
+   "index": [
+    "SP500"
+   ],
+   "eps_forecast": "$1.56",
+   "last_year_eps": "$1.58",
+   "fiscal": "Sep/2026",
+   "source": "Nasdaq Earnings Calendar",
+   "links": [
+    {
+     "label": "Nasdaq",
+     "url": "https://www.nasdaq.com/market-activity/stocks/yum/earnings"
+    }
+   ]
+  },
+  {
    "id": "us-earn-AIG-2026-11-03",
    "date": "2026-11-03",
    "market": "US",
@@ -10385,30 +10385,6 @@
     {
      "label": "Nasdaq",
      "url": "https://www.nasdaq.com/market-activity/stocks/aig/earnings"
-    }
-   ]
-  },
-  {
-   "id": "us-earn-MLM-2026-11-03",
-   "date": "2026-11-03",
-   "market": "US",
-   "cat": "earnings",
-   "title": "MLM — Martin Marietta Materials, Inc.",
-   "ticker": "MLM",
-   "session": "unknown",
-   "imp": 1,
-   "status": "confirmed",
-   "index": [
-    "SP500"
-   ],
-   "eps_forecast": "$6.60",
-   "last_year_eps": "$5.97",
-   "fiscal": "Sep/2026",
-   "source": "Nasdaq Earnings Calendar",
-   "links": [
-    {
-     "label": "Nasdaq",
-     "url": "https://www.nasdaq.com/market-activity/stocks/mlm/earnings"
     }
    ]
   },
@@ -10437,6 +10413,30 @@
    ]
   },
   {
+   "id": "us-earn-MLM-2026-11-03",
+   "date": "2026-11-03",
+   "market": "US",
+   "cat": "earnings",
+   "title": "MLM — Martin Marietta Materials, Inc.",
+   "ticker": "MLM",
+   "session": "unknown",
+   "imp": 1,
+   "status": "confirmed",
+   "index": [
+    "SP500"
+   ],
+   "eps_forecast": "$6.60",
+   "last_year_eps": "$5.97",
+   "fiscal": "Sep/2026",
+   "source": "Nasdaq Earnings Calendar",
+   "links": [
+    {
+     "label": "Nasdaq",
+     "url": "https://www.nasdaq.com/market-activity/stocks/mlm/earnings"
+    }
+   ]
+  },
+  {
    "id": "us-earn-ES-2026-11-03",
    "date": "2026-11-03",
    "market": "US",
@@ -10449,7 +10449,7 @@
    "index": [
     "SP500"
    ],
-   "eps_forecast": "$1.01",
+   "eps_forecast": "$1.02",
    "last_year_eps": "$1.19",
    "fiscal": "Sep/2026",
    "source": "Nasdaq Earnings Calendar",
@@ -10689,7 +10689,7 @@
    "index": [
     "SP500"
    ],
-   "eps_forecast": "$4.54",
+   "eps_forecast": "$4.57",
    "last_year_eps": "$5.73",
    "fiscal": "Sep/2026",
    "source": "Nasdaq Earnings Calendar",
@@ -10737,7 +10737,7 @@
    "index": [
     "SP500"
    ],
-   "eps_forecast": "$2.05",
+   "eps_forecast": "$2.11",
    "last_year_eps": "$1.97",
    "fiscal": "Sep/2026",
    "source": "Nasdaq Earnings Calendar",
@@ -10889,6 +10889,1054 @@
     {
      "label": "Nasdaq",
      "url": "https://www.nasdaq.com/market-activity/stocks/nclh/earnings"
+    }
+   ]
+  },
+  {
+   "id": "us-earn-GOOG-2026-11-04",
+   "date": "2026-11-04",
+   "market": "US",
+   "cat": "earnings",
+   "title": "GOOG — Alphabet Inc.",
+   "ticker": "GOOG",
+   "session": "unknown",
+   "imp": 3,
+   "status": "confirmed",
+   "index": [
+    "NDX",
+    "SP500"
+   ],
+   "eps_forecast": "$2.93",
+   "last_year_eps": "$2.87",
+   "fiscal": "Sep/2026",
+   "source": "Nasdaq Earnings Calendar",
+   "links": [
+    {
+     "label": "Nasdaq",
+     "url": "https://www.nasdaq.com/market-activity/stocks/goog/earnings"
+    }
+   ]
+  },
+  {
+   "id": "us-earn-GOOGL-2026-11-04",
+   "date": "2026-11-04",
+   "market": "US",
+   "cat": "earnings",
+   "title": "GOOGL — Alphabet Inc.",
+   "ticker": "GOOGL",
+   "session": "unknown",
+   "imp": 3,
+   "status": "confirmed",
+   "index": [
+    "NDX",
+    "SP500"
+   ],
+   "eps_forecast": "$2.93",
+   "last_year_eps": "$2.87",
+   "fiscal": "Sep/2026",
+   "source": "Nasdaq Earnings Calendar",
+   "links": [
+    {
+     "label": "Nasdaq",
+     "url": "https://www.nasdaq.com/market-activity/stocks/googl/earnings"
+    }
+   ]
+  },
+  {
+   "id": "us-earn-MSFT-2026-11-04",
+   "date": "2026-11-04",
+   "market": "US",
+   "cat": "earnings",
+   "title": "MSFT — Microsoft Corporation",
+   "ticker": "MSFT",
+   "session": "unknown",
+   "imp": 3,
+   "status": "confirmed",
+   "index": [
+    "NDX",
+    "SP500"
+   ],
+   "eps_forecast": "$4.67",
+   "last_year_eps": "$4.13",
+   "fiscal": "Sep/2026",
+   "source": "Nasdaq Earnings Calendar",
+   "links": [
+    {
+     "label": "Nasdaq",
+     "url": "https://www.nasdaq.com/market-activity/stocks/msft/earnings"
+    }
+   ]
+  },
+  {
+   "id": "us-earn-META-2026-11-04",
+   "date": "2026-11-04",
+   "market": "US",
+   "cat": "earnings",
+   "title": "META — Meta Platforms, Inc.",
+   "ticker": "META",
+   "session": "unknown",
+   "imp": 3,
+   "status": "confirmed",
+   "index": [
+    "NDX",
+    "SP500"
+   ],
+   "eps_forecast": "$6.33",
+   "last_year_eps": "$7.25",
+   "fiscal": "Sep/2026",
+   "source": "Nasdaq Earnings Calendar",
+   "links": [
+    {
+     "label": "Nasdaq",
+     "url": "https://www.nasdaq.com/market-activity/stocks/meta/earnings"
+    }
+   ]
+  },
+  {
+   "id": "us-earn-CAT-2026-11-04",
+   "date": "2026-11-04",
+   "market": "US",
+   "cat": "earnings",
+   "title": "CAT — Caterpillar, Inc.",
+   "ticker": "CAT",
+   "session": "unknown",
+   "imp": 3,
+   "status": "confirmed",
+   "index": [
+    "SP500"
+   ],
+   "eps_forecast": "$6.95",
+   "last_year_eps": "$4.95",
+   "fiscal": "Sep/2026",
+   "source": "Nasdaq Earnings Calendar",
+   "links": [
+    {
+     "label": "Nasdaq",
+     "url": "https://www.nasdaq.com/market-activity/stocks/cat/earnings"
+    }
+   ]
+  },
+  {
+   "id": "us-earn-ARM-2026-11-04",
+   "date": "2026-11-04",
+   "market": "US",
+   "cat": "earnings",
+   "title": "ARM — Arm Holdings plc",
+   "ticker": "ARM",
+   "session": "unknown",
+   "imp": 3,
+   "status": "confirmed",
+   "index": [
+    "NDX"
+   ],
+   "eps_forecast": "$0.22",
+   "last_year_eps": "$0.15",
+   "fiscal": "Sep/2026",
+   "source": "Nasdaq Earnings Calendar",
+   "links": [
+    {
+     "label": "Nasdaq",
+     "url": "https://www.nasdaq.com/market-activity/stocks/arm/earnings"
+    }
+   ]
+  },
+  {
+   "id": "us-earn-KLAC-2026-11-04",
+   "date": "2026-11-04",
+   "market": "US",
+   "cat": "earnings",
+   "title": "KLAC — KLA Corporation",
+   "ticker": "KLAC",
+   "session": "unknown",
+   "imp": 3,
+   "status": "confirmed",
+   "index": [
+    "NDX",
+    "SP500"
+   ],
+   "eps_forecast": "$1.17",
+   "last_year_eps": "$0.88",
+   "fiscal": "Sep/2026",
+   "source": "Nasdaq Earnings Calendar",
+   "links": [
+    {
+     "label": "Nasdaq",
+     "url": "https://www.nasdaq.com/market-activity/stocks/klac/earnings"
+    }
+   ]
+  },
+  {
+   "id": "us-earn-VZ-2026-11-04",
+   "date": "2026-11-04",
+   "market": "US",
+   "cat": "earnings",
+   "title": "VZ — Verizon Communications Inc.",
+   "ticker": "VZ",
+   "session": "unknown",
+   "imp": 3,
+   "status": "confirmed",
+   "index": [
+    "SP500"
+   ],
+   "eps_forecast": "$1.29",
+   "last_year_eps": "$1.21",
+   "fiscal": "Sep/2026",
+   "source": "Nasdaq Earnings Calendar",
+   "links": [
+    {
+     "label": "Nasdaq",
+     "url": "https://www.nasdaq.com/market-activity/stocks/vz/earnings"
+    }
+   ]
+  },
+  {
+   "id": "us-earn-QCOM-2026-11-04",
+   "date": "2026-11-04",
+   "market": "US",
+   "cat": "earnings",
+   "title": "QCOM — QUALCOMM Incorporated",
+   "ticker": "QCOM",
+   "session": "unknown",
+   "imp": 2,
+   "status": "confirmed",
+   "index": [
+    "NDX",
+    "SP500"
+   ],
+   "eps_forecast": "$1.47",
+   "last_year_eps": "$2.56",
+   "fiscal": "Sep/2026",
+   "source": "Nasdaq Earnings Calendar",
+   "links": [
+    {
+     "label": "Nasdaq",
+     "url": "https://www.nasdaq.com/market-activity/stocks/qcom/earnings"
+    }
+   ]
+  },
+  {
+   "id": "us-earn-MCD-2026-11-04",
+   "date": "2026-11-04",
+   "market": "US",
+   "cat": "earnings",
+   "title": "MCD — McDonald's Corporation",
+   "ticker": "MCD",
+   "session": "unknown",
+   "imp": 2,
+   "status": "confirmed",
+   "index": [
+    "SP500"
+   ],
+   "eps_forecast": "$3.39",
+   "last_year_eps": "$3.22",
+   "fiscal": "Sep/2026",
+   "source": "Nasdaq Earnings Calendar",
+   "links": [
+    {
+     "label": "Nasdaq",
+     "url": "https://www.nasdaq.com/market-activity/stocks/mcd/earnings"
+    }
+   ]
+  },
+  {
+   "id": "us-earn-BA-2026-11-04",
+   "date": "2026-11-04",
+   "market": "US",
+   "cat": "earnings",
+   "title": "BA — Boeing Company (The)",
+   "ticker": "BA",
+   "session": "unknown",
+   "imp": 2,
+   "status": "confirmed",
+   "index": [
+    "SP500"
+   ],
+   "eps_forecast": "($0.15)",
+   "last_year_eps": "($7.47)",
+   "fiscal": "Sep/2026",
+   "source": "Nasdaq Earnings Calendar",
+   "links": [
+    {
+     "label": "Nasdaq",
+     "url": "https://www.nasdaq.com/market-activity/stocks/ba/earnings"
+    }
+   ]
+  },
+  {
+   "id": "us-earn-NOW-2026-11-04",
+   "date": "2026-11-04",
+   "market": "US",
+   "cat": "earnings",
+   "title": "NOW — ServiceNow, Inc.",
+   "ticker": "NOW",
+   "session": "unknown",
+   "imp": 2,
+   "status": "confirmed",
+   "index": [
+    "SP500"
+   ],
+   "eps_forecast": "$0.57",
+   "last_year_eps": "$0.59",
+   "fiscal": "Sep/2026",
+   "source": "Nasdaq Earnings Calendar",
+   "links": [
+    {
+     "label": "Nasdaq",
+     "url": "https://www.nasdaq.com/market-activity/stocks/now/earnings"
+    }
+   ]
+  },
+  {
+   "id": "us-earn-CVS-2026-11-04",
+   "date": "2026-11-04",
+   "market": "US",
+   "cat": "earnings",
+   "title": "CVS — CVS Health Corporation",
+   "ticker": "CVS",
+   "session": "unknown",
+   "imp": 2,
+   "status": "confirmed",
+   "index": [
+    "SP500"
+   ],
+   "eps_forecast": "$1.61",
+   "last_year_eps": "$1.60",
+   "fiscal": "Sep/2026",
+   "source": "Nasdaq Earnings Calendar",
+   "links": [
+    {
+     "label": "Nasdaq",
+     "url": "https://www.nasdaq.com/market-activity/stocks/cvs/earnings"
+    }
+   ]
+  },
+  {
+   "id": "us-earn-FTNT-2026-11-04",
+   "date": "2026-11-04",
+   "market": "US",
+   "cat": "earnings",
+   "title": "FTNT — Fortinet, Inc.",
+   "ticker": "FTNT",
+   "session": "unknown",
+   "imp": 2,
+   "status": "confirmed",
+   "index": [
+    "NDX",
+    "SP500"
+   ],
+   "eps_forecast": "$0.76",
+   "last_year_eps": "$0.65",
+   "fiscal": "Sep/2026",
+   "source": "Nasdaq Earnings Calendar",
+   "links": [
+    {
+     "label": "Nasdaq",
+     "url": "https://www.nasdaq.com/market-activity/stocks/ftnt/earnings"
+    }
+   ]
+  },
+  {
+   "id": "us-earn-SBUX-2026-11-04",
+   "date": "2026-11-04",
+   "market": "US",
+   "cat": "earnings",
+   "title": "SBUX — Starbucks Corporation",
+   "ticker": "SBUX",
+   "session": "unknown",
+   "imp": 2,
+   "status": "confirmed",
+   "index": [
+    "NDX",
+    "SP500"
+   ],
+   "eps_forecast": "$0.71",
+   "last_year_eps": "$0.52",
+   "fiscal": "Sep/2026",
+   "source": "Nasdaq Earnings Calendar",
+   "links": [
+    {
+     "label": "Nasdaq",
+     "url": "https://www.nasdaq.com/market-activity/stocks/sbux/earnings"
+    }
+   ]
+  },
+  {
+   "id": "us-earn-ADP-2026-11-04",
+   "date": "2026-11-04",
+   "market": "US",
+   "cat": "earnings",
+   "title": "ADP — Automatic Data Processing, Inc.",
+   "ticker": "ADP",
+   "session": "unknown",
+   "imp": 2,
+   "status": "confirmed",
+   "index": [
+    "NDX",
+    "SP500"
+   ],
+   "eps_forecast": "$2.78",
+   "last_year_eps": "$2.49",
+   "fiscal": "Sep/2026",
+   "source": "Nasdaq Earnings Calendar",
+   "links": [
+    {
+     "label": "Nasdaq",
+     "url": "https://www.nasdaq.com/market-activity/stocks/adp/earnings"
+    }
+   ]
+  },
+  {
+   "id": "us-earn-PSX-2026-11-04",
+   "date": "2026-11-04",
+   "market": "US",
+   "cat": "earnings",
+   "title": "PSX — Phillips 66",
+   "ticker": "PSX",
+   "session": "unknown",
+   "imp": 2,
+   "status": "confirmed",
+   "index": [
+    "SP500"
+   ],
+   "eps_forecast": "$8.73",
+   "last_year_eps": "$2.52",
+   "fiscal": "Sep/2026",
+   "source": "Nasdaq Earnings Calendar",
+   "links": [
+    {
+     "label": "Nasdaq",
+     "url": "https://www.nasdaq.com/market-activity/stocks/psx/earnings"
+    }
+   ]
+  },
+  {
+   "id": "us-earn-MCK-2026-11-04",
+   "date": "2026-11-04",
+   "market": "US",
+   "cat": "earnings",
+   "title": "MCK — McKesson Corporation",
+   "ticker": "MCK",
+   "session": "unknown",
+   "imp": 2,
+   "status": "confirmed",
+   "index": [
+    "SP500"
+   ],
+   "eps_forecast": "$10.75",
+   "last_year_eps": "$9.86",
+   "fiscal": "Sep/2026",
+   "source": "Nasdaq Earnings Calendar",
+   "links": [
+    {
+     "label": "Nasdaq",
+     "url": "https://www.nasdaq.com/market-activity/stocks/mck/earnings"
+    }
+   ]
+  },
+  {
+   "id": "us-earn-HOOD-2026-11-04",
+   "date": "2026-11-04",
+   "market": "US",
+   "cat": "earnings",
+   "title": "HOOD — Robinhood Markets, Inc.",
+   "ticker": "HOOD",
+   "session": "unknown",
+   "imp": 2,
+   "status": "confirmed",
+   "index": [
+    "SP500"
+   ],
+   "eps_forecast": "$0.52",
+   "last_year_eps": "$0.61",
+   "fiscal": "Sep/2026",
+   "source": "Nasdaq Earnings Calendar",
+   "links": [
+    {
+     "label": "Nasdaq",
+     "url": "https://www.nasdaq.com/market-activity/stocks/hood/earnings"
+    }
+   ]
+  },
+  {
+   "id": "us-earn-EQIX-2026-11-04",
+   "date": "2026-11-04",
+   "market": "US",
+   "cat": "earnings",
+   "title": "EQIX — Equinix, Inc.",
+   "ticker": "EQIX",
+   "session": "unknown",
+   "imp": 2,
+   "status": "confirmed",
+   "index": [
+    "SP500"
+   ],
+   "eps_forecast": "$9.28",
+   "last_year_eps": "$9.83",
+   "fiscal": "Sep/2026",
+   "source": "Nasdaq Earnings Calendar",
+   "links": [
+    {
+     "label": "Nasdaq",
+     "url": "https://www.nasdaq.com/market-activity/stocks/eqix/earnings"
+    }
+   ]
+  },
+  {
+   "id": "us-earn-APP-2026-11-04",
+   "date": "2026-11-04",
+   "market": "US",
+   "cat": "earnings",
+   "title": "APP — Applovin Corporation",
+   "ticker": "APP",
+   "session": "unknown",
+   "imp": 2,
+   "status": "confirmed",
+   "index": [
+    "NDX",
+    "SP500"
+   ],
+   "eps_forecast": "$3.95",
+   "last_year_eps": "$2.45",
+   "fiscal": "Sep/2026",
+   "source": "Nasdaq Earnings Calendar",
+   "links": [
+    {
+     "label": "Nasdaq",
+     "url": "https://www.nasdaq.com/market-activity/stocks/app/earnings"
+    }
+   ]
+  },
+  {
+   "id": "us-earn-MELI-2026-11-04",
+   "date": "2026-11-04",
+   "market": "US",
+   "cat": "earnings",
+   "title": "MELI — MercadoLibre, Inc.",
+   "ticker": "MELI",
+   "session": "unknown",
+   "imp": 2,
+   "status": "confirmed",
+   "index": [
+    "NDX"
+   ],
+   "eps_forecast": "$9.42",
+   "last_year_eps": "$8.32",
+   "fiscal": "Sep/2026",
+   "source": "Nasdaq Earnings Calendar",
+   "links": [
+    {
+     "label": "Nasdaq",
+     "url": "https://www.nasdaq.com/market-activity/stocks/meli/earnings"
+    }
+   ]
+  },
+  {
+   "id": "us-earn-JCI-2026-11-04",
+   "date": "2026-11-04",
+   "market": "US",
+   "cat": "earnings",
+   "title": "JCI — Johnson Controls International plc",
+   "ticker": "JCI",
+   "session": "unknown",
+   "imp": 2,
+   "status": "confirmed",
+   "index": [
+    "SP500"
+   ],
+   "eps_forecast": "$1.58",
+   "last_year_eps": "$1.26",
+   "fiscal": "Sep/2026",
+   "source": "Nasdaq Earnings Calendar",
+   "links": [
+    {
+     "label": "Nasdaq",
+     "url": "https://www.nasdaq.com/market-activity/stocks/jci/earnings"
+    }
+   ]
+  },
+  {
+   "id": "us-earn-DASH-2026-11-04",
+   "date": "2026-11-04",
+   "market": "US",
+   "cat": "earnings",
+   "title": "DASH — DoorDash, Inc.",
+   "ticker": "DASH",
+   "session": "unknown",
+   "imp": 2,
+   "status": "confirmed",
+   "index": [
+    "NDX",
+    "SP500"
+   ],
+   "eps_forecast": "$0.83",
+   "last_year_eps": "$0.55",
+   "fiscal": "Sep/2026",
+   "source": "Nasdaq Earnings Calendar",
+   "links": [
+    {
+     "label": "Nasdaq",
+     "url": "https://www.nasdaq.com/market-activity/stocks/dash/earnings"
+    }
+   ]
+  },
+  {
+   "id": "us-earn-EMR-2026-11-04",
+   "date": "2026-11-04",
+   "market": "US",
+   "cat": "earnings",
+   "title": "EMR — Emerson Electric Company",
+   "ticker": "EMR",
+   "session": "unknown",
+   "imp": 2,
+   "status": "confirmed",
+   "index": [
+    "SP500"
+   ],
+   "eps_forecast": "$1.84",
+   "last_year_eps": "$1.62",
+   "fiscal": "Sep/2026",
+   "source": "Nasdaq Earnings Calendar",
+   "links": [
+    {
+     "label": "Nasdaq",
+     "url": "https://www.nasdaq.com/market-activity/stocks/emr/earnings"
+    }
+   ]
+  },
+  {
+   "id": "us-earn-CVNA-2026-11-04",
+   "date": "2026-11-04",
+   "market": "US",
+   "cat": "earnings",
+   "title": "CVNA — Carvana Co.",
+   "ticker": "CVNA",
+   "session": "unknown",
+   "imp": 2,
+   "status": "confirmed",
+   "index": [
+    "SP500"
+   ],
+   "eps_forecast": "$0.50",
+   "last_year_eps": "$0.21",
+   "fiscal": "Sep/2026",
+   "source": "Nasdaq Earnings Calendar",
+   "links": [
+    {
+     "label": "Nasdaq",
+     "url": "https://www.nasdaq.com/market-activity/stocks/cvna/earnings"
+    }
+   ]
+  },
+  {
+   "id": "us-earn-AEP-2026-11-04",
+   "date": "2026-11-04",
+   "market": "US",
+   "cat": "earnings",
+   "title": "AEP — American Electric Power Company, Inc.",
+   "ticker": "AEP",
+   "session": "unknown",
+   "imp": 2,
+   "status": "confirmed",
+   "index": [
+    "NDX",
+    "SP500"
+   ],
+   "eps_forecast": "$2.01",
+   "last_year_eps": "$1.80",
+   "fiscal": "Sep/2026",
+   "source": "Nasdaq Earnings Calendar",
+   "links": [
+    {
+     "label": "Nasdaq",
+     "url": "https://www.nasdaq.com/market-activity/stocks/aep/earnings"
+    }
+   ]
+  },
+  {
+   "id": "us-earn-ALL-2026-11-04",
+   "date": "2026-11-04",
+   "market": "US",
+   "cat": "earnings",
+   "title": "ALL — Allstate Corporation (The)",
+   "ticker": "ALL",
+   "session": "unknown",
+   "imp": 2,
+   "status": "confirmed",
+   "index": [
+    "SP500"
+   ],
+   "eps_forecast": "$6.63",
+   "last_year_eps": "$11.17",
+   "fiscal": "Sep/2026",
+   "source": "Nasdaq Earnings Calendar",
+   "links": [
+    {
+     "label": "Nasdaq",
+     "url": "https://www.nasdaq.com/market-activity/stocks/all/earnings"
+    }
+   ]
+  },
+  {
+   "id": "us-earn-TRGP-2026-11-04",
+   "date": "2026-11-04",
+   "market": "US",
+   "cat": "earnings",
+   "title": "TRGP — Targa Resources, Inc.",
+   "ticker": "TRGP",
+   "session": "unknown",
+   "imp": 2,
+   "status": "confirmed",
+   "index": [
+    "SP500"
+   ],
+   "eps_forecast": "$2.64",
+   "last_year_eps": "$2.20",
+   "fiscal": "Sep/2026",
+   "source": "Nasdaq Earnings Calendar",
+   "links": [
+    {
+     "label": "Nasdaq",
+     "url": "https://www.nasdaq.com/market-activity/stocks/trgp/earnings"
+    }
+   ]
+  },
+  {
+   "id": "us-earn-COR-2026-11-04",
+   "date": "2026-11-04",
+   "market": "US",
+   "cat": "earnings",
+   "title": "COR — Cencora, Inc.",
+   "ticker": "COR",
+   "session": "unknown",
+   "imp": 2,
+   "status": "confirmed",
+   "index": [
+    "SP500"
+   ],
+   "eps_forecast": "$4.51",
+   "last_year_eps": "$3.84",
+   "fiscal": "Sep/2026",
+   "source": "Nasdaq Earnings Calendar",
+   "links": [
+    {
+     "label": "Nasdaq",
+     "url": "https://www.nasdaq.com/market-activity/stocks/cor/earnings"
+    }
+   ]
+  },
+  {
+   "id": "us-earn-MET-2026-11-04",
+   "date": "2026-11-04",
+   "market": "US",
+   "cat": "earnings",
+   "title": "MET — MetLife, Inc.",
+   "ticker": "MET",
+   "session": "unknown",
+   "imp": 2,
+   "status": "confirmed",
+   "index": [
+    "SP500"
+   ],
+   "eps_forecast": "$2.55",
+   "last_year_eps": "$2.34",
+   "fiscal": "Sep/2026",
+   "source": "Nasdaq Earnings Calendar",
+   "links": [
+    {
+     "label": "Nasdaq",
+     "url": "https://www.nasdaq.com/market-activity/stocks/met/earnings"
+    }
+   ]
+  },
+  {
+   "id": "us-earn-CRH-2026-11-04",
+   "date": "2026-11-04",
+   "market": "US",
+   "cat": "earnings",
+   "title": "CRH — CRH PLC",
+   "ticker": "CRH",
+   "session": "unknown",
+   "imp": 2,
+   "status": "confirmed",
+   "index": [
+    "SP500"
+   ],
+   "eps_forecast": "$2.22",
+   "last_year_eps": "$2.21",
+   "fiscal": "Sep/2026",
+   "source": "Nasdaq Earnings Calendar",
+   "links": [
+    {
+     "label": "Nasdaq",
+     "url": "https://www.nasdaq.com/market-activity/stocks/crh/earnings"
+    }
+   ]
+  },
+  {
+   "id": "us-earn-COHR-2026-11-04",
+   "date": "2026-11-04",
+   "market": "US",
+   "cat": "earnings",
+   "title": "COHR — Coherent Corp.",
+   "ticker": "COHR",
+   "session": "unknown",
+   "imp": 2,
+   "status": "confirmed",
+   "index": [
+    "SP500"
+   ],
+   "eps_forecast": "$1.77",
+   "last_year_eps": "$0.93",
+   "fiscal": "Sep/2026",
+   "source": "Nasdaq Earnings Calendar",
+   "links": [
+    {
+     "label": "Nasdaq",
+     "url": "https://www.nasdaq.com/market-activity/stocks/cohr/earnings"
+    }
+   ]
+  },
+  {
+   "id": "us-earn-TEL-2026-11-04",
+   "date": "2026-11-04",
+   "market": "US",
+   "cat": "earnings",
+   "title": "TEL — TE Connectivity plc",
+   "ticker": "TEL",
+   "session": "unknown",
+   "imp": 2,
+   "status": "confirmed",
+   "index": [
+    "SP500"
+   ],
+   "eps_forecast": "$3.07",
+   "last_year_eps": "$2.44",
+   "fiscal": "Sep/2026",
+   "source": "Nasdaq Earnings Calendar",
+   "links": [
+    {
+     "label": "Nasdaq",
+     "url": "https://www.nasdaq.com/market-activity/stocks/tel/earnings"
+    }
+   ]
+  },
+  {
+   "id": "us-earn-SRE-2026-11-04",
+   "date": "2026-11-04",
+   "market": "US",
+   "cat": "earnings",
+   "title": "SRE — Sempra",
+   "ticker": "SRE",
+   "session": "unknown",
+   "imp": 2,
+   "status": "confirmed",
+   "index": [
+    "SP500"
+   ],
+   "eps_forecast": "$1.11",
+   "last_year_eps": "$1.11",
+   "fiscal": "Sep/2026",
+   "source": "Nasdaq Earnings Calendar",
+   "links": [
+    {
+     "label": "Nasdaq",
+     "url": "https://www.nasdaq.com/market-activity/stocks/sre/earnings"
+    }
+   ]
+  },
+  {
+   "id": "us-earn-DVN-2026-11-04",
+   "date": "2026-11-04",
+   "market": "US",
+   "cat": "earnings",
+   "title": "DVN — Devon Energy Corporation",
+   "ticker": "DVN",
+   "session": "unknown",
+   "imp": 2,
+   "status": "confirmed",
+   "index": [
+    "SP500"
+   ],
+   "eps_forecast": "$1.20",
+   "last_year_eps": "$1.04",
+   "fiscal": "Sep/2026",
+   "source": "Nasdaq Earnings Calendar",
+   "links": [
+    {
+     "label": "Nasdaq",
+     "url": "https://www.nasdaq.com/market-activity/stocks/dvn/earnings"
+    }
+   ]
+  },
+  {
+   "id": "us-earn-GRMN-2026-11-04",
+   "date": "2026-11-04",
+   "market": "US",
+   "cat": "earnings",
+   "title": "GRMN — Garmin Ltd.",
+   "ticker": "GRMN",
+   "session": "unknown",
+   "imp": 2,
+   "status": "confirmed",
+   "index": [
+    "SP500"
+   ],
+   "eps_forecast": "$2.38",
+   "last_year_eps": "$1.99",
+   "fiscal": "Sep/2026",
+   "source": "Nasdaq Earnings Calendar",
+   "links": [
+    {
+     "label": "Nasdaq",
+     "url": "https://www.nasdaq.com/market-activity/stocks/grmn/earnings"
+    }
+   ]
+  },
+  {
+   "id": "us-earn-PSA-2026-11-04",
+   "date": "2026-11-04",
+   "market": "US",
+   "cat": "earnings",
+   "title": "PSA — Public Storage",
+   "ticker": "PSA",
+   "session": "unknown",
+   "imp": 2,
+   "status": "confirmed",
+   "index": [
+    "SP500"
+   ],
+   "eps_forecast": "$4.30",
+   "last_year_eps": "$4.31",
+   "fiscal": "Sep/2026",
+   "source": "Nasdaq Earnings Calendar",
+   "links": [
+    {
+     "label": "Nasdaq",
+     "url": "https://www.nasdaq.com/market-activity/stocks/psa/earnings"
+    }
+   ]
+  },
+  {
+   "id": "us-earn-ETR-2026-11-04",
+   "date": "2026-11-04",
+   "market": "US",
+   "cat": "earnings",
+   "title": "ETR — Entergy Corporation",
+   "ticker": "ETR",
+   "session": "unknown",
+   "imp": 2,
+   "status": "confirmed",
+   "index": [
+    "SP500"
+   ],
+   "eps_forecast": "$1.69",
+   "last_year_eps": "$1.53",
+   "fiscal": "Sep/2026",
+   "source": "Nasdaq Earnings Calendar",
+   "links": [
+    {
+     "label": "Nasdaq",
+     "url": "https://www.nasdaq.com/market-activity/stocks/etr/earnings"
+    }
+   ]
+  },
+  {
+   "id": "us-earn-HONA-2026-11-04",
+   "date": "2026-11-04",
+   "market": "US",
+   "cat": "earnings",
+   "title": "HONA — Honeywell Aerospace Inc.",
+   "ticker": "HONA",
+   "session": "unknown",
+   "imp": 2,
+   "status": "confirmed",
+   "index": [
+    "NDX",
+    "SP500"
+   ],
+   "eps_forecast": "$2",
+   "last_year_eps": "N/A",
+   "fiscal": "Sep/2026",
+   "source": "Nasdaq Earnings Calendar",
+   "links": [
+    {
+     "label": "Nasdaq",
+     "url": "https://www.nasdaq.com/market-activity/stocks/hona/earnings"
+    }
+   ]
+  },
+  {
+   "id": "us-earn-ODFL-2026-11-04",
+   "date": "2026-11-04",
+   "market": "US",
+   "cat": "earnings",
+   "title": "ODFL — Old Dominion Freight Line, Inc.",
+   "ticker": "ODFL",
+   "session": "unknown",
+   "imp": 2,
+   "status": "confirmed",
+   "index": [
+    "NDX",
+    "SP500"
+   ],
+   "eps_forecast": "$1.60",
+   "last_year_eps": "$1.28",
+   "fiscal": "Sep/2026",
+   "source": "Nasdaq Earnings Calendar",
+   "links": [
+    {
+     "label": "Nasdaq",
+     "url": "https://www.nasdaq.com/market-activity/stocks/odfl/earnings"
+    }
+   ]
+  },
+  {
+   "id": "us-earn-GEHC-2026-11-04",
+   "date": "2026-11-04",
+   "market": "US",
+   "cat": "earnings",
+   "title": "GEHC — GE HealthCare Technologies Inc.",
+   "ticker": "GEHC",
+   "session": "unknown",
+   "imp": 2,
+   "status": "confirmed",
+   "index": [
+    "NDX",
+    "SP500"
+   ],
+   "eps_forecast": "$1.21",
+   "last_year_eps": "$1.07",
+   "fiscal": "Sep/2026",
+   "source": "Nasdaq Earnings Calendar",
+   "links": [
+    {
+     "label": "Nasdaq",
+     "url": "https://www.nasdaq.com/market-activity/stocks/gehc/earnings"
+    }
+   ]
+  },
+  {
+   "id": "us-earn-KHC-2026-11-04",
+   "date": "2026-11-04",
+   "market": "US",
+   "cat": "earnings",
+   "title": "KHC — The Kraft Heinz Company",
+   "ticker": "KHC",
+   "session": "unknown",
+   "imp": 2,
+   "status": "confirmed",
+   "index": [
+    "NDX",
+    "SP500"
+   ],
+   "eps_forecast": "$0.43",
+   "last_year_eps": "$0.61",
+   "fiscal": "Sep/2026",
+   "source": "Nasdaq Earnings Calendar",
+   "links": [
+    {
+     "label": "Nasdaq",
+     "url": "https://www.nasdaq.com/market-activity/stocks/khc/earnings"
     }
    ]
   },
@@ -11075,6 +12123,1158 @@
     {
      "label": "DART 기업 공시",
      "url": "https://dart.fss.or.kr/dsab007/main.do?textCrpNm=145020"
+    }
+   ]
+  },
+  {
+   "id": "us-earn-HUM-2026-11-04",
+   "date": "2026-11-04",
+   "market": "US",
+   "cat": "earnings",
+   "title": "HUM — Humana Inc.",
+   "ticker": "HUM",
+   "session": "unknown",
+   "imp": 1,
+   "status": "confirmed",
+   "index": [
+    "SP500"
+   ],
+   "eps_forecast": "$1",
+   "last_year_eps": "$3.24",
+   "fiscal": "Sep/2026",
+   "source": "Nasdaq Earnings Calendar",
+   "links": [
+    {
+     "label": "Nasdaq",
+     "url": "https://www.nasdaq.com/market-activity/stocks/hum/earnings"
+    }
+   ]
+  },
+  {
+   "id": "us-earn-EBAY-2026-11-04",
+   "date": "2026-11-04",
+   "market": "US",
+   "cat": "earnings",
+   "title": "EBAY — eBay Inc.",
+   "ticker": "EBAY",
+   "session": "unknown",
+   "imp": 1,
+   "status": "confirmed",
+   "index": [
+    "SP500"
+   ],
+   "eps_forecast": "$1.11",
+   "last_year_eps": "$1.10",
+   "fiscal": "Sep/2026",
+   "source": "Nasdaq Earnings Calendar",
+   "links": [
+    {
+     "label": "Nasdaq",
+     "url": "https://www.nasdaq.com/market-activity/stocks/ebay/earnings"
+    }
+   ]
+  },
+  {
+   "id": "us-earn-VTR-2026-11-04",
+   "date": "2026-11-04",
+   "market": "US",
+   "cat": "earnings",
+   "title": "VTR — Ventas, Inc.",
+   "ticker": "VTR",
+   "session": "unknown",
+   "imp": 1,
+   "status": "confirmed",
+   "index": [
+    "SP500"
+   ],
+   "eps_forecast": "$0.98",
+   "last_year_eps": "$0.88",
+   "fiscal": "Sep/2026",
+   "source": "Nasdaq Earnings Calendar",
+   "links": [
+    {
+     "label": "Nasdaq",
+     "url": "https://www.nasdaq.com/market-activity/stocks/vtr/earnings"
+    }
+   ]
+  },
+  {
+   "id": "us-earn-FLEX-2026-11-04",
+   "date": "2026-11-04",
+   "market": "US",
+   "cat": "earnings",
+   "title": "FLEX — Flex Ltd.",
+   "ticker": "FLEX",
+   "session": "unknown",
+   "imp": 1,
+   "status": "confirmed",
+   "index": [
+    "SP500"
+   ],
+   "eps_forecast": "$0.97",
+   "last_year_eps": "$0.70",
+   "fiscal": "Sep/2026",
+   "source": "Nasdaq Earnings Calendar",
+   "links": [
+    {
+     "label": "Nasdaq",
+     "url": "https://www.nasdaq.com/market-activity/stocks/flex/earnings"
+    }
+   ]
+  },
+  {
+   "id": "us-earn-PRU-2026-11-04",
+   "date": "2026-11-04",
+   "market": "US",
+   "cat": "earnings",
+   "title": "PRU — Prudential Financial, Inc.",
+   "ticker": "PRU",
+   "session": "unknown",
+   "imp": 1,
+   "status": "confirmed",
+   "index": [
+    "SP500"
+   ],
+   "eps_forecast": "$3.45",
+   "last_year_eps": "$4.26",
+   "fiscal": "Sep/2026",
+   "source": "Nasdaq Earnings Calendar",
+   "links": [
+    {
+     "label": "Nasdaq",
+     "url": "https://www.nasdaq.com/market-activity/stocks/pru/earnings"
+    }
+   ]
+  },
+  {
+   "id": "us-earn-TKO-2026-11-04",
+   "date": "2026-11-04",
+   "market": "US",
+   "cat": "earnings",
+   "title": "TKO — TKO Group Holdings, Inc.",
+   "ticker": "TKO",
+   "session": "unknown",
+   "imp": 1,
+   "status": "confirmed",
+   "index": [
+    "SP500"
+   ],
+   "eps_forecast": "$1.42",
+   "last_year_eps": "$0.50",
+   "fiscal": "Sep/2026",
+   "source": "Nasdaq Earnings Calendar",
+   "links": [
+    {
+     "label": "Nasdaq",
+     "url": "https://www.nasdaq.com/market-activity/stocks/tko/earnings"
+    }
+   ]
+  },
+  {
+   "id": "us-earn-IRM-2026-11-04",
+   "date": "2026-11-04",
+   "market": "US",
+   "cat": "earnings",
+   "title": "IRM — Iron Mountain Incorporated",
+   "ticker": "IRM",
+   "session": "unknown",
+   "imp": 1,
+   "status": "confirmed",
+   "index": [
+    "SP500"
+   ],
+   "eps_forecast": "$1.35",
+   "last_year_eps": "$0.54",
+   "fiscal": "Sep/2026",
+   "source": "Nasdaq Earnings Calendar",
+   "links": [
+    {
+     "label": "Nasdaq",
+     "url": "https://www.nasdaq.com/market-activity/stocks/irm/earnings"
+    }
+   ]
+  },
+  {
+   "id": "us-earn-AEE-2026-11-04",
+   "date": "2026-11-04",
+   "market": "US",
+   "cat": "earnings",
+   "title": "AEE — Ameren Corporation",
+   "ticker": "AEE",
+   "session": "unknown",
+   "imp": 1,
+   "status": "confirmed",
+   "index": [
+    "SP500"
+   ],
+   "eps_forecast": "$2.27",
+   "last_year_eps": "$2.17",
+   "fiscal": "Sep/2026",
+   "source": "Nasdaq Earnings Calendar",
+   "links": [
+    {
+     "label": "Nasdaq",
+     "url": "https://www.nasdaq.com/market-activity/stocks/aee/earnings"
+    }
+   ]
+  },
+  {
+   "id": "us-earn-EXR-2026-11-04",
+   "date": "2026-11-04",
+   "market": "US",
+   "cat": "earnings",
+   "title": "EXR — Extra Space Storage Inc",
+   "ticker": "EXR",
+   "session": "unknown",
+   "imp": 1,
+   "status": "confirmed",
+   "index": [
+    "SP500"
+   ],
+   "eps_forecast": "$2.10",
+   "last_year_eps": "$2.08",
+   "fiscal": "Sep/2026",
+   "source": "Nasdaq Earnings Calendar",
+   "links": [
+    {
+     "label": "Nasdaq",
+     "url": "https://www.nasdaq.com/market-activity/stocks/exr/earnings"
+    }
+   ]
+  },
+  {
+   "id": "us-earn-ATO-2026-11-04",
+   "date": "2026-11-04",
+   "market": "US",
+   "cat": "earnings",
+   "title": "ATO — Atmos Energy Corporation",
+   "ticker": "ATO",
+   "session": "unknown",
+   "imp": 1,
+   "status": "confirmed",
+   "index": [
+    "SP500"
+   ],
+   "eps_forecast": "$1.20",
+   "last_year_eps": "$1.07",
+   "fiscal": "Sep/2026",
+   "source": "Nasdaq Earnings Calendar",
+   "links": [
+    {
+     "label": "Nasdaq",
+     "url": "https://www.nasdaq.com/market-activity/stocks/ato/earnings"
+    }
+   ]
+  },
+  {
+   "id": "us-earn-AWK-2026-11-04",
+   "date": "2026-11-04",
+   "market": "US",
+   "cat": "earnings",
+   "title": "AWK — American Water Works",
+   "ticker": "AWK",
+   "session": "unknown",
+   "imp": 1,
+   "status": "confirmed",
+   "index": [
+    "SP500"
+   ],
+   "eps_forecast": "$2.11",
+   "last_year_eps": "$1.94",
+   "fiscal": "Sep/2026",
+   "source": "Nasdaq Earnings Calendar",
+   "links": [
+    {
+     "label": "Nasdaq",
+     "url": "https://www.nasdaq.com/market-activity/stocks/awk/earnings"
+    }
+   ]
+  },
+  {
+   "id": "us-earn-CPAY-2026-11-04",
+   "date": "2026-11-04",
+   "market": "US",
+   "cat": "earnings",
+   "title": "CPAY — Corpay, Inc.",
+   "ticker": "CPAY",
+   "session": "unknown",
+   "imp": 1,
+   "status": "confirmed",
+   "index": [
+    "SP500"
+   ],
+   "eps_forecast": "$6.72",
+   "last_year_eps": "$5.41",
+   "fiscal": "Sep/2026",
+   "source": "Nasdaq Earnings Calendar",
+   "links": [
+    {
+     "label": "Nasdaq",
+     "url": "https://www.nasdaq.com/market-activity/stocks/cpay/earnings"
+    }
+   ]
+  },
+  {
+   "id": "us-earn-OTIS-2026-11-04",
+   "date": "2026-11-04",
+   "market": "US",
+   "cat": "earnings",
+   "title": "OTIS — Otis Worldwide Corporation",
+   "ticker": "OTIS",
+   "session": "unknown",
+   "imp": 1,
+   "status": "confirmed",
+   "index": [
+    "SP500"
+   ],
+   "eps_forecast": "$0.99",
+   "last_year_eps": "$1.05",
+   "fiscal": "Sep/2026",
+   "source": "Nasdaq Earnings Calendar",
+   "links": [
+    {
+     "label": "Nasdaq",
+     "url": "https://www.nasdaq.com/market-activity/stocks/otis/earnings"
+    }
+   ]
+  },
+  {
+   "id": "us-earn-CTSH-2026-11-04",
+   "date": "2026-11-04",
+   "market": "US",
+   "cat": "earnings",
+   "title": "CTSH — Cognizant Technology Solutions Corporation",
+   "ticker": "CTSH",
+   "session": "unknown",
+   "imp": 1,
+   "status": "confirmed",
+   "index": [
+    "SP500"
+   ],
+   "eps_forecast": "$1.44",
+   "last_year_eps": "$1.39",
+   "fiscal": "Sep/2026",
+   "source": "Nasdaq Earnings Calendar",
+   "links": [
+    {
+     "label": "Nasdaq",
+     "url": "https://www.nasdaq.com/market-activity/stocks/ctsh/earnings"
+    }
+   ]
+  },
+  {
+   "id": "us-earn-PPL-2026-11-04",
+   "date": "2026-11-04",
+   "market": "US",
+   "cat": "earnings",
+   "title": "PPL — PPL Corporation",
+   "ticker": "PPL",
+   "session": "unknown",
+   "imp": 1,
+   "status": "confirmed",
+   "index": [
+    "SP500"
+   ],
+   "eps_forecast": "$0.52",
+   "last_year_eps": "$0.48",
+   "fiscal": "Sep/2026",
+   "source": "Nasdaq Earnings Calendar",
+   "links": [
+    {
+     "label": "Nasdaq",
+     "url": "https://www.nasdaq.com/market-activity/stocks/ppl/earnings"
+    }
+   ]
+  },
+  {
+   "id": "us-earn-FISV-2026-11-04",
+   "date": "2026-11-04",
+   "market": "US",
+   "cat": "earnings",
+   "title": "FISV — Fiserv, Inc.",
+   "ticker": "FISV",
+   "session": "unknown",
+   "imp": 1,
+   "status": "confirmed",
+   "index": [
+    "SP500"
+   ],
+   "eps_forecast": "$1.74",
+   "last_year_eps": "$2.04",
+   "fiscal": "Sep/2026",
+   "source": "Nasdaq Earnings Calendar",
+   "links": [
+    {
+     "label": "Nasdaq",
+     "url": "https://www.nasdaq.com/market-activity/stocks/fisv/earnings"
+    }
+   ]
+  },
+  {
+   "id": "us-earn-TPL-2026-11-04",
+   "date": "2026-11-04",
+   "market": "US",
+   "cat": "earnings",
+   "title": "TPL — Texas Pacific Land Corporation",
+   "ticker": "TPL",
+   "session": "unknown",
+   "imp": 1,
+   "status": "confirmed",
+   "index": [
+    "SP500"
+   ],
+   "eps_forecast": "$2.35",
+   "last_year_eps": "$1.76",
+   "fiscal": "Sep/2026",
+   "source": "Nasdaq Earnings Calendar",
+   "links": [
+    {
+     "label": "Nasdaq",
+     "url": "https://www.nasdaq.com/market-activity/stocks/tpl/earnings"
+    }
+   ]
+  },
+  {
+   "id": "us-earn-BG-2026-11-04",
+   "date": "2026-11-04",
+   "market": "US",
+   "cat": "earnings",
+   "title": "BG — Bunge Global SA",
+   "ticker": "BG",
+   "session": "unknown",
+   "imp": 1,
+   "status": "confirmed",
+   "index": [
+    "SP500"
+   ],
+   "eps_forecast": "$2.45",
+   "last_year_eps": "$2.27",
+   "fiscal": "Sep/2026",
+   "source": "Nasdaq Earnings Calendar",
+   "links": [
+    {
+     "label": "Nasdaq",
+     "url": "https://www.nasdaq.com/market-activity/stocks/bg/earnings"
+    }
+   ]
+  },
+  {
+   "id": "us-earn-VRSK-2026-11-04",
+   "date": "2026-11-04",
+   "market": "US",
+   "cat": "earnings",
+   "title": "VRSK — Verisk Analytics, Inc.",
+   "ticker": "VRSK",
+   "session": "unknown",
+   "imp": 1,
+   "status": "confirmed",
+   "index": [
+    "SP500"
+   ],
+   "eps_forecast": "$1.92",
+   "last_year_eps": "$1.72",
+   "fiscal": "Sep/2026",
+   "source": "Nasdaq Earnings Calendar",
+   "links": [
+    {
+     "label": "Nasdaq",
+     "url": "https://www.nasdaq.com/market-activity/stocks/vrsk/earnings"
+    }
+   ]
+  },
+  {
+   "id": "us-earn-SW-2026-11-04",
+   "date": "2026-11-04",
+   "market": "US",
+   "cat": "earnings",
+   "title": "SW — Smurfit WestRock plc",
+   "ticker": "SW",
+   "session": "unknown",
+   "imp": 1,
+   "status": "confirmed",
+   "index": [
+    "SP500"
+   ],
+   "eps_forecast": "$0.66",
+   "last_year_eps": "$0.58",
+   "fiscal": "Sep/2026",
+   "source": "Nasdaq Earnings Calendar",
+   "links": [
+    {
+     "label": "Nasdaq",
+     "url": "https://www.nasdaq.com/market-activity/stocks/sw/earnings"
+    }
+   ]
+  },
+  {
+   "id": "us-earn-FICO-2026-11-04",
+   "date": "2026-11-04",
+   "market": "US",
+   "cat": "earnings",
+   "title": "FICO — Fair Isaac Corporation",
+   "ticker": "FICO",
+   "session": "unknown",
+   "imp": 1,
+   "status": "confirmed",
+   "index": [
+    "SP500"
+   ],
+   "eps_forecast": "$9.44",
+   "last_year_eps": "$6.74",
+   "fiscal": "Sep/2026",
+   "source": "Nasdaq Earnings Calendar",
+   "links": [
+    {
+     "label": "Nasdaq",
+     "url": "https://www.nasdaq.com/market-activity/stocks/fico/earnings"
+    }
+   ]
+  },
+  {
+   "id": "us-earn-STE-2026-11-04",
+   "date": "2026-11-04",
+   "market": "US",
+   "cat": "earnings",
+   "title": "STE — STERIS plc",
+   "ticker": "STE",
+   "session": "unknown",
+   "imp": 1,
+   "status": "confirmed",
+   "index": [
+    "SP500"
+   ],
+   "eps_forecast": "$2.68",
+   "last_year_eps": "$2.47",
+   "fiscal": "Sep/2026",
+   "source": "Nasdaq Earnings Calendar",
+   "links": [
+    {
+     "label": "Nasdaq",
+     "url": "https://www.nasdaq.com/market-activity/stocks/ste/earnings"
+    }
+   ]
+  },
+  {
+   "id": "us-earn-CF-2026-11-04",
+   "date": "2026-11-04",
+   "market": "US",
+   "cat": "earnings",
+   "title": "CF — CF Industries Holdings, Inc.",
+   "ticker": "CF",
+   "session": "unknown",
+   "imp": 1,
+   "status": "confirmed",
+   "index": [
+    "SP500"
+   ],
+   "eps_forecast": "$2.97",
+   "last_year_eps": "$2.19",
+   "fiscal": "Sep/2026",
+   "source": "Nasdaq Earnings Calendar",
+   "links": [
+    {
+     "label": "Nasdaq",
+     "url": "https://www.nasdaq.com/market-activity/stocks/cf/earnings"
+    }
+   ]
+  },
+  {
+   "id": "us-earn-NI-2026-11-04",
+   "date": "2026-11-04",
+   "market": "US",
+   "cat": "earnings",
+   "title": "NI — NiSource, Inc",
+   "ticker": "NI",
+   "session": "unknown",
+   "imp": 1,
+   "status": "confirmed",
+   "index": [
+    "SP500"
+   ],
+   "eps_forecast": "$0.20",
+   "last_year_eps": "$0.19",
+   "fiscal": "Sep/2026",
+   "source": "Nasdaq Earnings Calendar",
+   "links": [
+    {
+     "label": "Nasdaq",
+     "url": "https://www.nasdaq.com/market-activity/stocks/ni/earnings"
+    }
+   ]
+  },
+  {
+   "id": "us-earn-AMCR-2026-11-04",
+   "date": "2026-11-04",
+   "market": "US",
+   "cat": "earnings",
+   "title": "AMCR — Amcor plc",
+   "ticker": "AMCR",
+   "session": "unknown",
+   "imp": 1,
+   "status": "confirmed",
+   "index": [
+    "SP500"
+   ],
+   "eps_forecast": "$0.96",
+   "last_year_eps": "$0.95",
+   "fiscal": "Sep/2026",
+   "source": "Nasdaq Earnings Calendar",
+   "links": [
+    {
+     "label": "Nasdaq",
+     "url": "https://www.nasdaq.com/market-activity/stocks/amcr/earnings"
+    }
+   ]
+  },
+  {
+   "id": "us-earn-FIS-2026-11-04",
+   "date": "2026-11-04",
+   "market": "US",
+   "cat": "earnings",
+   "title": "FIS — Fidelity National Information Services, Inc.",
+   "ticker": "FIS",
+   "session": "unknown",
+   "imp": 1,
+   "status": "confirmed",
+   "index": [
+    "SP500"
+   ],
+   "eps_forecast": "$1.60",
+   "last_year_eps": "$1.51",
+   "fiscal": "Sep/2026",
+   "source": "Nasdaq Earnings Calendar",
+   "links": [
+    {
+     "label": "Nasdaq",
+     "url": "https://www.nasdaq.com/market-activity/stocks/fis/earnings"
+    }
+   ]
+  },
+  {
+   "id": "us-earn-ZBH-2026-11-04",
+   "date": "2026-11-04",
+   "market": "US",
+   "cat": "earnings",
+   "title": "ZBH — Zimmer Biomet Holdings, Inc.",
+   "ticker": "ZBH",
+   "session": "unknown",
+   "imp": 1,
+   "status": "confirmed",
+   "index": [
+    "SP500"
+   ],
+   "eps_forecast": "$1.89",
+   "last_year_eps": "$1.90",
+   "fiscal": "Sep/2026",
+   "source": "Nasdaq Earnings Calendar",
+   "links": [
+    {
+     "label": "Nasdaq",
+     "url": "https://www.nasdaq.com/market-activity/stocks/zbh/earnings"
+    }
+   ]
+  },
+  {
+   "id": "us-earn-ESS-2026-11-04",
+   "date": "2026-11-04",
+   "market": "US",
+   "cat": "earnings",
+   "title": "ESS — Essex Property Trust, Inc.",
+   "ticker": "ESS",
+   "session": "unknown",
+   "imp": 1,
+   "status": "confirmed",
+   "index": [
+    "SP500"
+   ],
+   "eps_forecast": "$4",
+   "last_year_eps": "$3.97",
+   "fiscal": "Sep/2026",
+   "source": "Nasdaq Earnings Calendar",
+   "links": [
+    {
+     "label": "Nasdaq",
+     "url": "https://www.nasdaq.com/market-activity/stocks/ess/earnings"
+    }
+   ]
+  },
+  {
+   "id": "us-earn-CHRW-2026-11-04",
+   "date": "2026-11-04",
+   "market": "US",
+   "cat": "earnings",
+   "title": "CHRW — C.H. Robinson Worldwide, Inc.",
+   "ticker": "CHRW",
+   "session": "unknown",
+   "imp": 1,
+   "status": "confirmed",
+   "index": [
+    "SP500"
+   ],
+   "eps_forecast": "$1.65",
+   "last_year_eps": "$1.40",
+   "fiscal": "Sep/2026",
+   "source": "Nasdaq Earnings Calendar",
+   "links": [
+    {
+     "label": "Nasdaq",
+     "url": "https://www.nasdaq.com/market-activity/stocks/chrw/earnings"
+    }
+   ]
+  },
+  {
+   "id": "us-earn-FTV-2026-11-04",
+   "date": "2026-11-04",
+   "market": "US",
+   "cat": "earnings",
+   "title": "FTV — Fortive Corporation",
+   "ticker": "FTV",
+   "session": "unknown",
+   "imp": 1,
+   "status": "confirmed",
+   "index": [
+    "SP500"
+   ],
+   "eps_forecast": "$0.70",
+   "last_year_eps": "$0.68",
+   "fiscal": "Sep/2026",
+   "source": "Nasdaq Earnings Calendar",
+   "links": [
+    {
+     "label": "Nasdaq",
+     "url": "https://www.nasdaq.com/market-activity/stocks/ftv/earnings"
+    }
+   ]
+  },
+  {
+   "id": "us-earn-INVH-2026-11-04",
+   "date": "2026-11-04",
+   "market": "US",
+   "cat": "earnings",
+   "title": "INVH — Invitation Homes Inc.",
+   "ticker": "INVH",
+   "session": "unknown",
+   "imp": 1,
+   "status": "confirmed",
+   "index": [
+    "SP500"
+   ],
+   "eps_forecast": "$0.47",
+   "last_year_eps": "$0.47",
+   "fiscal": "Sep/2026",
+   "source": "Nasdaq Earnings Calendar",
+   "links": [
+    {
+     "label": "Nasdaq",
+     "url": "https://www.nasdaq.com/market-activity/stocks/invh/earnings"
+    }
+   ]
+  },
+  {
+   "id": "us-earn-ROL-2026-11-04",
+   "date": "2026-11-04",
+   "market": "US",
+   "cat": "earnings",
+   "title": "ROL — Rollins, Inc.",
+   "ticker": "ROL",
+   "session": "unknown",
+   "imp": 1,
+   "status": "confirmed",
+   "index": [
+    "SP500"
+   ],
+   "eps_forecast": "$0.35",
+   "last_year_eps": "$0.35",
+   "fiscal": "Sep/2026",
+   "source": "Nasdaq Earnings Calendar",
+   "links": [
+    {
+     "label": "Nasdaq",
+     "url": "https://www.nasdaq.com/market-activity/stocks/rol/earnings"
+    }
+   ]
+  },
+  {
+   "id": "us-earn-IEX-2026-11-04",
+   "date": "2026-11-04",
+   "market": "US",
+   "cat": "earnings",
+   "title": "IEX — IDEX Corporation",
+   "ticker": "IEX",
+   "session": "unknown",
+   "imp": 1,
+   "status": "confirmed",
+   "index": [
+    "SP500"
+   ],
+   "eps_forecast": "$2.23",
+   "last_year_eps": "$2.03",
+   "fiscal": "Sep/2026",
+   "source": "Nasdaq Earnings Calendar",
+   "links": [
+    {
+     "label": "Nasdaq",
+     "url": "https://www.nasdaq.com/market-activity/stocks/iex/earnings"
+    }
+   ]
+  },
+  {
+   "id": "us-earn-APA-2026-11-04",
+   "date": "2026-11-04",
+   "market": "US",
+   "cat": "earnings",
+   "title": "APA — APA Corporation",
+   "ticker": "APA",
+   "session": "unknown",
+   "imp": 1,
+   "status": "confirmed",
+   "index": [
+    "SP500"
+   ],
+   "eps_forecast": "$1.18",
+   "last_year_eps": "$0.93",
+   "fiscal": "Sep/2026",
+   "source": "Nasdaq Earnings Calendar",
+   "links": [
+    {
+     "label": "Nasdaq",
+     "url": "https://www.nasdaq.com/market-activity/stocks/apa/earnings"
+    }
+   ]
+  },
+  {
+   "id": "us-earn-HST-2026-11-04",
+   "date": "2026-11-04",
+   "market": "US",
+   "cat": "earnings",
+   "title": "HST — Host Hotels & Resorts, Inc.",
+   "ticker": "HST",
+   "session": "unknown",
+   "imp": 1,
+   "status": "confirmed",
+   "index": [
+    "SP500"
+   ],
+   "eps_forecast": "$0.38",
+   "last_year_eps": "$0.35",
+   "fiscal": "Sep/2026",
+   "source": "Nasdaq Earnings Calendar",
+   "links": [
+    {
+     "label": "Nasdaq",
+     "url": "https://www.nasdaq.com/market-activity/stocks/hst/earnings"
+    }
+   ]
+  },
+  {
+   "id": "us-earn-ALB-2026-11-04",
+   "date": "2026-11-04",
+   "market": "US",
+   "cat": "earnings",
+   "title": "ALB — Albemarle Corporation",
+   "ticker": "ALB",
+   "session": "unknown",
+   "imp": 1,
+   "status": "confirmed",
+   "index": [
+    "SP500"
+   ],
+   "eps_forecast": "$2.55",
+   "last_year_eps": "($0.19)",
+   "fiscal": "Sep/2026",
+   "source": "Nasdaq Earnings Calendar",
+   "links": [
+    {
+     "label": "Nasdaq",
+     "url": "https://www.nasdaq.com/market-activity/stocks/alb/earnings"
+    }
+   ]
+  },
+  {
+   "id": "us-earn-MAA-2026-11-04",
+   "date": "2026-11-04",
+   "market": "US",
+   "cat": "earnings",
+   "title": "MAA — Mid-America Apartment Communities, Inc.",
+   "ticker": "MAA",
+   "session": "unknown",
+   "imp": 1,
+   "status": "confirmed",
+   "index": [
+    "SP500"
+   ],
+   "eps_forecast": "$2.10",
+   "last_year_eps": "$2.16",
+   "fiscal": "Sep/2026",
+   "source": "Nasdaq Earnings Calendar",
+   "links": [
+    {
+     "label": "Nasdaq",
+     "url": "https://www.nasdaq.com/market-activity/stocks/maa/earnings"
+    }
+   ]
+  },
+  {
+   "id": "us-earn-TYL-2026-11-04",
+   "date": "2026-11-04",
+   "market": "US",
+   "cat": "earnings",
+   "title": "TYL — Tyler Technologies, Inc.",
+   "ticker": "TYL",
+   "session": "unknown",
+   "imp": 1,
+   "status": "confirmed",
+   "index": [
+    "SP500"
+   ],
+   "eps_forecast": "$2.70",
+   "last_year_eps": "$2.32",
+   "fiscal": "Sep/2026",
+   "source": "Nasdaq Earnings Calendar",
+   "links": [
+    {
+     "label": "Nasdaq",
+     "url": "https://www.nasdaq.com/market-activity/stocks/tyl/earnings"
+    }
+   ]
+  },
+  {
+   "id": "us-earn-PTC-2026-11-04",
+   "date": "2026-11-04",
+   "market": "US",
+   "cat": "earnings",
+   "title": "PTC — PTC Inc.",
+   "ticker": "PTC",
+   "session": "unknown",
+   "imp": 1,
+   "status": "confirmed",
+   "index": [
+    "SP500"
+   ],
+   "eps_forecast": "$1.61",
+   "last_year_eps": "$3.10",
+   "fiscal": "Sep/2026",
+   "source": "Nasdaq Earnings Calendar",
+   "links": [
+    {
+     "label": "Nasdaq",
+     "url": "https://www.nasdaq.com/market-activity/stocks/ptc/earnings"
+    }
+   ]
+  },
+  {
+   "id": "us-earn-MAS-2026-11-04",
+   "date": "2026-11-04",
+   "market": "US",
+   "cat": "earnings",
+   "title": "MAS — Masco Corporation",
+   "ticker": "MAS",
+   "session": "unknown",
+   "imp": 1,
+   "status": "confirmed",
+   "index": [
+    "SP500"
+   ],
+   "eps_forecast": "$1.01",
+   "last_year_eps": "$0.97",
+   "fiscal": "Sep/2026",
+   "source": "Nasdaq Earnings Calendar",
+   "links": [
+    {
+     "label": "Nasdaq",
+     "url": "https://www.nasdaq.com/market-activity/stocks/mas/earnings"
+    }
+   ]
+  },
+  {
+   "id": "us-earn-TRMB-2026-11-04",
+   "date": "2026-11-04",
+   "market": "US",
+   "cat": "earnings",
+   "title": "TRMB — Trimble Inc.",
+   "ticker": "TRMB",
+   "session": "unknown",
+   "imp": 1,
+   "status": "confirmed",
+   "index": [
+    "SP500"
+   ],
+   "eps_forecast": "$0.72",
+   "last_year_eps": "$0.70",
+   "fiscal": "Sep/2026",
+   "source": "Nasdaq Earnings Calendar",
+   "links": [
+    {
+     "label": "Nasdaq",
+     "url": "https://www.nasdaq.com/market-activity/stocks/trmb/earnings"
+    }
+   ]
+  },
+  {
+   "id": "us-earn-CRL-2026-11-04",
+   "date": "2026-11-04",
+   "market": "US",
+   "cat": "earnings",
+   "title": "CRL — Charles River Laboratories International, Inc.",
+   "ticker": "CRL",
+   "session": "unknown",
+   "imp": 1,
+   "status": "confirmed",
+   "index": [
+    "SP500"
+   ],
+   "eps_forecast": "$2.96",
+   "last_year_eps": "$2.43",
+   "fiscal": "Sep/2026",
+   "source": "Nasdaq Earnings Calendar",
+   "links": [
+    {
+     "label": "Nasdaq",
+     "url": "https://www.nasdaq.com/market-activity/stocks/crl/earnings"
+    }
+   ]
+  },
+  {
+   "id": "us-earn-DVA-2026-11-04",
+   "date": "2026-11-04",
+   "market": "US",
+   "cat": "earnings",
+   "title": "DVA — DaVita Inc.",
+   "ticker": "DVA",
+   "session": "unknown",
+   "imp": 1,
+   "status": "confirmed",
+   "index": [
+    "SP500"
+   ],
+   "eps_forecast": "$3.78",
+   "last_year_eps": "$2.51",
+   "fiscal": "Sep/2026",
+   "source": "Nasdaq Earnings Calendar",
+   "links": [
+    {
+     "label": "Nasdaq",
+     "url": "https://www.nasdaq.com/market-activity/stocks/dva/earnings"
+    }
+   ]
+  },
+  {
+   "id": "us-earn-UDR-2026-11-04",
+   "date": "2026-11-04",
+   "market": "US",
+   "cat": "earnings",
+   "title": "UDR — UDR, Inc.",
+   "ticker": "UDR",
+   "session": "unknown",
+   "imp": 1,
+   "status": "confirmed",
+   "index": [
+    "SP500"
+   ],
+   "eps_forecast": "$0.64",
+   "last_year_eps": "$0.65",
+   "fiscal": "Sep/2026",
+   "source": "Nasdaq Earnings Calendar",
+   "links": [
+    {
+     "label": "Nasdaq",
+     "url": "https://www.nasdaq.com/market-activity/stocks/udr/earnings"
+    }
+   ]
+  },
+  {
+   "id": "us-earn-TECH-2026-11-04",
+   "date": "2026-11-04",
+   "market": "US",
+   "cat": "earnings",
+   "title": "TECH — Bio-Techne Corp",
+   "ticker": "TECH",
+   "session": "unknown",
+   "imp": 1,
+   "status": "confirmed",
+   "index": [
+    "SP500"
+   ],
+   "eps_forecast": "$0.40",
+   "last_year_eps": "$0.36",
+   "fiscal": "Sep/2026",
+   "source": "Nasdaq Earnings Calendar",
+   "links": [
+    {
+     "label": "Nasdaq",
+     "url": "https://www.nasdaq.com/market-activity/stocks/tech/earnings"
+    }
+   ]
+  },
+  {
+   "id": "us-earn-GNRC-2026-11-04",
+   "date": "2026-11-04",
+   "market": "US",
+   "cat": "earnings",
+   "title": "GNRC — Generac Holdings Inc.",
+   "ticker": "GNRC",
+   "session": "unknown",
+   "imp": 1,
+   "status": "confirmed",
+   "index": [
+    "SP500"
+   ],
+   "eps_forecast": "$2.40",
+   "last_year_eps": "$1.83",
+   "fiscal": "Sep/2026",
+   "source": "Nasdaq Earnings Calendar",
+   "links": [
+    {
+     "label": "Nasdaq",
+     "url": "https://www.nasdaq.com/market-activity/stocks/gnrc/earnings"
+    }
+   ]
+  },
+  {
+   "id": "us-earn-ALGN-2026-11-04",
+   "date": "2026-11-04",
+   "market": "US",
+   "cat": "earnings",
+   "title": "ALGN — Align Technology, Inc.",
+   "ticker": "ALGN",
+   "session": "unknown",
+   "imp": 1,
+   "status": "confirmed",
+   "index": [
+    "SP500"
+   ],
+   "eps_forecast": "$2.34",
+   "last_year_eps": "$2.07",
+   "fiscal": "Sep/2026",
+   "source": "Nasdaq Earnings Calendar",
+   "links": [
+    {
+     "label": "Nasdaq",
+     "url": "https://www.nasdaq.com/market-activity/stocks/algn/earnings"
+    }
+   ]
+  },
+  {
+   "id": "us-earn-MGM-2026-11-04",
+   "date": "2026-11-04",
+   "market": "US",
+   "cat": "earnings",
+   "title": "MGM — MGM Resorts International",
+   "ticker": "MGM",
+   "session": "unknown",
+   "imp": 1,
+   "status": "confirmed",
+   "index": [
+    "SP500"
+   ],
+   "eps_forecast": "$0.27",
+   "last_year_eps": "$0.24",
+   "fiscal": "Sep/2026",
+   "source": "Nasdaq Earnings Calendar",
+   "links": [
+    {
+     "label": "Nasdaq",
+     "url": "https://www.nasdaq.com/market-activity/stocks/mgm/earnings"
     }
    ]
   },
