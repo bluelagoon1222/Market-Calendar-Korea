@@ -9,6 +9,10 @@ v1 실행(2026-09-09) 결과 반영
   · corp 452건 중 54건만 이벤트화  → 날짜 필드 라벨 확장 + 신탁계약 서식 분리
   · 전환사채(CB) 건수 과다        → CB·BW·EB 추적 제외, 기업행위는 시총상위 220종목으로 한정 (요청)
 
+v6  us_quotes 0건        → Yahoo v7 quote 가 인증 토큰을 요구해 빈 응답. Nasdaq quote API 로 교체
+    kr_universe 0건       → 네이버 시가총액 HTML 페이지 빈 응답. 모바일 JSON API 우선 사용
+    status 의 version 표기를 실제 버전과 동기화
+
 v5  상세 창에 표시할 종목 지표 수집 (미국: Yahoo / 국내: 네이버 금융)
     국내 DART 링크가 종목코드로 검색돼 결과가 비던 문제 수정 (회사명 기준 + 네이버 공시 병기)
 
@@ -67,7 +71,8 @@ HIST_YEARS = 2       # 국내 실적발표일 추정에 쓸 과거 공시 이력
 UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
                     "(KHTML, like Gecko) Chrome/124.0 Safari/537.36",
       "Accept-Language": "ko-KR,ko;q=0.9,en;q=0.8"}
-STATUS = {"version": "v2", "started_at": datetime.now().isoformat(timespec="seconds"),
+VERSION = "v6"
+STATUS = {"version": VERSION, "started_at": datetime.now().isoformat(timespec="seconds"),
           "steps": {}, "errors": [], "samples": {}}
 
 
@@ -362,8 +367,54 @@ def us_earnings(uni):
     return events
 
 
+NQ_KEYS = {   # Nasdaq summary 필드명 → 화면 표기
+    "MarketCap": "시가총액", "PERatio": "PER (실적)", "ForwardPE1Yr": "PER (선행)",
+    "EarningsPerShare": "EPS", "OneYrTarget": "1년 목표주가",
+    "AnnualizedDividend": "연간 배당금", "Yield": "배당수익률",
+    "FiftTwoWeekHighLow": "52주 범위", "Sector": "섹터", "Industry": "산업",
+}
+
+
 def us_quotes(tickers):
-    """Yahoo Finance 시세·밸류에이션 (상세 창 표시용)"""
+    """Nasdaq 시세·밸류에이션 (Yahoo 는 토큰 요구로 빈 응답 → 보조 수단)"""
+    out = {}
+    hdr = {**UA, "Accept": "application/json", "Origin": "https://www.nasdaq.com",
+           "Referer": "https://www.nasdaq.com/"}
+    for sym in sorted(set(tickers)):
+        if left() < 260:
+            break
+        m = {}
+        try:
+            r = get(f"https://api.nasdaq.com/api/quote/{sym}/info",
+                    params={"assetclass": "stocks"}, headers=hdr, timeout=15)
+            d = (r.json().get("data") or {})
+            pd = d.get("primaryData") or {}
+            if pd.get("lastSalePrice"):
+                m["현재가"] = str(pd["lastSalePrice"]) + (
+                    f" ({pd.get('percentageChange')})" if pd.get("percentageChange") else "")
+        except Exception as e:
+            err(f"us_quotes.info.{sym}", e)
+        try:
+            r = get(f"https://api.nasdaq.com/api/quote/{sym}/summary",
+                    params={"assetclass": "stocks"}, headers=hdr, timeout=15)
+            sd = ((r.json().get("data") or {}).get("summaryData") or {})
+            for k, label in NQ_KEYS.items():
+                v = (sd.get(k) or {}).get("value")
+                if v and v not in ("N/A", "--"):
+                    m[label] = str(v)
+        except Exception as e:
+            err(f"us_quotes.summary.{sym}", e)
+        if m:
+            out[sym] = m
+        time.sleep(0.06)
+    note("us_quotes", tickers=len(out))
+    if out:
+        return out
+    return us_quotes_yahoo(tickers)
+
+
+def us_quotes_yahoo(tickers):
+    """예비 경로 — Yahoo v7 quote"""
     out = {}
     fields = ("regularMarketPrice,regularMarketChangePercent,marketCap,trailingPE,forwardPE,"
               "epsTrailingTwelveMonths,epsForward,fiftyTwoWeekHigh,fiftyTwoWeekLow,"
@@ -398,10 +449,10 @@ def us_quotes(tickers):
                 if m:
                     out[sym] = m
         except Exception as e:
-            err("us_quotes", e)
+            err("us_quotes_yahoo", e)
             break
         time.sleep(0.15)
-    note("us_quotes", tickers=len(out))
+    note("us_quotes.yahoo_fallback", tickers=len(out))
     return out
 
 
@@ -458,9 +509,55 @@ def is_common_stock(code, name):
     return True
 
 
+def kr_universe_api(market, label, cap, uni):
+    """네이버 모바일 시가총액 API (HTML 페이지보다 안정적)"""
+    got = 0
+    for page in range(1, 6):
+        if got >= cap or left() < 200:
+            break
+        rows = []
+        for url, params in (
+            (f"https://m.stock.naver.com/api/stocks/marketValue/{market}",
+             {"page": page, "pageSize": 100}),
+            (f"https://m.stock.naver.com/api/stocks/marketValue/{market}",
+             {"page": page, "pageSize": 100, "type": "object"}),
+        ):
+            try:
+                j = get(url, params=params, timeout=20).json()
+                rows = j.get("stocks") or j.get("datas") or (j if isinstance(j, list) else [])
+                if rows:
+                    break
+            except Exception as e:
+                err(f"kr_universe.api.{market}.{page}", e)
+        if not rows:
+            break
+        fresh = 0
+        for it in rows:
+            code = str(it.get("itemCode") or it.get("cd") or "").strip()
+            name = str(it.get("stockName") or it.get("nm") or "").strip()
+            if not re.fullmatch(r"\d{6}", code) or code in uni:
+                continue
+            fresh += 1
+            if not is_common_stock(code, name) or got >= cap:
+                continue
+            uni[code] = {"name": name, "idx": [label]}
+            got += 1
+        if fresh == 0:
+            break
+        time.sleep(0.15)
+    return got
+
+
 def kr_universe():
     uni = {}
+    for market, label, cap in (("KOSPI", "코스피 시총상위", 150),
+                               ("KOSDAQ", "코스닥 시총상위", 70)):
+        got = kr_universe_api(market, label, cap, uni)
+        note(f"kr_universe.api.{label}", tickers=got)
+
     for sosok, label, pages, cap in KR_MARKETS:
+        if sum(1 for v in uni.values() if v["idx"] == [label]) >= cap * 0.5:
+            continue                       # API 로 충분히 받았으면 HTML 조회 생략
         got, pages_used = 0, 0
         for p in range(1, pages + 1):
             if got >= cap or left() < 200:
