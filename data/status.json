@@ -1,6 +1,6 @@
 {
  "version": "v6",
- "started_at": "2026-09-11T02:23:38",
+ "started_at": "2026-09-11T05:05:06",
  "steps": {
   "universe.csv": {
    "source": "main",
@@ -45,11 +45,11 @@
    "tickers": 220
   },
   "corp.filings": {
-   "count": 1519
+   "count": 1521
   },
   "corp.targets": {
    "count": 51,
-   "skipped_outside_universe": 688,
+   "skipped_outside_universe": 689,
    "universe": 220
   },
   "corp.events": {
@@ -64,7 +64,7 @@
   },
   "kr_earnings.estimated": {
    "count": 157,
-   "newly_fetched": 2,
+   "newly_fetched": 0,
    "companies_with_history": 225
   },
   "kr_quotes": {
@@ -114,8 +114,8 @@
    "한화에어로스페이스"
   ]
  },
- "finished_at": "2026-09-11T02:39:24",
- "elapsed_sec": 946,
+ "finished_at": "2026-09-11T05:19:01",
+ "elapsed_sec": 834,
  "counts": {
   "earnings": 253,
   "us": 96,
