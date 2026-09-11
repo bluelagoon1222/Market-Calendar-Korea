@@ -1,6 +1,6 @@
 {
  "version": "v2",
- "started_at": "2026-09-10T13:08:32",
+ "started_at": "2026-09-11T01:54:24",
  "steps": {
   "universe.csv": {
    "source": "main",
@@ -16,10 +16,24 @@
   "universe.total": {
    "tickers": 521
   },
+  "us_marketcaps": {
+   "tickers": 5815
+  },
+  "us_focus": {
+   "top_pct": 0.2,
+   "top_n": 104,
+   "always": 40,
+   "total": 119,
+   "cutoff_usd_bn": 117.8
+  },
   "us_earnings.nasdaq": {
-   "raw_rows": 2531,
-   "matched": 420,
-   "events": 420
+   "raw_rows": 2491,
+   "matched": 96,
+   "dropped_outside_focus": 325,
+   "events": 96
+  },
+  "us_quotes": {
+   "tickers": 0
   },
   "kr_universe.코스피 시총상위": {
    "tickers": 0,
@@ -35,8 +49,11 @@
   "kr_universe.total": {
    "tickers": 220
   },
+  "corp_codes": {
+   "listed": 3931
+  },
   "corp.filings": {
-   "count": 1514
+   "count": 1518
   },
   "corp.targets": {
    "count": 50,
@@ -55,8 +72,11 @@
   },
   "kr_earnings.estimated": {
    "count": 156,
-   "newly_fetched": 0,
+   "newly_fetched": 219,
    "companies_with_history": 223
+  },
+  "kr_quotes": {
+   "tickers": 156
   }
  },
  "errors": [],
@@ -75,6 +95,18 @@
    "ADP",
    "ADSK"
   ],
+  "us_focus_top": [
+   "NVDA",
+   "AAPL",
+   "GOOGL",
+   "GOOG",
+   "MSFT",
+   "AMZN",
+   "SPCX",
+   "AVGO",
+   "META",
+   "TSLA"
+  ],
   "kr_universe": [
    "삼성전자",
    "SK하이닉스",
@@ -90,11 +122,11 @@
    "한화에어로스페이스"
   ]
  },
- "finished_at": "2026-09-10T13:14:45",
- "elapsed_sec": 373,
+ "finished_at": "2026-09-11T02:13:35",
+ "elapsed_sec": 1151,
  "counts": {
-  "earnings": 576,
-  "us": 420,
+  "earnings": 252,
+  "us": 96,
   "kr": 156,
   "corp": 18
  }
