@@ -162,6 +162,14 @@ td.n{text-align:right;font-variant-numeric:tabular-nums}
 .ck li{display:flex;gap:9px;align-items:flex-start;padding:6px 0;border-bottom:1px dashed var(--hair-soft);font-size:14px}
 .ck input{margin-top:4px;accent-color:var(--orange);flex:0 0 auto}
 .ck li.done label{color:var(--gray);text-decoration:line-through}
+.mx{display:grid;grid-template-columns:repeat(2,1fr);gap:1px;background:var(--hair-soft);
+    border:1px solid var(--hair-soft);margin-top:2px}
+.mx div{background:#fff;padding:7px 11px;display:flex;justify-content:space-between;gap:10px;
+        font-size:13.5px;min-width:0}
+.mx .k{color:var(--muted);white-space:nowrap}
+.mx .v{font-weight:600;color:var(--ink);font-variant-numeric:tabular-nums;
+       overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.mx-note{font-size:11.5px;color:var(--gray);margin-top:6px}
 .lnks{display:flex;gap:8px;flex-wrap:wrap;margin-top:4px}
 .lnks a{font-size:12.5px;color:var(--blue);border:1px solid var(--hair);padding:5px 10px;text-decoration:none;border-radius:2px}
 .lnks a:hover{background:var(--subtle)}
@@ -208,6 +216,7 @@ footer b{color:var(--body)}
   .card-h{padding:16px 16px 12px}
   .card-b{padding:14px 16px 28px}
   .card-h h3{font-size:18px}
+  .mx{grid-template-columns:1fr}
   .bar{gap:8px;padding:12px 0}
   .bar .seg button{padding:8px 11px;font-size:12.5px}
   .chip{padding:5px 9px;font-size:12px}
@@ -356,6 +365,8 @@ footer b{color:var(--body)}
     <div class="card-b">
       <div id="d-desc-w"><h4 data-i18n="d1">내용</h4><p id="d-desc"></p></div>
       <div id="d-ck-w"><h4 data-i18n="d2">사전 준비 체크리스트</h4><ul class="ck" id="d-ck"></ul></div>
+      <div id="d-mx-w"><h4 data-i18n="d4">주요 수치</h4><div class="mx" id="d-mx"></div>
+        <p class="mx-note" data-i18n="d5">수집 시점 기준이며 실시간 시세가 아닙니다. 주문 전 HTS·MTS에서 확인하십시오.</p></div>
       <div id="d-ln-w"><h4 data-i18n="d3">바로가기</h4><div class="lnks" id="d-ln"></div></div>
       <p class="src" id="d-src"></p>
       <div class="acts">
@@ -378,7 +389,8 @@ const I18N = {
  v1:"Month",v2:"Agenda",v3:"Earnings",m0:"All",m1:"Korea",m2:"US",
  key:"Key only",conf:"Confirmed only",today:"Today",
  l1:"Next 60 days",e1:"Earnings dates",c1:"Date",c2:"Mkt",c3:"Company",c4:"Index",c5:"Session",c6:"EPS est.",c7:"Type",
- d1:"Detail",d2:"Pre-event checklist",d3:"Links",a2:"Copy client note",
+ d1:"Detail",d2:"Pre-event checklist",d3:"Links",d4:"Key figures",
+ d5:"As of the last data refresh, not a live quote. Verify before trading.",a2:"Copy client note",
  f1:"Sources",f2:"Items marked 'estimated' are derived from published rules (2nd Thursday, 3rd Friday, decision +21 days) or from prior-year patterns. Verify against the primary source before client use. For reference only.",
  cat:{earnings:"Earnings",semi:"SEC / Hynix",index:"Index",policy:"Policy",macro:"Macro",corp:"Corp action",market:"Trading",tax:"Tax",flow:"Flows",event:"Event"},
  ses:{pre:"Before open",post:"After close",unknown:"TBD"}},
@@ -725,6 +737,15 @@ function openDetail(e){
   });
   document.getElementById('d-ck-w').classList.toggle('hide',!ck.length);
 
+  const mx=document.getElementById('d-mx'); mx.innerHTML='';
+  const met=e.metrics||{};
+  Object.keys(met).forEach(k=>{
+    const d=document.createElement('div');
+    d.innerHTML='<span class="k">'+k+'</span><span class="v">'+met[k]+'</span>';
+    mx.appendChild(d);
+  });
+  document.getElementById('d-mx-w').classList.toggle('hide',!mx.children.length);
+
   const ln=document.getElementById('d-ln'); ln.innerHTML='';
   (e.links||[]).forEach(l=>{
     const a=document.createElement('a'); a.href=l.url; a.target='_blank'; a.rel='noopener';
@@ -750,7 +771,9 @@ document.getElementById('d-copy').onclick=()=>{
   const t='['+catName(CUR.cat)+'] '+CUR.title+'\n'
     +'일자: '+CUR.date+' ('+dow(CUR.date)+') '+dday(CUR.date)
     +(CUR.cat==='earnings'&&CUR.session&&CUR.session!=='unknown'?' / '+sesName(CUR.session):'')+'\n\n'
-    +(CUR.desc||'')+'\n\n[체크 포인트]\n'+ck.map(x=>'· '+x).join('\n')
+    +(CUR.desc||'')
+    +(CUR.metrics?'\n\n[주요 수치]\n'+Object.keys(CUR.metrics).map(k=>'· '+k+': '+CUR.metrics[k]).join('\n'):'')
+    +'\n\n[체크 포인트]\n'+ck.map(x=>'· '+x).join('\n')
     +'\n\n'+(CUR.status==='estimated'?'※ 잠정 일정으로 원문 확인 후 활용\n':'')+'출처: '+(CUR.source||'');
   const done=()=>{ const b=document.getElementById('d-copy'); const o=b.textContent;
     b.textContent=LANG==='en'?'Copied':'복사 완료'; setTimeout(()=>b.textContent=o,1500); };
