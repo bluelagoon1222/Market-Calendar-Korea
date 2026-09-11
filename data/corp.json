@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-09-11T02:13:35",
- "count": 18,
+ "generated_at": "2026-09-11T02:39:24",
+ "count": 19,
  "events": [
   {
    "id": "corp-01288827-tsstkDpDecsn-dpprpd_edd-2026-10-30",
@@ -298,6 +298,33 @@
     }
    ],
    "source": "DART 주요사항보고서 (tsstkDpDecsn)"
+  },
+  {
+   "id": "corp-00105280-tsstkAqDecsn-aqexpd_edd-2026-10-30",
+   "date": "2026-10-30",
+   "market": "KR",
+   "cat": "corp",
+   "title": "현대지에프홀딩스 — 자기주식 취득 결정 · 예정일",
+   "ticker": "005440",
+   "kind": "자사주 취득",
+   "imp": 3,
+   "status": "confirmed",
+   "index": [
+    "코스피 시총상위"
+   ],
+   "desc": "취득 기간 중 실제 매입 이행률이 중요합니다. 직접 취득은 일별 한도가 적용됩니다.",
+   "checklist": [
+    "공시 원문에서 발행 규모·가격(전환가)·배정 대상 확인",
+    "보유 고객 리스트 추출 후 개별 안내",
+    "발행주식수 대비 희석 비율과 권리락일 확인"
+   ],
+   "links": [
+    {
+     "label": "DART 공시 원문",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260807000241"
+    }
+   ],
+   "source": "DART 주요사항보고서 (tsstkAqDecsn)"
   },
   {
    "id": "corp-01358463-tsstkDpDecsn-dpprpd_bgd-2026-09-23",

@@ -1,6 +1,6 @@
 {
- "version": "v2",
- "started_at": "2026-09-11T01:54:24",
+ "version": "v6",
+ "started_at": "2026-09-11T02:23:38",
  "steps": {
   "universe.csv": {
    "source": "main",
@@ -33,36 +33,28 @@
    "events": 96
   },
   "us_quotes": {
-   "tickers": 0
+   "tickers": 96
   },
-  "kr_universe.코스피 시총상위": {
-   "tickers": 0,
-   "pages": 1
+  "kr_universe.api.코스피 시총상위": {
+   "tickers": 150
   },
-  "kr_universe.코스닥 시총상위": {
-   "tickers": 0,
-   "pages": 1
-  },
-  "kr_universe.prev_kept": {
-   "tickers": 220
+  "kr_universe.api.코스닥 시총상위": {
+   "tickers": 70
   },
   "kr_universe.total": {
    "tickers": 220
   },
-  "corp_codes": {
-   "listed": 3931
-  },
   "corp.filings": {
-   "count": 1518
+   "count": 1519
   },
   "corp.targets": {
-   "count": 50,
-   "skipped_outside_universe": 689,
-   "universe": 219
+   "count": 51,
+   "skipped_outside_universe": 688,
+   "universe": 220
   },
   "corp.events": {
-   "count": 18,
-   "from_targets": 50
+   "count": 19,
+   "from_targets": 51
   },
   "kr_earnings.notice_filings": {
    "count": 0
@@ -71,12 +63,12 @@
    "count": 0
   },
   "kr_earnings.estimated": {
-   "count": 156,
-   "newly_fetched": 219,
-   "companies_with_history": 223
+   "count": 157,
+   "newly_fetched": 2,
+   "companies_with_history": 225
   },
   "kr_quotes": {
-   "tickers": 156
+   "tickers": 157
   }
  },
  "errors": [],
@@ -122,12 +114,12 @@
    "한화에어로스페이스"
   ]
  },
- "finished_at": "2026-09-11T02:13:35",
- "elapsed_sec": 1151,
+ "finished_at": "2026-09-11T02:39:24",
+ "elapsed_sec": 946,
  "counts": {
-  "earnings": 252,
+  "earnings": 253,
   "us": 96,
-  "kr": 156,
-  "corp": 18
+  "kr": 157,
+  "corp": 19
  }
 }
