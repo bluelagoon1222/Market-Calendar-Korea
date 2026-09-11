@@ -9,6 +9,8 @@ v1 실행(2026-09-09) 결과 반영
   · corp 452건 중 54건만 이벤트화  → 날짜 필드 라벨 확장 + 신탁계약 서식 분리
   · 전환사채(CB) 건수 과다        → CB·BW·EB 추적 제외, 기업행위는 시총상위 220종목으로 한정 (요청)
 
+v4  미국 실적 추적 대상을 시총 상위 20% + 반도체·AI·2차전지 밸류체인으로 한정
+
 v3 (v2 실행 결과 반영)
   · kr_universe 97종목            → 네이버 페이지 중복 판정을 HTML 앞부분으로 해 2·3페이지가 스킵됨.
                                     신규 종목코드 유입 여부로 판정, 코스피 150 / 코스닥 70 할당
@@ -38,6 +40,21 @@ BUDGET = int(os.environ.get("TIME_BUDGET", "2400"))
 T0 = time.time()
 
 HORIZON = 100        # 향후 며칠까지 일정을 담을지
+US_TOP_PCT = 0.20    # S&P500·나스닥100 합집합 중 시가총액 상위 몇 %만 추적할지
+
+# 시가총액과 무관하게 항상 추적하는 종목 (국내 반도체·2차전지 밸류체인 연관)
+SEMI_CHAIN = ("TSM MU INTC ASML AMAT LRCX KLAC TER NVDA AMD AVGO QCOM TXN ADI NXPI "
+              "MRVL ARM MCHP SNPS CDNS WDC STX DELL SMCI ANET VRT").split()
+AI_CAPEX = "MSFT GOOGL GOOG AMZN META ORCL".split()
+BATTERY = "TSLA GM F RIVN LCID ALB SQM QS".split()
+TAGS = {}
+for _t in SEMI_CHAIN:
+    TAGS[_t] = "반도체"
+for _t in AI_CAPEX:
+    TAGS[_t] = "AI 설비투자"
+for _t in BATTERY:
+    TAGS[_t] = "2차전지"
+ALWAYS = set(TAGS)
 KR_MARKETS = ((0, "코스피 시총상위", 8, 150),   # (네이버 sosok, 라벨, 최대 페이지, 종목 상한)
               (1, "코스닥 시총상위", 6, 70))
 KR_TOP = sum(m[3] for m in KR_MARKETS)
@@ -226,6 +243,41 @@ def us_universe():
     return out
 
 
+def us_marketcaps():
+    """나스닥 스크리너에서 전 종목 시가총액을 한 번에 조회"""
+    caps = {}
+    try:
+        r = get("https://api.nasdaq.com/api/screener/stocks",
+                params={"tableonly": "true", "limit": "8000", "offset": "0"},
+                headers={**UA, "Accept": "application/json",
+                         "Origin": "https://www.nasdaq.com",
+                         "Referer": "https://www.nasdaq.com/"}, timeout=40)
+        for row in ((r.json().get("data") or {}).get("table") or {}).get("rows") or []:
+            mc = re.sub(r"[^0-9]", "", str(row.get("marketCap") or ""))
+            if mc and mc != "0":
+                caps[(row.get("symbol") or "").strip().upper()] = int(mc)
+        note("us_marketcaps", tickers=len(caps))
+    except Exception as e:
+        err("us_marketcaps", e)
+    return caps
+
+
+def us_focus(uni):
+    """추적 대상 = 시총 상위 US_TOP_PCT + 반도체·AI·2차전지 고정 편입"""
+    caps = us_marketcaps()
+    ranked = sorted((t for t in uni if caps.get(t)), key=lambda t: -caps[t])
+    keep_n = max(60, int(round(len(uni) * US_TOP_PCT)))
+    top = set(ranked[:keep_n])
+    if not ranked:                      # 스크리너 실패 시: 실적 캘린더의 시총으로 후단 필터
+        note("us_focus.fallback", note="screener 실패 → 시총 500억달러 기준으로 대체")
+        return None, caps
+    focus = top | ALWAYS
+    note("us_focus", top_pct=US_TOP_PCT, top_n=len(top), always=len(ALWAYS),
+         total=len(focus), cutoff_usd_bn=round(caps.get(ranked[keep_n - 1], 0) / 1e9, 1))
+    STATUS["samples"]["us_focus_top"] = ranked[:10]
+    return focus, caps
+
+
 # ==========================================================================
 # B. 미국 실적발표일 (장전/장후 포함)
 # ==========================================================================
@@ -234,7 +286,8 @@ SESSION_MAP = {"time-pre-market": "pre", "time-after-hours": "post",
 
 
 def us_earnings(uni):
-    events, raw_rows, matched = [], 0, 0
+    focus, caps = us_focus(uni)
+    events, raw_rows, matched, dropped = [], 0, 0, 0
     d, end = date.today(), date.today() + timedelta(days=HORIZON)
     while d <= end:
         if d.weekday() > 4:
@@ -257,17 +310,27 @@ def us_earnings(uni):
         for row in rows:
             sym = (row.get("symbol") or "").strip().upper()
             idx = uni.get(sym)
-            if idx is None:
+            if idx is None and sym not in ALWAYS:
                 continue
+            mc = int(re.sub(r"[^0-9]", "", str(row.get("marketCap") or "")) or 0) or caps.get(sym, 0)
+            if sym not in ALWAYS:
+                if focus is None:
+                    if mc < 50_000_000_000:      # 스크리너 실패 시 대체 기준
+                        dropped += 1
+                        continue
+                elif sym not in focus:
+                    dropped += 1
+                    continue
             matched += 1
-            mc = int(re.sub(r"[^0-9]", "", str(row.get("marketCap") or "")) or 0)
-            imp = 3 if mc > 200_000_000_000 else (2 if ("NDX" in idx or mc > 50_000_000_000) else 1)
+            tag = TAGS.get(sym, "")
+            idx = idx or ["밸류체인"]
+            imp = 3 if (tag or mc > 200_000_000_000) else (2 if mc > 50_000_000_000 else 1)
             events.append({
                 "id": f"us-earn-{sym}-{d.isoformat()}",
                 "date": d.isoformat(), "market": "US", "cat": "earnings",
                 "title": f"{sym} — {strip_tags(row.get('name') or '')}".strip(" —"),
                 "ticker": sym, "session": SESSION_MAP.get((row.get("time") or "").strip(), "unknown"),
-                "imp": imp, "status": "confirmed", "index": idx,
+                "imp": imp, "status": "confirmed", "index": idx, "tag": tag,
                 "eps_forecast": row.get("epsForecast") or "",
                 "last_year_eps": row.get("lastYearEPS") or "",
                 "fiscal": row.get("fiscalQuarterEnding") or "",
@@ -277,7 +340,8 @@ def us_earnings(uni):
             })
         d += timedelta(days=1)
         time.sleep(0.05)
-    note("us_earnings.nasdaq", raw_rows=raw_rows, matched=matched, events=len(events))
+    note("us_earnings.nasdaq", raw_rows=raw_rows, matched=matched,
+         dropped_outside_focus=dropped, events=len(events))
     return events
 
 

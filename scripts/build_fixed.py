@@ -67,6 +67,21 @@ def last_weekday(y, m, weekday):
     return d - timedelta(days=(d.weekday() - weekday) % 7)
 
 
+def bday(d):
+    """해당일이 휴장일이면 다음 거래일 (한국 기준)"""
+    while not is_kr_bday(d):
+        d += timedelta(days=1)
+    return d
+
+
+def bday_back(d):
+    """직전 거래일 (한국 기준)"""
+    d -= timedelta(days=1)
+    while not is_kr_bday(d):
+        d -= timedelta(days=1)
+    return d
+
+
 def months(start, end):
     y, m = start.year, start.month
     while (y, m) <= (end.year, end.month):
@@ -429,6 +444,202 @@ EVT = [
 ]
 for d, mk, t, imp, desc, src in EVT:
     add(d, mk, "event", t, imp=imp, status="estimated", desc=desc, source=src)
+
+
+# --------------------------------------------------------------------------
+# 8. 러셀 리컨스티튜션 / 정기보고서 기한 / 배당 / 수급·계절성 / 삼성전자·SK하이닉스
+# --------------------------------------------------------------------------
+
+# 8-1. 러셀 연간 리컨스티튜션 — 6월 마지막 금요일 종가
+for y in range(START.year, END.year + 1):
+    rd = last_weekday(y, 6, 4)
+    add(rd, "US", "index", "러셀 지수 연간 리컨스티튜션 (종가 리밸런싱)", imp=3, status="estimated",
+        desc="러셀1000·2000·3000 구성종목이 한 번에 재편되는 날로, 미국 증시 연중 최대 거래일입니다. "
+             "종가 단일가에 패시브 자금이 집중되며, 대형주에서 소형주로 강등되는 종목은 러셀2000 편입 "
+             "수요가 커져 오히려 상승하는 경우도 있습니다.",
+        checklist=["보유 미국 종목의 편입·편출·이동 여부 확인",
+                   "종가 거래 집중 구간 대량주문 회피", "리컨 직후 소형주 변동성 확대 안내"],
+        source="FTSE Russell (6월 마지막 금요일)")
+    add(last_weekday(y, 5, 4), "US", "index", "러셀 리컨스티튜션 예비 명단 발표 (잠정)", imp=2,
+        status="estimated",
+        desc="5월 말 순위 확정 후 예비 명단이 공개되고, 6월 중 수 차례 수정본이 나옵니다.",
+        source="FTSE Russell (관행)")
+
+# 8-2. 국내 정기보고서 법정 제출 기한
+RPT = [("2026-11-16", "3분기보고서 제출 기한", 3),
+       ("2027-03-31", "사업보고서·감사보고서 제출 기한", 3),
+       ("2027-05-17", "1분기보고서 제출 기한", 2)]
+for d, t, imp in RPT:
+    add(d, "KR", "corp", t + " (12월 결산법인)", imp=imp,
+        desc="기한 내 미제출은 관리종목 지정 사유이며, 지연이 반복되면 상장폐지 심사로 이어집니다. "
+             "특히 사업보고서 시즌에는 감사의견 거절·한정 사유로 매매거래정지가 발생합니다. "
+             "법정 기한이 휴일인 경우 다음 영업일로 순연됩니다.",
+        checklist=["보유 종목 중 제출 지연·감사의견 비적정 이력 종목 사전 점검",
+                   "기한 임박 미제출 종목은 고객 보유분 확인 후 선제 안내",
+                   "관리종목 지정 시 신용융자 제한 여부 확인"],
+        source="자본시장법 정기보고서 제출기한")
+
+# 8-3. 배당 일정
+for y, m in months(START, END):
+    if m in (3, 6, 9, 12):
+        qd = last_weekday(y, m, 4) if date(y, m, monthrange(y, m)[1]).weekday() > 4 \
+             else date(y, m, monthrange(y, m)[1])
+        while not is_kr_bday(qd):
+            qd -= timedelta(days=1)
+        if m == 12:
+            add(qd, "KR", "corp", "결산·분기 배당 기준일 (12월 결산법인 다수)", imp=3,
+                desc="이 날 주주명부에 등재돼야 결산배당을 받습니다. 결제가 T+2이므로 기준일 2영업일 전까지 "
+                     "매수해야 하며, 전 영업일이 배당락일입니다. 최근에는 배당액을 먼저 확정하고 기준일을 "
+                     "이후로 미루는 기업이 늘어 개별 공시 확인이 필요합니다.",
+                checklist=["고배당 보유 고객의 기준일 전 매수 완료 여부 확인",
+                           "배당락 하락폭과 배당수익률 비교 안내",
+                           "금융소득 2천만원 초과 예상 고객 사전 점검"],
+                source="상법·자본시장법 (결산 기준일)")
+            add(bday_back(qd), "KR", "corp", "배당락일 (결산배당)", imp=3,
+                desc="이 날 매수분은 배당을 받지 못하며, 이론적으로 배당금만큼 주가가 조정됩니다.",
+                source="KRX")
+        else:
+            add(qd, "KR", "corp", "분기배당 기준일 (삼성전자 등 분기배당사)", imp=2,
+                desc="삼성전자·POSCO홀딩스 등 분기배당 실시 기업의 기준일입니다.",
+                source="각 사 배당정책")
+    if m in (1, 4, 7, 10, 12):
+        ed = date(y, m, monthrange(y, m)[1])
+        while not is_kr_bday(ed):
+            ed -= timedelta(days=1)
+        add(ed, "KR", "corp", "국내 ETF 분배금 지급기준일", imp=2,
+            desc="국내 상장 ETF는 통상 1·4·7·10월 말과 회계기간 종료일에 분배금을 지급합니다. "
+                 "기준일 보유자가 대상이며 결제일 기준으로 계산해야 합니다.",
+            checklist=["ETF 보유 고객의 분배금 예상액·과세(배당소득) 안내"],
+            source="집합투자규약 (통상 1·4·7·10·12월 말)")
+
+# 8-4. 수급·계절성 이벤트 (기본 비표시 카테고리)
+for y, m in months(START, END):
+    # 분기말 기관 리밸런싱 / 윈도우드레싱
+    if m in (3, 6, 9, 12):
+        qe = date(y, m, monthrange(y, m)[1])
+        while not is_kr_bday(qe):
+            qe -= timedelta(days=1)
+        add(qe, "KR", "flow", "분기말 기관 리밸런싱·윈도우드레싱", imp=2, status="estimated",
+            desc="연기금·기관의 분기말 자산배분 조정과 평가용 종가 관리가 겹치는 날입니다. "
+                 "대형 우량주 종가 강세, 부진 종목 매도 압력이 나타나는 경향이 있습니다.",
+            source="시장 관행")
+    # 선물 롤오버 주간 (만기 1주 전 월요일)
+    if m in (3, 6, 9, 12):
+        add(nth_weekday(y, m, 3, 2) - timedelta(days=9), "KR", "flow",
+            "코스피200 선물 롤오버 주간 시작", imp=1, status="estimated",
+            desc="근월물에서 차월물로 포지션이 이동하는 구간으로, 베이시스 변동에 따라 프로그램 매매가 "
+                 "출렁입니다. 스프레드 급변 시 현물 수급에 영향을 줍니다.",
+            source="시장 관행 (만기 1~2주 전)")
+add("2027-03-19", "KR", "flow", "12월 결산법인 정기주주총회 집중일 (잠정)", imp=2, status="estimated",
+    desc="3월 셋째 주 금요일 전후에 주총이 집중됩니다. 배당 확정, 이사 선임, 행동주의 안건 표결이 "
+         "이 시점에 몰립니다.",
+    source="시장 관행")
+add("2027-04-01", "KR", "flow", "외국인 배당금 역송금 시즌 시작 (4월)", imp=2, status="estimated",
+    desc="12월 결산법인 배당금이 외국인 주주에게 지급되며 달러 환전 수요가 집중됩니다. "
+         "4월 중 원화 약세 압력으로 작용하는 계절적 요인입니다.",
+    checklist=["달러 자산 보유 고객에게 계절적 환율 흐름 안내"],
+    source="시장 관행 (4월 집중)")
+for y, m in months(START, END):
+    mon = nth_weekday(y, m, 0, 1)
+    add(mon, "KR", "flow", "국고채 입찰 (월초, 잠정)", imp=1, status="estimated",
+        desc="기획재정부 국고채 입찰. 응찰률과 낙찰금리가 국내 채권 금리의 단기 방향을 좌우합니다.",
+        source="기획재정부 (통상 월요일)")
+    add(nth_weekday(y, m, 2, 2), "US", "flow", "미국 10년물 국채 입찰 (잠정)", imp=2, status="estimated",
+        desc="응찰 부진 시 장기금리가 급등하며 성장주·고밸류 종목이 조정받습니다.",
+        source="US Treasury (관행: 월 중순)")
+    add(nth_weekday(y, m, 3, 2), "US", "flow", "미국 30년물 국채 입찰 (잠정)", imp=1, status="estimated",
+        source="US Treasury (관행)")
+
+# 8-5. 미국 자사주 매입 블랙아웃 (분기 실적 시즌 전후)
+BUYBACK = [("2026-09-14", "2026-10-28"), ("2026-12-14", "2027-01-27"),
+           ("2027-03-15", "2027-04-28"), ("2027-06-14", "2027-07-28")]
+for st_d, ed_d in BUYBACK:
+    add(st_d, "US", "flow", "미국 자사주 매입 블랙아웃 구간 진입 (잠정)", imp=2, status="estimated",
+        desc="미국 대형주는 분기 실적 발표 약 5주 전부터 발표 직후까지 자사주 매입을 중단합니다. "
+             "S&P500 자사주 매입은 시장 최대 순매수 주체 중 하나여서, 이 구간에는 하방 지지력이 "
+             "약해지고 조정 폭이 커지는 경향이 있습니다.",
+        checklist=["변동성 확대 구간임을 사전 안내", "분할 매수 계획 고객은 블랙아웃 해제 시점 참고"],
+        source="시장 관행 (실적 5주 전~발표 후 48시간)")
+    add(ed_d, "US", "flow", "미국 자사주 매입 재개 (잠정)", imp=1, status="estimated",
+        desc="대부분 기업의 실적 발표가 끝나 자사주 매입이 재개되는 시점입니다.",
+        source="시장 관행")
+
+# 8-6. 정책 리스크 시한
+add("2026-09-30", "US", "policy", "미국 연방정부 예산안 처리 기한 (회계연도 종료)", imp=3,
+    desc="기한 내 처리되지 않으면 셧다운이 발생합니다. 과거 사례상 증시 영향은 제한적이었으나, "
+         "경제지표 발표가 중단돼 연준 판단 근거가 사라지는 점이 실질적 리스크입니다.",
+    checklist=["셧다운 시 지표 발표 지연 여부 확인", "국방·인프라 관련 종목 영향 점검"],
+    source="미국 회계연도 (10월 1일 시작)")
+for d1, _, _ in FOMC:
+    add(date.fromisoformat(d1) - timedelta(days=13), "US", "policy", "베이지북 공개 (FOMC 2주 전)",
+        imp=1, status="estimated",
+        desc="12개 연은 관할 지역의 경기 상황 보고서로, 회의 전 연준의 시각을 가늠하는 자료입니다.",
+        source="Federal Reserve (회의 2주 전 수요일)")
+for d, _ in BOK_MPC:
+    if date.fromisoformat(d).month in (2, 5, 8, 11):
+        add(d, "KR", "policy", "한국은행 수정 경제전망 발표 (금통위 동시)", imp=2,
+            desc="성장률·물가 전망 수정치가 함께 공개됩니다. 전망 하향은 금리 인하 기대로 직결됩니다.",
+            source="한국은행 (2·5·8·11월)")
+
+# 8-7. 삼성전자·SK하이닉스 전용 일정
+SEMI_KR = []
+for y, q_end_m, label in [(2026, 9, "3Q"), (2026, 12, "4Q"), (2027, 3, "1Q"), (2027, 6, "2Q")]:
+    base = date(y, q_end_m, monthrange(y, q_end_m)[1])
+    prelim = bday(base + timedelta(days=8))
+    final = bday(base + timedelta(days=29))
+    SEMI_KR += [
+        (prelim, "삼성전자 " + label + " 잠정실적 발표 예상", 3,
+         "분기 종료 후 약 1주 시점에 매출·영업이익 잠정치만 공개됩니다. 부문별 실적은 확정 발표 때 "
+         "나오므로, 잠정치 발표일에는 전사 영업이익과 컨센서스 괴리만 확인하면 됩니다. "
+         "국내 실적 시즌의 출발점이자 반도체 업종 컨센서스 조정의 트리거입니다."),
+        (final, "삼성전자 " + label + " 확정실적·컨퍼런스콜 예상", 3,
+         "부문별(DS·DX·SDC·하만) 실적과 설비투자 계획, 메모리 출하·가격 전망이 공개됩니다. "
+         "콜에서 언급되는 CapEx 규모와 감산·증산 방향이 소재·장비주 전반에 파급됩니다."),
+        (bday(base + timedelta(days=26)), "SK하이닉스 " + label + " 실적발표·컨퍼런스콜 예상", 3,
+         "잠정 단계 없이 확정 실적을 한 번에 발표합니다. HBM 공급 계약 진행률과 내년 증설 계획이 "
+         "핵심이며, 발표 당일 국내 반도체 소부장 종목이 동반 반응합니다."),
+    ]
+for d, t, imp, desc in SEMI_KR:
+    add(d, "KR", "semi", t, imp=imp, status="estimated", desc=desc,
+        checklist=["컨센서스·직전 분기 대비 비교표 준비",
+                   "발표 후 반도체 밸류체인(소부장) 파급 경로 정리",
+                   "보유 고객 대상 결과별 안내 문구 사전 작성"],
+        links=[{"label": "삼성전자 IR", "url": "https://www.samsung.com/sec/ir/"},
+               {"label": "SK하이닉스 IR", "url": "https://www.skhynix.com/ir/"}],
+        source="과거 발표 패턴 기반 추정")
+
+SEMI_EVT = [
+    ("2027-01-06", "삼성전자 CES 2027 참가 — 신제품·AI 전략 공개", 2,
+     "연초 기술 방향성이 제시되는 자리로, 가전·모바일·로봇 관련 계열사와 협력사 주가에 영향을 줍니다."),
+    ("2027-01-20", "삼성 갤럭시 언팩 예상 (1월)", 1,
+     "플래그십 스마트폰 공개 행사. 카메라·디스플레이·기판 등 부품 공급사 실적 기대가 반영됩니다."),
+    ("2027-03-17", "삼성전자 정기주주총회 예상", 2,
+     "배당정책과 이사 선임안이 확정됩니다. 주주환원 계획 변경 여부가 관전 포인트입니다."),
+    ("2027-03-26", "SK하이닉스 정기주주총회 예상", 2,
+     "배당 확정과 설비투자 계획이 언급됩니다."),
+]
+for d, t, imp, desc in SEMI_EVT:
+    add(d, "KR", "semi", t, imp=imp, status="estimated", desc=desc,
+        source="과거 개최 시점 기반 추정")
+
+# 메모리 업황 선행 지표
+for y, m in months(START, END):
+    add(date(y, m, 1), "KR", "semi", "반도체 수출 실적 확인 (수출입 동향 내)", imp=2, status="estimated",
+        desc="관세청 수출입 동향에서 반도체 수출금액·단가 증감률을 확인합니다. 삼성전자·SK하이닉스 "
+             "분기 실적의 가장 빠른 선행지표이며, 월초 발표 직후 주가가 반응하는 경우가 많습니다.",
+        source="관세청 (매월 1일)")
+for d, t, desc in [
+    ("2026-09-24", "마이크론 실적 발표 예상 (메모리 업황 선행)",
+     "메모리 3사 중 분기가 가장 빨라 삼성전자·SK하이닉스 실적을 앞서 가늠할 수 있습니다. "
+     "DRAM·NAND 가격과 재고 코멘트가 핵심입니다."),
+    ("2026-12-17", "마이크론 실적 발표 예상 (메모리 업황 선행)",
+     "다음 분기 메모리 가격 방향을 확인할 수 있는 자리입니다."),
+    ("2027-03-24", "마이크론 실적 발표 예상 (메모리 업황 선행)", "메모리 가격·재고 사이클 점검."),
+]:
+    add(d, "US", "semi", t, imp=3, status="estimated", desc=desc,
+        checklist=["DRAM·NAND 현물가와 고정거래가 추이 확인",
+                   "발표 다음 날 국내 반도체주 갭 반응 대비 안내"],
+        source="과거 발표 패턴 기반 추정")
 
 
 # --------------------------------------------------------------------------
