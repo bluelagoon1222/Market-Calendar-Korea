@@ -43,10 +43,6 @@ h1 .h-us{color:var(--blue)}
 h1 .h-sl{color:var(--hair);font-weight:300;margin:0 2px}
 h1 .h-tail{color:var(--ink)}
 .sub{font-size:14px;color:var(--muted);margin:10px auto 0;max-width:860px}
-.lang{position:absolute;top:0;right:0;display:flex;border:1px solid var(--hair);border-radius:2px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,.06)}
-.lang button{font-family:var(--font-en);font-size:13px;font-weight:500;letter-spacing:.5px;padding:9px 15px;background:#fff;color:var(--muted);border:0;cursor:pointer}
-.lang button+button{border-left:1px solid var(--hair)}
-.lang button.on{background:var(--orange);color:#fff}
 
 /* status strip */
 .strip{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--hair-soft);
@@ -222,10 +218,9 @@ footer b{color:var(--body)}
   .chip{padding:5px 9px;font-size:12px}
   input[type=search]{flex:1 1 100%;min-width:0}
   .btn{flex:1 1 auto;text-align:center}
-  header{padding:16px 0 14px}
-  h1{font-size:25px;letter-spacing:-.6px;padding-right:74px;text-align:left}
-  .lang{top:2px}
-  .sub{font-size:12.5px;text-align:left;margin-top:8px}
+  header{margin:0 -14px;padding:16px 14px 14px}
+  h1{font-size:23px;letter-spacing:-.5px;overflow-wrap:anywhere}
+  .sub{font-size:12.5px;margin-top:8px}
   .strip div{padding:9px 10px 11px}
   .strip .vl small{font-size:12px}
   .strip .lb{font-size:14px}
@@ -237,8 +232,14 @@ footer b{color:var(--body)}
   .row .t{font-size:13.5px}
   td,th{font-size:12px;padding:6px 8px}
 }
+@media (max-width:430px){
+  h1{font-size:20px}
+  .sub{font-size:12px}
+  .strip .lb{font-size:13px}
+  .strip .vl{font-size:15.5px}
+}
 @media print{
-  .bar,.lang,.acts,.x,.mon .btn{display:none}
+  .bar,.acts,.x,.mon .btn{display:none}
   .cell{min-height:112px}
   body{font-size:11px}
 }
@@ -281,9 +282,6 @@ footer b{color:var(--body)}
     <div>
       <h1 data-i18n="t1"><span class="h-kr">한국</span><span class="h-sl">/</span><span class="h-us">미국</span> <span class="h-tail">시황 캘린더</span></h1>
       <p class="sub" data-i18n="sub">한국·미국 시장의 실적발표(장전/장마감후), 지수 정기변경·리밸런싱, 통화정책, 경제지표, 휴장일, 국내 기업행위(증자·전환사채·자사주)와 세무 데드라인을 한 화면에서 확인하고 사전 준비 항목을 점검하는 영업지원 도구입니다.</p>
-    </div>
-    <div class="lang">
-      <button id="ko" class="on">KO</button><button id="en">EN</button>
     </div>
   </div>
   <div class="strip">
@@ -399,8 +397,7 @@ const I18N = {
 };
 const KO_TEXT = {};
 document.querySelectorAll('[data-i18n]').forEach(el=>KO_TEXT[el.dataset.i18n]=el.innerHTML);
-let LANG = 'ko';
-try{ LANG = localStorage.getItem('mc-lang')||'ko'; }catch(e){}
+const LANG = 'ko';   // 한국어 전용 (영문 전환 미사용)
 
 const CAT = {
   earnings:{c:'#F58220'}, semi:{c:'#AD624E'},  index:{c:'#043B72'},
@@ -806,18 +803,10 @@ document.getElementById('next').onclick=()=>{ ST.cursor.setMonth(ST.cursor.getMo
 document.getElementById('tod').onclick=()=>{ ST.cursor=new Date(); renderMonth(); };
 
 function applyLang(){
-  document.documentElement.lang=LANG;
-  document.getElementById('ko').classList.toggle('on',LANG==='ko');
-  document.getElementById('en').classList.toggle('on',LANG==='en');
   document.querySelectorAll('[data-i18n]').forEach(el=>{
-    const k=el.dataset.i18n;
-    el.innerHTML = LANG==='en' ? (I18N.en[k]||KO_TEXT[k]) : KO_TEXT[k];
+    el.innerHTML = KO_TEXT[el.dataset.i18n];
   });
-  document.getElementById('q').placeholder = LANG==='en'?'Search ticker or event':'종목·이벤트 검색';
-  document.title = LANG==='en' ? 'Korea / US Market Calendar' : '한국/미국 시황 캘린더';
 }
-document.getElementById('ko').onclick=()=>{ LANG='ko'; try{localStorage.setItem('mc-lang','ko')}catch(e){}; chipsInit(); render(); };
-document.getElementById('en').onclick=()=>{ LANG='en'; try{localStorage.setItem('mc-lang','en')}catch(e){}; chipsInit(); render(); };
 
 /* ------------------------------------------------------------------ boot */
 function fitToScreen(){
