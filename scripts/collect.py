@@ -9,6 +9,9 @@ v1 실행(2026-09-09) 결과 반영
   · corp 452건 중 54건만 이벤트화  → 날짜 필드 라벨 확장 + 신탁계약 서식 분리
   · 전환사채(CB) 건수 과다        → CB·BW·EB 추적 제외, 기업행위는 시총상위 220종목으로 한정 (요청)
 
+v5  상세 창에 표시할 종목 지표 수집 (미국: Yahoo / 국내: 네이버 금융)
+    국내 DART 링크가 종목코드로 검색돼 결과가 비던 문제 수정 (회사명 기준 + 네이버 공시 병기)
+
 v4  미국 실적 추적 대상을 시총 상위 20% + 반도체·AI·2차전지 밸류체인으로 한정
 
 v3 (v2 실행 결과 반영)
@@ -23,6 +26,7 @@ v3 (v2 실행 결과 반영)
 
 import io
 import json
+import urllib.parse
 import os
 import re
 import sys
@@ -342,7 +346,93 @@ def us_earnings(uni):
         time.sleep(0.05)
     note("us_earnings.nasdaq", raw_rows=raw_rows, matched=matched,
          dropped_outside_focus=dropped, events=len(events))
+
+    q = us_quotes([e["ticker"] for e in events])
+    for e in events:
+        base = {}
+        if e.get("eps_forecast"):
+            base["컨센서스 EPS"] = str(e["eps_forecast"])
+        if e.get("last_year_eps"):
+            base["전년 동기 EPS"] = str(e["last_year_eps"])
+        if e.get("fiscal"):
+            base["결산 분기"] = str(e["fiscal"])
+        base.update(q.get(e["ticker"], {}))
+        if base:
+            e["metrics"] = base
     return events
+
+
+def us_quotes(tickers):
+    """Yahoo Finance 시세·밸류에이션 (상세 창 표시용)"""
+    out = {}
+    fields = ("regularMarketPrice,regularMarketChangePercent,marketCap,trailingPE,forwardPE,"
+              "epsTrailingTwelveMonths,epsForward,fiftyTwoWeekHigh,fiftyTwoWeekLow,"
+              "averageAnalystRating,shortName")
+    tickers = sorted(set(tickers))
+    for i in range(0, len(tickers), 40):
+        if left() < 200:
+            break
+        batch = tickers[i:i + 40]
+        try:
+            r = get("https://query1.finance.yahoo.com/v7/finance/quote",
+                    params={"symbols": ",".join(batch), "fields": fields}, timeout=25)
+            for q in (r.json().get("quoteResponse") or {}).get("result") or []:
+                m, sym = {}, q.get("symbol")
+                px, ch = q.get("regularMarketPrice"), q.get("regularMarketChangePercent")
+                if px is not None:
+                    m["현재가"] = f"${px:,.2f}" + (f" ({ch:+.2f}%)" if ch is not None else "")
+                if q.get("marketCap"):
+                    m["시가총액"] = f"{q['marketCap'] / 1e9:,.0f}억 달러"
+                if q.get("trailingPE"):
+                    m["PER (실적)"] = f"{q['trailingPE']:.1f}배"
+                if q.get("forwardPE"):
+                    m["PER (선행)"] = f"{q['forwardPE']:.1f}배"
+                if q.get("epsTrailingTwelveMonths") is not None:
+                    m["EPS (TTM)"] = f"{q['epsTrailingTwelveMonths']:,.2f}"
+                if q.get("epsForward") is not None:
+                    m["EPS (선행 추정)"] = f"{q['epsForward']:,.2f}"
+                if q.get("fiftyTwoWeekLow") and q.get("fiftyTwoWeekHigh"):
+                    m["52주 범위"] = f"${q['fiftyTwoWeekLow']:,.2f} ~ ${q['fiftyTwoWeekHigh']:,.2f}"
+                if q.get("averageAnalystRating"):
+                    m["애널리스트 투자의견"] = str(q["averageAnalystRating"])
+                if m:
+                    out[sym] = m
+        except Exception as e:
+            err("us_quotes", e)
+            break
+        time.sleep(0.15)
+    note("us_quotes", tickers=len(out))
+    return out
+
+
+KR_METRIC_KEYS = ("시가총액", "PER", "EPS", "추정PER", "추정EPS", "PBR", "BPS",
+                  "배당수익률", "52주최고", "52주최저", "외국인소진율", "동일업종 PER")
+
+
+def kr_quotes(codes):
+    """네이버 금융 종목 지표 (시총·PER·추정EPS·배당수익률 등)"""
+    out = {}
+    for code in codes:
+        if left() < 240:
+            break
+        m = {}
+        try:
+            j = get(f"https://m.stock.naver.com/api/stock/{code}/integration", timeout=15).json()
+            for blk in (j.get("totalInfos") or []):
+                k, v = str(blk.get("key") or ""), blk.get("value")
+                if k in KR_METRIC_KEYS and v not in (None, "", "-"):
+                    m[k] = str(v)
+            price = (j.get("dealTrendInfos") or [{}])[0]
+            if price.get("closePrice"):
+                m["현재가"] = f"{price['closePrice']}원" + (
+                    f" ({price.get('fluctuationsRatio')}%)" if price.get("fluctuationsRatio") else "")
+        except Exception as e:
+            err(f"kr_quotes.{code}", e)
+        if m:
+            out[code] = m
+        time.sleep(0.08)
+    note("kr_quotes", tickers=len(out))
+    return out
 
 
 # ==========================================================================
@@ -712,12 +802,23 @@ def kr_earnings(uni, cc_map):
             "source": "과거 잠정실적 공시일 기반 추정 (잠정)",
             "links": [{"label": "네이버 금융",
                        "url": f"https://finance.naver.com/item/main.naver?code={code}"},
-                      {"label": "DART 기업 공시",
-                       "url": f"https://dart.fss.or.kr/dsab007/main.do?textCrpNm={code}"}],
+                      {"label": "종목 공시·뉴스",
+                       "url": f"https://finance.naver.com/item/news_notice.naver?code={code}"},
+                      {"label": "컨센서스·기업분석",
+                       "url": f"https://finance.naver.com/item/coinfo.naver?code={code}"},
+                      {"label": "DART 공시 검색",
+                       "url": "https://dart.fss.or.kr/dsab007/main.do?textCrpNm="
+                              + urllib.parse.quote(meta["name"])}],
         })
         est += 1
     save("cache_kr_earn", cache)
     note("kr_earnings.estimated", count=est, newly_fetched=fetched, companies_with_history=len(cache))
+
+    q = kr_quotes([e["ticker"] for e in events if e.get("ticker")])
+    for e in events:
+        m = q.get(e.get("ticker") or "")
+        if m:
+            e["metrics"] = m
     return events
 
 
