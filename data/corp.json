@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-09-11T13:17:32",
- "count": 19,
+ "generated_at": "2026-09-14T01:01:41",
+ "count": 16,
  "events": [
   {
    "id": "corp-01288827-tsstkDpDecsn-dpprpd_edd-2026-10-30",
@@ -246,33 +246,6 @@
    "source": "DART 주요사항보고서 (tsstkAqDecsn)"
   },
   {
-   "id": "corp-00788773-tsstkDpDecsn-dpprpd_edd-2026-09-11",
-   "date": "2026-09-11",
-   "market": "KR",
-   "cat": "corp",
-   "title": "씨젠 — 자기주식 처분 결정 · 예정일",
-   "ticker": "096530",
-   "kind": "자사주 처분",
-   "imp": 2,
-   "status": "confirmed",
-   "index": [
-    "코스닥 시총상위"
-   ],
-   "desc": "일반적으로 수급 부담 요인입니다. 처분 목적(임직원 상여·교환 등) 확인이 필요합니다.",
-   "checklist": [
-    "공시 원문에서 발행 규모·가격(전환가)·배정 대상 확인",
-    "보유 고객 리스트 추출 후 개별 안내",
-    "발행주식수 대비 희석 비율과 권리락일 확인"
-   ],
-   "links": [
-    {
-     "label": "DART 공시 원문",
-     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260812000683"
-    }
-   ],
-   "source": "DART 주요사항보고서 (tsstkDpDecsn)"
-  },
-  {
    "id": "corp-01078178-tsstkDpDecsn-dpprpd_edd-2026-09-30",
    "date": "2026-09-30",
    "market": "KR",
@@ -457,60 +430,6 @@
     {
      "label": "DART 공시 원문",
      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260723000142"
-    }
-   ],
-   "source": "DART 주요사항보고서 (tsstkAqDecsn)"
-  },
-  {
-   "id": "corp-00361008-tsstkAqDecsn-aqexpd_edd-2026-10-12",
-   "date": "2026-10-12",
-   "market": "KR",
-   "cat": "corp",
-   "title": "한화엔진 — 자기주식 취득 결정 · 예정일",
-   "ticker": "082740",
-   "kind": "자사주 취득",
-   "imp": 3,
-   "status": "confirmed",
-   "index": [
-    "코스피 시총상위"
-   ],
-   "desc": "취득 기간 중 실제 매입 이행률이 중요합니다. 직접 취득은 일별 한도가 적용됩니다.",
-   "checklist": [
-    "공시 원문에서 발행 규모·가격(전환가)·배정 대상 확인",
-    "보유 고객 리스트 추출 후 개별 안내",
-    "발행주식수 대비 희석 비율과 권리락일 확인"
-   ],
-   "links": [
-    {
-     "label": "DART 공시 원문",
-     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260714000392"
-    }
-   ],
-   "source": "DART 주요사항보고서 (tsstkAqDecsn)"
-  },
-  {
-   "id": "corp-00190321-tsstkAqDecsn-aqexpd_edd-2026-10-14",
-   "date": "2026-10-14",
-   "market": "KR",
-   "cat": "corp",
-   "title": "케이티 — 자기주식 취득 결정 · 예정일",
-   "ticker": "030200",
-   "kind": "자사주 취득",
-   "imp": 3,
-   "status": "confirmed",
-   "index": [
-    "코스피 시총상위"
-   ],
-   "desc": "취득 기간 중 실제 매입 이행률이 중요합니다. 직접 취득은 일별 한도가 적용됩니다.",
-   "checklist": [
-    "공시 원문에서 발행 규모·가격(전환가)·배정 대상 확인",
-    "보유 고객 리스트 추출 후 개별 안내",
-    "발행주식수 대비 희석 비율과 권리락일 확인"
-   ],
-   "links": [
-    {
-     "label": "DART 공시 원문",
-     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260714000368"
     }
    ],
    "source": "DART 주요사항보고서 (tsstkAqDecsn)"
