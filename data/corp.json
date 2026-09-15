@@ -1,7 +1,61 @@
 {
- "generated_at": "2026-09-15T01:30:16",
- "count": 16,
+ "generated_at": "2026-09-15T14:15:06",
+ "count": 18,
  "events": [
+  {
+   "id": "corp-01135941-tsstkDpDecsn-dpprpd_bgd-2026-09-16",
+   "date": "2026-09-16",
+   "market": "KR",
+   "cat": "corp",
+   "title": "원익IPS — 자기주식 처분 결정 · 예정일",
+   "ticker": "240810",
+   "kind": "자사주 처분",
+   "imp": 2,
+   "status": "confirmed",
+   "index": [
+    "코스닥 시총상위"
+   ],
+   "desc": "일반적으로 수급 부담 요인입니다. 처분 목적(임직원 상여·교환 등) 확인이 필요합니다.",
+   "checklist": [
+    "공시 원문에서 발행 규모·가격(전환가)·배정 대상 확인",
+    "보유 고객 리스트 추출 후 개별 안내",
+    "발행주식수 대비 희석 비율과 권리락일 확인"
+   ],
+   "links": [
+    {
+     "label": "DART 공시 원문",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260915000194"
+    }
+   ],
+   "source": "DART 주요사항보고서 (tsstkDpDecsn)"
+  },
+  {
+   "id": "corp-01135941-tsstkDpDecsn-dpprpd_edd-2026-09-16",
+   "date": "2026-09-16",
+   "market": "KR",
+   "cat": "corp",
+   "title": "원익IPS — 자기주식 처분 결정 · 예정일",
+   "ticker": "240810",
+   "kind": "자사주 처분",
+   "imp": 2,
+   "status": "confirmed",
+   "index": [
+    "코스닥 시총상위"
+   ],
+   "desc": "일반적으로 수급 부담 요인입니다. 처분 목적(임직원 상여·교환 등) 확인이 필요합니다.",
+   "checklist": [
+    "공시 원문에서 발행 규모·가격(전환가)·배정 대상 확인",
+    "보유 고객 리스트 추출 후 개별 안내",
+    "발행주식수 대비 희석 비율과 권리락일 확인"
+   ],
+   "links": [
+    {
+     "label": "DART 공시 원문",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260915000194"
+    }
+   ],
+   "source": "DART 주요사항보고서 (tsstkDpDecsn)"
+  },
   {
    "id": "corp-01288827-tsstkDpDecsn-dpprpd_edd-2026-10-30",
    "date": "2026-10-30",
