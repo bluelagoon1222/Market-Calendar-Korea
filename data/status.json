@@ -1,6 +1,6 @@
 {
  "version": "v6",
- "started_at": "2026-09-16T13:45:38",
+ "started_at": "2026-09-17T00:53:24",
  "steps": {
   "universe.csv": {
    "source": "main",
@@ -17,23 +17,23 @@
    "tickers": 521
   },
   "us_marketcaps": {
-   "tickers": 5789
+   "tickers": 5815
   },
   "us_focus": {
    "top_pct": 0.2,
    "top_n": 104,
    "always": 40,
    "total": 119,
-   "cutoff_usd_bn": 120.8
+   "cutoff_usd_bn": 118.4
   },
   "us_earnings.nasdaq": {
-   "raw_rows": 3385,
-   "matched": 101,
+   "raw_rows": 3362,
+   "matched": 100,
    "dropped_outside_focus": 365,
-   "events": 101
+   "events": 100
   },
   "us_quotes": {
-   "tickers": 101
+   "tickers": 100
   },
   "kr_universe.api.코스피 시총상위": {
    "tickers": 150
@@ -44,16 +44,19 @@
   "kr_universe.total": {
    "tickers": 220
   },
+  "corp_codes": {
+   "listed": 3931
+  },
   "corp.filings": {
-   "count": 1489
+   "count": 1491
   },
   "corp.targets": {
    "count": 46,
-   "skipped_outside_universe": 672,
+   "skipped_outside_universe": 674,
    "universe": 219
   },
   "corp.events": {
-   "count": 15,
+   "count": 13,
    "from_targets": 46
   },
   "kr_earnings.notice_filings": {
@@ -64,7 +67,7 @@
   },
   "kr_earnings.estimated": {
    "count": 156,
-   "newly_fetched": 94,
+   "newly_fetched": 219,
    "companies_with_history": 226
   },
   "kr_quotes": {
@@ -114,12 +117,12 @@
    "두산에너빌리티"
   ]
  },
- "finished_at": "2026-09-16T14:05:40",
- "elapsed_sec": 1201,
+ "finished_at": "2026-09-17T01:19:07",
+ "elapsed_sec": 1543,
  "counts": {
-  "earnings": 257,
-  "us": 101,
+  "earnings": 256,
+  "us": 100,
   "kr": 156,
-  "corp": 15
+  "corp": 13
  }
 }
