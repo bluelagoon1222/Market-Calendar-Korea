@@ -1,6 +1,6 @@
 {
  "version": "v6",
- "started_at": "2026-09-17T13:48:19",
+ "started_at": "2026-09-18T00:46:35",
  "steps": {
   "universe.csv": {
    "source": "main",
@@ -17,23 +17,23 @@
    "tickers": 521
   },
   "us_marketcaps": {
-   "tickers": 5790
+   "tickers": 5816
   },
   "us_focus": {
    "top_pct": 0.2,
    "top_n": 104,
    "always": 40,
    "total": 119,
-   "cutoff_usd_bn": 118.4
+   "cutoff_usd_bn": 118.8
   },
   "us_earnings.nasdaq": {
-   "raw_rows": 3686,
-   "matched": 101,
-   "dropped_outside_focus": 366,
-   "events": 101
+   "raw_rows": 3671,
+   "matched": 102,
+   "dropped_outside_focus": 365,
+   "events": 102
   },
   "us_quotes": {
-   "tickers": 101
+   "tickers": 102
   },
   "kr_universe.api.코스피 시총상위": {
    "tickers": 150
@@ -44,16 +44,19 @@
   "kr_universe.total": {
    "tickers": 220
   },
+  "corp_codes": {
+   "listed": 3931
+  },
   "corp.filings": {
-   "count": 1524
+   "count": 1531
   },
   "corp.targets": {
    "count": 46,
-   "skipped_outside_universe": 691,
+   "skipped_outside_universe": 695,
    "universe": 219
   },
   "corp.events": {
-   "count": 13,
+   "count": 14,
    "from_targets": 46
   },
   "kr_earnings.notice_filings": {
@@ -62,18 +65,19 @@
   "kr_earnings.confirmed": {
    "count": 0
   },
+  "kr_earnings.partial": {
+   "fetched": 122
+  },
   "kr_earnings.estimated": {
-   "count": 156,
-   "newly_fetched": 0,
+   "count": 110,
+   "newly_fetched": 122,
    "companies_with_history": 226
   },
   "kr_quotes": {
-   "tickers": 156
+   "tickers": 0
   }
  },
- "errors": [
-  "dart_list: ReadTimeout HTTPSConnectionPool(host='opendart.fss.or.kr', port=443): Read timed out. (read timeout=20)"
- ],
+ "errors": [],
  "samples": {
   "us_universe": [
    "A",
@@ -116,12 +120,12 @@
    "두산에너빌리티"
   ]
  },
- "finished_at": "2026-09-17T14:02:54",
- "elapsed_sec": 875,
+ "finished_at": "2026-09-18T01:22:38",
+ "elapsed_sec": 2163,
  "counts": {
-  "earnings": 257,
-  "us": 101,
-  "kr": 156,
-  "corp": 13
+  "earnings": 212,
+  "us": 102,
+  "kr": 110,
+  "corp": 14
  }
 }
