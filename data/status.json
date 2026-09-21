@@ -1,6 +1,6 @@
 {
  "version": "v6",
- "started_at": "2026-09-18T13:10:50",
+ "started_at": "2026-09-21T00:29:28",
  "steps": {
   "universe.csv": {
    "source": "main",
@@ -14,26 +14,26 @@
    "source": "slickcharts"
   },
   "universe.total": {
-   "tickers": 521
+   "tickers": 524
   },
   "us_marketcaps": {
-   "tickers": 5793
+   "tickers": 5811
   },
   "us_focus": {
    "top_pct": 0.2,
-   "top_n": 104,
+   "top_n": 105,
    "always": 40,
-   "total": 119,
-   "cutoff_usd_bn": 118.8
+   "total": 120,
+   "cutoff_usd_bn": 119.0
   },
   "us_earnings.nasdaq": {
-   "raw_rows": 3981,
-   "matched": 104,
-   "dropped_outside_focus": 365,
-   "events": 104
+   "raw_rows": 3973,
+   "matched": 105,
+   "dropped_outside_focus": 366,
+   "events": 105
   },
   "us_quotes": {
-   "tickers": 104
+   "tickers": 105
   },
   "kr_universe.api.코스피 시총상위": {
    "tickers": 150
@@ -44,17 +44,20 @@
   "kr_universe.total": {
    "tickers": 220
   },
+  "corp_codes": {
+   "listed": 3931
+  },
   "corp.filings": {
-   "count": 1565
+   "count": 1457
   },
   "corp.targets": {
-   "count": 46,
-   "skipped_outside_universe": 713,
+   "count": 44,
+   "skipped_outside_universe": 659,
    "universe": 219
   },
   "corp.events": {
-   "count": 13,
-   "from_targets": 46
+   "count": 14,
+   "from_targets": 44
   },
   "kr_earnings.notice_filings": {
    "count": 0
@@ -64,7 +67,7 @@
   },
   "kr_earnings.estimated": {
    "count": 156,
-   "newly_fetched": 97,
+   "newly_fetched": 219,
    "companies_with_history": 227
   },
   "kr_quotes": {
@@ -95,8 +98,8 @@
    "MSFT",
    "AMZN",
    "SPCX",
-   "META",
    "AVGO",
+   "META",
    "TSLA"
   ],
   "kr_universe": [
@@ -114,12 +117,12 @@
    "두산에너빌리티"
   ]
  },
- "finished_at": "2026-09-18T13:32:12",
- "elapsed_sec": 1281,
+ "finished_at": "2026-09-21T00:54:59",
+ "elapsed_sec": 1530,
  "counts": {
-  "earnings": 260,
-  "us": 104,
+  "earnings": 261,
+  "us": 105,
   "kr": 156,
-  "corp": 13
+  "corp": 14
  }
 }
