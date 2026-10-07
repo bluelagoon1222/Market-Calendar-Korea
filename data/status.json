@@ -1,6 +1,6 @@
 {
  "version": "v6",
- "started_at": "2026-10-07T01:48:16",
+ "started_at": "2026-10-07T15:48:06",
  "steps": {
   "universe.csv": {
    "source": "main",
@@ -10,30 +10,30 @@
    "tickers": 502
   },
   "universe.ndx": {
-   "tickers": 104,
+   "tickers": 103,
    "source": "slickcharts"
   },
   "universe.total": {
    "tickers": 521
   },
   "us_marketcaps": {
-   "tickers": 5790
+   "tickers": 5781
   },
   "us_focus": {
    "top_pct": 0.2,
    "top_n": 104,
    "always": 40,
    "total": 119,
-   "cutoff_usd_bn": 119.0
+   "cutoff_usd_bn": 118.4
   },
   "us_earnings.nasdaq": {
-   "raw_rows": 4400,
-   "matched": 110,
-   "dropped_outside_focus": 372,
-   "events": 110
+   "raw_rows": 4418,
+   "matched": 112,
+   "dropped_outside_focus": 373,
+   "events": 112
   },
   "us_quotes": {
-   "tickers": 110
+   "tickers": 112
   },
   "kr_universe.api.코스피 시총상위": {
    "tickers": 150
@@ -44,15 +44,12 @@
   "kr_universe.total": {
    "tickers": 220
   },
-  "corp_codes": {
-   "listed": 3934
-  },
   "corp.filings": {
-   "count": 1408
+   "count": 1445
   },
   "corp.targets": {
    "count": 27,
-   "skipped_outside_universe": 613,
+   "skipped_outside_universe": 631,
    "universe": 219
   },
   "corp.events": {
@@ -60,18 +57,18 @@
    "from_targets": 27
   },
   "kr_earnings.notice_filings": {
-   "count": 7
+   "count": 8
   },
   "kr_earnings.confirmed": {
-   "count": 7
+   "count": 8
   },
   "kr_earnings.estimated": {
    "count": 150,
-   "newly_fetched": 219,
+   "newly_fetched": 1,
    "companies_with_history": 234
   },
   "kr_quotes": {
-   "tickers": 157
+   "tickers": 158
   }
  },
  "errors": [],
@@ -117,12 +114,12 @@
    "한화에어로스페이스"
   ]
  },
- "finished_at": "2026-10-07T02:13:52",
- "elapsed_sec": 1535,
+ "finished_at": "2026-10-07T16:04:29",
+ "elapsed_sec": 982,
  "counts": {
-  "earnings": 267,
-  "us": 110,
-  "kr": 157,
+  "earnings": 270,
+  "us": 112,
+  "kr": 158,
   "corp": 8
  }
 }
