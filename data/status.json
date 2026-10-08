@@ -1,6 +1,6 @@
 {
  "version": "v6",
- "started_at": "2026-10-08T02:15:50",
+ "started_at": "2026-10-08T15:52:58",
  "steps": {
   "universe.csv": {
    "source": "main",
@@ -14,26 +14,26 @@
    "source": "slickcharts"
   },
   "universe.total": {
-   "tickers": 521
+   "tickers": 524
   },
   "us_marketcaps": {
-   "tickers": 5781
+   "tickers": 5768
   },
   "us_focus": {
    "top_pct": 0.2,
-   "top_n": 104,
+   "top_n": 105,
    "always": 40,
-   "total": 119,
-   "cutoff_usd_bn": 118.4
+   "total": 120,
+   "cutoff_usd_bn": 116.5
   },
   "us_earnings.nasdaq": {
-   "raw_rows": 4414,
-   "matched": 112,
-   "dropped_outside_focus": 373,
-   "events": 112
+   "raw_rows": 4445,
+   "matched": 114,
+   "dropped_outside_focus": 376,
+   "events": 114
   },
   "us_quotes": {
-   "tickers": 112
+   "tickers": 114
   },
   "kr_universe.api.코스피 시총상위": {
    "tickers": 150
@@ -44,37 +44,41 @@
   "kr_universe.total": {
    "tickers": 220
   },
-  "corp_codes": {
-   "listed": 3934
-  },
   "corp.filings": {
-   "count": 1448
+   "count": 400
   },
   "corp.targets": {
-   "count": 27,
-   "skipped_outside_universe": 633,
+   "count": 8,
+   "skipped_outside_universe": 166,
    "universe": 219
   },
   "corp.events": {
-   "count": 8,
-   "from_targets": 27
+   "count": 5,
+   "from_targets": 8
   },
   "kr_earnings.notice_filings": {
-   "count": 8
+   "count": 4
   },
   "kr_earnings.confirmed": {
-   "count": 8
+   "count": 0
   },
   "kr_earnings.estimated": {
-   "count": 150,
-   "newly_fetched": 219,
+   "count": 156,
+   "newly_fetched": 1,
    "companies_with_history": 234
   },
   "kr_quotes": {
-   "tickers": 158
+   "tickers": 156
   }
  },
- "errors": [],
+ "errors": [
+  "dart_list: ConnectTimeout HTTPSConnectionPool(host='opendart.fss.or.kr', port=443): Max retries exceeded with url: /api/list.json?crtfc_key=193010a829eefbc368d5cff0e673d6540e41e5a5&bgn_de=20260809&end_de=20261008&page_no=5&page_count=100&pblntf_ty=B (Caused by ConnectTimeoutError(<HTTPSConnection(host='opendart.fss.or.kr', port=443) at 0x7f90057c9c10>, 'Connection to opendart.fss.or.kr timed out. (connect timeout=20)'))",
+  "dart_list: ConnectTimeout HTTPSConnectionPool(host='opendart.fss.or.kr', port=443): Max retries exceeded with url: /api/list.json?crtfc_key=193010a829eefbc368d5cff0e673d6540e41e5a5&bgn_de=20260725&end_de=20261008&page_no=4&page_count=100&pblntf_ty=I (Caused by ConnectTimeoutError(<HTTPSConnection(host='opendart.fss.or.kr', port=443) at 0x7f90057952d0>, 'Connection to opendart.fss.or.kr timed out. (connect timeout=20)'))",
+  "kr_earnings.notice_doc: BadZipFile File is not a zip file",
+  "kr_earnings.notice_doc: BadZipFile File is not a zip file",
+  "kr_earnings.notice_doc: BadZipFile File is not a zip file",
+  "kr_earnings.notice_doc: BadZipFile File is not a zip file"
+ ],
  "samples": {
   "us_universe": [
    "A",
@@ -114,15 +118,15 @@
    "삼성생명",
    "삼성물산",
    "두산에너빌리티",
-   "한화에어로스페이스"
+   "신한지주"
   ]
  },
- "finished_at": "2026-10-08T02:41:14",
- "elapsed_sec": 1523,
+ "finished_at": "2026-10-08T16:06:57",
+ "elapsed_sec": 838,
  "counts": {
   "earnings": 270,
-  "us": 112,
-  "kr": 158,
-  "corp": 8
+  "us": 114,
+  "kr": 156,
+  "corp": 5
  }
 }
