@@ -1,6 +1,6 @@
 {
  "version": "v6",
- "started_at": "2026-10-07T15:48:06",
+ "started_at": "2026-10-08T02:15:50",
  "steps": {
   "universe.csv": {
    "source": "main",
@@ -27,7 +27,7 @@
    "cutoff_usd_bn": 118.4
   },
   "us_earnings.nasdaq": {
-   "raw_rows": 4418,
+   "raw_rows": 4414,
    "matched": 112,
    "dropped_outside_focus": 373,
    "events": 112
@@ -44,12 +44,15 @@
   "kr_universe.total": {
    "tickers": 220
   },
+  "corp_codes": {
+   "listed": 3934
+  },
   "corp.filings": {
-   "count": 1445
+   "count": 1448
   },
   "corp.targets": {
    "count": 27,
-   "skipped_outside_universe": 631,
+   "skipped_outside_universe": 633,
    "universe": 219
   },
   "corp.events": {
@@ -64,7 +67,7 @@
   },
   "kr_earnings.estimated": {
    "count": 150,
-   "newly_fetched": 1,
+   "newly_fetched": 219,
    "companies_with_history": 234
   },
   "kr_quotes": {
@@ -114,8 +117,8 @@
    "한화에어로스페이스"
   ]
  },
- "finished_at": "2026-10-07T16:04:29",
- "elapsed_sec": 982,
+ "finished_at": "2026-10-08T02:41:14",
+ "elapsed_sec": 1523,
  "counts": {
   "earnings": 270,
   "us": 112,
