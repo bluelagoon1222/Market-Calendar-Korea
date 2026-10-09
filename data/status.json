@@ -1,6 +1,6 @@
 {
  "version": "v6",
- "started_at": "2026-10-09T02:33:36",
+ "started_at": "2026-10-09T15:35:06",
  "steps": {
   "universe.csv": {
    "source": "main",
@@ -10,30 +10,30 @@
    "tickers": 502
   },
   "universe.ndx": {
-   "tickers": 103,
+   "tickers": 104,
    "source": "slickcharts"
   },
   "universe.total": {
-   "tickers": 524
+   "tickers": 521
   },
   "us_marketcaps": {
-   "tickers": 5768
+   "tickers": 5763
   },
   "us_focus": {
    "top_pct": 0.2,
-   "top_n": 105,
+   "top_n": 104,
    "always": 40,
-   "total": 120,
-   "cutoff_usd_bn": 116.5
+   "total": 119,
+   "cutoff_usd_bn": 119.4
   },
   "us_earnings.nasdaq": {
-   "raw_rows": 4435,
-   "matched": 113,
-   "dropped_outside_focus": 376,
-   "events": 113
+   "raw_rows": 4478,
+   "matched": 112,
+   "dropped_outside_focus": 382,
+   "events": 112
   },
   "us_quotes": {
-   "tickers": 113
+   "tickers": 112
   },
   "kr_universe.api.코스피 시총상위": {
    "tickers": 150
@@ -45,16 +45,16 @@
    "tickers": 220
   },
   "corp.filings": {
-   "count": 100
+   "count": 400
   },
   "corp.targets": {
-   "count": 2,
-   "skipped_outside_universe": 39,
+   "count": 8,
+   "skipped_outside_universe": 166,
    "universe": 219
   },
   "corp.events": {
-   "count": 0,
-   "from_targets": 2
+   "count": 5,
+   "from_targets": 8
   },
   "kr_earnings.notice_filings": {
    "count": 4
@@ -62,25 +62,19 @@
   "kr_earnings.confirmed": {
    "count": 0
   },
-  "kr_earnings.partial": {
-   "fetched": 79
-  },
   "kr_earnings.estimated": {
-   "count": 60,
-   "newly_fetched": 79,
+   "count": 138,
+   "newly_fetched": 140,
    "companies_with_history": 234
   },
   "kr_quotes": {
-   "tickers": 0
-  },
-  "corp.kept_previous": {
-   "count": 5
+   "tickers": 138
   }
  },
  "errors": [
   "corp_codes: BadZipFile File is not a zip file",
-  "dart_list: ReadTimeout HTTPSConnectionPool(host='opendart.fss.or.kr', port=443): Read timed out. (read timeout=20)",
-  "dart_list: ConnectTimeout HTTPSConnectionPool(host='opendart.fss.or.kr', port=443): Max retries exceeded with url: /api/list.json?crtfc_key=193010a829eefbc368d5cff0e673d6540e41e5a5&bgn_de=20260726&end_de=20261009&page_no=3&page_count=100&pblntf_ty=I (Caused by ConnectTimeoutError(<HTTPSConnection(host='opendart.fss.or.kr', port=443) at 0x7f452490b9d0>, 'Connection to opendart.fss.or.kr timed out. (connect timeout=20)'))",
+  "dart_list: ConnectionError HTTPSConnectionPool(host='opendart.fss.or.kr', port=443): Max retries exceeded with url: /api/list.json?crtfc_key=193010a829eefbc368d5cff0e673d6540e41e5a5&bgn_de=20260810&end_de=20261009&page_no=5&page_count=100&pblntf_ty=B (Caused by NewConnectionError(\"HTTPSConnection(host='opendart.fss.or.kr', port=443): Failed to establish a new connection: [Errno 111] Connection refused\"))",
+  "dart_list: ConnectionError HTTPSConnectionPool(host='opendart.fss.or.kr', port=443): Max retries exceeded with url: /api/list.json?crtfc_key=193010a829eefbc368d5cff0e673d6540e41e5a5&bgn_de=20260726&end_de=20261009&page_no=3&page_count=100&pblntf_ty=I (Caused by NewConnectionError(\"HTTPSConnection(host='opendart.fss.or.kr', port=443): Failed to establish a new connection: [Errno 111] Connection refused\"))",
   "kr_earnings.notice_doc: BadZipFile File is not a zip file",
   "kr_earnings.notice_doc: BadZipFile File is not a zip file",
   "kr_earnings.notice_doc: BadZipFile File is not a zip file",
@@ -128,12 +122,12 @@
    "신한지주"
   ]
  },
- "finished_at": "2026-10-09T03:09:42",
- "elapsed_sec": 2166,
+ "finished_at": "2026-10-09T16:01:51",
+ "elapsed_sec": 1604,
  "counts": {
-  "earnings": 173,
-  "us": 113,
-  "kr": 60,
+  "earnings": 250,
+  "us": 112,
+  "kr": 138,
   "corp": 5
  }
 }

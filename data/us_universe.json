@@ -407,9 +407,6 @@
  "CPAY": [
   "SP500"
  ],
- "CTVA": [
-  "SP500"
- ],
  "CSGP": [
   "SP500"
  ],
@@ -1007,6 +1004,7 @@
   "SP500"
  ],
  "MRNA": [
+  "NDX",
   "SP500"
  ],
  "MDLZ": [
@@ -1135,9 +1133,6 @@
  ],
  "PANW": [
   "NDX",
-  "SP500"
- ],
- "PSKY": [
   "SP500"
  ],
  "PH": [
@@ -1308,6 +1303,9 @@
  "SPG": [
   "SP500"
  ],
+ "SKYD": [
+  "SP500"
+ ],
  "SWKS": [
   "SP500"
  ],
@@ -1432,6 +1430,9 @@
  "TFC": [
   "SP500"
  ],
+ "TWLO": [
+  "SP500"
+ ],
  "TYL": [
   "SP500"
  ],
@@ -1514,6 +1515,9 @@
  "VMC": [
   "SP500"
  ],
+ "VYLR": [
+  "SP500"
+ ],
  "WRB": [
   "SP500"
  ],
@@ -1528,9 +1532,6 @@
   "SP500"
  ],
  "DIS": [
-  "SP500"
- ],
- "WBD": [
   "SP500"
  ],
  "WM": [
@@ -1593,25 +1594,37 @@
  "ZTS": [
   "SP500"
  ],
- "TWLO": [
-  "SP500"
+ "ALNY": [
+  "NDX"
  ],
- "SKYD": [
-  "SP500"
+ "FER": [
+  "NDX"
  ],
- "VYLR": [
-  "SP500"
+ "TRI": [
+  "NDX"
+ ],
+ "MSTR": [
+  "NDX"
+ ],
+ "ALAB": [
+  "NDX"
+ ],
+ "QQQ": [
+  "NDX"
+ ],
+ "CCEP": [
+  "NDX"
+ ],
+ "ASML": [
+  "NDX"
+ ],
+ "ARM": [
+  "NDX"
  ],
  "SPCX": [
   "NDX"
  ],
  "MELI": [
-  "NDX"
- ],
- "SPY": [
-  "NDX"
- ],
- "ALNY": [
   "NDX"
  ],
  "NBIS": [
@@ -1620,40 +1633,19 @@
  "RKLB": [
   "NDX"
  ],
- "DIA": [
+ "PDD": [
   "NDX"
  ],
  "CRWV": [
   "NDX"
  ],
+ "DIA": [
+  "NDX"
+ ],
  "SHOP": [
   "NDX"
  ],
- "QQQ": [
-  "NDX"
- ],
- "MSTR": [
-  "NDX"
- ],
- "PDD": [
-  "NDX"
- ],
- "FER": [
-  "NDX"
- ],
- "ARM": [
-  "NDX"
- ],
- "CCEP": [
-  "NDX"
- ],
- "ALAB": [
-  "NDX"
- ],
- "TRI": [
-  "NDX"
- ],
- "ASML": [
+ "SPY": [
   "NDX"
  ]
 }
