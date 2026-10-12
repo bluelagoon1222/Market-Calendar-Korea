@@ -1,6 +1,6 @@
 {
  "version": "v6",
- "started_at": "2026-10-12T01:46:31",
+ "started_at": "2026-10-12T18:14:16",
  "steps": {
   "universe.csv": {
    "source": "main",
@@ -17,14 +17,14 @@
    "tickers": 521
   },
   "us_marketcaps": {
-   "tickers": 5763
+   "tickers": 5766
   },
   "us_focus": {
    "top_pct": 0.2,
    "top_n": 104,
    "always": 40,
    "total": 119,
-   "cutoff_usd_bn": 119.4
+   "cutoff_usd_bn": 120.5
   },
   "us_earnings.nasdaq": {
    "raw_rows": 4474,
@@ -44,34 +44,31 @@
   "kr_universe.total": {
    "tickers": 220
   },
-  "corp_codes": {
-   "listed": 3934
-  },
   "corp.filings": {
-   "count": 1380
+   "count": 1421
   },
   "corp.targets": {
-   "count": 23,
-   "skipped_outside_universe": 595,
+   "count": 24,
+   "skipped_outside_universe": 606,
    "universe": 219
   },
   "corp.events": {
    "count": 8,
-   "from_targets": 23
+   "from_targets": 24
   },
   "kr_earnings.notice_filings": {
-   "count": 12
+   "count": 13
   },
   "kr_earnings.confirmed": {
-   "count": 12
+   "count": 13
   },
   "kr_earnings.estimated": {
-   "count": 147,
-   "newly_fetched": 219,
+   "count": 145,
+   "newly_fetched": 1,
    "companies_with_history": 234
   },
   "kr_quotes": {
-   "tickers": 159
+   "tickers": 158
   }
  },
  "errors": [],
@@ -113,16 +110,16 @@
    "삼성바이오로직스",
    "삼성생명",
    "삼성물산",
-   "두산에너빌리티",
-   "삼성SDI"
+   "신한지주",
+   "두산에너빌리티"
   ]
  },
- "finished_at": "2026-10-12T02:10:14",
- "elapsed_sec": 1423,
+ "finished_at": "2026-10-12T18:29:11",
+ "elapsed_sec": 894,
  "counts": {
-  "earnings": 271,
+  "earnings": 270,
   "us": 112,
-  "kr": 159,
+  "kr": 158,
   "corp": 8
  }
 }
