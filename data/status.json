@@ -1,6 +1,6 @@
 {
  "version": "v6",
- "started_at": "2026-10-09T15:35:06",
+ "started_at": "2026-10-12T01:46:31",
  "steps": {
   "universe.csv": {
    "source": "main",
@@ -27,9 +27,9 @@
    "cutoff_usd_bn": 119.4
   },
   "us_earnings.nasdaq": {
-   "raw_rows": 4478,
+   "raw_rows": 4474,
    "matched": 112,
-   "dropped_outside_focus": 382,
+   "dropped_outside_focus": 381,
    "events": 112
   },
   "us_quotes": {
@@ -44,42 +44,37 @@
   "kr_universe.total": {
    "tickers": 220
   },
+  "corp_codes": {
+   "listed": 3934
+  },
   "corp.filings": {
-   "count": 400
+   "count": 1380
   },
   "corp.targets": {
-   "count": 8,
-   "skipped_outside_universe": 166,
+   "count": 23,
+   "skipped_outside_universe": 595,
    "universe": 219
   },
   "corp.events": {
-   "count": 5,
-   "from_targets": 8
+   "count": 8,
+   "from_targets": 23
   },
   "kr_earnings.notice_filings": {
-   "count": 4
+   "count": 12
   },
   "kr_earnings.confirmed": {
-   "count": 0
+   "count": 12
   },
   "kr_earnings.estimated": {
-   "count": 138,
-   "newly_fetched": 140,
+   "count": 147,
+   "newly_fetched": 219,
    "companies_with_history": 234
   },
   "kr_quotes": {
-   "tickers": 138
+   "tickers": 159
   }
  },
- "errors": [
-  "corp_codes: BadZipFile File is not a zip file",
-  "dart_list: ConnectionError HTTPSConnectionPool(host='opendart.fss.or.kr', port=443): Max retries exceeded with url: /api/list.json?crtfc_key=193010a829eefbc368d5cff0e673d6540e41e5a5&bgn_de=20260810&end_de=20261009&page_no=5&page_count=100&pblntf_ty=B (Caused by NewConnectionError(\"HTTPSConnection(host='opendart.fss.or.kr', port=443): Failed to establish a new connection: [Errno 111] Connection refused\"))",
-  "dart_list: ConnectionError HTTPSConnectionPool(host='opendart.fss.or.kr', port=443): Max retries exceeded with url: /api/list.json?crtfc_key=193010a829eefbc368d5cff0e673d6540e41e5a5&bgn_de=20260726&end_de=20261009&page_no=3&page_count=100&pblntf_ty=I (Caused by NewConnectionError(\"HTTPSConnection(host='opendart.fss.or.kr', port=443): Failed to establish a new connection: [Errno 111] Connection refused\"))",
-  "kr_earnings.notice_doc: BadZipFile File is not a zip file",
-  "kr_earnings.notice_doc: BadZipFile File is not a zip file",
-  "kr_earnings.notice_doc: BadZipFile File is not a zip file",
-  "kr_earnings.notice_doc: BadZipFile File is not a zip file"
- ],
+ "errors": [],
  "samples": {
   "us_universe": [
    "A",
@@ -119,15 +114,15 @@
    "삼성생명",
    "삼성물산",
    "두산에너빌리티",
-   "신한지주"
+   "삼성SDI"
   ]
  },
- "finished_at": "2026-10-09T16:01:51",
- "elapsed_sec": 1604,
+ "finished_at": "2026-10-12T02:10:14",
+ "elapsed_sec": 1423,
  "counts": {
-  "earnings": 250,
+  "earnings": 271,
   "us": 112,
-  "kr": 138,
-  "corp": 5
+  "kr": 159,
+  "corp": 8
  }
 }
