@@ -1,6 +1,6 @@
 {
  "version": "v6",
- "started_at": "2026-10-13T03:10:43",
+ "started_at": "2026-10-13T16:28:43",
  "steps": {
   "universe.csv": {
    "source": "main",
@@ -17,17 +17,17 @@
    "tickers": 521
   },
   "us_marketcaps": {
-   "tickers": 5766
+   "tickers": 5763
   },
   "us_focus": {
    "top_pct": 0.2,
    "top_n": 104,
    "always": 40,
    "total": 119,
-   "cutoff_usd_bn": 120.5
+   "cutoff_usd_bn": 119.7
   },
   "us_earnings.nasdaq": {
-   "raw_rows": 4471,
+   "raw_rows": 4485,
    "matched": 112,
    "dropped_outside_focus": 381,
    "events": 112
@@ -44,37 +44,31 @@
   "kr_universe.total": {
    "tickers": 220
   },
-  "corp_codes": {
-   "listed": 3934
-  },
   "corp.filings": {
-   "count": 1388
+   "count": 1420
   },
   "corp.targets": {
-   "count": 24,
-   "skipped_outside_universe": 591,
+   "count": 25,
+   "skipped_outside_universe": 603,
    "universe": 219
   },
   "corp.events": {
    "count": 8,
-   "from_targets": 24
+   "from_targets": 25
   },
   "kr_earnings.notice_filings": {
-   "count": 13
+   "count": 18
   },
   "kr_earnings.confirmed": {
-   "count": 13
-  },
-  "kr_earnings.partial": {
-   "fetched": 183
+   "count": 18
   },
   "kr_earnings.estimated": {
-   "count": 131,
-   "newly_fetched": 183,
+   "count": 141,
+   "newly_fetched": 37,
    "companies_with_history": 234
   },
   "kr_quotes": {
-   "tickers": 0
+   "tickers": 159
   }
  },
  "errors": [],
@@ -117,15 +111,15 @@
    "삼성생명",
    "삼성물산",
    "신한지주",
-   "두산에너빌리티"
+   "삼성SDI"
   ]
  },
- "finished_at": "2026-10-13T03:46:44",
- "elapsed_sec": 2161,
+ "finished_at": "2026-10-13T16:46:15",
+ "elapsed_sec": 1052,
  "counts": {
-  "earnings": 256,
+  "earnings": 271,
   "us": 112,
-  "kr": 144,
+  "kr": 159,
   "corp": 8
  }
 }
