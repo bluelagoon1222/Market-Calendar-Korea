@@ -1,6 +1,6 @@
 {
  "version": "v6",
- "started_at": "2026-10-13T16:28:43",
+ "started_at": "2026-10-14T01:23:19",
  "steps": {
   "universe.csv": {
    "source": "main",
@@ -27,13 +27,13 @@
    "cutoff_usd_bn": 119.7
   },
   "us_earnings.nasdaq": {
-   "raw_rows": 4485,
-   "matched": 112,
-   "dropped_outside_focus": 381,
-   "events": 112
+   "raw_rows": 4472,
+   "matched": 106,
+   "dropped_outside_focus": 380,
+   "events": 106
   },
   "us_quotes": {
-   "tickers": 112
+   "tickers": 106
   },
   "kr_universe.api.코스피 시총상위": {
    "tickers": 150
@@ -44,12 +44,15 @@
   "kr_universe.total": {
    "tickers": 220
   },
+  "corp_codes": {
+   "listed": 3934
+  },
   "corp.filings": {
-   "count": 1420
+   "count": 1390
   },
   "corp.targets": {
    "count": 25,
-   "skipped_outside_universe": 603,
+   "skipped_outside_universe": 590,
    "universe": 219
   },
   "corp.events": {
@@ -64,7 +67,7 @@
   },
   "kr_earnings.estimated": {
    "count": 141,
-   "newly_fetched": 37,
+   "newly_fetched": 219,
    "companies_with_history": 234
   },
   "kr_quotes": {
@@ -110,15 +113,15 @@
    "삼성바이오로직스",
    "삼성생명",
    "삼성물산",
-   "신한지주",
-   "삼성SDI"
+   "삼성SDI",
+   "신한지주"
   ]
  },
- "finished_at": "2026-10-13T16:46:15",
- "elapsed_sec": 1052,
+ "finished_at": "2026-10-14T01:47:23",
+ "elapsed_sec": 1443,
  "counts": {
-  "earnings": 271,
-  "us": 112,
+  "earnings": 265,
+  "us": 106,
   "kr": 159,
   "corp": 8
  }
