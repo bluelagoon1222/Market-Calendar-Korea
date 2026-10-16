@@ -1,6 +1,6 @@
 {
  "version": "v6",
- "started_at": "2026-10-15T13:42:39",
+ "started_at": "2026-10-16T00:45:00",
  "steps": {
   "universe.csv": {
    "source": "main",
@@ -27,13 +27,13 @@
    "cutoff_usd_bn": 120.5
   },
   "us_earnings.nasdaq": {
-   "raw_rows": 4522,
-   "matched": 103,
-   "dropped_outside_focus": 382,
-   "events": 103
+   "raw_rows": 4466,
+   "matched": 98,
+   "dropped_outside_focus": 374,
+   "events": 98
   },
   "us_quotes": {
-   "tickers": 103
+   "tickers": 98
   },
   "kr_universe.api.코스피 시총상위": {
    "tickers": 150
@@ -44,8 +44,11 @@
   "kr_universe.total": {
    "tickers": 220
   },
+  "corp_codes": {
+   "listed": 3935
+  },
   "corp.filings": {
-   "count": 1453
+   "count": 1455
   },
   "corp.targets": {
    "count": 26,
@@ -53,22 +56,22 @@
    "universe": 219
   },
   "corp.events": {
-   "count": 12,
+   "count": 11,
    "from_targets": 26
   },
   "kr_earnings.notice_filings": {
-   "count": 28
+   "count": 30
   },
   "kr_earnings.confirmed": {
-   "count": 27
+   "count": 29
   },
   "kr_earnings.estimated": {
    "count": 134,
-   "newly_fetched": 79,
+   "newly_fetched": 219,
    "companies_with_history": 235
   },
   "kr_quotes": {
-   "tickers": 161
+   "tickers": 163
   }
  },
  "errors": [],
@@ -108,18 +111,18 @@
    "현대차",
    "삼성바이오로직스",
    "KB금융",
-   "신한지주",
    "삼성생명",
+   "한화에어로스페이스",
    "삼성물산",
-   "삼성SDI"
+   "신한지주"
   ]
  },
- "finished_at": "2026-10-15T14:01:56",
- "elapsed_sec": 1156,
+ "finished_at": "2026-10-16T01:08:27",
+ "elapsed_sec": 1407,
  "counts": {
-  "earnings": 264,
-  "us": 103,
-  "kr": 161,
-  "corp": 12
+  "earnings": 261,
+  "us": 98,
+  "kr": 163,
+  "corp": 11
  }
 }
