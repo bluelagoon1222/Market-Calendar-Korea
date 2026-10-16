@@ -1,6 +1,6 @@
 {
  "version": "v6",
- "started_at": "2026-10-16T00:45:00",
+ "started_at": "2026-10-16T13:33:18",
  "steps": {
   "universe.csv": {
    "source": "main",
@@ -24,16 +24,16 @@
    "top_n": 104,
    "always": 40,
    "total": 119,
-   "cutoff_usd_bn": 120.5
+   "cutoff_usd_bn": 122.0
   },
   "us_earnings.nasdaq": {
-   "raw_rows": 4466,
-   "matched": 98,
-   "dropped_outside_focus": 374,
-   "events": 98
+   "raw_rows": 4501,
+   "matched": 103,
+   "dropped_outside_focus": 377,
+   "events": 103
   },
   "us_quotes": {
-   "tickers": 98
+   "tickers": 103
   },
   "kr_universe.api.코스피 시총상위": {
    "tickers": 150
@@ -44,34 +44,31 @@
   "kr_universe.total": {
    "tickers": 220
   },
-  "corp_codes": {
-   "listed": 3935
-  },
   "corp.filings": {
-   "count": 1455
+   "count": 1490
   },
   "corp.targets": {
-   "count": 26,
-   "skipped_outside_universe": 616,
+   "count": 27,
+   "skipped_outside_universe": 631,
    "universe": 219
   },
   "corp.events": {
-   "count": 11,
-   "from_targets": 26
+   "count": 13,
+   "from_targets": 27
   },
   "kr_earnings.notice_filings": {
-   "count": 30
+   "count": 36
   },
   "kr_earnings.confirmed": {
-   "count": 29
+   "count": 35
   },
   "kr_earnings.estimated": {
-   "count": 134,
-   "newly_fetched": 219,
+   "count": 130,
+   "newly_fetched": 3,
    "companies_with_history": 235
   },
   "kr_quotes": {
-   "tickers": 163
+   "tickers": 165
   }
  },
  "errors": [],
@@ -114,15 +111,15 @@
    "삼성생명",
    "한화에어로스페이스",
    "삼성물산",
-   "신한지주"
+   "셀트리온"
   ]
  },
- "finished_at": "2026-10-16T01:08:27",
- "elapsed_sec": 1407,
+ "finished_at": "2026-10-16T13:49:12",
+ "elapsed_sec": 953,
  "counts": {
-  "earnings": 261,
-  "us": 98,
-  "kr": 163,
-  "corp": 11
+  "earnings": 268,
+  "us": 103,
+  "kr": 165,
+  "corp": 13
  }
 }
