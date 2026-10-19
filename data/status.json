@@ -1,6 +1,6 @@
 {
  "version": "v6",
- "started_at": "2026-10-19T00:29:18",
+ "started_at": "2026-10-19T15:53:34",
  "steps": {
   "universe.csv": {
    "source": "main",
@@ -17,17 +17,17 @@
    "tickers": 521
   },
   "us_marketcaps": {
-   "tickers": 5780
+   "tickers": 5769
   },
   "us_focus": {
    "top_pct": 0.2,
    "top_n": 104,
    "always": 40,
    "total": 119,
-   "cutoff_usd_bn": 122.0
+   "cutoff_usd_bn": 122.1
   },
   "us_earnings.nasdaq": {
-   "raw_rows": 4491,
+   "raw_rows": 4488,
    "matched": 103,
    "dropped_outside_focus": 372,
    "events": 103
@@ -44,37 +44,31 @@
   "kr_universe.total": {
    "tickers": 220
   },
-  "corp_codes": {
-   "listed": 3935
-  },
   "corp.filings": {
-   "count": 1429
+   "count": 1458
   },
   "corp.targets": {
-   "count": 25,
-   "skipped_outside_universe": 608,
-   "universe": 219
+   "count": 27,
+   "skipped_outside_universe": 619,
+   "universe": 220
   },
   "corp.events": {
-   "count": 12,
-   "from_targets": 25
+   "count": 14,
+   "from_targets": 27
   },
   "kr_earnings.notice_filings": {
-   "count": 36
+   "count": 46
   },
   "kr_earnings.confirmed": {
-   "count": 35
-  },
-  "kr_earnings.partial": {
-   "fetched": 208
+   "count": 45
   },
   "kr_earnings.estimated": {
-   "count": 125,
-   "newly_fetched": 208,
+   "count": 124,
+   "newly_fetched": 13,
    "companies_with_history": 236
   },
   "kr_quotes": {
-   "tickers": 0
+   "tickers": 169
   }
  },
  "errors": [],
@@ -115,17 +109,17 @@
    "삼성바이오로직스",
    "KB금융",
    "삼성생명",
-   "셀트리온",
-   "한화에어로스페이스",
-   "삼성물산"
+   "삼성SDI",
+   "삼성물산",
+   "한화에어로스페이스"
   ]
  },
- "finished_at": "2026-10-19T01:05:18",
- "elapsed_sec": 2160,
+ "finished_at": "2026-10-19T16:08:26",
+ "elapsed_sec": 892,
  "counts": {
-  "earnings": 263,
+  "earnings": 272,
   "us": 103,
-  "kr": 160,
-  "corp": 12
+  "kr": 169,
+  "corp": 14
  }
 }
