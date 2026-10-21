@@ -1,6 +1,6 @@
 {
  "version": "v6",
- "started_at": "2026-10-20T13:52:10",
+ "started_at": "2026-10-21T00:56:32",
  "steps": {
   "universe.csv": {
    "source": "main",
@@ -27,13 +27,13 @@
    "cutoff_usd_bn": 121.9
   },
   "us_earnings.nasdaq": {
-   "raw_rows": 4457,
-   "matched": 103,
-   "dropped_outside_focus": 369,
-   "events": 103
+   "raw_rows": 4402,
+   "matched": 96,
+   "dropped_outside_focus": 358,
+   "events": 96
   },
   "us_quotes": {
-   "tickers": 103
+   "tickers": 96
   },
   "kr_universe.api.코스피 시총상위": {
    "tickers": 150
@@ -44,31 +44,37 @@
   "kr_universe.total": {
    "tickers": 220
   },
+  "corp_codes": {
+   "listed": 3935
+  },
   "corp.filings": {
-   "count": 1444
+   "count": 1398
   },
   "corp.targets": {
-   "count": 27,
-   "skipped_outside_universe": 614,
+   "count": 26,
+   "skipped_outside_universe": 602,
    "universe": 219
   },
   "corp.events": {
-   "count": 13,
-   "from_targets": 27
+   "count": 11,
+   "from_targets": 26
   },
   "kr_earnings.notice_filings": {
-   "count": 60
+   "count": 63
   },
   "kr_earnings.confirmed": {
-   "count": 58
+   "count": 61
+  },
+  "kr_earnings.partial": {
+   "fetched": 193
   },
   "kr_earnings.estimated": {
-   "count": 115,
-   "newly_fetched": 82,
+   "count": 108,
+   "newly_fetched": 193,
    "companies_with_history": 236
   },
   "kr_quotes": {
-   "tickers": 173
+   "tickers": 0
   }
  },
  "errors": [],
@@ -102,24 +108,24 @@
   "kr_universe": [
    "삼성전자",
    "SK하이닉스",
-   "LG에너지솔루션",
    "SK스퀘어",
+   "LG에너지솔루션",
    "삼성전기",
    "삼성바이오로직스",
    "현대차",
    "KB금융",
    "삼성생명",
+   "삼성물산",
    "셀트리온",
-   "삼성SDI",
-   "삼성물산"
+   "삼성SDI"
   ]
  },
- "finished_at": "2026-10-20T14:09:28",
- "elapsed_sec": 1038,
+ "finished_at": "2026-10-21T01:32:32",
+ "elapsed_sec": 2160,
  "counts": {
-  "earnings": 276,
-  "us": 103,
-  "kr": 173,
-  "corp": 13
+  "earnings": 265,
+  "us": 96,
+  "kr": 169,
+  "corp": 11
  }
 }
