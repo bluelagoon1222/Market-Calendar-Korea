@@ -1,6 +1,6 @@
 {
  "version": "v6",
- "started_at": "2026-10-21T14:09:17",
+ "started_at": "2026-10-22T00:53:40",
  "steps": {
   "universe.csv": {
    "source": "main",
@@ -27,13 +27,13 @@
    "cutoff_usd_bn": 123.1
   },
   "us_earnings.nasdaq": {
-   "raw_rows": 4438,
-   "matched": 95,
-   "dropped_outside_focus": 360,
-   "events": 95
+   "raw_rows": 4347,
+   "matched": 83,
+   "dropped_outside_focus": 345,
+   "events": 83
   },
   "us_quotes": {
-   "tickers": 95
+   "tickers": 83
   },
   "kr_universe.api.코스피 시총상위": {
    "tickers": 150
@@ -44,36 +44,37 @@
   "kr_universe.total": {
    "tickers": 220
   },
+  "corp_codes": {
+   "listed": 3935
+  },
   "corp.filings": {
-   "count": 1430
+   "count": 1433
   },
   "corp.targets": {
-   "count": 26,
+   "count": 27,
    "skipped_outside_universe": 613,
    "universe": 219
   },
   "corp.events": {
-   "count": 11,
-   "from_targets": 26
+   "count": 13,
+   "from_targets": 27
   },
   "kr_earnings.notice_filings": {
    "count": 64
   },
   "kr_earnings.confirmed": {
-   "count": 62
+   "count": 59
   },
   "kr_earnings.estimated": {
-   "count": 116,
-   "newly_fetched": 26,
-   "companies_with_history": 236
+   "count": 115,
+   "newly_fetched": 219,
+   "companies_with_history": 237
   },
   "kr_quotes": {
-   "tickers": 178
+   "tickers": 174
   }
  },
- "errors": [
-  "us_quotes.summary.LMT: ReadTimeout HTTPSConnectionPool(host='api.nasdaq.com', port=443): Read timed out. (read timeout=15)"
- ],
+ "errors": [],
  "samples": {
   "us_universe": [
    "A",
@@ -116,12 +117,12 @@
    "삼성SDI"
   ]
  },
- "finished_at": "2026-10-21T14:25:42",
- "elapsed_sec": 984,
+ "finished_at": "2026-10-22T01:16:30",
+ "elapsed_sec": 1369,
  "counts": {
-  "earnings": 273,
-  "us": 95,
-  "kr": 178,
-  "corp": 11
+  "earnings": 257,
+  "us": 83,
+  "kr": 174,
+  "corp": 13
  }
 }
