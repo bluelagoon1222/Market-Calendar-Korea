@@ -1,6 +1,6 @@
 {
  "version": "v6",
- "started_at": "2026-10-22T14:07:31",
+ "started_at": "2026-10-23T00:56:15",
  "steps": {
   "universe.csv": {
    "source": "main",
@@ -27,13 +27,13 @@
    "cutoff_usd_bn": 121.0
   },
   "us_earnings.nasdaq": {
-   "raw_rows": 4350,
-   "matched": 83,
-   "dropped_outside_focus": 348,
-   "events": 83
+   "raw_rows": 4212,
+   "matched": 77,
+   "dropped_outside_focus": 327,
+   "events": 77
   },
   "us_quotes": {
-   "tickers": 83
+   "tickers": 77
   },
   "kr_universe.api.코스피 시총상위": {
    "tickers": 150
@@ -44,31 +44,37 @@
   "kr_universe.total": {
    "tickers": 220
   },
+  "corp_codes": {
+   "listed": 3935
+  },
   "corp.filings": {
-   "count": 1478
+   "count": 1484
   },
   "corp.targets": {
    "count": 28,
-   "skipped_outside_universe": 630,
+   "skipped_outside_universe": 631,
    "universe": 219
   },
   "corp.events": {
-   "count": 16,
+   "count": 15,
    "from_targets": 28
   },
   "kr_earnings.notice_filings": {
-   "count": 73
+   "count": 76
   },
   "kr_earnings.confirmed": {
    "count": 68
   },
+  "kr_earnings.partial": {
+   "fetched": 149
+  },
   "kr_earnings.estimated": {
-   "count": 114,
-   "newly_fetched": 3,
+   "count": 97,
+   "newly_fetched": 149,
    "companies_with_history": 238
   },
   "kr_quotes": {
-   "tickers": 182
+   "tickers": 0
   }
  },
  "errors": [],
@@ -114,12 +120,12 @@
    "기아"
   ]
  },
- "finished_at": "2026-10-22T14:22:33",
- "elapsed_sec": 901,
+ "finished_at": "2026-10-23T01:32:17",
+ "elapsed_sec": 2161,
  "counts": {
-  "earnings": 265,
-  "us": 83,
-  "kr": 182,
-  "corp": 16
+  "earnings": 242,
+  "us": 77,
+  "kr": 165,
+  "corp": 15
  }
 }
