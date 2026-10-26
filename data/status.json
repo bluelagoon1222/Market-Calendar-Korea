@@ -1,6 +1,6 @@
 {
  "version": "v6",
- "started_at": "2026-10-26T00:42:53",
+ "started_at": "2026-10-26T15:30:04",
  "steps": {
   "universe.csv": {
    "source": "main",
@@ -17,19 +17,19 @@
    "tickers": 521
   },
   "us_marketcaps": {
-   "tickers": 5768
+   "tickers": 5767
   },
   "us_focus": {
    "top_pct": 0.2,
    "top_n": 104,
    "always": 40,
    "total": 119,
-   "cutoff_usd_bn": 122.0
+   "cutoff_usd_bn": 120.5
   },
   "us_earnings.nasdaq": {
-   "raw_rows": 4209,
+   "raw_rows": 4219,
    "matched": 79,
-   "dropped_outside_focus": 327,
+   "dropped_outside_focus": 329,
    "events": 79
   },
   "us_quotes": {
@@ -44,34 +44,31 @@
   "kr_universe.total": {
    "tickers": 220
   },
-  "corp_codes": {
-   "listed": 3935
-  },
   "corp.filings": {
-   "count": 1411
+   "count": 1438
   },
   "corp.targets": {
-   "count": 26,
-   "skipped_outside_universe": 610,
+   "count": 27,
+   "skipped_outside_universe": 621,
    "universe": 219
   },
   "corp.events": {
-   "count": 15,
-   "from_targets": 26
+   "count": 17,
+   "from_targets": 27
   },
   "kr_earnings.notice_filings": {
-   "count": 85
+   "count": 94
   },
   "kr_earnings.confirmed": {
-   "count": 77
+   "count": 86
   },
   "kr_earnings.estimated": {
-   "count": 113,
-   "newly_fetched": 219,
-   "companies_with_history": 238
+   "count": 110,
+   "newly_fetched": 1,
+   "companies_with_history": 239
   },
   "kr_quotes": {
-   "tickers": 64
+   "tickers": 196
   }
  },
  "errors": [],
@@ -94,8 +91,8 @@
    "NVDA",
    "AAPL",
    "GOOGL",
-   "GOOG",
    "MSFT",
+   "GOOG",
    "AMZN",
    "SPCX",
    "META",
@@ -117,12 +114,12 @@
    "기아"
   ]
  },
- "finished_at": "2026-10-26T01:18:54",
- "elapsed_sec": 2160,
+ "finished_at": "2026-10-26T15:45:28",
+ "elapsed_sec": 924,
  "counts": {
-  "earnings": 269,
+  "earnings": 275,
   "us": 79,
-  "kr": 190,
-  "corp": 15
+  "kr": 196,
+  "corp": 17
  }
 }

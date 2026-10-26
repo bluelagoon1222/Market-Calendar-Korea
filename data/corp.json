@@ -1,7 +1,115 @@
 {
- "generated_at": "2026-10-26T01:18:54",
- "count": 15,
+ "generated_at": "2026-10-26T15:45:28",
+ "count": 17,
  "events": [
+  {
+   "id": "corp-00413046-tsstkAqDecsn-aqexpd_edd-2026-12-29",
+   "date": "2026-12-29",
+   "market": "KR",
+   "cat": "corp",
+   "title": "셀트리온 — 자기주식 취득 결정 · 예정일",
+   "ticker": "068270",
+   "kind": "자사주 취득",
+   "imp": 3,
+   "status": "confirmed",
+   "index": [
+    "코스피 시총상위"
+   ],
+   "desc": "취득 기간 중 실제 매입 이행률이 중요합니다. 직접 취득은 일별 한도가 적용됩니다.",
+   "checklist": [
+    "공시 원문에서 발행 규모·가격(전환가)·배정 대상 확인",
+    "보유 고객 리스트 추출 후 개별 안내",
+    "발행주식수 대비 희석 비율과 권리락일 확인"
+   ],
+   "links": [
+    {
+     "label": "DART 공시 원문",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260929000153"
+    }
+   ],
+   "source": "DART 주요사항보고서 (tsstkAqDecsn)"
+  },
+  {
+   "id": "corp-00413046-tsstkAqDecsn-aqexpd_bgd-2026-10-27",
+   "date": "2026-10-27",
+   "market": "KR",
+   "cat": "corp",
+   "title": "셀트리온 — 자기주식 취득 결정 · 예정일",
+   "ticker": "068270",
+   "kind": "자사주 취득",
+   "imp": 3,
+   "status": "confirmed",
+   "index": [
+    "코스피 시총상위"
+   ],
+   "desc": "취득 기간 중 실제 매입 이행률이 중요합니다. 직접 취득은 일별 한도가 적용됩니다.",
+   "checklist": [
+    "공시 원문에서 발행 규모·가격(전환가)·배정 대상 확인",
+    "보유 고객 리스트 추출 후 개별 안내",
+    "발행주식수 대비 희석 비율과 권리락일 확인"
+   ],
+   "links": [
+    {
+     "label": "DART 공시 원문",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261026000084"
+    }
+   ],
+   "source": "DART 주요사항보고서 (tsstkAqDecsn)"
+  },
+  {
+   "id": "corp-00413046-tsstkAqDecsn-aqexpd_edd-2027-01-26",
+   "date": "2027-01-26",
+   "market": "KR",
+   "cat": "corp",
+   "title": "셀트리온 — 자기주식 취득 결정 · 예정일",
+   "ticker": "068270",
+   "kind": "자사주 취득",
+   "imp": 3,
+   "status": "confirmed",
+   "index": [
+    "코스피 시총상위"
+   ],
+   "desc": "취득 기간 중 실제 매입 이행률이 중요합니다. 직접 취득은 일별 한도가 적용됩니다.",
+   "checklist": [
+    "공시 원문에서 발행 규모·가격(전환가)·배정 대상 확인",
+    "보유 고객 리스트 추출 후 개별 안내",
+    "발행주식수 대비 희석 비율과 권리락일 확인"
+   ],
+   "links": [
+    {
+     "label": "DART 공시 원문",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261026000084"
+    }
+   ],
+   "source": "DART 주요사항보고서 (tsstkAqDecsn)"
+  },
+  {
+   "id": "corp-00413046-tsstkAqDecsn-aqexpd_edd-2026-11-30",
+   "date": "2026-11-30",
+   "market": "KR",
+   "cat": "corp",
+   "title": "셀트리온 — 자기주식 취득 결정 · 예정일",
+   "ticker": "068270",
+   "kind": "자사주 취득",
+   "imp": 3,
+   "status": "confirmed",
+   "index": [
+    "코스피 시총상위"
+   ],
+   "desc": "취득 기간 중 실제 매입 이행률이 중요합니다. 직접 취득은 일별 한도가 적용됩니다.",
+   "checklist": [
+    "공시 원문에서 발행 규모·가격(전환가)·배정 대상 확인",
+    "보유 고객 리스트 추출 후 개별 안내",
+    "발행주식수 대비 희석 비율과 권리락일 확인"
+   ],
+   "links": [
+    {
+     "label": "DART 공시 원문",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260831000538"
+    }
+   ],
+   "source": "DART 주요사항보고서 (tsstkAqDecsn)"
+  },
   {
    "id": "corp-00547583-tsstkAqDecsn-aqexpd_bgd-2026-10-26",
    "date": "2026-10-26",
@@ -298,60 +406,6 @@
     }
    ],
    "source": "DART 주요사항보고서 (tsstkDpDecsn)"
-  },
-  {
-   "id": "corp-00413046-tsstkAqDecsn-aqexpd_edd-2026-12-29",
-   "date": "2026-12-29",
-   "market": "KR",
-   "cat": "corp",
-   "title": "셀트리온 — 자기주식 취득 결정 · 예정일",
-   "ticker": "068270",
-   "kind": "자사주 취득",
-   "imp": 3,
-   "status": "confirmed",
-   "index": [
-    "코스피 시총상위"
-   ],
-   "desc": "취득 기간 중 실제 매입 이행률이 중요합니다. 직접 취득은 일별 한도가 적용됩니다.",
-   "checklist": [
-    "공시 원문에서 발행 규모·가격(전환가)·배정 대상 확인",
-    "보유 고객 리스트 추출 후 개별 안내",
-    "발행주식수 대비 희석 비율과 권리락일 확인"
-   ],
-   "links": [
-    {
-     "label": "DART 공시 원문",
-     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260929000153"
-    }
-   ],
-   "source": "DART 주요사항보고서 (tsstkAqDecsn)"
-  },
-  {
-   "id": "corp-00413046-tsstkAqDecsn-aqexpd_edd-2026-11-30",
-   "date": "2026-11-30",
-   "market": "KR",
-   "cat": "corp",
-   "title": "셀트리온 — 자기주식 취득 결정 · 예정일",
-   "ticker": "068270",
-   "kind": "자사주 취득",
-   "imp": 3,
-   "status": "confirmed",
-   "index": [
-    "코스피 시총상위"
-   ],
-   "desc": "취득 기간 중 실제 매입 이행률이 중요합니다. 직접 취득은 일별 한도가 적용됩니다.",
-   "checklist": [
-    "공시 원문에서 발행 규모·가격(전환가)·배정 대상 확인",
-    "보유 고객 리스트 추출 후 개별 안내",
-    "발행주식수 대비 희석 비율과 권리락일 확인"
-   ],
-   "links": [
-    {
-     "label": "DART 공시 원문",
-     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260831000538"
-    }
-   ],
-   "source": "DART 주요사항보고서 (tsstkAqDecsn)"
   },
   {
    "id": "corp-00111704-tsstkAqDecsn-aqexpd_edd-2026-12-28",
