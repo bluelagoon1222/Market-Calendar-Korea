@@ -1,6 +1,6 @@
 {
  "version": "v6",
- "started_at": "2026-10-27T01:36:59",
+ "started_at": "2026-10-27T14:56:26",
  "steps": {
   "universe.csv": {
    "source": "main",
@@ -17,23 +17,23 @@
    "tickers": 521
   },
   "us_marketcaps": {
-   "tickers": 5767
+   "tickers": 5771
   },
   "us_focus": {
    "top_pct": 0.2,
    "top_n": 104,
    "always": 40,
    "total": 119,
-   "cutoff_usd_bn": 120.5
+   "cutoff_usd_bn": 119.8
   },
   "us_earnings.nasdaq": {
-   "raw_rows": 4148,
-   "matched": 76,
-   "dropped_outside_focus": 322,
-   "events": 76
+   "raw_rows": 4180,
+   "matched": 75,
+   "dropped_outside_focus": 324,
+   "events": 75
   },
   "us_quotes": {
-   "tickers": 76
+   "tickers": 75
   },
   "kr_universe.api.코스피 시총상위": {
    "tickers": 150
@@ -44,37 +44,31 @@
   "kr_universe.total": {
    "tickers": 220
   },
-  "corp_codes": {
-   "listed": 3935
-  },
   "corp.filings": {
-   "count": 1403
+   "count": 1447
   },
   "corp.targets": {
-   "count": 26,
-   "skipped_outside_universe": 604,
+   "count": 28,
+   "skipped_outside_universe": 617,
    "universe": 219
   },
   "corp.events": {
-   "count": 16,
-   "from_targets": 26
+   "count": 20,
+   "from_targets": 28
   },
   "kr_earnings.notice_filings": {
-   "count": 95
+   "count": 99
   },
   "kr_earnings.confirmed": {
-   "count": 85
-  },
-  "kr_earnings.partial": {
-   "fetched": 194
+   "count": 90
   },
   "kr_earnings.estimated": {
-   "count": 103,
-   "newly_fetched": 194,
+   "count": 109,
+   "newly_fetched": 25,
    "companies_with_history": 239
   },
   "kr_quotes": {
-   "tickers": 0
+   "tickers": 199
   }
  },
  "errors": [],
@@ -96,8 +90,8 @@
   "us_focus_top": [
    "NVDA",
    "AAPL",
-   "GOOGL",
    "MSFT",
+   "GOOGL",
    "GOOG",
    "AMZN",
    "SPCX",
@@ -120,12 +114,12 @@
    "기아"
   ]
  },
- "finished_at": "2026-10-27T02:13:00",
- "elapsed_sec": 2160,
+ "finished_at": "2026-10-27T15:12:31",
+ "elapsed_sec": 964,
  "counts": {
-  "earnings": 264,
-  "us": 76,
-  "kr": 188,
-  "corp": 16
+  "earnings": 274,
+  "us": 75,
+  "kr": 199,
+  "corp": 20
  }
 }
