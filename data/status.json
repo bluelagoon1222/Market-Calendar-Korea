@@ -1,6 +1,6 @@
 {
  "version": "v6",
- "started_at": "2026-10-28T01:42:39",
+ "started_at": "2026-10-28T15:29:25",
  "steps": {
   "universe.csv": {
    "source": "main",
@@ -24,16 +24,16 @@
    "top_n": 104,
    "always": 40,
    "total": 119,
-   "cutoff_usd_bn": 119.8
+   "cutoff_usd_bn": 117.5
   },
   "us_earnings.nasdaq": {
-   "raw_rows": 4009,
-   "matched": 68,
-   "dropped_outside_focus": 287,
-   "events": 68
+   "raw_rows": 4007,
+   "matched": 69,
+   "dropped_outside_focus": 286,
+   "events": 69
   },
   "us_quotes": {
-   "tickers": 68
+   "tickers": 69
   },
   "kr_universe.api.코스피 시총상위": {
    "tickers": 150
@@ -44,43 +44,34 @@
   "kr_universe.total": {
    "tickers": 220
   },
-  "corp_codes": {
-   "listed": 3935
-  },
   "corp.filings": {
-   "count": 1403
+   "count": 1443
   },
   "corp.targets": {
-   "count": 26,
-   "skipped_outside_universe": 596,
+   "count": 28,
+   "skipped_outside_universe": 611,
    "universe": 219
   },
   "corp.events": {
    "count": 20,
-   "from_targets": 26
+   "from_targets": 28
   },
   "kr_earnings.notice_filings": {
-   "count": 102
+   "count": 117
   },
   "kr_earnings.confirmed": {
-   "count": 83
-  },
-  "kr_earnings.partial": {
-   "fetched": 179
+   "count": 101
   },
   "kr_earnings.estimated": {
-   "count": 105,
-   "newly_fetched": 179,
-   "companies_with_history": 239
+   "count": 114,
+   "newly_fetched": 40,
+   "companies_with_history": 240
   },
   "kr_quotes": {
-   "tickers": 0
+   "tickers": 215
   }
  },
- "errors": [
-  "kr_earnings.notice_doc: BadZipFile File is not a zip file",
-  "kr_earnings.notice_doc: BadZipFile File is not a zip file"
- ],
+ "errors": [],
  "samples": {
   "us_universe": [
    "A",
@@ -104,9 +95,9 @@
    "GOOG",
    "AMZN",
    "SPCX",
-   "META",
    "AVGO",
-   "TSLA"
+   "TSLA",
+   "META"
   ],
   "kr_universe": [
    "삼성전자",
@@ -123,12 +114,12 @@
    "삼성SDI"
   ]
  },
- "finished_at": "2026-10-28T02:18:40",
- "elapsed_sec": 2160,
+ "finished_at": "2026-10-28T15:43:16",
+ "elapsed_sec": 830,
  "counts": {
-  "earnings": 256,
-  "us": 68,
-  "kr": 188,
+  "earnings": 284,
+  "us": 69,
+  "kr": 215,
   "corp": 20
  }
 }
