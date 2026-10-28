@@ -1,7 +1,61 @@
 {
- "generated_at": "2026-10-27T15:12:31",
+ "generated_at": "2026-10-28T02:18:40",
  "count": 20,
  "events": [
+  {
+   "id": "corp-00164779-tsstkAqDecsn-aqexpd_bgd-2026-10-29",
+   "date": "2026-10-29",
+   "market": "KR",
+   "cat": "corp",
+   "title": "SK하이닉스 — 자기주식 취득 결정 · 예정일",
+   "ticker": "000660",
+   "kind": "자사주 취득",
+   "imp": 3,
+   "status": "confirmed",
+   "index": [
+    "코스피 시총상위"
+   ],
+   "desc": "취득 기간 중 실제 매입 이행률이 중요합니다. 직접 취득은 일별 한도가 적용됩니다.",
+   "checklist": [
+    "공시 원문에서 발행 규모·가격(전환가)·배정 대상 확인",
+    "보유 고객 리스트 추출 후 개별 안내",
+    "발행주식수 대비 희석 비율과 권리락일 확인"
+   ],
+   "links": [
+    {
+     "label": "DART 공시 원문",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028000014"
+    }
+   ],
+   "source": "DART 주요사항보고서 (tsstkAqDecsn)"
+  },
+  {
+   "id": "corp-00164779-tsstkAqDecsn-aqexpd_edd-2027-01-28",
+   "date": "2027-01-28",
+   "market": "KR",
+   "cat": "corp",
+   "title": "SK하이닉스 — 자기주식 취득 결정 · 예정일",
+   "ticker": "000660",
+   "kind": "자사주 취득",
+   "imp": 3,
+   "status": "confirmed",
+   "index": [
+    "코스피 시총상위"
+   ],
+   "desc": "취득 기간 중 실제 매입 이행률이 중요합니다. 직접 취득은 일별 한도가 적용됩니다.",
+   "checklist": [
+    "공시 원문에서 발행 규모·가격(전환가)·배정 대상 확인",
+    "보유 고객 리스트 추출 후 개별 안내",
+    "발행주식수 대비 희석 비율과 권리락일 확인"
+   ],
+   "links": [
+    {
+     "label": "DART 공시 원문",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028000014"
+    }
+   ],
+   "source": "DART 주요사항보고서 (tsstkAqDecsn)"
+  },
   {
    "id": "corp-00447487-tsstkDpDecsn-dpprpd_bgd-2026-10-28",
    "date": "2026-10-28",
@@ -133,33 +187,6 @@
     {
      "label": "DART 공시 원문",
      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260929000153"
-    }
-   ],
-   "source": "DART 주요사항보고서 (tsstkAqDecsn)"
-  },
-  {
-   "id": "corp-00413046-tsstkAqDecsn-aqexpd_bgd-2026-10-27",
-   "date": "2026-10-27",
-   "market": "KR",
-   "cat": "corp",
-   "title": "셀트리온 — 자기주식 취득 결정 · 예정일",
-   "ticker": "068270",
-   "kind": "자사주 취득",
-   "imp": 3,
-   "status": "confirmed",
-   "index": [
-    "코스피 시총상위"
-   ],
-   "desc": "취득 기간 중 실제 매입 이행률이 중요합니다. 직접 취득은 일별 한도가 적용됩니다.",
-   "checklist": [
-    "공시 원문에서 발행 규모·가격(전환가)·배정 대상 확인",
-    "보유 고객 리스트 추출 후 개별 안내",
-    "발행주식수 대비 희석 비율과 권리락일 확인"
-   ],
-   "links": [
-    {
-     "label": "DART 공시 원문",
-     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261026000084"
     }
    ],
    "source": "DART 주요사항보고서 (tsstkAqDecsn)"
@@ -430,33 +457,6 @@
     {
      "label": "DART 공시 원문",
      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261014000434"
-    }
-   ],
-   "source": "DART 주요사항보고서 (tsstkAqDecsn)"
-  },
-  {
-   "id": "corp-00148276-tsstkAqDecsn-aqexpd_edd-2026-12-30",
-   "date": "2026-12-30",
-   "market": "KR",
-   "cat": "corp",
-   "title": "제일기획 — 자기주식 취득 결정 · 예정일",
-   "ticker": "030000",
-   "kind": "자사주 취득",
-   "imp": 3,
-   "status": "confirmed",
-   "index": [
-    "코스피 시총상위"
-   ],
-   "desc": "취득 기간 중 실제 매입 이행률이 중요합니다. 직접 취득은 일별 한도가 적용됩니다.",
-   "checklist": [
-    "공시 원문에서 발행 규모·가격(전환가)·배정 대상 확인",
-    "보유 고객 리스트 추출 후 개별 안내",
-    "발행주식수 대비 희석 비율과 권리락일 확인"
-   ],
-   "links": [
-    {
-     "label": "DART 공시 원문",
-     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260930000006"
     }
    ],
    "source": "DART 주요사항보고서 (tsstkAqDecsn)"
