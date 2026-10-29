@@ -1,1334 +1,7 @@
 {
- "generated_at": "2026-10-28T15:43:16",
- "count": 284,
+ "generated_at": "2026-10-29T02:19:00",
+ "count": 268,
  "events": [
-  {
-   "id": "us-earn-MSFT-2026-10-28",
-   "date": "2026-10-28",
-   "market": "US",
-   "cat": "earnings",
-   "title": "MSFT — Microsoft Corporation",
-   "ticker": "MSFT",
-   "session": "post",
-   "imp": 3,
-   "status": "confirmed",
-   "index": [
-    "NDX",
-    "SP500"
-   ],
-   "tag": "AI 설비투자",
-   "eps_forecast": "$4.71",
-   "last_year_eps": "$4.13",
-   "fiscal": "Sep/2026",
-   "source": "Nasdaq Earnings Calendar",
-   "links": [
-    {
-     "label": "Nasdaq",
-     "url": "https://www.nasdaq.com/market-activity/stocks/msft/earnings"
-    }
-   ],
-   "metrics": {
-    "컨센서스 EPS": "$4.71",
-    "전년 동기 EPS": "$4.13",
-    "결산 분기": "Sep/2026",
-    "현재가": "$528.3399 (-0.56%)",
-    "시가총액": "3,923,677,550,074",
-    "1년 목표주가": "$600.00",
-    "연간 배당금": "$3.64",
-    "배당수익률": "0.69%",
-    "52주 범위": "$553.72/$349.2",
-    "섹터": "Technology",
-    "산업": "Computer Software: Prepackaged Software"
-   }
-  },
-  {
-   "id": "us-earn-GOOG-2026-10-28",
-   "date": "2026-10-28",
-   "market": "US",
-   "cat": "earnings",
-   "title": "GOOG — Alphabet Inc.",
-   "ticker": "GOOG",
-   "session": "post",
-   "imp": 3,
-   "status": "confirmed",
-   "index": [
-    "NDX",
-    "SP500"
-   ],
-   "tag": "AI 설비투자",
-   "eps_forecast": "$2.94",
-   "last_year_eps": "$2.87",
-   "fiscal": "Sep/2026",
-   "source": "Nasdaq Earnings Calendar",
-   "links": [
-    {
-     "label": "Nasdaq",
-     "url": "https://www.nasdaq.com/market-activity/stocks/goog/earnings"
-    }
-   ],
-   "metrics": {
-    "컨센서스 EPS": "$2.94",
-    "전년 동기 EPS": "$2.87",
-    "결산 분기": "Sep/2026",
-    "현재가": "$320.34 (+1.11%)",
-    "시가총액": "3,918,614,300,000",
-    "1년 목표주가": "$430.00",
-    "연간 배당금": "$0.88",
-    "배당수익률": "0.28%",
-    "52주 범위": "$404.47/$267.17",
-    "섹터": "Technology",
-    "산업": "Computer Software: Programming, Data Processing"
-   }
-  },
-  {
-   "id": "us-earn-GOOGL-2026-10-28",
-   "date": "2026-10-28",
-   "market": "US",
-   "cat": "earnings",
-   "title": "GOOGL — Alphabet Inc.",
-   "ticker": "GOOGL",
-   "session": "post",
-   "imp": 3,
-   "status": "confirmed",
-   "index": [
-    "NDX",
-    "SP500"
-   ],
-   "tag": "AI 설비투자",
-   "eps_forecast": "$2.94",
-   "last_year_eps": "$2.87",
-   "fiscal": "Sep/2026",
-   "source": "Nasdaq Earnings Calendar",
-   "links": [
-    {
-     "label": "Nasdaq",
-     "url": "https://www.nasdaq.com/market-activity/stocks/googl/earnings"
-    }
-   ],
-   "metrics": {
-    "컨센서스 EPS": "$2.94",
-    "전년 동기 EPS": "$2.87",
-    "결산 분기": "Sep/2026",
-    "현재가": "$323.7299 (+0.98%)",
-    "시가총액": "3,959,216,677,000",
-    "1년 목표주가": "$430.00",
-    "연간 배당금": "$0.88",
-    "배당수익률": "0.27%",
-    "52주 범위": "$408.61/$266.5",
-    "섹터": "Technology",
-    "산업": "Computer Software: Programming, Data Processing"
-   }
-  },
-  {
-   "id": "us-earn-GEV-2026-10-28",
-   "date": "2026-10-28",
-   "market": "US",
-   "cat": "earnings",
-   "title": "GEV — GE Vernova Inc.",
-   "ticker": "GEV",
-   "session": "pre",
-   "imp": 3,
-   "status": "confirmed",
-   "index": [
-    "SP500"
-   ],
-   "tag": "",
-   "eps_forecast": "$4.03",
-   "last_year_eps": "$1.64",
-   "fiscal": "Sep/2026",
-   "source": "Nasdaq Earnings Calendar",
-   "links": [
-    {
-     "label": "Nasdaq",
-     "url": "https://www.nasdaq.com/market-activity/stocks/gev/earnings"
-    }
-   ],
-   "metrics": {
-    "컨센서스 EPS": "$4.03",
-    "전년 동기 EPS": "$1.64",
-    "결산 분기": "Sep/2026",
-    "현재가": "$876.645 (-2.06%)",
-    "시가총액": "233,480,002,116",
-    "1년 목표주가": "$1,250.00",
-    "52주 범위": "$1195.94/$530.16",
-    "섹터": "Technology",
-    "산업": "Consumer Electronics/Appliances"
-   }
-  },
-  {
-   "id": "us-earn-KLAC-2026-10-28",
-   "date": "2026-10-28",
-   "market": "US",
-   "cat": "earnings",
-   "title": "KLAC — KLA Corporation",
-   "ticker": "KLAC",
-   "session": "post",
-   "imp": 3,
-   "status": "confirmed",
-   "index": [
-    "NDX",
-    "SP500"
-   ],
-   "tag": "반도체",
-   "eps_forecast": "$1.18",
-   "last_year_eps": "$0.88",
-   "fiscal": "Sep/2026",
-   "source": "Nasdaq Earnings Calendar",
-   "links": [
-    {
-     "label": "Nasdaq",
-     "url": "https://www.nasdaq.com/market-activity/stocks/klac/earnings"
-    }
-   ],
-   "metrics": {
-    "컨센서스 EPS": "$1.18",
-    "전년 동기 EPS": "$0.88",
-    "결산 분기": "Sep/2026",
-    "현재가": "$158.09 (+2.88%)",
-    "시가총액": "206,321,526,385",
-    "1년 목표주가": "$227.00",
-    "연간 배당금": "$0.92",
-    "배당수익률": "0.6%",
-    "52주 범위": "$307.3743/$107.196",
-    "섹터": "Technology",
-    "산업": "Electronic Components"
-   }
-  },
-  {
-   "id": "us-earn-VRT-2026-10-28",
-   "date": "2026-10-28",
-   "market": "US",
-   "cat": "earnings",
-   "title": "VRT — Vertiv Holdings, LLC",
-   "ticker": "VRT",
-   "session": "pre",
-   "imp": 3,
-   "status": "confirmed",
-   "index": [
-    "SP500"
-   ],
-   "tag": "반도체",
-   "eps_forecast": "$1.82",
-   "last_year_eps": "$1.24",
-   "fiscal": "Sep/2026",
-   "source": "Nasdaq Earnings Calendar",
-   "links": [
-    {
-     "label": "Nasdaq",
-     "url": "https://www.nasdaq.com/market-activity/stocks/vrt/earnings"
-    }
-   ],
-   "metrics": {
-    "컨센서스 EPS": "$1.82",
-    "전년 동기 EPS": "$1.24",
-    "결산 분기": "Sep/2026",
-    "현재가": "$235.245 (+12.79%)",
-    "시가총액": "90,564,617,817",
-    "1년 목표주가": "$325.00",
-    "52주 범위": "$379.935/$147.82",
-    "섹터": "Technology",
-    "산업": "Industrial Machinery/Components"
-   }
-  },
-  {
-   "id": "us-earn-F-2026-10-28",
-   "date": "2026-10-28",
-   "market": "US",
-   "cat": "earnings",
-   "title": "F — Ford Motor Company",
-   "ticker": "F",
-   "session": "post",
-   "imp": 3,
-   "status": "confirmed",
-   "index": [
-    "SP500"
-   ],
-   "tag": "2차전지",
-   "eps_forecast": "$0.39",
-   "last_year_eps": "$0.45",
-   "fiscal": "Sep/2026",
-   "source": "Nasdaq Earnings Calendar",
-   "links": [
-    {
-     "label": "Nasdaq",
-     "url": "https://www.nasdaq.com/market-activity/stocks/f/earnings"
-    }
-   ],
-   "metrics": {
-    "컨센서스 EPS": "$0.39",
-    "전년 동기 EPS": "$0.45",
-    "결산 분기": "Sep/2026",
-    "현재가": "$11.835 (+1.07%)",
-    "시가총액": "46,365,235,607",
-    "1년 목표주가": "$15.00",
-    "52주 범위": "$17.78/$11.11",
-    "섹터": "Industrials",
-    "산업": "Auto Manufacturing"
-   }
-  },
-  {
-   "id": "kr-earn-053800-2026-10-28",
-   "date": "2026-10-28",
-   "market": "KR",
-   "cat": "earnings",
-   "title": "안랩 실적발표 (공시 예고)",
-   "ticker": "053800",
-   "session": "unknown",
-   "imp": 3,
-   "status": "confirmed",
-   "index": [
-    "코스닥 시총상위"
-   ],
-   "desc": "기업이 DART 결산실적공시예고로 직접 공표한 발표일입니다.",
-   "source": "DART 결산실적공시예고",
-   "links": [
-    {
-     "label": "DART 공시 원문",
-     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261023900438"
-    }
-   ],
-   "metrics": {
-    "PER": "24.96배",
-    "EPS": "4,472원",
-    "추정PER": "N/A",
-    "추정EPS": "N/A",
-    "PBR": "2.68배",
-    "BPS": "41,588원",
-    "배당수익률": "1.25%",
-    "현재가": "111,600원"
-   }
-  },
-  {
-   "id": "kr-earn-011790-2026-10-28",
-   "date": "2026-10-28",
-   "market": "KR",
-   "cat": "earnings",
-   "title": "SKC 실적발표 (공시 예고)",
-   "ticker": "011790",
-   "session": "unknown",
-   "imp": 3,
-   "status": "confirmed",
-   "index": [
-    "코스피 시총상위"
-   ],
-   "desc": "기업이 DART 결산실적공시예고로 직접 공표한 발표일입니다.",
-   "source": "DART 결산실적공시예고",
-   "links": [
-    {
-     "label": "DART 공시 원문",
-     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261020800474"
-    }
-   ],
-   "metrics": {
-    "PER": "N/A",
-    "EPS": "-20,562원",
-    "추정PER": "-13.15배",
-    "추정EPS": "-6,312원",
-    "PBR": "2.02배",
-    "BPS": "41,073원",
-    "배당수익률": "N/A",
-    "현재가": "83,000원"
-   }
-  },
-  {
-   "id": "kr-earn-028260-2026-10-28",
-   "date": "2026-10-28",
-   "market": "KR",
-   "cat": "earnings",
-   "title": "삼성물산 실적발표 (공시 예고)",
-   "ticker": "028260",
-   "session": "post",
-   "imp": 3,
-   "status": "confirmed",
-   "index": [
-    "코스피 시총상위"
-   ],
-   "desc": "기업이 DART 결산실적공시예고로 직접 공표한 발표일입니다.",
-   "source": "DART 결산실적공시예고",
-   "links": [
-    {
-     "label": "DART 공시 원문",
-     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261014800572"
-    }
-   ],
-   "metrics": {
-    "PER": "19.64배",
-    "EPS": "16,520원",
-    "추정PER": "19.36배",
-    "추정EPS": "16,765원",
-    "PBR": "0.50배",
-    "BPS": "645,052원",
-    "배당수익률": "0.86%",
-    "현재가": "324,500원"
-   }
-  },
-  {
-   "id": "kr-earn-009150-2026-10-28",
-   "date": "2026-10-28",
-   "market": "KR",
-   "cat": "earnings",
-   "title": "삼성전기 실적발표 (공시 예고)",
-   "ticker": "009150",
-   "session": "unknown",
-   "imp": 3,
-   "status": "confirmed",
-   "index": [
-    "코스피 시총상위"
-   ],
-   "desc": "기업이 DART 결산실적공시예고로 직접 공표한 발표일입니다.",
-   "source": "DART 결산실적공시예고",
-   "links": [
-    {
-     "label": "DART 공시 원문",
-     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261012800250"
-    }
-   ],
-   "metrics": {
-    "PER": "101.28배",
-    "EPS": "12,984원",
-    "추정PER": "62.86배",
-    "추정EPS": "20,918원",
-    "PBR": "9.71배",
-    "BPS": "135,420원",
-    "배당수익률": "0.18%",
-    "현재가": "1,315,000원"
-   }
-  },
-  {
-   "id": "us-earn-APH-2026-10-28",
-   "date": "2026-10-28",
-   "market": "US",
-   "cat": "earnings",
-   "title": "APH — Amphenol Corporation",
-   "ticker": "APH",
-   "session": "pre",
-   "imp": 2,
-   "status": "confirmed",
-   "index": [
-    "SP500"
-   ],
-   "tag": "",
-   "eps_forecast": "$0.73",
-   "last_year_eps": "$0.47",
-   "fiscal": "Sep/2026",
-   "source": "Nasdaq Earnings Calendar",
-   "links": [
-    {
-     "label": "Nasdaq",
-     "url": "https://www.nasdaq.com/market-activity/stocks/aph/earnings"
-    }
-   ],
-   "metrics": {
-    "컨센서스 EPS": "$0.73",
-    "전년 동기 EPS": "$0.47",
-    "결산 분기": "Sep/2026",
-    "현재가": "$80.005 (+2.30%)",
-    "시가총액": "197,289,682,955",
-    "1년 목표주가": "$105.00",
-    "52주 범위": "$89.93/$59.005",
-    "섹터": "Technology",
-    "산업": "Electrical Products"
-   }
-  },
-  {
-   "id": "us-earn-NOW-2026-10-28",
-   "date": "2026-10-28",
-   "market": "US",
-   "cat": "earnings",
-   "title": "NOW — ServiceNow, Inc.",
-   "ticker": "NOW",
-   "session": "post",
-   "imp": 2,
-   "status": "confirmed",
-   "index": [
-    "SP500"
-   ],
-   "tag": "",
-   "eps_forecast": "$0.56",
-   "last_year_eps": "$0.59",
-   "fiscal": "Sep/2026",
-   "source": "Nasdaq Earnings Calendar",
-   "links": [
-    {
-     "label": "Nasdaq",
-     "url": "https://www.nasdaq.com/market-activity/stocks/now/earnings"
-    }
-   ],
-   "metrics": {
-    "컨센서스 EPS": "$0.56",
-    "전년 동기 EPS": "$0.59",
-    "결산 분기": "Sep/2026",
-    "현재가": "$151.08 (-2.39%)",
-    "시가총액": "156,216,720,000",
-    "1년 목표주가": "$165.00",
-    "52주 범위": "$192.966/$81.24",
-    "섹터": "Technology",
-    "산업": "Computer Software: Prepackaged Software"
-   }
-  },
-  {
-   "id": "us-earn-TMUS-2026-10-28",
-   "date": "2026-10-28",
-   "market": "US",
-   "cat": "earnings",
-   "title": "TMUS — T-Mobile US, Inc.",
-   "ticker": "TMUS",
-   "session": "post",
-   "imp": 2,
-   "status": "confirmed",
-   "index": [
-    "NDX",
-    "SP500"
-   ],
-   "tag": "",
-   "eps_forecast": "$2.86",
-   "last_year_eps": "$2.59",
-   "fiscal": "Sep/2026",
-   "source": "Nasdaq Earnings Calendar",
-   "links": [
-    {
-     "label": "Nasdaq",
-     "url": "https://www.nasdaq.com/market-activity/stocks/tmus/earnings"
-    }
-   ],
-   "metrics": {
-    "컨센서스 EPS": "$2.86",
-    "전년 동기 EPS": "$2.59",
-    "결산 분기": "Sep/2026",
-    "현재가": "$146.06 (-0.52%)",
-    "시가총액": "156,674,415,795",
-    "1년 목표주가": "$235.00",
-    "연간 배당금": "$4.08",
-    "배당수익률": "2.78%",
-    "52주 범위": "$224.75/$143.92",
-    "섹터": "Telecommunications",
-    "산업": "Telecommunications Equipment"
-   }
-  },
-  {
-   "id": "us-earn-FTNT-2026-10-28",
-   "date": "2026-10-28",
-   "market": "US",
-   "cat": "earnings",
-   "title": "FTNT — Fortinet, Inc.",
-   "ticker": "FTNT",
-   "session": "post",
-   "imp": 2,
-   "status": "confirmed",
-   "index": [
-    "NDX",
-    "SP500"
-   ],
-   "tag": "",
-   "eps_forecast": "$0.77",
-   "last_year_eps": "$0.65",
-   "fiscal": "Sep/2026",
-   "source": "Nasdaq Earnings Calendar",
-   "links": [
-    {
-     "label": "Nasdaq",
-     "url": "https://www.nasdaq.com/market-activity/stocks/ftnt/earnings"
-    }
-   ],
-   "metrics": {
-    "컨센서스 EPS": "$0.77",
-    "전년 동기 EPS": "$0.65",
-    "결산 분기": "Sep/2026",
-    "현재가": "$179.225 (-3.12%)",
-    "시가총액": "131,499,829,459",
-    "1년 목표주가": "$172.50",
-    "52주 범위": "$197.13/$73.55",
-    "섹터": "Technology",
-    "산업": "Computer peripheral equipment"
-   }
-  },
-  {
-   "id": "kr-earn-178920-2026-10-28",
-   "date": "2026-10-28",
-   "market": "KR",
-   "cat": "earnings",
-   "title": "PI첨단소재 실적발표 (공시 예고)",
-   "ticker": "178920",
-   "session": "unknown",
-   "imp": 2,
-   "status": "confirmed",
-   "index": [],
-   "desc": "기업이 DART 결산실적공시예고로 직접 공표한 발표일입니다.",
-   "source": "DART 결산실적공시예고",
-   "links": [
-    {
-     "label": "DART 공시 원문",
-     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261023800215"
-    }
-   ],
-   "metrics": {
-    "PER": "11.38배",
-    "EPS": "1,391원",
-    "추정PER": "N/A",
-    "추정EPS": "N/A",
-    "PBR": "1.25배",
-    "BPS": "12,701원",
-    "배당수익률": "2.21%",
-    "현재가": "15,830원"
-   }
-  },
-  {
-   "id": "kr-earn-195940-2026-10-28",
-   "date": "2026-10-28",
-   "market": "KR",
-   "cat": "earnings",
-   "title": "HK이노엔 실적발표 (공시 예고)",
-   "ticker": "195940",
-   "session": "unknown",
-   "imp": 2,
-   "status": "confirmed",
-   "index": [],
-   "desc": "기업이 DART 결산실적공시예고로 직접 공표한 발표일입니다.",
-   "source": "DART 결산실적공시예고",
-   "links": [
-    {
-     "label": "DART 공시 원문",
-     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261022900248"
-    }
-   ],
-   "metrics": {
-    "PER": "11.44배",
-    "EPS": "3,030원",
-    "추정PER": "11.42배",
-    "추정EPS": "3,033원",
-    "PBR": "0.73배",
-    "BPS": "47,678원",
-    "배당수익률": "1.18%",
-    "현재가": "34,650원"
-   }
-  },
-  {
-   "id": "kr-earn-008770-2026-10-28",
-   "date": "2026-10-28",
-   "market": "KR",
-   "cat": "earnings",
-   "title": "호텔신라 실적발표 (공시 예고)",
-   "ticker": "008770",
-   "session": "unknown",
-   "imp": 2,
-   "status": "confirmed",
-   "index": [],
-   "desc": "기업이 DART 결산실적공시예고로 직접 공표한 발표일입니다.",
-   "source": "DART 결산실적공시예고",
-   "links": [
-    {
-     "label": "DART 공시 원문",
-     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261021800237"
-    }
-   ],
-   "metrics": {
-    "PER": "N/A",
-    "EPS": "-3,458원",
-    "추정PER": "13.42배",
-    "추정EPS": "2,734원",
-    "PBR": "1.22배",
-    "BPS": "30,080원",
-    "배당수익률": "N/A",
-    "현재가": "36,700원"
-   }
-  },
-  {
-   "id": "kr-earn-336260-2026-10-28",
-   "date": "2026-10-28",
-   "market": "KR",
-   "cat": "earnings",
-   "title": "두산퓨얼셀 실적발표 (공시 예고)",
-   "ticker": "336260",
-   "session": "unknown",
-   "imp": 2,
-   "status": "confirmed",
-   "index": [],
-   "desc": "기업이 DART 결산실적공시예고로 직접 공표한 발표일입니다.",
-   "source": "DART 결산실적공시예고",
-   "links": [
-    {
-     "label": "DART 공시 원문",
-     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261021800118"
-    }
-   ],
-   "metrics": {
-    "PER": "N/A",
-    "EPS": "-2,308원",
-    "추정PER": "-27.36배",
-    "추정EPS": "-1,157원",
-    "PBR": "8.65배",
-    "BPS": "3,661원",
-    "배당수익률": "N/A",
-    "현재가": "31,650원"
-   }
-  },
-  {
-   "id": "kr-earn-0126Z0-2026-10-28",
-   "date": "2026-10-28",
-   "market": "KR",
-   "cat": "earnings",
-   "title": "삼성에피스홀딩스 실적발표 (공시 예고)",
-   "ticker": "0126Z0",
-   "session": "unknown",
-   "imp": 2,
-   "status": "confirmed",
-   "index": [],
-   "desc": "기업이 DART 결산실적공시예고로 직접 공표한 발표일입니다.",
-   "source": "DART 결산실적공시예고",
-   "links": [
-    {
-     "label": "DART 공시 원문",
-     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261014800360"
-    }
-   ],
-   "metrics": {
-    "PER": "15.06배",
-    "EPS": "21,211원",
-    "추정PER": "N/A",
-    "추정EPS": "N/A",
-    "PBR": "1.30배",
-    "BPS": "245,387원",
-    "배당수익률": "N/A",
-    "현재가": "319,500원"
-   }
-  },
-  {
-   "id": "kr-earn-est-000660-2026-10-28",
-   "date": "2026-10-28",
-   "market": "KR",
-   "cat": "earnings",
-   "title": "SK하이닉스 실적발표 예상",
-   "ticker": "000660",
-   "session": "unknown",
-   "imp": 2,
-   "status": "estimated",
-   "index": [
-    "코스피 시총상위"
-   ],
-   "desc": "국내는 실적발표일을 사전 공표하는 제도가 없어, 과거 2년간 잠정실적 공시일을 기준으로 추정한 일정입니다. 발표 시각(장전·장마감 후)도 사전 확인이 불가하며 국내 잠정실적은 통상 장중~장 마감 후에 공시됩니다. 고객 안내 전 기업 IR 확인이 필요합니다.",
-   "checklist": [
-    "기업 IR 또는 유선으로 실제 발표일 확인",
-    "컨센서스와 직전 분기 수치 비교표 준비",
-    "동일 업종 선행 발표 기업의 결과·가이던스 확인"
-   ],
-   "source": "과거 잠정실적 공시일 기반 추정 (잠정)",
-   "links": [
-    {
-     "label": "네이버 금융",
-     "url": "https://finance.naver.com/item/main.naver?code=000660"
-    },
-    {
-     "label": "종목 공시·뉴스",
-     "url": "https://finance.naver.com/item/news_notice.naver?code=000660"
-    },
-    {
-     "label": "컨센서스·기업분석",
-     "url": "https://finance.naver.com/item/coinfo.naver?code=000660"
-    },
-    {
-     "label": "DART 공시 검색",
-     "url": "https://dart.fss.or.kr/dsab007/main.do?textCrpNm=SK%ED%95%98%EC%9D%B4%EB%8B%89%EC%8A%A4"
-    }
-   ],
-   "metrics": {
-    "PER": "6.72배",
-    "EPS": "224,313원",
-    "추정PER": "4.23배",
-    "추정EPS": "356,151원",
-    "PBR": "4.09배",
-    "BPS": "368,998원",
-    "배당수익률": "0.20%",
-    "현재가": "1,508,000원"
-   }
-  },
-  {
-   "id": "kr-earn-est-373220-2026-10-28",
-   "date": "2026-10-28",
-   "market": "KR",
-   "cat": "earnings",
-   "title": "LG에너지솔루션 실적발표 예상",
-   "ticker": "373220",
-   "session": "unknown",
-   "imp": 2,
-   "status": "estimated",
-   "index": [
-    "코스피 시총상위"
-   ],
-   "desc": "국내는 실적발표일을 사전 공표하는 제도가 없어, 과거 2년간 잠정실적 공시일을 기준으로 추정한 일정입니다. 발표 시각(장전·장마감 후)도 사전 확인이 불가하며 국내 잠정실적은 통상 장중~장 마감 후에 공시됩니다. 고객 안내 전 기업 IR 확인이 필요합니다.",
-   "checklist": [
-    "기업 IR 또는 유선으로 실제 발표일 확인",
-    "컨센서스와 직전 분기 수치 비교표 준비",
-    "동일 업종 선행 발표 기업의 결과·가이던스 확인"
-   ],
-   "source": "과거 잠정실적 공시일 기반 추정 (잠정)",
-   "links": [
-    {
-     "label": "네이버 금융",
-     "url": "https://finance.naver.com/item/main.naver?code=373220"
-    },
-    {
-     "label": "종목 공시·뉴스",
-     "url": "https://finance.naver.com/item/news_notice.naver?code=373220"
-    },
-    {
-     "label": "컨센서스·기업분석",
-     "url": "https://finance.naver.com/item/coinfo.naver?code=373220"
-    },
-    {
-     "label": "DART 공시 검색",
-     "url": "https://dart.fss.or.kr/dsab007/main.do?textCrpNm=LG%EC%97%90%EB%84%88%EC%A7%80%EC%86%94%EB%A3%A8%EC%85%98"
-    }
-   ],
-   "metrics": {
-    "PER": "N/A",
-    "EPS": "-7,193원",
-    "추정PER": "-360.87배",
-    "추정EPS": "-1,035원",
-    "PBR": "3.91배",
-    "BPS": "95,479원",
-    "배당수익률": "N/A",
-    "현재가": "373,500원"
-   }
-  },
-  {
-   "id": "kr-earn-est-207940-2026-10-28",
-   "date": "2026-10-28",
-   "market": "KR",
-   "cat": "earnings",
-   "title": "삼성바이오로직스 실적발표 예상",
-   "ticker": "207940",
-   "session": "unknown",
-   "imp": 2,
-   "status": "estimated",
-   "index": [
-    "코스피 시총상위"
-   ],
-   "desc": "국내는 실적발표일을 사전 공표하는 제도가 없어, 과거 2년간 잠정실적 공시일을 기준으로 추정한 일정입니다. 발표 시각(장전·장마감 후)도 사전 확인이 불가하며 국내 잠정실적은 통상 장중~장 마감 후에 공시됩니다. 고객 안내 전 기업 IR 확인이 필요합니다.",
-   "checklist": [
-    "기업 IR 또는 유선으로 실제 발표일 확인",
-    "컨센서스와 직전 분기 수치 비교표 준비",
-    "동일 업종 선행 발표 기업의 결과·가이던스 확인"
-   ],
-   "source": "과거 잠정실적 공시일 기반 추정 (잠정)",
-   "links": [
-    {
-     "label": "네이버 금융",
-     "url": "https://finance.naver.com/item/main.naver?code=207940"
-    },
-    {
-     "label": "종목 공시·뉴스",
-     "url": "https://finance.naver.com/item/news_notice.naver?code=207940"
-    },
-    {
-     "label": "컨센서스·기업분석",
-     "url": "https://finance.naver.com/item/coinfo.naver?code=207940"
-    },
-    {
-     "label": "DART 공시 검색",
-     "url": "https://dart.fss.or.kr/dsab007/main.do?textCrpNm=%EC%82%BC%EC%84%B1%EB%B0%94%EC%9D%B4%EC%98%A4%EB%A1%9C%EC%A7%81%EC%8A%A4"
-    }
-   ],
-   "metrics": {
-    "PER": "38.19배",
-    "EPS": "35,900원",
-    "추정PER": "34.68배",
-    "추정EPS": "39,538원",
-    "PBR": "7.65배",
-    "BPS": "179,329원",
-    "배당수익률": "N/A",
-    "현재가": "1,371,000원"
-   }
-  },
-  {
-   "id": "kr-earn-est-006400-2026-10-28",
-   "date": "2026-10-28",
-   "market": "KR",
-   "cat": "earnings",
-   "title": "삼성SDI 실적발표 예상",
-   "ticker": "006400",
-   "session": "unknown",
-   "imp": 2,
-   "status": "estimated",
-   "index": [
-    "코스피 시총상위"
-   ],
-   "desc": "국내는 실적발표일을 사전 공표하는 제도가 없어, 과거 2년간 잠정실적 공시일을 기준으로 추정한 일정입니다. 발표 시각(장전·장마감 후)도 사전 확인이 불가하며 국내 잠정실적은 통상 장중~장 마감 후에 공시됩니다. 고객 안내 전 기업 IR 확인이 필요합니다.",
-   "checklist": [
-    "기업 IR 또는 유선으로 실제 발표일 확인",
-    "컨센서스와 직전 분기 수치 비교표 준비",
-    "동일 업종 선행 발표 기업의 결과·가이던스 확인"
-   ],
-   "source": "과거 잠정실적 공시일 기반 추정 (잠정)",
-   "links": [
-    {
-     "label": "네이버 금융",
-     "url": "https://finance.naver.com/item/main.naver?code=006400"
-    },
-    {
-     "label": "종목 공시·뉴스",
-     "url": "https://finance.naver.com/item/news_notice.naver?code=006400"
-    },
-    {
-     "label": "컨센서스·기업분석",
-     "url": "https://finance.naver.com/item/coinfo.naver?code=006400"
-    },
-    {
-     "label": "DART 공시 검색",
-     "url": "https://dart.fss.or.kr/dsab007/main.do?textCrpNm=%EC%82%BC%EC%84%B1SDI"
-    }
-   ],
-   "metrics": {
-    "PER": "1,163.76배",
-    "EPS": "458원",
-    "추정PER": "44.50배",
-    "추정EPS": "11,978원",
-    "PBR": "1.73배",
-    "BPS": "308,778원",
-    "배당수익률": "N/A",
-    "현재가": "533,000원"
-   }
-  },
-  {
-   "id": "kr-earn-est-055550-2026-10-28",
-   "date": "2026-10-28",
-   "market": "KR",
-   "cat": "earnings",
-   "title": "신한지주 실적발표 예상",
-   "ticker": "055550",
-   "session": "unknown",
-   "imp": 2,
-   "status": "estimated",
-   "index": [
-    "코스피 시총상위"
-   ],
-   "desc": "국내는 실적발표일을 사전 공표하는 제도가 없어, 과거 2년간 잠정실적 공시일을 기준으로 추정한 일정입니다. 발표 시각(장전·장마감 후)도 사전 확인이 불가하며 국내 잠정실적은 통상 장중~장 마감 후에 공시됩니다. 고객 안내 전 기업 IR 확인이 필요합니다.",
-   "checklist": [
-    "기업 IR 또는 유선으로 실제 발표일 확인",
-    "컨센서스와 직전 분기 수치 비교표 준비",
-    "동일 업종 선행 발표 기업의 결과·가이던스 확인"
-   ],
-   "source": "과거 잠정실적 공시일 기반 추정 (잠정)",
-   "links": [
-    {
-     "label": "네이버 금융",
-     "url": "https://finance.naver.com/item/main.naver?code=055550"
-    },
-    {
-     "label": "종목 공시·뉴스",
-     "url": "https://finance.naver.com/item/news_notice.naver?code=055550"
-    },
-    {
-     "label": "컨센서스·기업분석",
-     "url": "https://finance.naver.com/item/coinfo.naver?code=055550"
-    },
-    {
-     "label": "DART 공시 검색",
-     "url": "https://dart.fss.or.kr/dsab007/main.do?textCrpNm=%EC%8B%A0%ED%95%9C%EC%A7%80%EC%A3%BC"
-    }
-   ],
-   "metrics": {
-    "PER": "7.84배",
-    "EPS": "11,174원",
-    "추정PER": "7.08배",
-    "추정EPS": "12,370원",
-    "PBR": "0.68배",
-    "BPS": "128,024원",
-    "배당수익률": "2.96%",
-    "현재가": "87,600원"
-   }
-  },
-  {
-   "id": "kr-earn-est-086790-2026-10-28",
-   "date": "2026-10-28",
-   "market": "KR",
-   "cat": "earnings",
-   "title": "하나금융지주 실적발표 예상",
-   "ticker": "086790",
-   "session": "unknown",
-   "imp": 2,
-   "status": "estimated",
-   "index": [
-    "코스피 시총상위"
-   ],
-   "desc": "국내는 실적발표일을 사전 공표하는 제도가 없어, 과거 2년간 잠정실적 공시일을 기준으로 추정한 일정입니다. 발표 시각(장전·장마감 후)도 사전 확인이 불가하며 국내 잠정실적은 통상 장중~장 마감 후에 공시됩니다. 고객 안내 전 기업 IR 확인이 필요합니다.",
-   "checklist": [
-    "기업 IR 또는 유선으로 실제 발표일 확인",
-    "컨센서스와 직전 분기 수치 비교표 준비",
-    "동일 업종 선행 발표 기업의 결과·가이던스 확인"
-   ],
-   "source": "과거 잠정실적 공시일 기반 추정 (잠정)",
-   "links": [
-    {
-     "label": "네이버 금융",
-     "url": "https://finance.naver.com/item/main.naver?code=086790"
-    },
-    {
-     "label": "종목 공시·뉴스",
-     "url": "https://finance.naver.com/item/news_notice.naver?code=086790"
-    },
-    {
-     "label": "컨센서스·기업분석",
-     "url": "https://finance.naver.com/item/coinfo.naver?code=086790"
-    },
-    {
-     "label": "DART 공시 검색",
-     "url": "https://dart.fss.or.kr/dsab007/main.do?textCrpNm=%ED%95%98%EB%82%98%EA%B8%88%EC%9C%B5%EC%A7%80%EC%A3%BC"
-    }
-   ],
-   "metrics": {
-    "PER": "7.84배",
-    "EPS": "14,731원",
-    "추정PER": "7.22배",
-    "추정EPS": "15,988원",
-    "PBR": "0.66배",
-    "BPS": "175,497원",
-    "배당수익률": "3.55%",
-    "현재가": "115,500원"
-   }
-  },
-  {
-   "id": "kr-earn-est-051910-2026-10-28",
-   "date": "2026-10-28",
-   "market": "KR",
-   "cat": "earnings",
-   "title": "LG화학 실적발표 예상",
-   "ticker": "051910",
-   "session": "unknown",
-   "imp": 2,
-   "status": "estimated",
-   "index": [
-    "코스피 시총상위"
-   ],
-   "desc": "국내는 실적발표일을 사전 공표하는 제도가 없어, 과거 2년간 잠정실적 공시일을 기준으로 추정한 일정입니다. 발표 시각(장전·장마감 후)도 사전 확인이 불가하며 국내 잠정실적은 통상 장중~장 마감 후에 공시됩니다. 고객 안내 전 기업 IR 확인이 필요합니다.",
-   "checklist": [
-    "기업 IR 또는 유선으로 실제 발표일 확인",
-    "컨센서스와 직전 분기 수치 비교표 준비",
-    "동일 업종 선행 발표 기업의 결과·가이던스 확인"
-   ],
-   "source": "과거 잠정실적 공시일 기반 추정 (잠정)",
-   "links": [
-    {
-     "label": "네이버 금융",
-     "url": "https://finance.naver.com/item/main.naver?code=051910"
-    },
-    {
-     "label": "종목 공시·뉴스",
-     "url": "https://finance.naver.com/item/news_notice.naver?code=051910"
-    },
-    {
-     "label": "컨센서스·기업분석",
-     "url": "https://finance.naver.com/item/coinfo.naver?code=051910"
-    },
-    {
-     "label": "DART 공시 검색",
-     "url": "https://dart.fss.or.kr/dsab007/main.do?textCrpNm=LG%ED%99%94%ED%95%99"
-    }
-   ],
-   "metrics": {
-    "PER": "N/A",
-    "EPS": "-19,319원",
-    "추정PER": "-122.79배",
-    "추정EPS": "-1,983원",
-    "PBR": "0.54배",
-    "BPS": "452,637원",
-    "배당수익률": "0.82%",
-    "현재가": "243,500원"
-   }
-  },
-  {
-   "id": "kr-earn-est-064350-2026-10-28",
-   "date": "2026-10-28",
-   "market": "KR",
-   "cat": "earnings",
-   "title": "현대로템 실적발표 예상",
-   "ticker": "064350",
-   "session": "unknown",
-   "imp": 2,
-   "status": "estimated",
-   "index": [
-    "코스피 시총상위"
-   ],
-   "desc": "국내는 실적발표일을 사전 공표하는 제도가 없어, 과거 2년간 잠정실적 공시일을 기준으로 추정한 일정입니다. 발표 시각(장전·장마감 후)도 사전 확인이 불가하며 국내 잠정실적은 통상 장중~장 마감 후에 공시됩니다. 고객 안내 전 기업 IR 확인이 필요합니다.",
-   "checklist": [
-    "기업 IR 또는 유선으로 실제 발표일 확인",
-    "컨센서스와 직전 분기 수치 비교표 준비",
-    "동일 업종 선행 발표 기업의 결과·가이던스 확인"
-   ],
-   "source": "과거 잠정실적 공시일 기반 추정 (잠정)",
-   "links": [
-    {
-     "label": "네이버 금융",
-     "url": "https://finance.naver.com/item/main.naver?code=064350"
-    },
-    {
-     "label": "종목 공시·뉴스",
-     "url": "https://finance.naver.com/item/news_notice.naver?code=064350"
-    },
-    {
-     "label": "컨센서스·기업분석",
-     "url": "https://finance.naver.com/item/coinfo.naver?code=064350"
-    },
-    {
-     "label": "DART 공시 검색",
-     "url": "https://dart.fss.or.kr/dsab007/main.do?textCrpNm=%ED%98%84%EB%8C%80%EB%A1%9C%ED%85%9C"
-    }
-   ],
-   "metrics": {
-    "PER": "11.16배",
-    "EPS": "7,400원",
-    "추정PER": "11.26배",
-    "추정EPS": "7,338원",
-    "PBR": "2.65배",
-    "BPS": "31,211원",
-    "배당수익률": "0.73%",
-    "현재가": "82,600원"
-   }
-  },
-  {
-   "id": "kr-earn-est-005940-2026-10-28",
-   "date": "2026-10-28",
-   "market": "KR",
-   "cat": "earnings",
-   "title": "NH투자증권 실적발표 예상",
-   "ticker": "005940",
-   "session": "unknown",
-   "imp": 2,
-   "status": "estimated",
-   "index": [
-    "코스피 시총상위"
-   ],
-   "desc": "국내는 실적발표일을 사전 공표하는 제도가 없어, 과거 2년간 잠정실적 공시일을 기준으로 추정한 일정입니다. 발표 시각(장전·장마감 후)도 사전 확인이 불가하며 국내 잠정실적은 통상 장중~장 마감 후에 공시됩니다. 고객 안내 전 기업 IR 확인이 필요합니다.",
-   "checklist": [
-    "기업 IR 또는 유선으로 실제 발표일 확인",
-    "컨센서스와 직전 분기 수치 비교표 준비",
-    "동일 업종 선행 발표 기업의 결과·가이던스 확인"
-   ],
-   "source": "과거 잠정실적 공시일 기반 추정 (잠정)",
-   "links": [
-    {
-     "label": "네이버 금융",
-     "url": "https://finance.naver.com/item/main.naver?code=005940"
-    },
-    {
-     "label": "종목 공시·뉴스",
-     "url": "https://finance.naver.com/item/news_notice.naver?code=005940"
-    },
-    {
-     "label": "컨센서스·기업분석",
-     "url": "https://finance.naver.com/item/coinfo.naver?code=005940"
-    },
-    {
-     "label": "DART 공시 검색",
-     "url": "https://dart.fss.or.kr/dsab007/main.do?textCrpNm=NH%ED%88%AC%EC%9E%90%EC%A6%9D%EA%B6%8C"
-    }
-   ],
-   "metrics": {
-    "PER": "5.78배",
-    "EPS": "4,119원",
-    "추정PER": "5.61배",
-    "추정EPS": "4,246원",
-    "PBR": "0.85배",
-    "BPS": "28,037원",
-    "배당수익률": "5.46%",
-    "현재가": "23,800원"
-   }
-  },
-  {
-   "id": "kr-earn-est-000100-2026-10-28",
-   "date": "2026-10-28",
-   "market": "KR",
-   "cat": "earnings",
-   "title": "유한양행 실적발표 예상",
-   "ticker": "000100",
-   "session": "unknown",
-   "imp": 2,
-   "status": "estimated",
-   "index": [
-    "코스피 시총상위"
-   ],
-   "desc": "국내는 실적발표일을 사전 공표하는 제도가 없어, 과거 2년간 잠정실적 공시일을 기준으로 추정한 일정입니다. 발표 시각(장전·장마감 후)도 사전 확인이 불가하며 국내 잠정실적은 통상 장중~장 마감 후에 공시됩니다. 고객 안내 전 기업 IR 확인이 필요합니다.",
-   "checklist": [
-    "기업 IR 또는 유선으로 실제 발표일 확인",
-    "컨센서스와 직전 분기 수치 비교표 준비",
-    "동일 업종 선행 발표 기업의 결과·가이던스 확인"
-   ],
-   "source": "과거 잠정실적 공시일 기반 추정 (잠정)",
-   "links": [
-    {
-     "label": "네이버 금융",
-     "url": "https://finance.naver.com/item/main.naver?code=000100"
-    },
-    {
-     "label": "종목 공시·뉴스",
-     "url": "https://finance.naver.com/item/news_notice.naver?code=000100"
-    },
-    {
-     "label": "컨센서스·기업분석",
-     "url": "https://finance.naver.com/item/coinfo.naver?code=000100"
-    },
-    {
-     "label": "DART 공시 검색",
-     "url": "https://dart.fss.or.kr/dsab007/main.do?textCrpNm=%EC%9C%A0%ED%95%9C%EC%96%91%ED%96%89"
-    }
-   ],
-   "metrics": {
-    "PER": "26.58배",
-    "EPS": "2,927원",
-    "추정PER": "36.78배",
-    "추정EPS": "2,115원",
-    "PBR": "2.44배",
-    "BPS": "31,931원",
-    "배당수익률": "0.77%",
-    "현재가": "77,800원"
-   }
-  },
-  {
-   "id": "kr-earn-est-029780-2026-10-28",
-   "date": "2026-10-28",
-   "market": "KR",
-   "cat": "earnings",
-   "title": "삼성카드 실적발표 예상",
-   "ticker": "029780",
-   "session": "unknown",
-   "imp": 2,
-   "status": "estimated",
-   "index": [
-    "코스피 시총상위"
-   ],
-   "desc": "국내는 실적발표일을 사전 공표하는 제도가 없어, 과거 2년간 잠정실적 공시일을 기준으로 추정한 일정입니다. 발표 시각(장전·장마감 후)도 사전 확인이 불가하며 국내 잠정실적은 통상 장중~장 마감 후에 공시됩니다. 고객 안내 전 기업 IR 확인이 필요합니다.",
-   "checklist": [
-    "기업 IR 또는 유선으로 실제 발표일 확인",
-    "컨센서스와 직전 분기 수치 비교표 준비",
-    "동일 업종 선행 발표 기업의 결과·가이던스 확인"
-   ],
-   "source": "과거 잠정실적 공시일 기반 추정 (잠정)",
-   "links": [
-    {
-     "label": "네이버 금융",
-     "url": "https://finance.naver.com/item/main.naver?code=029780"
-    },
-    {
-     "label": "종목 공시·뉴스",
-     "url": "https://finance.naver.com/item/news_notice.naver?code=029780"
-    },
-    {
-     "label": "컨센서스·기업분석",
-     "url": "https://finance.naver.com/item/coinfo.naver?code=029780"
-    },
-    {
-     "label": "DART 공시 검색",
-     "url": "https://dart.fss.or.kr/dsab007/main.do?textCrpNm=%EC%82%BC%EC%84%B1%EC%B9%B4%EB%93%9C"
-    }
-   ],
-   "metrics": {
-    "PER": "7.63배",
-    "EPS": "5,358원",
-    "추정PER": "7.97배",
-    "추정EPS": "5,130원",
-    "PBR": "0.49배",
-    "BPS": "83,446원",
-    "배당수익률": "6.85%",
-    "현재가": "40,900원"
-   }
-  },
-  {
-   "id": "kr-earn-est-175330-2026-10-28",
-   "date": "2026-10-28",
-   "market": "KR",
-   "cat": "earnings",
-   "title": "JB금융지주 실적발표 예상",
-   "ticker": "175330",
-   "session": "unknown",
-   "imp": 2,
-   "status": "estimated",
-   "index": [
-    "코스피 시총상위"
-   ],
-   "desc": "국내는 실적발표일을 사전 공표하는 제도가 없어, 과거 2년간 잠정실적 공시일을 기준으로 추정한 일정입니다. 발표 시각(장전·장마감 후)도 사전 확인이 불가하며 국내 잠정실적은 통상 장중~장 마감 후에 공시됩니다. 고객 안내 전 기업 IR 확인이 필요합니다.",
-   "checklist": [
-    "기업 IR 또는 유선으로 실제 발표일 확인",
-    "컨센서스와 직전 분기 수치 비교표 준비",
-    "동일 업종 선행 발표 기업의 결과·가이던스 확인"
-   ],
-   "source": "과거 잠정실적 공시일 기반 추정 (잠정)",
-   "links": [
-    {
-     "label": "네이버 금융",
-     "url": "https://finance.naver.com/item/main.naver?code=175330"
-    },
-    {
-     "label": "종목 공시·뉴스",
-     "url": "https://finance.naver.com/item/news_notice.naver?code=175330"
-    },
-    {
-     "label": "컨센서스·기업분석",
-     "url": "https://finance.naver.com/item/coinfo.naver?code=175330"
-    },
-    {
-     "label": "DART 공시 검색",
-     "url": "https://dart.fss.or.kr/dsab007/main.do?textCrpNm=JB%EA%B8%88%EC%9C%B5%EC%A7%80%EC%A3%BC"
-    }
-   ],
-   "metrics": {
-    "PER": "6.39배",
-    "EPS": "3,821원",
-    "추정PER": "6.18배",
-    "추정EPS": "3,951원",
-    "PBR": "0.75배",
-    "BPS": "32,702원",
-    "배당수익률": "4.67%",
-    "현재가": "24,400원"
-   }
-  },
-  {
-   "id": "kr-earn-est-139130-2026-10-28",
-   "date": "2026-10-28",
-   "market": "KR",
-   "cat": "earnings",
-   "title": "iM금융지주 실적발표 예상",
-   "ticker": "139130",
-   "session": "unknown",
-   "imp": 2,
-   "status": "estimated",
-   "index": [
-    "코스피 시총상위"
-   ],
-   "desc": "국내는 실적발표일을 사전 공표하는 제도가 없어, 과거 2년간 잠정실적 공시일을 기준으로 추정한 일정입니다. 발표 시각(장전·장마감 후)도 사전 확인이 불가하며 국내 잠정실적은 통상 장중~장 마감 후에 공시됩니다. 고객 안내 전 기업 IR 확인이 필요합니다.",
-   "checklist": [
-    "기업 IR 또는 유선으로 실제 발표일 확인",
-    "컨센서스와 직전 분기 수치 비교표 준비",
-    "동일 업종 선행 발표 기업의 결과·가이던스 확인"
-   ],
-   "source": "과거 잠정실적 공시일 기반 추정 (잠정)",
-   "links": [
-    {
-     "label": "네이버 금융",
-     "url": "https://finance.naver.com/item/main.naver?code=139130"
-    },
-    {
-     "label": "종목 공시·뉴스",
-     "url": "https://finance.naver.com/item/news_notice.naver?code=139130"
-    },
-    {
-     "label": "컨센서스·기업분석",
-     "url": "https://finance.naver.com/item/coinfo.naver?code=139130"
-    },
-    {
-     "label": "DART 공시 검색",
-     "url": "https://dart.fss.or.kr/dsab007/main.do?textCrpNm=iM%EA%B8%88%EC%9C%B5%EC%A7%80%EC%A3%BC"
-    }
-   ],
-   "metrics": {
-    "PER": "5.64배",
-    "EPS": "2,666원",
-    "추정PER": "5.10배",
-    "추정EPS": "2,951원",
-    "PBR": "0.37배",
-    "BPS": "40,231원",
-    "배당수익률": "4.65%",
-    "현재가": "15,040원"
-   }
-  },
   {
    "id": "us-earn-AMZN-2026-10-29",
    "date": "2026-10-29",
@@ -1358,8 +31,8 @@
     "컨센서스 EPS": "$2.01",
     "전년 동기 EPS": "$1.95",
     "결산 분기": "Sep/2026",
-    "현재가": "$252.4805 (-0.24%)",
-    "시가총액": "2,723,166,655,955",
+    "현재가": "$254.60 (+0.59%)",
+    "시가총액": "2,746,195,435,431",
     "1년 목표주가": "$329.00",
     "52주 범위": "$287.2/$196",
     "섹터": "Consumer Discretionary",
@@ -1394,8 +67,8 @@
     "컨센서스 EPS": "$5.38",
     "전년 동기 EPS": "$7.02",
     "결산 분기": "Sep/2026",
-    "현재가": "$1,297.25 (+1.20%)",
-    "시가총액": "1,221,175,452,571",
+    "현재가": "$1,288.30 (+0.50%)",
+    "시가총액": "1,212,750,306,840",
     "1년 목표주가": "$1,400.00",
     "52주 범위": "$1321.21/$809.63",
     "섹터": "Health Care",
@@ -1430,8 +103,8 @@
     "컨센서스 EPS": "$5.14",
     "전년 동기 EPS": "$4.38",
     "결산 분기": "Sep/2026",
-    "현재가": "$616.25 (+1.05%)",
-    "시가총액": "539,841,125,525",
+    "현재가": "$610.31 (+0.08%)",
+    "시가총액": "534,637,626,481",
     "1년 목표주가": "$670.00",
     "52주 범위": "$633.2945/$464.52",
     "섹터": "Consumer Discretionary",
@@ -1467,8 +140,8 @@
     "컨센서스 EPS": "$0.28",
     "전년 동기 EPS": "$0.11",
     "결산 분기": "Sep/2026",
-    "현재가": "$93.96 (+0.23%)",
-    "시가총액": "496,585,131,254",
+    "현재가": "$95.53 (+1.91%)",
+    "시가총액": "504,882,690,386",
     "1년 목표주가": "$110.00",
     "52주 범위": "$142.35/$32.89",
     "섹터": "Technology",
@@ -1503,8 +176,8 @@
     "컨센서스 EPS": "$2.12",
     "전년 동기 EPS": "$2.58",
     "결산 분기": "Sep/2026",
-    "현재가": "$141.505 (-0.22%)",
-    "시가총액": "349,117,122,635",
+    "현재가": "$140.93 (-0.63%)",
+    "시가총액": "347,698,498,943",
     "1년 목표주가": "$165.00",
     "52주 범위": "$156.9199/$82.01",
     "섹터": "Health Care",
@@ -1539,8 +212,8 @@
     "컨센서스 EPS": "$7.12",
     "전년 동기 EPS": "$4.95",
     "결산 분기": "Sep/2026",
-    "현재가": "$712.695 (-0.09%)",
-    "시가총액": "327,607,995,016",
+    "현재가": "$713.38 (+0.01%)",
+    "시가총액": "327,922,872,315",
     "1년 목표주가": "$950.00",
     "52주 범위": "$1073.46/$521.6744",
     "섹터": "Industrials",
@@ -1576,8 +249,8 @@
     "컨센서스 EPS": "$4.52",
     "전년 동기 EPS": "$4.21",
     "결산 분기": "Sep/2026",
-    "현재가": "$509.13 (+0.09%)",
-    "시가총액": "234,698,830,388",
+    "현재가": "$508.16 (-0.10%)",
+    "시가총액": "234,251,679,630",
     "1년 목표주가": "$550.00",
     "연간 배당금": "$6.40",
     "배당수익률": "1.26%",
@@ -1614,8 +287,8 @@
     "컨센서스 EPS": "($0.84)",
     "전년 동기 EPS": "($0.82)",
     "결산 분기": "Sep/2026",
-    "현재가": "$11.545 (-2.33%)",
-    "시가총액": "16,715,550,973",
+    "현재가": "$11.67 (-1.27%)",
+    "시가총액": "16,896,533,552",
     "1년 목표주가": "$18.00",
     "52주 범위": "$22.69/$11.42",
     "섹터": "Industrials",
@@ -1644,11 +317,11 @@
     }
    ],
    "metrics": {
-    "PER": "219.08배",
+    "PER": "189.75배",
     "EPS": "283원",
-    "추정PER": "116.54배",
-    "추정EPS": "532원",
-    "PBR": "4.86배",
+    "추정PER": "92.59배",
+    "추정EPS": "580원",
+    "PBR": "4.21배",
     "BPS": "12,767원",
     "배당수익률": "N/A",
     "현재가": "62,000원"
@@ -1676,14 +349,46 @@
     }
    ],
    "metrics": {
-    "PER": "30.13배",
+    "PER": "29.65배",
     "EPS": "4,142원",
-    "추정PER": "23.01배",
+    "추정PER": "22.64배",
     "추정EPS": "5,423원",
-    "PBR": "1.54배",
+    "PBR": "1.52배",
     "BPS": "80,855원",
-    "배당수익률": "0.99%",
+    "배당수익률": "1.01%",
     "현재가": "124,800원"
+   }
+  },
+  {
+   "id": "kr-earn-489790-2026-10-29",
+   "date": "2026-10-29",
+   "market": "KR",
+   "cat": "earnings",
+   "title": "한화비전 실적발표 (공시 예고)",
+   "ticker": "489790",
+   "session": "unknown",
+   "imp": 3,
+   "status": "confirmed",
+   "index": [
+    "코스피 시총상위"
+   ],
+   "desc": "기업이 DART 결산실적공시예고로 직접 공표한 발표일입니다.",
+   "source": "DART 결산실적공시예고",
+   "links": [
+    {
+     "label": "DART 공시 원문",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261021800101"
+    }
+   ],
+   "metrics": {
+    "PER": "18.15배",
+    "EPS": "2,358원",
+    "추정PER": "11.29배",
+    "추정EPS": "3,790원",
+    "PBR": "2.27배",
+    "BPS": "18,819원",
+    "배당수익률": "N/A",
+    "현재가": "40,450원"
    }
   },
   {
@@ -1712,7 +417,7 @@
     "EPS": "-794원",
     "추정PER": "N/A",
     "추정EPS": "N/A",
-    "PBR": "12.03배",
+    "PBR": "11.18배",
     "BPS": "5,079원",
     "배당수익률": "N/A",
     "현재가": "61,100원"
@@ -1742,9 +447,9 @@
    "metrics": {
     "PER": "N/A",
     "EPS": "-82원",
-    "추정PER": "96.35배",
+    "추정PER": "90.13배",
     "추정EPS": "233원",
-    "PBR": "2.33배",
+    "PBR": "2.18배",
     "BPS": "9,632원",
     "배당수익률": "N/A",
     "현재가": "22,450원"
@@ -1772,13 +477,13 @@
     }
    ],
    "metrics": {
-    "PER": "9.51배",
+    "PER": "9.29배",
     "EPS": "5,197원",
-    "추정PER": "8.56배",
+    "추정PER": "8.37배",
     "추정EPS": "5,769원",
-    "PBR": "0.60배",
+    "PBR": "0.59배",
     "BPS": "82,108원",
-    "배당수익률": "3.44%",
+    "배당수익률": "3.52%",
     "현재가": "49,400원"
    }
   },
@@ -1804,13 +509,13 @@
     }
    ],
    "metrics": {
-    "PER": "19.60배",
+    "PER": "18.53배",
     "EPS": "40,099원",
-    "추정PER": "17.87배",
+    "추정PER": "16.90배",
     "추정EPS": "43,973원",
-    "PBR": "3.37배",
+    "PBR": "3.19배",
     "BPS": "233,220원",
-    "배당수익률": "0.89%",
+    "배당수익률": "0.94%",
     "현재가": "786,000원"
    }
   },
@@ -1836,13 +541,13 @@
     }
    ],
    "metrics": {
-    "PER": "26.65배",
+    "PER": "24.21배",
     "EPS": "8,386원",
-    "추정PER": "24.99배",
+    "추정PER": "22.70배",
     "추정EPS": "8,942원",
-    "PBR": "1.68배",
+    "PBR": "1.52배",
     "BPS": "133,300원",
-    "배당수익률": "1.43%",
+    "배당수익률": "1.57%",
     "현재가": "223,500원"
    }
   },
@@ -1875,8 +580,8 @@
     "컨센서스 EPS": "$2.17",
     "전년 동기 EPS": "$2.47",
     "결산 분기": "Sep/2026",
-    "현재가": "$160.34 (+0.79%)",
-    "시가총액": "198,777,210,898",
+    "현재가": "$159.20 (+0.08%)",
+    "시가총액": "197,400,860,676",
     "1년 목표주가": "$165.00",
     "연간 배당금": "$3.28",
     "배당수익률": "2.06%",
@@ -1914,8 +619,8 @@
     "컨센서스 EPS": "$46.19",
     "전년 동기 EPS": "$0.90",
     "결산 분기": "Sep/2026",
-    "현재가": "$1,380.925 (+5.83%)",
-    "시가총액": "200,568,187,205",
+    "현재가": "$1,404.77 (+7.66%)",
+    "시가총액": "204,151,967,843",
     "1년 목표주가": "$2,200.00",
     "52주 범위": "$2354.3899/$164.56",
     "섹터": "Technology",
@@ -1950,8 +655,8 @@
     "컨센서스 EPS": "$1.21",
     "전년 동기 EPS": "$1.63",
     "결산 분기": "Sep/2026",
-    "현재가": "$60.89 (-1.07%)",
-    "시가총액": "124,380,895,404",
+    "현재가": "$60.57 (-1.59%)",
+    "시가총액": "123,727,226,714",
     "1년 목표주가": "$66.00",
     "52주 범위": "$68.64/$42.52",
     "섹터": "Health Care",
@@ -1986,8 +691,8 @@
     "컨센서스 EPS": "$1.51",
     "전년 동기 EPS": "$1.45",
     "결산 분기": "Sep/2026",
-    "현재가": "$73.675 (+0.25%)",
-    "시가총액": "123,018,383,748",
+    "현재가": "$72.99 (-0.68%)",
+    "시가총액": "121,874,609,159",
     "1년 목표주가": "$70.50",
     "52주 범위": "$77.06/$54.7",
     "섹터": "Health Care",
@@ -2023,8 +728,8 @@
     "컨센서스 EPS": "$0.73",
     "전년 동기 EPS": "$0.52",
     "결산 분기": "Sep/2026",
-    "현재가": "$104.28 (+1.20%)",
-    "시가총액": "118,879,200,000",
+    "현재가": "$103.20 (+0.16%)",
+    "시가총액": "117,648,000,000",
     "1년 목표주가": "$110.00",
     "연간 배당금": "$2.48",
     "배당수익률": "2.41%",
@@ -2053,11 +758,11 @@
     }
    ],
    "metrics": {
-    "PER": "3.13배",
+    "PER": "3.09배",
     "EPS": "1,659원",
-    "추정PER": "3.89배",
+    "추정PER": "3.83배",
     "추정EPS": "1,337원",
-    "PBR": "0.62배",
+    "PBR": "0.61배",
     "BPS": "8,433원",
     "배당수익률": "N/A",
     "현재가": "5,200원"
@@ -2083,13 +788,13 @@
     }
    ],
    "metrics": {
-    "PER": "9.82배",
+    "PER": "9.66배",
     "EPS": "737원",
     "추정PER": "N/A",
     "추정EPS": "N/A",
-    "PBR": "0.62배",
+    "PBR": "0.61배",
     "BPS": "11,741원",
-    "배당수익률": "6.22%",
+    "배당수익률": "6.32%",
     "현재가": "7,240원"
    }
   },
@@ -2113,44 +818,14 @@
     }
    ],
    "metrics": {
-    "PER": "15.64배",
+    "PER": "15.57배",
     "EPS": "1,506원",
     "추정PER": "N/A",
     "추정EPS": "N/A",
     "PBR": "0.60배",
     "BPS": "39,318원",
-    "배당수익률": "1.70%",
+    "배당수익률": "1.71%",
     "현재가": "23,550원"
-   }
-  },
-  {
-   "id": "kr-earn-489790-2026-10-29",
-   "date": "2026-10-29",
-   "market": "KR",
-   "cat": "earnings",
-   "title": "한화비전 실적발표 (공시 예고)",
-   "ticker": "489790",
-   "session": "unknown",
-   "imp": 2,
-   "status": "confirmed",
-   "index": [],
-   "desc": "기업이 DART 결산실적공시예고로 직접 공표한 발표일입니다.",
-   "source": "DART 결산실적공시예고",
-   "links": [
-    {
-     "label": "DART 공시 원문",
-     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261021800101"
-    }
-   ],
-   "metrics": {
-    "PER": "17.15배",
-    "EPS": "2,358원",
-    "추정PER": "10.67배",
-    "추정EPS": "3,790원",
-    "PBR": "2.15배",
-    "BPS": "18,819원",
-    "배당수익률": "N/A",
-    "현재가": "40,450원"
    }
   },
   {
@@ -2173,14 +848,259 @@
     }
    ],
    "metrics": {
-    "PER": "4.62배",
+    "PER": "4.56배",
     "EPS": "7,792원",
-    "추정PER": "4.44배",
+    "추정PER": "4.38배",
     "추정EPS": "8,117원",
     "PBR": "0.36배",
     "BPS": "99,599원",
-    "배당수익률": "4.17%",
+    "배당수익률": "4.22%",
     "현재가": "36,000원"
+   }
+  },
+  {
+   "id": "kr-earn-est-005930-2026-10-29",
+   "date": "2026-10-29",
+   "market": "KR",
+   "cat": "earnings",
+   "title": "삼성전자 실적발표 예상",
+   "ticker": "005930",
+   "session": "unknown",
+   "imp": 2,
+   "status": "estimated",
+   "index": [
+    "코스피 시총상위"
+   ],
+   "desc": "국내는 실적발표일을 사전 공표하는 제도가 없어, 과거 2년간 잠정실적 공시일을 기준으로 추정한 일정입니다. 발표 시각(장전·장마감 후)도 사전 확인이 불가하며 국내 잠정실적은 통상 장중~장 마감 후에 공시됩니다. 고객 안내 전 기업 IR 확인이 필요합니다.",
+   "checklist": [
+    "기업 IR 또는 유선으로 실제 발표일 확인",
+    "컨센서스와 직전 분기 수치 비교표 준비",
+    "동일 업종 선행 발표 기업의 결과·가이던스 확인"
+   ],
+   "source": "과거 잠정실적 공시일 기반 추정 (잠정)",
+   "links": [
+    {
+     "label": "네이버 금융",
+     "url": "https://finance.naver.com/item/main.naver?code=005930"
+    },
+    {
+     "label": "종목 공시·뉴스",
+     "url": "https://finance.naver.com/item/news_notice.naver?code=005930"
+    },
+    {
+     "label": "컨센서스·기업분석",
+     "url": "https://finance.naver.com/item/coinfo.naver?code=005930"
+    },
+    {
+     "label": "DART 공시 검색",
+     "url": "https://dart.fss.or.kr/dsab007/main.do?textCrpNm=%EC%82%BC%EC%84%B1%EC%A0%84%EC%9E%90"
+    }
+   ],
+   "metrics": {
+    "PER": "10.14배",
+    "EPS": "22,292원",
+    "추정PER": "4.96배",
+    "추정EPS": "45,531원",
+    "PBR": "2.63배",
+    "BPS": "86,052원",
+    "배당수익률": "0.74%",
+    "현재가": "245,000원"
+   }
+  },
+  {
+   "id": "kr-earn-est-000660-2026-10-29",
+   "date": "2026-10-29",
+   "market": "KR",
+   "cat": "earnings",
+   "title": "SK하이닉스 실적발표 예상",
+   "ticker": "000660",
+   "session": "unknown",
+   "imp": 2,
+   "status": "estimated",
+   "index": [
+    "코스피 시총상위"
+   ],
+   "desc": "국내는 실적발표일을 사전 공표하는 제도가 없어, 과거 2년간 잠정실적 공시일을 기준으로 추정한 일정입니다. 발표 시각(장전·장마감 후)도 사전 확인이 불가하며 국내 잠정실적은 통상 장중~장 마감 후에 공시됩니다. 고객 안내 전 기업 IR 확인이 필요합니다.",
+   "checklist": [
+    "기업 IR 또는 유선으로 실제 발표일 확인",
+    "컨센서스와 직전 분기 수치 비교표 준비",
+    "동일 업종 선행 발표 기업의 결과·가이던스 확인"
+   ],
+   "source": "과거 잠정실적 공시일 기반 추정 (잠정)",
+   "links": [
+    {
+     "label": "네이버 금융",
+     "url": "https://finance.naver.com/item/main.naver?code=000660"
+    },
+    {
+     "label": "종목 공시·뉴스",
+     "url": "https://finance.naver.com/item/news_notice.naver?code=000660"
+    },
+    {
+     "label": "컨센서스·기업분석",
+     "url": "https://finance.naver.com/item/coinfo.naver?code=000660"
+    },
+    {
+     "label": "DART 공시 검색",
+     "url": "https://dart.fss.or.kr/dsab007/main.do?textCrpNm=SK%ED%95%98%EC%9D%B4%EB%8B%89%EC%8A%A4"
+    }
+   ],
+   "metrics": {
+    "PER": "6.65배",
+    "EPS": "224,313원",
+    "추정PER": "4.18배",
+    "추정EPS": "356,342원",
+    "PBR": "4.04배",
+    "BPS": "368,998원",
+    "배당수익률": "0.20%",
+    "현재가": "1,508,000원"
+   }
+  },
+  {
+   "id": "kr-earn-est-009150-2026-10-29",
+   "date": "2026-10-29",
+   "market": "KR",
+   "cat": "earnings",
+   "title": "삼성전기 실적발표 예상",
+   "ticker": "009150",
+   "session": "unknown",
+   "imp": 2,
+   "status": "estimated",
+   "index": [
+    "코스피 시총상위"
+   ],
+   "desc": "국내는 실적발표일을 사전 공표하는 제도가 없어, 과거 2년간 잠정실적 공시일을 기준으로 추정한 일정입니다. 발표 시각(장전·장마감 후)도 사전 확인이 불가하며 국내 잠정실적은 통상 장중~장 마감 후에 공시됩니다. 고객 안내 전 기업 IR 확인이 필요합니다.",
+   "checklist": [
+    "기업 IR 또는 유선으로 실제 발표일 확인",
+    "컨센서스와 직전 분기 수치 비교표 준비",
+    "동일 업종 선행 발표 기업의 결과·가이던스 확인"
+   ],
+   "source": "과거 잠정실적 공시일 기반 추정 (잠정)",
+   "links": [
+    {
+     "label": "네이버 금융",
+     "url": "https://finance.naver.com/item/main.naver?code=009150"
+    },
+    {
+     "label": "종목 공시·뉴스",
+     "url": "https://finance.naver.com/item/news_notice.naver?code=009150"
+    },
+    {
+     "label": "컨센서스·기업분석",
+     "url": "https://finance.naver.com/item/coinfo.naver?code=009150"
+    },
+    {
+     "label": "DART 공시 검색",
+     "url": "https://dart.fss.or.kr/dsab007/main.do?textCrpNm=%EC%82%BC%EC%84%B1%EC%A0%84%EA%B8%B0"
+    }
+   ],
+   "metrics": {
+    "PER": "94.35배",
+    "EPS": "12,984원",
+    "추정PER": "58.56배",
+    "추정EPS": "20,918원",
+    "PBR": "9.05배",
+    "BPS": "135,420원",
+    "배당수익률": "0.19%",
+    "현재가": "1,315,000원"
+   }
+  },
+  {
+   "id": "kr-earn-est-006400-2026-10-29",
+   "date": "2026-10-29",
+   "market": "KR",
+   "cat": "earnings",
+   "title": "삼성SDI 실적발표 예상",
+   "ticker": "006400",
+   "session": "unknown",
+   "imp": 2,
+   "status": "estimated",
+   "index": [
+    "코스피 시총상위"
+   ],
+   "desc": "국내는 실적발표일을 사전 공표하는 제도가 없어, 과거 2년간 잠정실적 공시일을 기준으로 추정한 일정입니다. 발표 시각(장전·장마감 후)도 사전 확인이 불가하며 국내 잠정실적은 통상 장중~장 마감 후에 공시됩니다. 고객 안내 전 기업 IR 확인이 필요합니다.",
+   "checklist": [
+    "기업 IR 또는 유선으로 실제 발표일 확인",
+    "컨센서스와 직전 분기 수치 비교표 준비",
+    "동일 업종 선행 발표 기업의 결과·가이던스 확인"
+   ],
+   "source": "과거 잠정실적 공시일 기반 추정 (잠정)",
+   "links": [
+    {
+     "label": "네이버 금융",
+     "url": "https://finance.naver.com/item/main.naver?code=006400"
+    },
+    {
+     "label": "종목 공시·뉴스",
+     "url": "https://finance.naver.com/item/news_notice.naver?code=006400"
+    },
+    {
+     "label": "컨센서스·기업분석",
+     "url": "https://finance.naver.com/item/coinfo.naver?code=006400"
+    },
+    {
+     "label": "DART 공시 검색",
+     "url": "https://dart.fss.or.kr/dsab007/main.do?textCrpNm=%EC%82%BC%EC%84%B1SDI"
+    }
+   ],
+   "metrics": {
+    "PER": "1,137.55배",
+    "EPS": "458원",
+    "추정PER": "43.50배",
+    "추정EPS": "11,978원",
+    "PBR": "1.69배",
+    "BPS": "308,778원",
+    "배당수익률": "N/A",
+    "현재가": "533,000원"
+   }
+  },
+  {
+   "id": "kr-earn-est-086790-2026-10-29",
+   "date": "2026-10-29",
+   "market": "KR",
+   "cat": "earnings",
+   "title": "하나금융지주 실적발표 예상",
+   "ticker": "086790",
+   "session": "unknown",
+   "imp": 2,
+   "status": "estimated",
+   "index": [
+    "코스피 시총상위"
+   ],
+   "desc": "국내는 실적발표일을 사전 공표하는 제도가 없어, 과거 2년간 잠정실적 공시일을 기준으로 추정한 일정입니다. 발표 시각(장전·장마감 후)도 사전 확인이 불가하며 국내 잠정실적은 통상 장중~장 마감 후에 공시됩니다. 고객 안내 전 기업 IR 확인이 필요합니다.",
+   "checklist": [
+    "기업 IR 또는 유선으로 실제 발표일 확인",
+    "컨센서스와 직전 분기 수치 비교표 준비",
+    "동일 업종 선행 발표 기업의 결과·가이던스 확인"
+   ],
+   "source": "과거 잠정실적 공시일 기반 추정 (잠정)",
+   "links": [
+    {
+     "label": "네이버 금융",
+     "url": "https://finance.naver.com/item/main.naver?code=086790"
+    },
+    {
+     "label": "종목 공시·뉴스",
+     "url": "https://finance.naver.com/item/news_notice.naver?code=086790"
+    },
+    {
+     "label": "컨센서스·기업분석",
+     "url": "https://finance.naver.com/item/coinfo.naver?code=086790"
+    },
+    {
+     "label": "DART 공시 검색",
+     "url": "https://dart.fss.or.kr/dsab007/main.do?textCrpNm=%ED%95%98%EB%82%98%EA%B8%88%EC%9C%B5%EC%A7%80%EC%A3%BC"
+    }
+   ],
+   "metrics": {
+    "PER": "7.97배",
+    "EPS": "14,731원",
+    "추정PER": "7.35배",
+    "추정EPS": "15,972원",
+    "PBR": "0.67배",
+    "BPS": "175,497원",
+    "배당수익률": "3.50%",
+    "현재가": "115,500원"
    }
   },
   {
@@ -2222,14 +1142,63 @@
     }
    ],
    "metrics": {
-    "PER": "6.88배",
+    "PER": "7.03배",
     "EPS": "4,324원",
-    "추정PER": "6.72배",
+    "추정PER": "6.87배",
     "추정EPS": "4,427원",
-    "PBR": "0.56배",
+    "PBR": "0.57배",
     "BPS": "53,410원",
-    "배당수익률": "4.57%",
+    "배당수익률": "4.47%",
     "현재가": "29,750원"
+   }
+  },
+  {
+   "id": "kr-earn-est-096770-2026-10-29",
+   "date": "2026-10-29",
+   "market": "KR",
+   "cat": "earnings",
+   "title": "SK이노베이션 실적발표 예상",
+   "ticker": "096770",
+   "session": "unknown",
+   "imp": 2,
+   "status": "estimated",
+   "index": [
+    "코스피 시총상위"
+   ],
+   "desc": "국내는 실적발표일을 사전 공표하는 제도가 없어, 과거 2년간 잠정실적 공시일을 기준으로 추정한 일정입니다. 발표 시각(장전·장마감 후)도 사전 확인이 불가하며 국내 잠정실적은 통상 장중~장 마감 후에 공시됩니다. 고객 안내 전 기업 IR 확인이 필요합니다.",
+   "checklist": [
+    "기업 IR 또는 유선으로 실제 발표일 확인",
+    "컨센서스와 직전 분기 수치 비교표 준비",
+    "동일 업종 선행 발표 기업의 결과·가이던스 확인"
+   ],
+   "source": "과거 잠정실적 공시일 기반 추정 (잠정)",
+   "links": [
+    {
+     "label": "네이버 금융",
+     "url": "https://finance.naver.com/item/main.naver?code=096770"
+    },
+    {
+     "label": "종목 공시·뉴스",
+     "url": "https://finance.naver.com/item/news_notice.naver?code=096770"
+    },
+    {
+     "label": "컨센서스·기업분석",
+     "url": "https://finance.naver.com/item/coinfo.naver?code=096770"
+    },
+    {
+     "label": "DART 공시 검색",
+     "url": "https://dart.fss.or.kr/dsab007/main.do?textCrpNm=SK%EC%9D%B4%EB%85%B8%EB%B2%A0%EC%9D%B4%EC%85%98"
+    }
+   ],
+   "metrics": {
+    "PER": "N/A",
+    "EPS": "-6,951원",
+    "추정PER": "6.12배",
+    "추정EPS": "21,211원",
+    "PBR": "0.84배",
+    "BPS": "153,910원",
+    "배당수익률": "N/A",
+    "현재가": "139,800원"
    }
   },
   {
@@ -2271,11 +1240,11 @@
     }
    ],
    "metrics": {
-    "PER": "7.77배",
+    "PER": "7.42배",
     "EPS": "6,770원",
-    "추정PER": "8.25배",
-    "추정EPS": "6,373원",
-    "PBR": "2.14배",
+    "추정PER": "9.29배",
+    "추정EPS": "5,406원",
+    "PBR": "2.04배",
     "BPS": "24,558원",
     "배당수익률": "N/A",
     "현재가": "52,600원"
@@ -2320,13 +1289,13 @@
     }
    ],
    "metrics": {
-    "PER": "67.58배",
+    "PER": "65.75배",
     "EPS": "984원",
-    "추정PER": "92.75배",
-    "추정EPS": "717원",
-    "PBR": "2.77배",
+    "추정PER": "91.38배",
+    "추정EPS": "708원",
+    "PBR": "2.69배",
     "BPS": "24,026원",
-    "배당수익률": "0.75%",
+    "배당수익률": "0.77%",
     "현재가": "66,500원"
    }
   },
@@ -2369,13 +1338,13 @@
     }
    ],
    "metrics": {
-    "PER": "6.27배",
+    "PER": "5.99배",
     "EPS": "12,944원",
-    "추정PER": "7.66배",
+    "추정PER": "7.31배",
     "추정EPS": "10,596원",
-    "PBR": "0.79배",
+    "PBR": "0.75배",
     "BPS": "102,911원",
-    "배당수익률": "0.68%",
+    "배당수익률": "0.71%",
     "현재가": "81,200원"
    }
   },
@@ -2420,9 +1389,9 @@
    "metrics": {
     "PER": "N/A",
     "EPS": "-8,250원",
-    "추정PER": "-67.25배",
+    "추정PER": "-63.32배",
     "추정EPS": "-1,325원",
-    "PBR": "4.53배",
+    "PBR": "4.26배",
     "BPS": "19,673원",
     "배당수익률": "N/A",
     "현재가": "89,100원"
@@ -2467,13 +1436,13 @@
     }
    ],
    "metrics": {
-    "PER": "18.89배",
+    "PER": "18.53배",
     "EPS": "2,207원",
     "추정PER": "N/A",
     "추정EPS": "N/A",
-    "PBR": "2.66배",
+    "PBR": "2.61배",
     "BPS": "15,661원",
-    "배당수익률": "0.72%",
+    "배당수익률": "0.73%",
     "현재가": "41,700원"
    }
   },
@@ -2516,11 +1485,11 @@
     }
    ],
    "metrics": {
-    "PER": "1,213.64배",
+    "PER": "1,155.19배",
     "EPS": "154원",
     "추정PER": "N/A",
     "추정EPS": "N/A",
-    "PBR": "14.43배",
+    "PBR": "13.73배",
     "BPS": "12,955원",
     "배당수익률": "0.03%",
     "현재가": "186,900원"
@@ -2565,13 +1534,13 @@
     }
    ],
    "metrics": {
-    "PER": "30.60배",
+    "PER": "29.71배",
     "EPS": "7,287원",
-    "추정PER": "23.25배",
+    "추정PER": "22.57배",
     "추정EPS": "9,591원",
-    "PBR": "4.52배",
+    "PBR": "4.39배",
     "BPS": "49,328원",
-    "배당수익률": "0.64%",
+    "배당수익률": "0.66%",
     "현재가": "223,000원"
    }
   },
@@ -2614,13 +1583,13 @@
     }
    ],
    "metrics": {
-    "PER": "20.63배",
+    "PER": "20.09배",
     "EPS": "3,718원",
-    "추정PER": "23.32배",
-    "추정EPS": "3,289원",
-    "PBR": "2.54배",
+    "추정PER": "28.82배",
+    "추정EPS": "2,592원",
+    "PBR": "2.48배",
     "BPS": "30,152원",
-    "배당수익률": "0.65%",
+    "배당수익률": "0.67%",
     "현재가": "76,700원"
    }
   },
@@ -2663,14 +1632,63 @@
     }
    ],
    "metrics": {
-    "PER": "41.09배",
+    "PER": "40.13배",
     "EPS": "1,251원",
-    "추정PER": "27.44배",
-    "추정EPS": "1,873원",
-    "PBR": "3.65배",
+    "추정PER": "28.28배",
+    "추정EPS": "1,775원",
+    "PBR": "3.56배",
     "BPS": "14,098원",
-    "배당수익률": "0.78%",
+    "배당수익률": "0.80%",
     "현재가": "51,400원"
+   }
+  },
+  {
+   "id": "kr-earn-est-053800-2026-10-29",
+   "date": "2026-10-29",
+   "market": "KR",
+   "cat": "earnings",
+   "title": "안랩 실적발표 예상",
+   "ticker": "053800",
+   "session": "unknown",
+   "imp": 2,
+   "status": "estimated",
+   "index": [
+    "코스닥 시총상위"
+   ],
+   "desc": "국내는 실적발표일을 사전 공표하는 제도가 없어, 과거 2년간 잠정실적 공시일을 기준으로 추정한 일정입니다. 발표 시각(장전·장마감 후)도 사전 확인이 불가하며 국내 잠정실적은 통상 장중~장 마감 후에 공시됩니다. 고객 안내 전 기업 IR 확인이 필요합니다.",
+   "checklist": [
+    "기업 IR 또는 유선으로 실제 발표일 확인",
+    "컨센서스와 직전 분기 수치 비교표 준비",
+    "동일 업종 선행 발표 기업의 결과·가이던스 확인"
+   ],
+   "source": "과거 잠정실적 공시일 기반 추정 (잠정)",
+   "links": [
+    {
+     "label": "네이버 금융",
+     "url": "https://finance.naver.com/item/main.naver?code=053800"
+    },
+    {
+     "label": "종목 공시·뉴스",
+     "url": "https://finance.naver.com/item/news_notice.naver?code=053800"
+    },
+    {
+     "label": "컨센서스·기업분석",
+     "url": "https://finance.naver.com/item/coinfo.naver?code=053800"
+    },
+    {
+     "label": "DART 공시 검색",
+     "url": "https://dart.fss.or.kr/dsab007/main.do?textCrpNm=%EC%95%88%EB%9E%A9"
+    }
+   ],
+   "metrics": {
+    "PER": "22.72배",
+    "EPS": "4,472원",
+    "추정PER": "N/A",
+    "추정EPS": "N/A",
+    "PBR": "2.44배",
+    "BPS": "41,588원",
+    "배당수익률": "1.38%",
+    "현재가": "111,600원"
    }
   },
   {
@@ -2701,8 +1719,8 @@
     "컨센서스 EPS": "$3.90",
     "전년 동기 EPS": "$1.88",
     "결산 분기": "Sep/2026",
-    "현재가": "$182.87 (+1.65%)",
-    "시가총액": "751,965,899,685",
+    "현재가": "$182.02 (+1.17%)",
+    "시가총액": "748,450,214,959",
     "1년 목표주가": "$180.00",
     "52주 범위": "$184.88/$112.51",
     "섹터": "Energy",
@@ -2737,8 +1755,8 @@
     "컨센서스 EPS": "$3.74",
     "전년 동기 EPS": "$1.86",
     "결산 분기": "Sep/2026",
-    "현재가": "$288.49 (+0.73%)",
-    "시가총액": "509,795,665,550",
+    "현재가": "$285.99 (-0.14%)",
+    "시가총액": "505,377,872,337",
     "1년 목표주가": "$288.00",
     "52주 범위": "$291.4/$190.75",
     "섹터": "Health Care",
@@ -2773,8 +1791,8 @@
     "컨센서스 EPS": "$4.78",
     "전년 동기 EPS": "$1.85",
     "결산 분기": "Sep/2026",
-    "현재가": "$230.88 (+1.16%)",
-    "시가총액": "456,166,071,741",
+    "현재가": "$229.20 (+0.43%)",
+    "시가총액": "452,846,776,001",
     "1년 목표주가": "$230.00",
     "52주 범위": "$234.08/$146.49",
     "섹터": "Energy",
@@ -2803,13 +1821,13 @@
     }
    ],
    "metrics": {
-    "PER": "4.03배",
+    "PER": "3.91배",
     "EPS": "14,481원",
-    "추정PER": "5.48배",
+    "추정PER": "5.32배",
     "추정EPS": "10,641원",
-    "PBR": "0.44배",
+    "PBR": "0.43배",
     "BPS": "132,181원",
-    "배당수익률": "1.53%",
+    "배당수익률": "1.57%",
     "현재가": "58,300원"
    }
   },
@@ -2835,13 +1853,13 @@
     }
    ],
    "metrics": {
-    "PER": "3.59배",
+    "PER": "3.60배",
     "EPS": "63,844원",
-    "추정PER": "3.37배",
+    "추정PER": "3.39배",
     "추정EPS": "67,943원",
-    "PBR": "0.79배",
+    "PBR": "0.80배",
     "BPS": "288,207원",
-    "배당수익률": "5.02%",
+    "배당수익률": "5.00%",
     "현재가": "229,000원"
    }
   },
@@ -2867,13 +1885,13 @@
     }
    ],
    "metrics": {
-    "PER": "19.84배",
+    "PER": "18.75배",
     "EPS": "1,525원",
-    "추정PER": "18.51배",
+    "추정PER": "17.50배",
     "추정EPS": "1,634원",
-    "PBR": "0.53배",
+    "PBR": "0.50배",
     "BPS": "57,609원",
-    "배당수익률": "1.65%",
+    "배당수익률": "1.75%",
     "현재가": "30,250원"
    }
   },
@@ -2899,13 +1917,13 @@
     }
    ],
    "metrics": {
-    "PER": "50.52배",
+    "PER": "46.36배",
     "EPS": "6,957원",
-    "추정PER": "45.63배",
+    "추정PER": "41.87배",
     "추정EPS": "7,703원",
-    "PBR": "5.09배",
+    "PBR": "4.67배",
     "BPS": "68,995원",
-    "배당수익률": "0.54%",
+    "배당수익률": "0.59%",
     "현재가": "351,500원"
    }
   },
@@ -2931,13 +1949,13 @@
     }
    ],
    "metrics": {
-    "PER": "24.15배",
+    "PER": "21.57배",
     "EPS": "3,992원",
-    "추정PER": "21.52배",
+    "추정PER": "19.22배",
     "추정EPS": "4,480원",
-    "PBR": "1.17배",
+    "PBR": "1.04배",
     "BPS": "82,483원",
-    "배당수익률": "0.83%",
+    "배당수익률": "0.93%",
     "현재가": "96,400원"
    }
   },
@@ -2963,13 +1981,13 @@
     }
    ],
    "metrics": {
-    "PER": "24.90배",
+    "PER": "24.29배",
     "EPS": "11,527원",
-    "추정PER": "18.87배",
+    "추정PER": "18.41배",
     "추정EPS": "15,212원",
-    "PBR": "16.58배",
+    "PBR": "16.18배",
     "BPS": "17,309원",
-    "배당수익률": "1.77%",
+    "배당수익률": "1.82%",
     "현재가": "287,000원"
    }
   },
@@ -2995,13 +2013,13 @@
     }
    ],
    "metrics": {
-    "PER": "47.49배",
+    "PER": "44.21배",
     "EPS": "2,952원",
-    "추정PER": "30.89배",
+    "추정PER": "28.76배",
     "추정EPS": "4,538원",
-    "PBR": "7.39배",
+    "PBR": "6.88배",
     "BPS": "18,963원",
-    "배당수익률": "0.36%",
+    "배당수익률": "0.38%",
     "현재가": "140,200원"
    }
   },
@@ -3027,13 +2045,13 @@
     }
    ],
    "metrics": {
-    "PER": "16.00배",
+    "PER": "15.68배",
     "EPS": "4,969원",
-    "추정PER": "15.86배",
+    "추정PER": "15.54배",
     "추정EPS": "5,013원",
-    "PBR": "2.53배",
+    "PBR": "2.48배",
     "BPS": "31,447원",
-    "배당수익률": "2.33%",
+    "배당수익률": "2.38%",
     "현재가": "79,500원"
    }
   },
@@ -3057,13 +2075,13 @@
     }
    ],
    "metrics": {
-    "PER": "19.52배",
+    "PER": "19.04배",
     "EPS": "2,608원",
-    "추정PER": "9.85배",
-    "추정EPS": "5,168원",
-    "PBR": "0.36배",
+    "추정PER": "9.92배",
+    "추정EPS": "5,003원",
+    "PBR": "0.35배",
     "BPS": "139,961원",
-    "배당수익률": "2.36%",
+    "배당수익률": "2.42%",
     "현재가": "50,900원"
    }
   },
@@ -3087,13 +2105,13 @@
     }
    ],
    "metrics": {
-    "PER": "8.86배",
+    "PER": "8.74배",
     "EPS": "2,551원",
     "추정PER": "N/A",
     "추정EPS": "N/A",
-    "PBR": "1.06배",
+    "PBR": "1.05배",
     "BPS": "21,308원",
-    "배당수익률": "2.88%",
+    "배당수익률": "2.92%",
     "현재가": "22,600원"
    }
   },
@@ -3117,13 +2135,13 @@
     }
    ],
    "metrics": {
-    "PER": "3.69배",
+    "PER": "3.58배",
     "EPS": "1,011원",
     "추정PER": "N/A",
     "추정EPS": "N/A",
-    "PBR": "0.26배",
+    "PBR": "0.25배",
     "BPS": "14,348원",
-    "배당수익률": "4.28%",
+    "배당수익률": "4.42%",
     "현재가": "3,735원"
    }
   },
@@ -3147,13 +2165,13 @@
     }
    ],
    "metrics": {
-    "PER": "8.77배",
+    "PER": "8.20배",
     "EPS": "916원",
-    "추정PER": "5.74배",
+    "추정PER": "5.36배",
     "추정EPS": "1,400원",
-    "PBR": "0.67배",
+    "PBR": "0.62배",
     "BPS": "12,028원",
-    "배당수익률": "1.87%",
+    "배당수익률": "2.00%",
     "현재가": "8,030원"
    }
   },
@@ -3177,13 +2195,13 @@
     }
    ],
    "metrics": {
-    "PER": "9.69배",
+    "PER": "9.75배",
     "EPS": "1,913원",
-    "추정PER": "10.65배",
+    "추정PER": "10.72배",
     "추정EPS": "1,741원",
-    "PBR": "1.16배",
+    "PBR": "1.17배",
     "BPS": "15,916원",
-    "배당수익률": "6.63%",
+    "배당수익률": "6.59%",
     "현재가": "18,540원"
    }
   },
@@ -3207,11 +2225,11 @@
     }
    ],
    "metrics": {
-    "PER": "22.71배",
+    "PER": "22.36배",
     "EPS": "229원",
     "추정PER": "N/A",
     "추정EPS": "N/A",
-    "PBR": "0.86배",
+    "PBR": "0.85배",
     "BPS": "6,017원",
     "배당수익률": "N/A",
     "현재가": "5,200원"
@@ -3237,23 +2255,23 @@
     }
    ],
    "metrics": {
-    "PER": "4.84배",
+    "PER": "4.77배",
     "EPS": "7,632원",
-    "추정PER": "5.95배",
+    "추정PER": "5.86배",
     "추정EPS": "6,211원",
-    "PBR": "0.85배",
+    "PBR": "0.84배",
     "BPS": "43,395원",
-    "배당수익률": "9.15%",
+    "배당수익률": "9.29%",
     "현재가": "36,950원"
    }
   },
   {
-   "id": "kr-earn-est-005930-2026-10-30",
+   "id": "kr-earn-est-373220-2026-10-30",
    "date": "2026-10-30",
    "market": "KR",
    "cat": "earnings",
-   "title": "삼성전자 실적발표 예상",
-   "ticker": "005930",
+   "title": "LG에너지솔루션 실적발표 예상",
+   "ticker": "373220",
    "session": "unknown",
    "imp": 2,
    "status": "estimated",
@@ -3270,30 +2288,30 @@
    "links": [
     {
      "label": "네이버 금융",
-     "url": "https://finance.naver.com/item/main.naver?code=005930"
+     "url": "https://finance.naver.com/item/main.naver?code=373220"
     },
     {
      "label": "종목 공시·뉴스",
-     "url": "https://finance.naver.com/item/news_notice.naver?code=005930"
+     "url": "https://finance.naver.com/item/news_notice.naver?code=373220"
     },
     {
      "label": "컨센서스·기업분석",
-     "url": "https://finance.naver.com/item/coinfo.naver?code=005930"
+     "url": "https://finance.naver.com/item/coinfo.naver?code=373220"
     },
     {
      "label": "DART 공시 검색",
-     "url": "https://dart.fss.or.kr/dsab007/main.do?textCrpNm=%EC%82%BC%EC%84%B1%EC%A0%84%EC%9E%90"
+     "url": "https://dart.fss.or.kr/dsab007/main.do?textCrpNm=LG%EC%97%90%EB%84%88%EC%A7%80%EC%86%94%EB%A3%A8%EC%85%98"
     }
    ],
    "metrics": {
-    "PER": "10.99배",
-    "EPS": "22,292원",
-    "추정PER": "5.38배",
-    "추정EPS": "45,512원",
-    "PBR": "2.85배",
-    "BPS": "86,052원",
-    "배당수익률": "0.68%",
-    "현재가": "245,000원"
+    "PER": "N/A",
+    "EPS": "-7,193원",
+    "추정PER": "-338.65배",
+    "추정EPS": "-1,035원",
+    "PBR": "3.67배",
+    "BPS": "95,479원",
+    "배당수익률": "N/A",
+    "현재가": "373,500원"
    }
   },
   {
@@ -3335,13 +2353,13 @@
     }
    ],
    "metrics": {
-    "PER": "9.68배",
+    "PER": "9.36배",
     "EPS": "30,697원",
-    "추정PER": "8.45배",
-    "추정EPS": "35,145원",
-    "PBR": "0.64배",
+    "추정PER": "8.18배",
+    "추정EPS": "35,137원",
+    "PBR": "0.61배",
     "BPS": "467,197원",
-    "배당수익률": "3.37%",
+    "배당수익률": "3.48%",
     "현재가": "297,000원"
    }
   },
@@ -3384,14 +2402,63 @@
     }
    ],
    "metrics": {
-    "PER": "9.19배",
+    "PER": "9.34배",
     "EPS": "16,744원",
-    "추정PER": "8.31배",
-    "추정EPS": "18,500원",
-    "PBR": "0.89배",
+    "추정PER": "8.45배",
+    "추정EPS": "18,502원",
+    "PBR": "0.91배",
     "BPS": "172,316원",
-    "배당수익률": "2.84%",
+    "배당수익률": "2.79%",
     "현재가": "153,800원"
+   }
+  },
+  {
+   "id": "kr-earn-est-028260-2026-10-30",
+   "date": "2026-10-30",
+   "market": "KR",
+   "cat": "earnings",
+   "title": "삼성물산 실적발표 예상",
+   "ticker": "028260",
+   "session": "unknown",
+   "imp": 2,
+   "status": "estimated",
+   "index": [
+    "코스피 시총상위"
+   ],
+   "desc": "국내는 실적발표일을 사전 공표하는 제도가 없어, 과거 2년간 잠정실적 공시일을 기준으로 추정한 일정입니다. 발표 시각(장전·장마감 후)도 사전 확인이 불가하며 국내 잠정실적은 통상 장중~장 마감 후에 공시됩니다. 고객 안내 전 기업 IR 확인이 필요합니다.",
+   "checklist": [
+    "기업 IR 또는 유선으로 실제 발표일 확인",
+    "컨센서스와 직전 분기 수치 비교표 준비",
+    "동일 업종 선행 발표 기업의 결과·가이던스 확인"
+   ],
+   "source": "과거 잠정실적 공시일 기반 추정 (잠정)",
+   "links": [
+    {
+     "label": "네이버 금융",
+     "url": "https://finance.naver.com/item/main.naver?code=028260"
+    },
+    {
+     "label": "종목 공시·뉴스",
+     "url": "https://finance.naver.com/item/news_notice.naver?code=028260"
+    },
+    {
+     "label": "컨센서스·기업분석",
+     "url": "https://finance.naver.com/item/coinfo.naver?code=028260"
+    },
+    {
+     "label": "DART 공시 검색",
+     "url": "https://dart.fss.or.kr/dsab007/main.do?textCrpNm=%EC%82%BC%EC%84%B1%EB%AC%BC%EC%82%B0"
+    }
+   ],
+   "metrics": {
+    "PER": "19.37배",
+    "EPS": "16,520원",
+    "추정PER": "19.09배",
+    "추정EPS": "16,765원",
+    "PBR": "0.50배",
+    "BPS": "645,052원",
+    "배당수익률": "0.88%",
+    "현재가": "324,500원"
    }
   },
   {
@@ -3433,13 +2500,13 @@
     }
    ],
    "metrics": {
-    "PER": "16.85배",
+    "PER": "16.34배",
     "EPS": "16,737원",
-    "추정PER": "11.69배",
-    "추정EPS": "24,120원",
-    "PBR": "0.37배",
+    "추정PER": "11.36배",
+    "추정EPS": "24,080원",
+    "PBR": "0.36배",
     "BPS": "759,917원",
-    "배당수익률": "3.55%",
+    "배당수익률": "3.66%",
     "현재가": "282,000원"
    }
   },
@@ -3482,11 +2549,11 @@
     }
    ],
    "metrics": {
-    "PER": "22.50배",
+    "PER": "21.49배",
     "EPS": "3,480원",
-    "추정PER": "12.40배",
+    "추정PER": "11.85배",
     "추정EPS": "6,314원",
-    "PBR": "1.08배",
+    "PBR": "1.03배",
     "BPS": "72,453원",
     "배당수익률": "N/A",
     "현재가": "78,300원"
@@ -3531,13 +2598,13 @@
     }
    ],
    "metrics": {
-    "PER": "5.69배",
+    "PER": "5.75배",
     "EPS": "3,312원",
-    "추정PER": "5.38배",
-    "추정EPS": "3,505원",
+    "추정PER": "5.43배",
+    "추정EPS": "3,509원",
     "PBR": "0.40배",
     "BPS": "47,065원",
-    "배당수익률": "5.56%",
+    "배당수익률": "5.50%",
     "현재가": "18,850원"
    }
   },
@@ -3580,13 +2647,13 @@
     }
    ],
    "metrics": {
-    "PER": "332.21배",
+    "PER": "317.39배",
     "EPS": "506원",
-    "추정PER": "453.10배",
+    "추정PER": "432.88배",
     "추정EPS": "371원",
-    "PBR": "3.56배",
+    "PBR": "3.40배",
     "BPS": "47,212원",
-    "배당수익률": "0.15%",
+    "배당수익률": "0.16%",
     "현재가": "168,100원"
    }
   },
@@ -3629,13 +2696,13 @@
     }
    ],
    "metrics": {
-    "PER": "9.07배",
+    "PER": "8.97배",
     "EPS": "20,548원",
-    "추정PER": "8.53배",
+    "추정PER": "8.44배",
     "추정EPS": "21,829원",
-    "PBR": "1.28배",
+    "PBR": "1.27배",
     "BPS": "145,224원",
-    "배당수익률": "3.11%",
+    "배당수익률": "3.15%",
     "현재가": "186,300원"
    }
   },
@@ -3678,14 +2745,63 @@
     }
    ],
    "metrics": {
-    "PER": "18.74배",
+    "PER": "18.56배",
     "EPS": "3,383원",
-    "추정PER": "14.23배",
+    "추정PER": "14.09배",
     "추정EPS": "4,456원",
-    "PBR": "2.48배",
+    "PBR": "2.46배",
     "BPS": "25,567원",
-    "배당수익률": "1.25%",
+    "배당수익률": "1.26%",
     "현재가": "63,400원"
+   }
+  },
+  {
+   "id": "kr-earn-est-005940-2026-10-30",
+   "date": "2026-10-30",
+   "market": "KR",
+   "cat": "earnings",
+   "title": "NH투자증권 실적발표 예상",
+   "ticker": "005940",
+   "session": "unknown",
+   "imp": 2,
+   "status": "estimated",
+   "index": [
+    "코스피 시총상위"
+   ],
+   "desc": "국내는 실적발표일을 사전 공표하는 제도가 없어, 과거 2년간 잠정실적 공시일을 기준으로 추정한 일정입니다. 발표 시각(장전·장마감 후)도 사전 확인이 불가하며 국내 잠정실적은 통상 장중~장 마감 후에 공시됩니다. 고객 안내 전 기업 IR 확인이 필요합니다.",
+   "checklist": [
+    "기업 IR 또는 유선으로 실제 발표일 확인",
+    "컨센서스와 직전 분기 수치 비교표 준비",
+    "동일 업종 선행 발표 기업의 결과·가이던스 확인"
+   ],
+   "source": "과거 잠정실적 공시일 기반 추정 (잠정)",
+   "links": [
+    {
+     "label": "네이버 금융",
+     "url": "https://finance.naver.com/item/main.naver?code=005940"
+    },
+    {
+     "label": "종목 공시·뉴스",
+     "url": "https://finance.naver.com/item/news_notice.naver?code=005940"
+    },
+    {
+     "label": "컨센서스·기업분석",
+     "url": "https://finance.naver.com/item/coinfo.naver?code=005940"
+    },
+    {
+     "label": "DART 공시 검색",
+     "url": "https://dart.fss.or.kr/dsab007/main.do?textCrpNm=NH%ED%88%AC%EC%9E%90%EC%A6%9D%EA%B6%8C"
+    }
+   ],
+   "metrics": {
+    "PER": "5.79배",
+    "EPS": "4,119원",
+    "추정PER": "5.62배",
+    "추정EPS": "4,246원",
+    "PBR": "0.85배",
+    "BPS": "28,037원",
+    "배당수익률": "5.45%",
+    "현재가": "23,800원"
    }
   },
   {
@@ -3727,13 +2843,13 @@
     }
    ],
    "metrics": {
-    "PER": "10.59배",
+    "PER": "10.36배",
     "EPS": "4,709원",
-    "추정PER": "9.31배",
+    "추정PER": "9.11배",
     "추정EPS": "5,355원",
-    "PBR": "1.21배",
+    "PBR": "1.19배",
     "BPS": "41,034원",
-    "배당수익률": "3.71%",
+    "배당수익률": "3.79%",
     "현재가": "49,850원"
    }
   },
@@ -3776,13 +2892,13 @@
     }
    ],
    "metrics": {
-    "PER": "13.13배",
+    "PER": "12.10배",
     "EPS": "28,019원",
-    "추정PER": "10.93배",
-    "추정EPS": "33,666원",
-    "PBR": "1.37배",
+    "추정PER": "12.09배",
+    "추정EPS": "28,037원",
+    "PBR": "1.26배",
     "BPS": "269,205원",
-    "배당수익률": "0.51%",
+    "배당수익률": "0.56%",
     "현재가": "368,000원"
    }
   },
@@ -3825,13 +2941,13 @@
     }
    ],
    "metrics": {
-    "PER": "23.46배",
+    "PER": "22.30배",
     "EPS": "7,459원",
-    "추정PER": "25.00배",
+    "추정PER": "23.76배",
     "추정EPS": "6,999원",
-    "PBR": "8.79배",
+    "PBR": "8.36배",
     "BPS": "19,898원",
-    "배당수익률": "2.26%",
+    "배당수익률": "2.38%",
     "현재가": "175,000원"
    }
   },
@@ -3876,12 +2992,61 @@
    "metrics": {
     "PER": "N/A",
     "EPS": "-881원",
-    "추정PER": "12.88배",
+    "추정PER": "12.45배",
     "추정EPS": "2,077원",
-    "PBR": "0.52배",
+    "PBR": "0.51배",
     "BPS": "51,067원",
     "배당수익률": "N/A",
     "현재가": "26,750원"
+   }
+  },
+  {
+   "id": "kr-earn-est-128940-2026-10-30",
+   "date": "2026-10-30",
+   "market": "KR",
+   "cat": "earnings",
+   "title": "한미약품 실적발표 예상",
+   "ticker": "128940",
+   "session": "unknown",
+   "imp": 2,
+   "status": "estimated",
+   "index": [
+    "코스피 시총상위"
+   ],
+   "desc": "국내는 실적발표일을 사전 공표하는 제도가 없어, 과거 2년간 잠정실적 공시일을 기준으로 추정한 일정입니다. 발표 시각(장전·장마감 후)도 사전 확인이 불가하며 국내 잠정실적은 통상 장중~장 마감 후에 공시됩니다. 고객 안내 전 기업 IR 확인이 필요합니다.",
+   "checklist": [
+    "기업 IR 또는 유선으로 실제 발표일 확인",
+    "컨센서스와 직전 분기 수치 비교표 준비",
+    "동일 업종 선행 발표 기업의 결과·가이던스 확인"
+   ],
+   "source": "과거 잠정실적 공시일 기반 추정 (잠정)",
+   "links": [
+    {
+     "label": "네이버 금융",
+     "url": "https://finance.naver.com/item/main.naver?code=128940"
+    },
+    {
+     "label": "종목 공시·뉴스",
+     "url": "https://finance.naver.com/item/news_notice.naver?code=128940"
+    },
+    {
+     "label": "컨센서스·기업분석",
+     "url": "https://finance.naver.com/item/coinfo.naver?code=128940"
+    },
+    {
+     "label": "DART 공시 검색",
+     "url": "https://dart.fss.or.kr/dsab007/main.do?textCrpNm=%ED%95%9C%EB%AF%B8%EC%95%BD%ED%92%88"
+    }
+   ],
+   "metrics": {
+    "PER": "22.46배",
+    "EPS": "16,942원",
+    "추정PER": "15.38배",
+    "추정EPS": "24,737원",
+    "PBR": "3.44배",
+    "BPS": "110,632원",
+    "배당수익률": "0.53%",
+    "현재가": "373,500원"
    }
   },
   {
@@ -3925,61 +3090,12 @@
    "metrics": {
     "PER": "N/A",
     "EPS": "-1,362원",
-    "추정PER": "10.33배",
-    "추정EPS": "1,376원",
-    "PBR": "1.54배",
+    "추정PER": "8.42배",
+    "추정EPS": "1,326원",
+    "PBR": "1.21배",
     "BPS": "9,216원",
     "배당수익률": "N/A",
     "현재가": "14,210원"
-   }
-  },
-  {
-   "id": "kr-earn-est-128940-2026-10-30",
-   "date": "2026-10-30",
-   "market": "KR",
-   "cat": "earnings",
-   "title": "한미약품 실적발표 예상",
-   "ticker": "128940",
-   "session": "unknown",
-   "imp": 2,
-   "status": "estimated",
-   "index": [
-    "코스피 시총상위"
-   ],
-   "desc": "국내는 실적발표일을 사전 공표하는 제도가 없어, 과거 2년간 잠정실적 공시일을 기준으로 추정한 일정입니다. 발표 시각(장전·장마감 후)도 사전 확인이 불가하며 국내 잠정실적은 통상 장중~장 마감 후에 공시됩니다. 고객 안내 전 기업 IR 확인이 필요합니다.",
-   "checklist": [
-    "기업 IR 또는 유선으로 실제 발표일 확인",
-    "컨센서스와 직전 분기 수치 비교표 준비",
-    "동일 업종 선행 발표 기업의 결과·가이던스 확인"
-   ],
-   "source": "과거 잠정실적 공시일 기반 추정 (잠정)",
-   "links": [
-    {
-     "label": "네이버 금융",
-     "url": "https://finance.naver.com/item/main.naver?code=128940"
-    },
-    {
-     "label": "종목 공시·뉴스",
-     "url": "https://finance.naver.com/item/news_notice.naver?code=128940"
-    },
-    {
-     "label": "컨센서스·기업분석",
-     "url": "https://finance.naver.com/item/coinfo.naver?code=128940"
-    },
-    {
-     "label": "DART 공시 검색",
-     "url": "https://dart.fss.or.kr/dsab007/main.do?textCrpNm=%ED%95%9C%EB%AF%B8%EC%95%BD%ED%92%88"
-    }
-   ],
-   "metrics": {
-    "PER": "22.05배",
-    "EPS": "16,942원",
-    "추정PER": "15.51배",
-    "추정EPS": "24,077원",
-    "PBR": "3.38배",
-    "BPS": "110,632원",
-    "배당수익률": "0.54%",
-    "현재가": "373,500원"
    }
   },
   {
@@ -4021,13 +3137,13 @@
     }
    ],
    "metrics": {
-    "PER": "5.48배",
+    "PER": "5.54배",
     "EPS": "2,401원",
-    "추정PER": "5.38배",
+    "추정PER": "5.45배",
     "추정EPS": "2,443원",
     "PBR": "0.37배",
     "BPS": "35,520원",
-    "배당수익률": "5.59%",
+    "배당수익률": "5.52%",
     "현재가": "13,150원"
    }
   },
@@ -4072,9 +3188,9 @@
    "metrics": {
     "PER": "N/A",
     "EPS": "-2,704원",
-    "추정PER": "-26.82배",
+    "추정PER": "-26.11배",
     "추정EPS": "-283원",
-    "PBR": "0.60배",
+    "PBR": "0.59배",
     "BPS": "12,602원",
     "배당수익률": "N/A",
     "현재가": "7,590원"
@@ -4121,12 +3237,12 @@
    "metrics": {
     "PER": "N/A",
     "EPS": "-136원",
-    "추정PER": "48.28배",
+    "추정PER": "47.19배",
     "추정EPS": "552원",
-    "PBR": "0.18배",
+    "PBR": "0.17배",
     "BPS": "151,227원",
-    "배당수익률": "1.88%",
-    "현재가": "26,650원"
+    "배당수익률": "1.92%",
+    "현재가": "26,600원"
    }
   },
   {
@@ -4168,14 +3284,63 @@
     }
    ],
    "metrics": {
-    "PER": "94.00배",
+    "PER": "90.67배",
     "EPS": "210원",
     "추정PER": "N/A",
     "추정EPS": "N/A",
-    "PBR": "5.31배",
+    "PBR": "5.13배",
     "BPS": "3,715원",
-    "배당수익률": "0.63%",
+    "배당수익률": "0.66%",
     "현재가": "19,740원"
+   }
+  },
+  {
+   "id": "kr-earn-est-139130-2026-10-30",
+   "date": "2026-10-30",
+   "market": "KR",
+   "cat": "earnings",
+   "title": "iM금융지주 실적발표 예상",
+   "ticker": "139130",
+   "session": "unknown",
+   "imp": 2,
+   "status": "estimated",
+   "index": [
+    "코스피 시총상위"
+   ],
+   "desc": "국내는 실적발표일을 사전 공표하는 제도가 없어, 과거 2년간 잠정실적 공시일을 기준으로 추정한 일정입니다. 발표 시각(장전·장마감 후)도 사전 확인이 불가하며 국내 잠정실적은 통상 장중~장 마감 후에 공시됩니다. 고객 안내 전 기업 IR 확인이 필요합니다.",
+   "checklist": [
+    "기업 IR 또는 유선으로 실제 발표일 확인",
+    "컨센서스와 직전 분기 수치 비교표 준비",
+    "동일 업종 선행 발표 기업의 결과·가이던스 확인"
+   ],
+   "source": "과거 잠정실적 공시일 기반 추정 (잠정)",
+   "links": [
+    {
+     "label": "네이버 금융",
+     "url": "https://finance.naver.com/item/main.naver?code=139130"
+    },
+    {
+     "label": "종목 공시·뉴스",
+     "url": "https://finance.naver.com/item/news_notice.naver?code=139130"
+    },
+    {
+     "label": "컨센서스·기업분석",
+     "url": "https://finance.naver.com/item/coinfo.naver?code=139130"
+    },
+    {
+     "label": "DART 공시 검색",
+     "url": "https://dart.fss.or.kr/dsab007/main.do?textCrpNm=iM%EA%B8%88%EC%9C%B5%EC%A7%80%EC%A3%BC"
+    }
+   ],
+   "metrics": {
+    "PER": "5.73배",
+    "EPS": "2,666원",
+    "추정PER": "5.29배",
+    "추정EPS": "2,891원",
+    "PBR": "0.38배",
+    "BPS": "40,231원",
+    "배당수익률": "4.58%",
+    "현재가": "15,040원"
    }
   },
   {
@@ -4207,8 +3372,8 @@
     "컨센서스 EPS": "$1.98",
     "전년 동기 EPS": "$1.85",
     "결산 분기": "Sep/2026",
-    "현재가": "$345.395 (-0.49%)",
-    "시가총액": "5,040,756,801,100",
+    "현재가": "$343.83 (-0.94%)",
+    "시가총액": "5,017,916,909,400",
     "1년 목표주가": "$335.00",
     "연간 배당금": "$1.08",
     "배당수익률": "0.31%",
@@ -4246,8 +3411,8 @@
     "컨센서스 EPS": "$0.33",
     "전년 동기 EPS": "$0.18",
     "결산 분기": "Sep/2026",
-    "현재가": "$194.1401 (-2.31%)",
-    "시가총액": "466,334,902,813",
+    "현재가": "$196.81 (-0.97%)",
+    "시가총액": "472,748,145,399",
     "1년 목표주가": "$224.00",
     "52주 범위": "$212.9399/$106.37",
     "섹터": "Technology",
@@ -4283,8 +3448,8 @@
     "컨센서스 EPS": "$4.36",
     "전년 동기 EPS": "$4.22",
     "결산 분기": "Sep/2026",
-    "현재가": "$530.78 (+1.87%)",
-    "시가총액": "134,531,989,241",
+    "현재가": "$529.69 (+1.66%)",
+    "시가총액": "134,255,716,834",
     "1년 목표주가": "$580.00",
     "52주 범위": "$560.25/$403.16",
     "섹터": "Health Care",
@@ -4311,13 +3476,13 @@
     }
    ],
    "metrics": {
-    "PER": "3.07배",
+    "PER": "2.94배",
     "EPS": "1,877원",
     "추정PER": "N/A",
     "추정EPS": "N/A",
-    "PBR": "0.38배",
+    "PBR": "0.37배",
     "BPS": "15,066원",
-    "배당수익률": "1.74%",
+    "배당수익률": "1.81%",
     "현재가": "5,760원"
    }
   },
@@ -4341,13 +3506,13 @@
     }
    ],
    "metrics": {
-    "PER": "9.19배",
+    "PER": "8.95배",
     "EPS": "1,387원",
     "추정PER": "N/A",
     "추정EPS": "N/A",
-    "PBR": "1.56배",
+    "PBR": "1.52배",
     "BPS": "8,187원",
-    "배당수익률": "1.57%",
+    "배당수익률": "1.61%",
     "현재가": "12,750원"
    }
   },
@@ -4371,13 +3536,13 @@
     }
    ],
    "metrics": {
-    "PER": "9.51배",
+    "PER": "9.26배",
     "EPS": "445원",
     "추정PER": "N/A",
     "추정EPS": "N/A",
-    "PBR": "0.87배",
+    "PBR": "0.85배",
     "BPS": "4,852원",
-    "배당수익률": "1.66%",
+    "배당수익률": "1.70%",
     "현재가": "4,230원"
    }
   },
@@ -4401,13 +3566,13 @@
     }
    ],
    "metrics": {
-    "PER": "18.87배",
+    "PER": "18.94배",
     "EPS": "274원",
     "추정PER": "N/A",
     "추정EPS": "N/A",
     "PBR": "0.25배",
     "BPS": "20,914원",
-    "배당수익률": "2.52%",
+    "배당수익률": "2.51%",
     "현재가": "5,170원"
    }
   },
@@ -4431,13 +3596,13 @@
     }
    ],
    "metrics": {
-    "PER": "16.34배",
+    "PER": "16.08배",
     "EPS": "655원",
     "추정PER": "N/A",
     "추정EPS": "N/A",
-    "PBR": "0.65배",
+    "PBR": "0.64배",
     "BPS": "16,390원",
-    "배당수익률": "1.87%",
+    "배당수익률": "1.90%",
     "현재가": "10,700원"
    }
   },
@@ -4461,13 +3626,13 @@
     }
    ],
    "metrics": {
-    "PER": "37.71배",
+    "PER": "37.41배",
     "EPS": "83원",
     "추정PER": "N/A",
     "추정EPS": "N/A",
     "PBR": "0.47배",
     "BPS": "6,629원",
-    "배당수익률": "4.79%",
+    "배당수익률": "4.83%",
     "현재가": "3,130원"
    }
   },
@@ -4491,7 +3656,7 @@
     }
    ],
    "metrics": {
-    "PER": "9.78배",
+    "PER": "9.75배",
     "EPS": "2,163원",
     "추정PER": "N/A",
     "추정EPS": "N/A",
@@ -4540,13 +3705,13 @@
     }
    ],
    "metrics": {
-    "PER": "5.97배",
+    "PER": "5.88배",
     "EPS": "18,004원",
-    "추정PER": "5.25배",
+    "추정PER": "5.17배",
     "추정EPS": "20,477원",
-    "PBR": "0.65배",
+    "PBR": "0.64배",
     "BPS": "166,439원",
-    "배당수익률": "6.33%",
+    "배당수익률": "6.42%",
     "현재가": "107,500원"
    }
   },
@@ -4589,13 +3754,13 @@
     }
    ],
    "metrics": {
-    "PER": "8.85배",
+    "PER": "8.59배",
     "EPS": "39,873원",
-    "추정PER": "7.97배",
-    "추정EPS": "44,268원",
-    "PBR": "0.60배",
+    "추정PER": "7.74배",
+    "추정EPS": "44,263원",
+    "PBR": "0.59배",
     "BPS": "583,823원",
-    "배당수익률": "1.84%",
+    "배당수익률": "1.90%",
     "현재가": "353,000원"
    }
   },
@@ -4638,13 +3803,13 @@
     }
    ],
    "metrics": {
-    "PER": "11.10배",
+    "PER": "10.63배",
     "EPS": "25,631원",
-    "추정PER": "9.47배",
+    "추정PER": "9.07배",
     "추정EPS": "30,039원",
-    "PBR": "2.83배",
+    "PBR": "2.71배",
     "BPS": "100,473원",
-    "배당수익률": "1.99%",
+    "배당수익률": "2.08%",
     "현재가": "284,500원"
    }
   },
@@ -4687,63 +3852,14 @@
     }
    ],
    "metrics": {
-    "PER": "28.15배",
+    "PER": "26.42배",
     "EPS": "5,777원",
-    "추정PER": "14.17배",
+    "추정PER": "13.30배",
     "추정EPS": "11,475원",
-    "PBR": "1.09배",
+    "PBR": "1.02배",
     "BPS": "149,377원",
-    "배당수익률": "0.83%",
+    "배당수익률": "0.89%",
     "현재가": "162,600원"
-   }
-  },
-  {
-   "id": "kr-earn-est-096770-2026-11-02",
-   "date": "2026-11-02",
-   "market": "KR",
-   "cat": "earnings",
-   "title": "SK이노베이션 실적발표 예상",
-   "ticker": "096770",
-   "session": "unknown",
-   "imp": 2,
-   "status": "estimated",
-   "index": [
-    "코스피 시총상위"
-   ],
-   "desc": "국내는 실적발표일을 사전 공표하는 제도가 없어, 과거 2년간 잠정실적 공시일을 기준으로 추정한 일정입니다. 발표 시각(장전·장마감 후)도 사전 확인이 불가하며 국내 잠정실적은 통상 장중~장 마감 후에 공시됩니다. 고객 안내 전 기업 IR 확인이 필요합니다.",
-   "checklist": [
-    "기업 IR 또는 유선으로 실제 발표일 확인",
-    "컨센서스와 직전 분기 수치 비교표 준비",
-    "동일 업종 선행 발표 기업의 결과·가이던스 확인"
-   ],
-   "source": "과거 잠정실적 공시일 기반 추정 (잠정)",
-   "links": [
-    {
-     "label": "네이버 금융",
-     "url": "https://finance.naver.com/item/main.naver?code=096770"
-    },
-    {
-     "label": "종목 공시·뉴스",
-     "url": "https://finance.naver.com/item/news_notice.naver?code=096770"
-    },
-    {
-     "label": "컨센서스·기업분석",
-     "url": "https://finance.naver.com/item/coinfo.naver?code=096770"
-    },
-    {
-     "label": "DART 공시 검색",
-     "url": "https://dart.fss.or.kr/dsab007/main.do?textCrpNm=SK%EC%9D%B4%EB%85%B8%EB%B2%A0%EC%9D%B4%EC%85%98"
-    }
-   ],
-   "metrics": {
-    "PER": "N/A",
-    "EPS": "-6,951원",
-    "추정PER": "6.59배",
-    "추정EPS": "21,211원",
-    "PBR": "0.91배",
-    "BPS": "153,910원",
-    "배당수익률": "N/A",
-    "현재가": "139,800원"
    }
   },
   {
@@ -4785,13 +3901,13 @@
     }
    ],
    "metrics": {
-    "PER": "88.20배",
+    "PER": "82.32배",
     "EPS": "2,330원",
     "추정PER": "N/A",
     "추정EPS": "N/A",
-    "PBR": "26.10배",
+    "PBR": "24.36배",
     "BPS": "7,874원",
-    "배당수익률": "0.39%",
+    "배당수익률": "0.42%",
     "현재가": "205,500원"
    }
   },
@@ -4834,13 +3950,13 @@
     }
    ],
    "metrics": {
-    "PER": "32.24배",
+    "PER": "29.76배",
     "EPS": "62,744원",
-    "추정PER": "24.97배",
+    "추정PER": "23.05배",
     "추정EPS": "81,002원",
-    "PBR": "7.28배",
+    "PBR": "6.72배",
     "BPS": "277,856원",
-    "배당수익률": "0.37%",
+    "배당수익률": "0.40%",
     "현재가": "2,023,000원"
    }
   },
@@ -4883,14 +3999,63 @@
     }
    ],
    "metrics": {
-    "PER": "4.95배",
+    "PER": "4.76배",
     "EPS": "48,724원",
-    "추정PER": "4.35배",
+    "추정PER": "4.19배",
     "추정EPS": "55,430원",
-    "PBR": "1.15배",
+    "PBR": "1.11배",
     "BPS": "209,715원",
-    "배당수익률": "5.10%",
+    "배당수익률": "5.30%",
     "현재가": "241,000원"
+   }
+  },
+  {
+   "id": "kr-earn-est-051910-2026-11-02",
+   "date": "2026-11-02",
+   "market": "KR",
+   "cat": "earnings",
+   "title": "LG화학 실적발표 예상",
+   "ticker": "051910",
+   "session": "unknown",
+   "imp": 2,
+   "status": "estimated",
+   "index": [
+    "코스피 시총상위"
+   ],
+   "desc": "국내는 실적발표일을 사전 공표하는 제도가 없어, 과거 2년간 잠정실적 공시일을 기준으로 추정한 일정입니다. 발표 시각(장전·장마감 후)도 사전 확인이 불가하며 국내 잠정실적은 통상 장중~장 마감 후에 공시됩니다. 고객 안내 전 기업 IR 확인이 필요합니다.",
+   "checklist": [
+    "기업 IR 또는 유선으로 실제 발표일 확인",
+    "컨센서스와 직전 분기 수치 비교표 준비",
+    "동일 업종 선행 발표 기업의 결과·가이던스 확인"
+   ],
+   "source": "과거 잠정실적 공시일 기반 추정 (잠정)",
+   "links": [
+    {
+     "label": "네이버 금융",
+     "url": "https://finance.naver.com/item/main.naver?code=051910"
+    },
+    {
+     "label": "종목 공시·뉴스",
+     "url": "https://finance.naver.com/item/news_notice.naver?code=051910"
+    },
+    {
+     "label": "컨센서스·기업분석",
+     "url": "https://finance.naver.com/item/coinfo.naver?code=051910"
+    },
+    {
+     "label": "DART 공시 검색",
+     "url": "https://dart.fss.or.kr/dsab007/main.do?textCrpNm=LG%ED%99%94%ED%95%99"
+    }
+   ],
+   "metrics": {
+    "PER": "N/A",
+    "EPS": "-19,319원",
+    "추정PER": "-115.73배",
+    "추정EPS": "-1,983원",
+    "PBR": "0.51배",
+    "BPS": "452,637원",
+    "배당수익률": "0.87%",
+    "현재가": "243,500원"
    }
   },
   {
@@ -4932,13 +4097,13 @@
     }
    ],
    "metrics": {
-    "PER": "4.15배",
+    "PER": "3.99배",
     "EPS": "34,618원",
-    "추정PER": "2.94배",
+    "추정PER": "2.83배",
     "추정EPS": "48,839원",
-    "PBR": "0.83배",
+    "PBR": "0.80배",
     "BPS": "173,040원",
-    "배당수익률": "2.79%",
+    "배당수익률": "2.90%",
     "현재가": "143,500원"
    }
   },
@@ -4981,13 +4146,13 @@
     }
    ],
    "metrics": {
-    "PER": "23.51배",
+    "PER": "23.81배",
     "EPS": "4,020원",
-    "추정PER": "21.81배",
+    "추정PER": "22.09배",
     "추정EPS": "4,333원",
-    "PBR": "1.86배",
+    "PBR": "1.88배",
     "BPS": "50,837원",
-    "배당수익률": "3.39%",
+    "배당수익률": "3.34%",
     "현재가": "94,500원"
    }
   },
@@ -5030,13 +4195,13 @@
     }
    ],
    "metrics": {
-    "PER": "90.83배",
+    "PER": "86.57배",
     "EPS": "1,996원",
-    "추정PER": "25.29배",
+    "추정PER": "24.11배",
     "추정EPS": "7,168원",
-    "PBR": "0.82배",
+    "PBR": "0.79배",
     "BPS": "220,043원",
-    "배당수익률": "0.55%",
+    "배당수익률": "0.58%",
     "현재가": "181,300원"
    }
   },
@@ -5090,6 +4255,55 @@
    }
   },
   {
+   "id": "kr-earn-est-018670-2026-11-02",
+   "date": "2026-11-02",
+   "market": "KR",
+   "cat": "earnings",
+   "title": "SK가스 실적발표 예상",
+   "ticker": "018670",
+   "session": "unknown",
+   "imp": 2,
+   "status": "estimated",
+   "index": [
+    "코스피 시총상위"
+   ],
+   "desc": "국내는 실적발표일을 사전 공표하는 제도가 없어, 과거 2년간 잠정실적 공시일을 기준으로 추정한 일정입니다. 발표 시각(장전·장마감 후)도 사전 확인이 불가하며 국내 잠정실적은 통상 장중~장 마감 후에 공시됩니다. 고객 안내 전 기업 IR 확인이 필요합니다.",
+   "checklist": [
+    "기업 IR 또는 유선으로 실제 발표일 확인",
+    "컨센서스와 직전 분기 수치 비교표 준비",
+    "동일 업종 선행 발표 기업의 결과·가이던스 확인"
+   ],
+   "source": "과거 잠정실적 공시일 기반 추정 (잠정)",
+   "links": [
+    {
+     "label": "네이버 금융",
+     "url": "https://finance.naver.com/item/main.naver?code=018670"
+    },
+    {
+     "label": "종목 공시·뉴스",
+     "url": "https://finance.naver.com/item/news_notice.naver?code=018670"
+    },
+    {
+     "label": "컨센서스·기업분석",
+     "url": "https://finance.naver.com/item/coinfo.naver?code=018670"
+    },
+    {
+     "label": "DART 공시 검색",
+     "url": "https://dart.fss.or.kr/dsab007/main.do?textCrpNm=SK%EA%B0%80%EC%8A%A4"
+    }
+   ],
+   "metrics": {
+    "PER": "7.45배",
+    "EPS": "33,341원",
+    "추정PER": "7.26배",
+    "추정EPS": "34,238원",
+    "PBR": "0.59배",
+    "BPS": "420,856원",
+    "배당수익률": "3.62%",
+    "현재가": "249,000원"
+   }
+  },
+  {
    "id": "kr-earn-est-020150-2026-11-02",
    "date": "2026-11-02",
    "market": "KR",
@@ -5130,61 +4344,12 @@
    "metrics": {
     "PER": "N/A",
     "EPS": "-1,556원",
-    "추정PER": "-54.92배",
+    "추정PER": "-51.40배",
     "추정EPS": "-824원",
-    "PBR": "1.38배",
+    "PBR": "1.29배",
     "BPS": "32,887원",
     "배당수익률": "N/A",
     "현재가": "45,250원"
-   }
-  },
-  {
-   "id": "kr-earn-est-018670-2026-11-02",
-   "date": "2026-11-02",
-   "market": "KR",
-   "cat": "earnings",
-   "title": "SK가스 실적발표 예상",
-   "ticker": "018670",
-   "session": "unknown",
-   "imp": 2,
-   "status": "estimated",
-   "index": [
-    "코스피 시총상위"
-   ],
-   "desc": "국내는 실적발표일을 사전 공표하는 제도가 없어, 과거 2년간 잠정실적 공시일을 기준으로 추정한 일정입니다. 발표 시각(장전·장마감 후)도 사전 확인이 불가하며 국내 잠정실적은 통상 장중~장 마감 후에 공시됩니다. 고객 안내 전 기업 IR 확인이 필요합니다.",
-   "checklist": [
-    "기업 IR 또는 유선으로 실제 발표일 확인",
-    "컨센서스와 직전 분기 수치 비교표 준비",
-    "동일 업종 선행 발표 기업의 결과·가이던스 확인"
-   ],
-   "source": "과거 잠정실적 공시일 기반 추정 (잠정)",
-   "links": [
-    {
-     "label": "네이버 금융",
-     "url": "https://finance.naver.com/item/main.naver?code=018670"
-    },
-    {
-     "label": "종목 공시·뉴스",
-     "url": "https://finance.naver.com/item/news_notice.naver?code=018670"
-    },
-    {
-     "label": "컨센서스·기업분석",
-     "url": "https://finance.naver.com/item/coinfo.naver?code=018670"
-    },
-    {
-     "label": "DART 공시 검색",
-     "url": "https://dart.fss.or.kr/dsab007/main.do?textCrpNm=SK%EA%B0%80%EC%8A%A4"
-    }
-   ],
-   "metrics": {
-    "PER": "7.47배",
-    "EPS": "33,341원",
-    "추정PER": "7.27배",
-    "추정EPS": "34,238원",
-    "PBR": "0.59배",
-    "BPS": "420,856원",
-    "배당수익률": "3.61%",
-    "현재가": "249,000원"
    }
   },
   {
@@ -5226,11 +4391,11 @@
     }
    ],
    "metrics": {
-    "PER": "44.96배",
+    "PER": "44.89배",
     "EPS": "695원",
-    "추정PER": "34.80배",
+    "추정PER": "34.74배",
     "추정EPS": "898원",
-    "PBR": "5.71배",
+    "PBR": "5.70배",
     "BPS": "5,475원",
     "배당수익률": "0.45%",
     "현재가": "31,250원"
@@ -5265,8 +4430,8 @@
     "컨센서스 EPS": "$1.68",
     "전년 동기 EPS": "$0.97",
     "결산 분기": "Sep/2026",
-    "현재가": "$566.29 (+1.08%)",
-    "시가총액": "924,531,344,356",
+    "현재가": "$578.44 (+3.24%)",
+    "시가총액": "944,288,863,294",
     "1년 목표주가": "$650.00",
     "52주 범위": "$658.52/$188.22",
     "섹터": "Technology",
@@ -5302,8 +4467,8 @@
     "컨센서스 EPS": "$5.74",
     "전년 동기 EPS": "$5.64",
     "결산 분기": "Sep/2026",
-    "현재가": "$453.80 (+1.31%)",
-    "시가총액": "245,338,803,869",
+    "현재가": "$451.83 (+0.87%)",
+    "시가총액": "244,273,758,819",
     "1년 목표주가": "$425.00",
     "연간 배당금": "$10.08",
     "배당수익률": "2.25%",
@@ -5340,8 +4505,8 @@
     "컨센서스 EPS": "$0.99",
     "전년 동기 EPS": "$0.67",
     "결산 분기": "Sep/2026",
-    "현재가": "$186.37 (-0.34%)",
-    "시가총액": "235,054,437,648",
+    "현재가": "$186.72 (-0.15%)",
+    "시가총액": "235,495,866,275",
     "1년 목표주가": "$250.00",
     "52주 범위": "$217.4099/$114.52",
     "섹터": "Telecommunications",
@@ -5376,8 +4541,8 @@
     "컨센서스 EPS": "$0.33",
     "전년 동기 EPS": "$0.27",
     "결산 분기": "Sep/2026",
-    "현재가": "$165.34 (-0.28%)",
-    "시가총액": "214,249,394,874",
+    "현재가": "$168.22 (+1.45%)",
+    "시가총액": "217,981,330,626",
     "1년 목표주가": "$180.00",
     "52주 범위": "$182.19/$94",
     "섹터": "Technology",
@@ -5412,8 +4577,8 @@
     "컨센서스 EPS": "$1.04",
     "전년 동기 EPS": "$0.26",
     "결산 분기": "Sep/2026",
-    "현재가": "$34.7401 (-1.00%)",
-    "시가총액": "22,823,043,137",
+    "현재가": "$35.81 (+2.05%)",
+    "시가총액": "23,525,930,401",
     "1년 목표주가": "$44.00",
     "52주 범위": "$54.08/$19.48",
     "섹터": "Technology",
@@ -5442,13 +4607,13 @@
     }
    ],
    "metrics": {
-    "PER": "55.96배",
+    "PER": "54.43배",
     "EPS": "1,819원",
-    "추정PER": "43.54배",
+    "추정PER": "42.34배",
     "추정EPS": "2,338원",
-    "PBR": "5.22배",
+    "PBR": "5.08배",
     "BPS": "19,491원",
-    "배당수익률": "0.49%",
+    "배당수익률": "0.51%",
     "현재가": "101,800원"
    }
   },
@@ -5476,11 +4641,11 @@
    "metrics": {
     "PER": "N/A",
     "EPS": "-4,342원",
-    "추정PER": "21.07배",
+    "추정PER": "20.82배",
     "추정EPS": "12,293원",
-    "PBR": "0.77배",
+    "PBR": "0.76배",
     "BPS": "337,569원",
-    "배당수익률": "0.77%",
+    "배당수익률": "0.78%",
     "현재가": "259,000원"
    }
   },
@@ -5506,11 +4671,11 @@
     }
    ],
    "metrics": {
-    "PER": "52.70배",
+    "PER": "52.00배",
     "EPS": "649원",
-    "추정PER": "37.13배",
+    "추정PER": "36.64배",
     "추정EPS": "921원",
-    "PBR": "2.35배",
+    "PBR": "2.31배",
     "BPS": "14,583원",
     "배당수익률": "N/A",
     "현재가": "34,200원"
@@ -5544,8 +4709,8 @@
     "컨센서스 EPS": "$0.72",
     "전년 동기 EPS": "$0.87",
     "결산 분기": "Sep/2026",
-    "현재가": "$29.555 (-0.82%)",
-    "시가총액": "168,453,852,923",
+    "현재가": "$29.45 (-1.17%)",
+    "시가총액": "167,855,387,196",
     "1년 목표주가": "$29.00",
     "52주 범위": "$30.44/$23.62",
     "섹터": "Health Care",
@@ -5580,8 +4745,8 @@
     "컨센서스 EPS": "$3.54",
     "전년 동기 EPS": "$3.07",
     "결산 분기": "Sep/2026",
-    "현재가": "$392.615 (+2.19%)",
-    "시가총액": "152,427,580,000",
+    "현재가": "$392.88 (+2.26%)",
+    "시가총액": "152,594,592,000",
     "1년 목표주가": "$500.50",
     "52주 범위": "$478/$311.915",
     "섹터": "Technology",
@@ -5616,8 +4781,8 @@
     "컨센서스 EPS": "$25.74",
     "전년 동기 EPS": "$3.01",
     "결산 분기": "Sep/2026",
-    "현재가": "$437.27 (+0.30%)",
-    "시가총액": "122,796,244,117",
+    "현재가": "$440.77 (+1.10%)",
+    "시가총액": "123,779,130,788",
     "1년 목표주가": "$483.00",
     "52주 범위": "$493.98/$161.93",
     "섹터": "Energy",
@@ -5646,7 +4811,7 @@
    "metrics": {
     "PER": "N/A",
     "EPS": "-1,318원",
-    "추정PER": "23.82배",
+    "추정PER": "23.86배",
     "추정EPS": "233원",
     "PBR": "1.87배",
     "BPS": "2,971원",
@@ -5674,13 +4839,13 @@
     }
    ],
    "metrics": {
-    "PER": "11.07배",
+    "PER": "10.89배",
     "EPS": "2,538원",
-    "추정PER": "9.17배",
+    "추정PER": "9.03배",
     "추정EPS": "3,063원",
-    "PBR": "2.89배",
+    "PBR": "2.84배",
     "BPS": "9,725원",
-    "배당수익률": "4.27%",
+    "배당수익률": "4.34%",
     "현재가": "28,100원"
    }
   },
@@ -5704,13 +4869,13 @@
     }
    ],
    "metrics": {
-    "PER": "6.31배",
+    "PER": "6.24배",
     "EPS": "707원",
     "추정PER": "N/A",
     "추정EPS": "N/A",
-    "PBR": "0.88배",
+    "PBR": "0.87배",
     "BPS": "5,076원",
-    "배당수익률": "4.93%",
+    "배당수익률": "4.98%",
     "현재가": "4,460원"
    }
   },
@@ -5734,14 +4899,14 @@
     }
    ],
    "metrics": {
-    "PER": "30.15배",
+    "PER": "29.93배",
     "EPS": "54원",
     "추정PER": "N/A",
     "추정EPS": "N/A",
-    "PBR": "1.49배",
+    "PBR": "1.48배",
     "BPS": "1,090원",
     "배당수익률": "N/A",
-    "현재가": "1,628원"
+    "현재가": "1,634원"
    }
   },
   {
@@ -5770,7 +4935,7 @@
     "추정EPS": "N/A",
     "PBR": "0.21배",
     "BPS": "29,297원",
-    "배당수익률": "1.48%",
+    "배당수익률": "1.49%",
     "현재가": "6,100원"
    }
   },
@@ -5794,11 +4959,11 @@
     }
    ],
    "metrics": {
-    "PER": "6.72배",
+    "PER": "6.54배",
     "EPS": "6,229원",
     "추정PER": "N/A",
     "추정EPS": "N/A",
-    "PBR": "0.22배",
+    "PBR": "0.21배",
     "BPS": "190,742원",
     "배당수익률": "N/A",
     "현재가": "41,850원"
@@ -5843,14 +5008,63 @@
     }
    ],
    "metrics": {
-    "PER": "9.59배",
+    "PER": "9.24배",
     "EPS": "13,069원",
-    "추정PER": "4.62배",
+    "추정PER": "4.45배",
     "추정EPS": "27,139원",
-    "PBR": "1.45배",
+    "PBR": "1.39배",
     "BPS": "86,631원",
-    "배당수익률": "0.26%",
+    "배당수익률": "0.27%",
     "현재가": "125,300원"
+   }
+  },
+  {
+   "id": "kr-earn-est-064350-2026-11-03",
+   "date": "2026-11-03",
+   "market": "KR",
+   "cat": "earnings",
+   "title": "현대로템 실적발표 예상",
+   "ticker": "064350",
+   "session": "unknown",
+   "imp": 2,
+   "status": "estimated",
+   "index": [
+    "코스피 시총상위"
+   ],
+   "desc": "국내는 실적발표일을 사전 공표하는 제도가 없어, 과거 2년간 잠정실적 공시일을 기준으로 추정한 일정입니다. 발표 시각(장전·장마감 후)도 사전 확인이 불가하며 국내 잠정실적은 통상 장중~장 마감 후에 공시됩니다. 고객 안내 전 기업 IR 확인이 필요합니다.",
+   "checklist": [
+    "기업 IR 또는 유선으로 실제 발표일 확인",
+    "컨센서스와 직전 분기 수치 비교표 준비",
+    "동일 업종 선행 발표 기업의 결과·가이던스 확인"
+   ],
+   "source": "과거 잠정실적 공시일 기반 추정 (잠정)",
+   "links": [
+    {
+     "label": "네이버 금융",
+     "url": "https://finance.naver.com/item/main.naver?code=064350"
+    },
+    {
+     "label": "종목 공시·뉴스",
+     "url": "https://finance.naver.com/item/news_notice.naver?code=064350"
+    },
+    {
+     "label": "컨센서스·기업분석",
+     "url": "https://finance.naver.com/item/coinfo.naver?code=064350"
+    },
+    {
+     "label": "DART 공시 검색",
+     "url": "https://dart.fss.or.kr/dsab007/main.do?textCrpNm=%ED%98%84%EB%8C%80%EB%A1%9C%ED%85%9C"
+    }
+   ],
+   "metrics": {
+    "PER": "10.53배",
+    "EPS": "7,400원",
+    "추정PER": "10.62배",
+    "추정EPS": "7,338원",
+    "PBR": "2.50배",
+    "BPS": "31,211원",
+    "배당수익률": "0.77%",
+    "현재가": "82,600원"
    }
   },
   {
@@ -5894,9 +5108,9 @@
    "metrics": {
     "PER": "N/A",
     "EPS": "-1,080원",
-    "추정PER": "-32.02배",
+    "추정PER": "-31.67배",
     "추정EPS": "-1,004원",
-    "PBR": "1.44배",
+    "PBR": "1.42배",
     "BPS": "22,375원",
     "배당수익률": "N/A",
     "현재가": "32,150원"
@@ -5930,8 +5144,8 @@
     "컨센서스 EPS": "$0.22",
     "전년 동기 EPS": "$0.15",
     "결산 분기": "Sep/2026",
-    "현재가": "$232.70 (+2.69%)",
-    "시가총액": "247,605,657,140",
+    "현재가": "$235.90 (+4.10%)",
+    "시가총액": "251,010,633,947",
     "1년 목표주가": "$300.00",
     "52주 범위": "$452.7/$100.02",
     "섹터": "Technology",
@@ -5967,8 +5181,8 @@
     "컨센서스 EPS": "$1.46",
     "전년 동기 EPS": "$2.56",
     "결산 분기": "Sep/2026",
-    "현재가": "$181.705 (-1.34%)",
-    "시가총액": "190,859,010,463",
+    "현재가": "$182.97 (-0.65%)",
+    "시가총액": "192,161,300,525",
     "1년 목표주가": "$180.00",
     "연간 배당금": "$3.68",
     "배당수익률": "2%",
@@ -6005,8 +5219,8 @@
     "컨센서스 EPS": "$2.41",
     "전년 동기 EPS": "($0.19)",
     "결산 분기": "Sep/2026",
-    "현재가": "$96.535 (-2.45%)",
-    "시가총액": "11,391,618,177",
+    "현재가": "$96.96 (-2.02%)",
+    "시가총액": "11,441,770,327",
     "1년 목표주가": "$161.00",
     "52주 범위": "$221/$88.01",
     "섹터": "Industrials",
@@ -6035,11 +5249,11 @@
     }
    ],
    "metrics": {
-    "PER": "14.17배",
+    "PER": "14.00배",
     "EPS": "12,839원",
-    "추정PER": "15.33배",
+    "추정PER": "15.15배",
     "추정EPS": "11,869원",
-    "PBR": "1.86배",
+    "PBR": "1.84배",
     "BPS": "97,675원",
     "배당수익률": "N/A",
     "현재가": "181,900원"
@@ -6067,13 +5281,13 @@
     }
    ],
    "metrics": {
-    "PER": "28.04배",
+    "PER": "26.30배",
     "EPS": "5,909원",
-    "추정PER": "24.17배",
+    "추정PER": "22.66배",
     "추정EPS": "6,857원",
-    "PBR": "7.63배",
+    "PBR": "7.16배",
     "BPS": "21,710원",
-    "배당수익률": "0.75%",
+    "배당수익률": "0.80%",
     "현재가": "165,700원"
    }
   },
@@ -6099,13 +5313,13 @@
     }
    ],
    "metrics": {
-    "PER": "14.00배",
+    "PER": "13.53배",
     "EPS": "5,750원",
-    "추정PER": "15.69배",
+    "추정PER": "15.16배",
     "추정EPS": "5,131원",
-    "PBR": "1.79배",
+    "PBR": "1.73배",
     "BPS": "45,070원",
-    "배당수익률": "2.01%",
+    "배당수익률": "2.08%",
     "현재가": "80,500원"
    }
   },
@@ -6133,7 +5347,7 @@
    "metrics": {
     "PER": "N/A",
     "EPS": "-1,469원",
-    "추정PER": "-8.87배",
+    "추정PER": "-8.85배",
     "추정EPS": "-1,301원",
     "PBR": "0.93배",
     "BPS": "12,437원",
@@ -6163,13 +5377,13 @@
     }
    ],
    "metrics": {
-    "PER": "17.12배",
+    "PER": "16.93배",
     "EPS": "1,142원",
-    "추정PER": "15.73배",
+    "추정PER": "15.56배",
     "추정EPS": "1,243원",
-    "PBR": "1.40배",
+    "PBR": "1.38배",
     "BPS": "14,009원",
-    "배당수익률": "2.35%",
+    "배당수익률": "2.38%",
     "현재가": "19,550원"
    }
   },
@@ -6201,8 +5415,8 @@
     "컨센서스 EPS": "$3.36",
     "전년 동기 EPS": "$3.22",
     "결산 분기": "Sep/2026",
-    "현재가": "$251.775 (+0.92%)",
-    "시가총액": "178,166,446,468",
+    "현재가": "$250.50 (+0.41%)",
+    "시가총액": "177,264,203,516",
     "1년 목표주가": "$295.00",
     "52주 범위": "$341.75/$229.2",
     "섹터": "Consumer Discretionary",
@@ -6237,8 +5451,8 @@
     "컨센서스 EPS": "$0.94",
     "전년 동기 EPS": "$3.11",
     "결산 분기": "Sep/2026",
-    "현재가": "$65.09 (-1.05%)",
-    "시가총액": "132,950,238,276",
+    "현재가": "$65.27 (-0.78%)",
+    "시가총액": "133,317,899,098",
     "1년 목표주가": "$103.00",
     "52주 범위": "$100.35/$65.41",
     "섹터": "Consumer Discretionary",
@@ -6295,13 +5509,13 @@
     }
    ],
    "metrics": {
-    "PER": "5.53배",
+    "PER": "5.48배",
     "EPS": "3,196원",
-    "추정PER": "6.02배",
+    "추정PER": "5.98배",
     "추정EPS": "2,933원",
-    "PBR": "0.62배",
+    "PBR": "0.61배",
     "BPS": "28,553원",
-    "배당수익률": "6.65%",
+    "배당수익률": "6.70%",
     "현재가": "17,660원"
    }
   },
@@ -6325,13 +5539,13 @@
     }
    ],
    "metrics": {
-    "PER": "13.93배",
+    "PER": "14.18배",
     "EPS": "1,551원",
-    "추정PER": "8.15배",
+    "추정PER": "8.31배",
     "추정EPS": "2,649원",
-    "PBR": "0.54배",
+    "PBR": "0.55배",
     "BPS": "40,141원",
-    "배당수익률": "2.78%",
+    "배당수익률": "2.73%",
     "현재가": "21,600원"
    }
   },
@@ -6355,13 +5569,13 @@
     }
    ],
    "metrics": {
-    "PER": "7.34배",
+    "PER": "7.22배",
     "EPS": "10,322원",
-    "추정PER": "6.25배",
+    "추정PER": "6.14배",
     "추정EPS": "12,133원",
-    "PBR": "0.35배",
+    "PBR": "0.34배",
     "BPS": "217,975원",
-    "배당수익률": "2.84%",
+    "배당수익률": "2.89%",
     "현재가": "75,800원"
    }
   },
@@ -6385,13 +5599,13 @@
     }
    ],
    "metrics": {
-    "PER": "13.03배",
+    "PER": "12.94배",
     "EPS": "3,088원",
-    "추정PER": "5.49배",
+    "추정PER": "5.45배",
     "추정EPS": "7,333원",
-    "PBR": "0.49배",
+    "PBR": "0.48배",
     "BPS": "82,641원",
-    "배당수익률": "4.97%",
+    "배당수익률": "5.01%",
     "현재가": "40,250원"
    }
   },
@@ -6436,8 +5650,8 @@
    "metrics": {
     "PER": "28.91배",
     "EPS": "6,568원",
-    "추정PER": "28.03배",
-    "추정EPS": "6,774원",
+    "추정PER": "30.71배",
+    "추정EPS": "6,184원",
     "PBR": "2.42배",
     "BPS": "78,325원",
     "배당수익률": "0.38%",
@@ -6483,13 +5697,13 @@
     }
    ],
    "metrics": {
-    "PER": "5.80배",
+    "PER": "5.77배",
     "EPS": "9,792원",
-    "추정PER": "5.59배",
-    "추정EPS": "10,167원",
-    "PBR": "0.52배",
+    "추정PER": "5.56배",
+    "추정EPS": "10,166원",
+    "PBR": "0.51배",
     "BPS": "109,979원",
-    "배당수익률": "4.05%",
+    "배당수익률": "4.07%",
     "현재가": "56,800원"
    }
   },
@@ -6532,13 +5746,13 @@
     }
    ],
    "metrics": {
-    "PER": "7.03배",
+    "PER": "6.89배",
     "EPS": "28,673원",
-    "추정PER": "8.99배",
+    "추정PER": "8.81배",
     "추정EPS": "22,417원",
-    "PBR": "1.11배",
+    "PBR": "1.09배",
     "BPS": "181,813원",
-    "배당수익률": "0.57%",
+    "배당수익률": "0.58%",
     "현재가": "201,500원"
    }
   },
@@ -6581,13 +5795,13 @@
     }
    ],
    "metrics": {
-    "PER": "0.97배",
+    "PER": "0.95배",
     "EPS": "413,917원",
-    "추정PER": "2.35배",
+    "추정PER": "2.31배",
     "추정EPS": "170,296원",
-    "PBR": "0.27배",
+    "PBR": "0.26배",
     "BPS": "1,498,027원",
-    "배당수익률": "3.76%",
+    "배당수익률": "3.81%",
     "현재가": "399,500원"
    }
   },
@@ -6620,8 +5834,8 @@
     "컨센서스 EPS": "$0.82",
     "전년 동기 EPS": "$0.26",
     "결산 분기": "Sep/2026",
-    "현재가": "$78.29 (-2.35%)",
-    "시가총액": "42,512,150,418",
+    "현재가": "$79.63 (-0.67%)",
+    "시가총액": "43,239,782,064",
     "1년 목표주가": "$112.00",
     "연간 배당금": "$1.82",
     "배당수익률": "2.27%",
@@ -6652,13 +5866,13 @@
     }
    ],
    "metrics": {
-    "PER": "7.17배",
+    "PER": "7.10배",
     "EPS": "4,695원",
-    "추정PER": "5.69배",
+    "추정PER": "5.63배",
     "추정EPS": "5,919원",
     "PBR": "0.45배",
     "BPS": "74,517원",
-    "배당수익률": "2.60%",
+    "배당수익률": "2.63%",
     "현재가": "33,650원"
    }
   },
@@ -6684,13 +5898,13 @@
     }
    ],
    "metrics": {
-    "PER": "3.31배",
+    "PER": "3.29배",
     "EPS": "24,679원",
-    "추정PER": "3.06배",
+    "추정PER": "3.05배",
     "추정EPS": "26,669원",
     "PBR": "0.47배",
     "BPS": "173,176원",
-    "배당수익률": "3.67%",
+    "배당수익률": "3.69%",
     "현재가": "81,700원"
    }
   },
@@ -6718,9 +5932,9 @@
    "metrics": {
     "PER": "N/A",
     "EPS": "-6원",
-    "추정PER": "14.42배",
+    "추정PER": "13.76배",
     "추정EPS": "258원",
-    "PBR": "0.93배",
+    "PBR": "0.89배",
     "BPS": "4,008원",
     "배당수익률": "N/A",
     "현재가": "3,720원"
@@ -6748,13 +5962,13 @@
     }
    ],
    "metrics": {
-    "PER": "38.19배",
+    "PER": "37.29배",
     "EPS": "783원",
-    "추정PER": "24.17배",
+    "추정PER": "23.61배",
     "추정EPS": "1,237원",
-    "PBR": "1.12배",
+    "PBR": "1.10배",
     "BPS": "26,629원",
-    "배당수익률": "0.25%",
+    "배당수익률": "0.26%",
     "현재가": "29,900원"
    }
   },
@@ -6780,13 +5994,13 @@
     }
    ],
    "metrics": {
-    "PER": "74.23배",
+    "PER": "69.88배",
     "EPS": "1,036원",
     "추정PER": "N/A",
     "추정EPS": "N/A",
-    "PBR": "4.64배",
+    "PBR": "4.37배",
     "BPS": "16,568원",
-    "배당수익률": "0.20%",
+    "배당수익률": "0.21%",
     "현재가": "76,900원"
    }
   },
@@ -6812,13 +6026,13 @@
     }
    ],
    "metrics": {
-    "PER": "217.67배",
+    "PER": "202.91배",
     "EPS": "447원",
-    "추정PER": "1,569.35배",
+    "추정PER": "1,462.90배",
     "추정EPS": "62원",
-    "PBR": "5.30배",
+    "PBR": "4.94배",
     "BPS": "18,351원",
-    "배당수익률": "0.10%",
+    "배당수익률": "0.11%",
     "현재가": "97,300원"
    }
   },
@@ -6850,8 +6064,8 @@
     "컨센서스 EPS": "$2.95",
     "전년 동기 EPS": "$1.61",
     "결산 분기": "Sep/2026",
-    "현재가": "$150.03 (+1.40%)",
-    "시가총액": "180,236,661,974",
+    "현재가": "$149.06 (+0.74%)",
+    "시가총액": "179,071,364,620",
     "1년 목표주가": "$151.00",
     "52주 범위": "$152.77/$85.57",
     "섹터": "Energy",
@@ -6887,12 +6101,42 @@
     "컨센서스 EPS": "$0.30",
     "전년 동기 EPS": "$0.28",
     "결산 분기": "Sep/2026",
-    "현재가": "$45.58 (+0.31%)",
-    "시가총액": "133,940,503,064",
+    "현재가": "$45.66 (+0.48%)",
+    "시가총액": "134,175,589,511",
     "1년 목표주가": "$50.00",
     "52주 범위": "$50.17/$32.9375",
     "섹터": "Consumer Staples",
     "산업": "Beverages (Production/Distribution)"
+   }
+  },
+  {
+   "id": "kr-earn-024880-2026-11-05",
+   "date": "2026-11-05",
+   "market": "KR",
+   "cat": "earnings",
+   "title": "케이피에프 실적발표 (공시 예고)",
+   "ticker": "024880",
+   "session": "unknown",
+   "imp": 2,
+   "status": "confirmed",
+   "index": [],
+   "desc": "기업이 DART 결산실적공시예고로 직접 공표한 발표일입니다.",
+   "source": "DART 결산실적공시예고",
+   "links": [
+    {
+     "label": "DART 공시 원문",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029900089"
+    }
+   ],
+   "metrics": {
+    "PER": "4.03배",
+    "EPS": "895원",
+    "추정PER": "N/A",
+    "추정EPS": "N/A",
+    "PBR": "0.26배",
+    "BPS": "14,020원",
+    "배당수익률": "5.35%",
+    "현재가": "3,700원"
    }
   },
   {
@@ -6915,13 +6159,13 @@
     }
    ],
    "metrics": {
-    "PER": "2.91배",
+    "PER": "2.87배",
     "EPS": "7,378원",
     "추정PER": "N/A",
     "추정EPS": "N/A",
     "PBR": "0.33배",
     "BPS": "64,552원",
-    "배당수익률": "2.09%",
+    "배당수익률": "2.13%",
     "현재가": "21,500원"
    }
   },
@@ -6945,13 +6189,13 @@
     }
    ],
    "metrics": {
-    "PER": "16.13배",
+    "PER": "15.67배",
     "EPS": "3,262원",
-    "추정PER": "14.27배",
+    "추정PER": "13.86배",
     "추정EPS": "3,687원",
-    "PBR": "1.21배",
+    "PBR": "1.17배",
     "BPS": "43,521원",
-    "배당수익률": "2.28%",
+    "배당수익률": "2.35%",
     "현재가": "52,600원"
    }
   },
@@ -6975,13 +6219,13 @@
     }
    ],
    "metrics": {
-    "PER": "5.24배",
+    "PER": "5.05배",
     "EPS": "4,072원",
-    "추정PER": "6.08배",
+    "추정PER": "5.85배",
     "추정EPS": "3,514원",
-    "PBR": "0.59배",
+    "PBR": "0.56배",
     "BPS": "36,444원",
-    "배당수익률": "2.34%",
+    "배당수익률": "2.43%",
     "현재가": "21,350원"
    }
   },
@@ -7005,11 +6249,11 @@
     }
    ],
    "metrics": {
-    "PER": "31.98배",
+    "PER": "30.14배",
     "EPS": "949원",
     "추정PER": "N/A",
     "추정EPS": "N/A",
-    "PBR": "1.99배",
+    "PBR": "1.87배",
     "BPS": "15,284원",
     "배당수익률": "N/A",
     "현재가": "30,350원"
@@ -7035,13 +6279,13 @@
     }
    ],
    "metrics": {
-    "PER": "31.87배",
+    "PER": "31.33배",
     "EPS": "750원",
     "추정PER": "N/A",
     "추정EPS": "N/A",
-    "PBR": "1.62배",
+    "PBR": "1.59배",
     "BPS": "14,798원",
-    "배당수익률": "0.84%",
+    "배당수익률": "0.85%",
     "현재가": "23,900원"
    }
   },
@@ -7067,7 +6311,7 @@
    "metrics": {
     "PER": "N/A",
     "EPS": "-207원",
-    "추정PER": "24.27배",
+    "추정PER": "24.24배",
     "추정EPS": "1,679원",
     "PBR": "0.29배",
     "BPS": "138,309원",
@@ -7095,11 +6339,11 @@
     }
    ],
    "metrics": {
-    "PER": "21.78배",
+    "PER": "21.54배",
     "EPS": "1,040원",
-    "추정PER": "19.49배",
+    "추정PER": "19.28배",
     "추정EPS": "1,162원",
-    "PBR": "0.87배",
+    "PBR": "0.86배",
     "BPS": "25,900원",
     "배당수익률": "N/A",
     "현재가": "22,650원"
@@ -7144,13 +6388,13 @@
     }
    ],
    "metrics": {
-    "PER": "13.85배",
+    "PER": "13.37배",
     "EPS": "12,885원",
-    "추정PER": "14.52배",
-    "추정EPS": "12,284원",
-    "PBR": "0.90배",
+    "추정PER": "14.04배",
+    "추정EPS": "12,270원",
+    "PBR": "0.87배",
     "BPS": "197,188원",
-    "배당수익률": "1.47%",
+    "배당수익률": "1.53%",
     "현재가": "178,400원"
    }
   },
@@ -7193,13 +6437,13 @@
     }
    ],
    "metrics": {
-    "PER": "18.30배",
+    "PER": "17.72배",
     "EPS": "48,642원",
-    "추정PER": "15.22배",
+    "추정PER": "14.74배",
     "추정EPS": "58,485원",
-    "PBR": "1.60배",
+    "PBR": "1.55배",
     "BPS": "556,217원",
-    "배당수익률": "2.25%",
+    "배당수익률": "2.32%",
     "현재가": "890,000원"
    }
   },
@@ -7244,11 +6488,11 @@
    "metrics": {
     "PER": "N/A",
     "EPS": "-8,743원",
-    "추정PER": "42.55배",
-    "추정EPS": "3,974원",
-    "PBR": "2.10배",
+    "추정PER": "39.97배",
+    "추정EPS": "3,950원",
+    "PBR": "1.96배",
     "BPS": "80,633원",
-    "배당수익률": "0.30%",
+    "배당수익률": "0.32%",
     "현재가": "169,100원"
    }
   },
@@ -7291,11 +6535,11 @@
     }
    ],
    "metrics": {
-    "PER": "14.79배",
+    "PER": "14.98배",
     "EPS": "5,120원",
-    "추정PER": "18.42배",
+    "추정PER": "18.67배",
     "추정EPS": "4,109원",
-    "PBR": "5.80배",
+    "PBR": "5.88배",
     "BPS": "13,047원",
     "배당수익률": "N/A",
     "현재가": "75,700원"
@@ -7340,14 +6584,63 @@
     }
    ],
    "metrics": {
-    "PER": "11.09배",
+    "PER": "11.13배",
     "EPS": "1,246원",
-    "추정PER": "7.99배",
+    "추정PER": "8.02배",
     "추정EPS": "1,730원",
     "PBR": "0.65배",
     "BPS": "21,372원",
-    "배당수익률": "4.78%",
+    "배당수익률": "4.76%",
     "현재가": "13,820원"
+   }
+  },
+  {
+   "id": "kr-earn-est-000100-2026-11-05",
+   "date": "2026-11-05",
+   "market": "KR",
+   "cat": "earnings",
+   "title": "유한양행 실적발표 예상",
+   "ticker": "000100",
+   "session": "unknown",
+   "imp": 2,
+   "status": "estimated",
+   "index": [
+    "코스피 시총상위"
+   ],
+   "desc": "국내는 실적발표일을 사전 공표하는 제도가 없어, 과거 2년간 잠정실적 공시일을 기준으로 추정한 일정입니다. 발표 시각(장전·장마감 후)도 사전 확인이 불가하며 국내 잠정실적은 통상 장중~장 마감 후에 공시됩니다. 고객 안내 전 기업 IR 확인이 필요합니다.",
+   "checklist": [
+    "기업 IR 또는 유선으로 실제 발표일 확인",
+    "컨센서스와 직전 분기 수치 비교표 준비",
+    "동일 업종 선행 발표 기업의 결과·가이던스 확인"
+   ],
+   "source": "과거 잠정실적 공시일 기반 추정 (잠정)",
+   "links": [
+    {
+     "label": "네이버 금융",
+     "url": "https://finance.naver.com/item/main.naver?code=000100"
+    },
+    {
+     "label": "종목 공시·뉴스",
+     "url": "https://finance.naver.com/item/news_notice.naver?code=000100"
+    },
+    {
+     "label": "컨센서스·기업분석",
+     "url": "https://finance.naver.com/item/coinfo.naver?code=000100"
+    },
+    {
+     "label": "DART 공시 검색",
+     "url": "https://dart.fss.or.kr/dsab007/main.do?textCrpNm=%EC%9C%A0%ED%95%9C%EC%96%91%ED%96%89"
+    }
+   ],
+   "metrics": {
+    "PER": "25.38배",
+    "EPS": "2,927원",
+    "추정PER": "35.13배",
+    "추정EPS": "2,115원",
+    "PBR": "2.33배",
+    "BPS": "31,931원",
+    "배당수익률": "0.81%",
+    "현재가": "77,800원"
    }
   },
   {
@@ -7389,13 +6682,13 @@
     }
    ],
    "metrics": {
-    "PER": "10.89배",
+    "PER": "10.62배",
     "EPS": "8,601원",
-    "추정PER": "6.94배",
+    "추정PER": "6.77배",
     "추정EPS": "13,492원",
-    "PBR": "0.62배",
+    "PBR": "0.60배",
     "BPS": "151,529원",
-    "배당수익률": "1.17%",
+    "배당수익률": "1.21%",
     "현재가": "93,700원"
    }
   },
@@ -7438,14 +6731,63 @@
     }
    ],
    "metrics": {
-    "PER": "12.79배",
+    "PER": "12.35배",
     "EPS": "7,886원",
     "추정PER": "N/A",
     "추정EPS": "N/A",
-    "PBR": "1.79배",
+    "PBR": "1.73배",
     "BPS": "56,254원",
-    "배당수익률": "0.80%",
+    "배당수익률": "0.83%",
     "현재가": "100,900원"
+   }
+  },
+  {
+   "id": "kr-earn-est-011790-2026-11-05",
+   "date": "2026-11-05",
+   "market": "KR",
+   "cat": "earnings",
+   "title": "SKC 실적발표 예상",
+   "ticker": "011790",
+   "session": "unknown",
+   "imp": 2,
+   "status": "estimated",
+   "index": [
+    "코스피 시총상위"
+   ],
+   "desc": "국내는 실적발표일을 사전 공표하는 제도가 없어, 과거 2년간 잠정실적 공시일을 기준으로 추정한 일정입니다. 발표 시각(장전·장마감 후)도 사전 확인이 불가하며 국내 잠정실적은 통상 장중~장 마감 후에 공시됩니다. 고객 안내 전 기업 IR 확인이 필요합니다.",
+   "checklist": [
+    "기업 IR 또는 유선으로 실제 발표일 확인",
+    "컨센서스와 직전 분기 수치 비교표 준비",
+    "동일 업종 선행 발표 기업의 결과·가이던스 확인"
+   ],
+   "source": "과거 잠정실적 공시일 기반 추정 (잠정)",
+   "links": [
+    {
+     "label": "네이버 금융",
+     "url": "https://finance.naver.com/item/main.naver?code=011790"
+    },
+    {
+     "label": "종목 공시·뉴스",
+     "url": "https://finance.naver.com/item/news_notice.naver?code=011790"
+    },
+    {
+     "label": "컨센서스·기업분석",
+     "url": "https://finance.naver.com/item/coinfo.naver?code=011790"
+    },
+    {
+     "label": "DART 공시 검색",
+     "url": "https://dart.fss.or.kr/dsab007/main.do?textCrpNm=SKC"
+    }
+   ],
+   "metrics": {
+    "PER": "N/A",
+    "EPS": "-20,562원",
+    "추정PER": "-12.54배",
+    "추정EPS": "-5,807원",
+    "PBR": "1.77배",
+    "BPS": "41,073원",
+    "배당수익률": "N/A",
+    "현재가": "83,000원"
    }
   },
   {
@@ -7487,63 +6829,14 @@
     }
    ],
    "metrics": {
-    "PER": "6.04배",
+    "PER": "6.10배",
     "EPS": "6,628원",
     "추정PER": "N/A",
     "추정EPS": "N/A",
-    "PBR": "0.87배",
+    "PBR": "0.88배",
     "BPS": "46,067원",
-    "배당수익률": "2.50%",
+    "배당수익률": "2.48%",
     "현재가": "40,050원"
-   }
-  },
-  {
-   "id": "kr-earn-est-000240-2026-11-05",
-   "date": "2026-11-05",
-   "market": "KR",
-   "cat": "earnings",
-   "title": "한국앤컴퍼니 실적발표 예상",
-   "ticker": "000240",
-   "session": "unknown",
-   "imp": 2,
-   "status": "estimated",
-   "index": [
-    "코스피 시총상위"
-   ],
-   "desc": "국내는 실적발표일을 사전 공표하는 제도가 없어, 과거 2년간 잠정실적 공시일을 기준으로 추정한 일정입니다. 발표 시각(장전·장마감 후)도 사전 확인이 불가하며 국내 잠정실적은 통상 장중~장 마감 후에 공시됩니다. 고객 안내 전 기업 IR 확인이 필요합니다.",
-   "checklist": [
-    "기업 IR 또는 유선으로 실제 발표일 확인",
-    "컨센서스와 직전 분기 수치 비교표 준비",
-    "동일 업종 선행 발표 기업의 결과·가이던스 확인"
-   ],
-   "source": "과거 잠정실적 공시일 기반 추정 (잠정)",
-   "links": [
-    {
-     "label": "네이버 금융",
-     "url": "https://finance.naver.com/item/main.naver?code=000240"
-    },
-    {
-     "label": "종목 공시·뉴스",
-     "url": "https://finance.naver.com/item/news_notice.naver?code=000240"
-    },
-    {
-     "label": "컨센서스·기업분석",
-     "url": "https://finance.naver.com/item/coinfo.naver?code=000240"
-    },
-    {
-     "label": "DART 공시 검색",
-     "url": "https://dart.fss.or.kr/dsab007/main.do?textCrpNm=%ED%95%9C%EA%B5%AD%EC%95%A4%EC%BB%B4%ED%8D%BC%EB%8B%88"
-    }
-   ],
-   "metrics": {
-    "PER": "5.50배",
-    "EPS": "4,167원",
-    "추정PER": "N/A",
-    "추정EPS": "N/A",
-    "PBR": "0.42배",
-    "BPS": "54,762원",
-    "배당수익률": "4.80%",
-    "현재가": "22,900원"
    }
   },
   {
@@ -7585,13 +6878,13 @@
     }
    ],
    "metrics": {
-    "PER": "45.48배",
+    "PER": "44.88배",
     "EPS": "3,659원",
-    "추정PER": "39.39배",
-    "추정EPS": "4,224원",
-    "PBR": "6.04배",
+    "추정PER": "40.56배",
+    "추정EPS": "4,048원",
+    "PBR": "5.96배",
     "BPS": "27,534원",
-    "배당수익률": "0.51%",
+    "배당수익률": "0.52%",
     "현재가": "166,400원"
    }
   },
@@ -7634,14 +6927,46 @@
     }
    ],
    "metrics": {
-    "PER": "10.40배",
+    "PER": "10.03배",
     "EPS": "4,073원",
     "추정PER": "N/A",
     "추정EPS": "N/A",
-    "PBR": "1.76배",
+    "PBR": "1.70배",
     "BPS": "24,040원",
-    "배당수익률": "1.54%",
+    "배당수익률": "1.59%",
     "현재가": "42,350원"
+   }
+  },
+  {
+   "id": "kr-earn-079550-2026-11-06",
+   "date": "2026-11-06",
+   "market": "KR",
+   "cat": "earnings",
+   "title": "LIG디펜스앤에어로스페이스 실적발표 (공시 예고)",
+   "ticker": "079550",
+   "session": "unknown",
+   "imp": 3,
+   "status": "confirmed",
+   "index": [
+    "코스피 시총상위"
+   ],
+   "desc": "기업이 DART 결산실적공시예고로 직접 공표한 발표일입니다.",
+   "source": "DART 결산실적공시예고",
+   "links": [
+    {
+     "label": "DART 공시 원문",
+     "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029800107"
+    }
+   ],
+   "metrics": {
+    "PER": "32.48배",
+    "EPS": "13,022원",
+    "추정PER": "26.23배",
+    "추정EPS": "16,127원",
+    "PBR": "5.79배",
+    "BPS": "73,022원",
+    "배당수익률": "0.70%",
+    "현재가": "447,000원"
    }
   },
   {
@@ -7666,13 +6991,13 @@
     }
    ],
    "metrics": {
-    "PER": "14.26배",
+    "PER": "13.80배",
     "EPS": "16,056원",
-    "추정PER": "12.07배",
-    "추정EPS": "18,980원",
-    "PBR": "3.51배",
+    "추정PER": "11.93배",
+    "추정EPS": "18,567원",
+    "PBR": "3.40배",
     "BPS": "65,167원",
-    "배당수익률": "1.62%",
+    "배당수익률": "1.67%",
     "현재가": "229,000원"
    }
   },
@@ -7698,13 +7023,13 @@
     }
    ],
    "metrics": {
-    "PER": "8.87배",
+    "PER": "8.82배",
     "EPS": "1,544원",
-    "추정PER": "10.69배",
+    "추정PER": "10.63배",
     "추정EPS": "1,281원",
     "PBR": "0.69배",
     "BPS": "19,725원",
-    "배당수익률": "6.94%",
+    "배당수익률": "6.98%",
     "현재가": "13,690원"
    }
   },
@@ -7730,13 +7055,13 @@
     }
    ],
    "metrics": {
-    "PER": "6.08배",
+    "PER": "6.01배",
     "EPS": "17,465원",
-    "추정PER": "5.62배",
+    "추정PER": "5.56배",
     "추정EPS": "18,869원",
     "PBR": "0.40배",
     "BPS": "265,467원",
-    "배당수익률": "1.60%",
+    "배당수익률": "1.62%",
     "현재가": "106,100원"
    }
   },
@@ -7762,13 +7087,13 @@
     }
    ],
    "metrics": {
-    "PER": "13.04배",
+    "PER": "12.72배",
     "EPS": "6,401원",
-    "추정PER": "7.09배",
+    "추정PER": "6.92배",
     "추정EPS": "11,769원",
     "PBR": "0.15배",
     "BPS": "541,270원",
-    "배당수익률": "4.79%",
+    "배당수익률": "4.91%",
     "현재가": "83,500원"
    }
   },
@@ -7792,13 +7117,13 @@
     }
    ],
    "metrics": {
-    "PER": "10.89배",
+    "PER": "10.32배",
     "EPS": "1,386원",
     "추정PER": "N/A",
     "추정EPS": "N/A",
-    "PBR": "1.22배",
+    "PBR": "1.16배",
     "BPS": "12,381원",
-    "배당수익률": "4.31%",
+    "배당수익률": "4.54%",
     "현재가": "15,090원"
    }
   },
@@ -7822,13 +7147,13 @@
     }
    ],
    "metrics": {
-    "PER": "12.47배",
+    "PER": "12.59배",
     "EPS": "914원",
-    "추정PER": "13.16배",
+    "추정PER": "13.29배",
     "추정EPS": "866원",
     "PBR": "0.48배",
     "BPS": "23,778원",
-    "배당수익률": "6.14%",
+    "배당수익률": "6.08%",
     "현재가": "11,400원"
    }
   },
@@ -7852,13 +7177,13 @@
     }
    ],
    "metrics": {
-    "PER": "4.35배",
+    "PER": "4.25배",
     "EPS": "1,632원",
     "추정PER": "N/A",
     "추정EPS": "N/A",
-    "PBR": "0.78배",
+    "PBR": "0.76배",
     "BPS": "9,105원",
-    "배당수익률": "2.83%",
+    "배당수익률": "2.90%",
     "현재가": "7,100원"
    }
   },
@@ -7882,13 +7207,13 @@
     }
    ],
    "metrics": {
-    "PER": "17.22배",
+    "PER": "16.60배",
     "EPS": "5,976원",
-    "추정PER": "14.61배",
+    "추정PER": "14.08배",
     "추정EPS": "7,044원",
-    "PBR": "4.01배",
+    "PBR": "3.87배",
     "BPS": "25,638원",
-    "배당수익률": "0.36%",
+    "배당수익률": "0.37%",
     "현재가": "102,900원"
    }
   },
@@ -7912,13 +7237,13 @@
     }
    ],
    "metrics": {
-    "PER": "384.95배",
+    "PER": "364.08배",
     "EPS": "103원",
-    "추정PER": "9.42배",
+    "추정PER": "8.91배",
     "추정EPS": "4,211원",
-    "PBR": "1.28배",
+    "PBR": "1.21배",
     "BPS": "30,897원",
-    "배당수익률": "2.52%",
+    "배당수익률": "2.67%",
     "현재가": "39,650원"
    }
   },
@@ -7961,13 +7286,13 @@
     }
    ],
    "metrics": {
-    "PER": "15.08배",
+    "PER": "15.39배",
     "EPS": "12,405원",
-    "추정PER": "15.26배",
+    "추정PER": "15.57배",
     "추정EPS": "12,259원",
-    "PBR": "2.01배",
+    "PBR": "2.05배",
     "BPS": "93,205원",
-    "배당수익률": "3.21%",
+    "배당수익률": "3.14%",
     "현재가": "187,100원"
    }
   },
@@ -8010,63 +7335,14 @@
     }
    ],
    "metrics": {
-    "PER": "4.99배",
+    "PER": "4.87배",
     "EPS": "5,278원",
-    "추정PER": "5.90배",
+    "추정PER": "5.75배",
     "추정EPS": "4,467원",
-    "PBR": "0.94배",
+    "PBR": "0.92배",
     "BPS": "27,909원",
-    "배당수익률": "1.13%",
+    "배당수익률": "1.16%",
     "현재가": "26,350원"
-   }
-  },
-  {
-   "id": "kr-earn-est-079550-2026-11-06",
-   "date": "2026-11-06",
-   "market": "KR",
-   "cat": "earnings",
-   "title": "LIG디펜스앤에어로스페이스 실적발표 예상",
-   "ticker": "079550",
-   "session": "unknown",
-   "imp": 2,
-   "status": "estimated",
-   "index": [
-    "코스피 시총상위"
-   ],
-   "desc": "국내는 실적발표일을 사전 공표하는 제도가 없어, 과거 2년간 잠정실적 공시일을 기준으로 추정한 일정입니다. 발표 시각(장전·장마감 후)도 사전 확인이 불가하며 국내 잠정실적은 통상 장중~장 마감 후에 공시됩니다. 고객 안내 전 기업 IR 확인이 필요합니다.",
-   "checklist": [
-    "기업 IR 또는 유선으로 실제 발표일 확인",
-    "컨센서스와 직전 분기 수치 비교표 준비",
-    "동일 업종 선행 발표 기업의 결과·가이던스 확인"
-   ],
-   "source": "과거 잠정실적 공시일 기반 추정 (잠정)",
-   "links": [
-    {
-     "label": "네이버 금융",
-     "url": "https://finance.naver.com/item/main.naver?code=079550"
-    },
-    {
-     "label": "종목 공시·뉴스",
-     "url": "https://finance.naver.com/item/news_notice.naver?code=079550"
-    },
-    {
-     "label": "컨센서스·기업분석",
-     "url": "https://finance.naver.com/item/coinfo.naver?code=079550"
-    },
-    {
-     "label": "DART 공시 검색",
-     "url": "https://dart.fss.or.kr/dsab007/main.do?textCrpNm=LIG%EB%94%94%ED%8E%9C%EC%8A%A4%EC%95%A4%EC%97%90%EC%96%B4%EB%A1%9C%EC%8A%A4%ED%8E%98%EC%9D%B4%EC%8A%A4"
-    }
-   ],
-   "metrics": {
-    "PER": "34.33배",
-    "EPS": "13,022원",
-    "추정PER": "27.72배",
-    "추정EPS": "16,127원",
-    "PBR": "6.12배",
-    "BPS": "73,022원",
-    "배당수익률": "0.66%",
-    "현재가": "447,000원"
    }
   },
   {
@@ -8110,11 +7386,11 @@
    "metrics": {
     "PER": "N/A",
     "EPS": "-693원",
-    "추정PER": "20.28배",
+    "추정PER": "20.51배",
     "추정EPS": "1,292원",
-    "PBR": "0.92배",
+    "PBR": "0.93배",
     "BPS": "28,464원",
-    "배당수익률": "2.86%",
+    "배당수익률": "2.83%",
     "현재가": "26,200원"
    }
   },
@@ -8157,13 +7433,13 @@
     }
    ],
    "metrics": {
-    "PER": "3.24배",
+    "PER": "3.25배",
     "EPS": "47,636원",
-    "추정PER": "3.28배",
+    "추정PER": "3.29배",
     "추정EPS": "47,073원",
     "PBR": "0.66배",
     "BPS": "234,850원",
-    "배당수익률": "5.63%",
+    "배당수익률": "5.62%",
     "현재가": "154,300원"
    }
   },
@@ -8206,13 +7482,13 @@
     }
    ],
    "metrics": {
-    "PER": "10.06배",
+    "PER": "10.17배",
     "EPS": "12,452원",
-    "추정PER": "9.51배",
+    "추정PER": "9.61배",
     "추정EPS": "13,178원",
-    "PBR": "1.64배",
+    "PBR": "1.65배",
     "BPS": "76,586원",
-    "배당수익률": "3.27%",
+    "배당수익률": "3.24%",
     "현재가": "125,300원"
    }
   },
@@ -8257,9 +7533,9 @@
    "metrics": {
     "PER": "N/A",
     "EPS": "-1,410원",
-    "추정PER": "24.87배",
+    "추정PER": "23.35배",
     "추정EPS": "5,191원",
-    "PBR": "7.44배",
+    "PBR": "6.98배",
     "BPS": "17,355원",
     "배당수익률": "0.08%",
     "현재가": "129,100원"
@@ -8304,11 +7580,11 @@
     }
    ],
    "metrics": {
-    "PER": "69.83배",
+    "PER": "67.72배",
     "EPS": "3,315원",
-    "추정PER": "34.74배",
+    "추정PER": "33.69배",
     "추정EPS": "6,664원",
-    "PBR": "4.73배",
+    "PBR": "4.59배",
     "BPS": "48,895원",
     "배당수익률": "0.22%",
     "현재가": "231,500원"
@@ -8342,8 +7618,8 @@
     "컨센서스 EPS": "($2.78)",
     "전년 동기 EPS": "($3.31)",
     "결산 분기": "Sep/2026",
-    "현재가": "$3.33 (+0.60%)",
-    "시가총액": "1,312,253,686",
+    "현재가": "$3.41 (+3.02%)",
+    "시가총액": "1,343,779,300",
     "1년 목표주가": "$7.00",
     "52주 범위": "$19.475/$2.37",
     "섹터": "Industrials",
@@ -8372,13 +7648,13 @@
     }
    ],
    "metrics": {
-    "PER": "58.64배",
+    "PER": "52.76배",
     "EPS": "17,343원",
-    "추정PER": "39.37배",
-    "추정EPS": "25,831원",
-    "PBR": "6.97배",
+    "추정PER": "33.57배",
+    "추정EPS": "27,260원",
+    "PBR": "6.27배",
     "BPS": "145,939원",
-    "배당수익률": "0.39%",
+    "배당수익률": "0.44%",
     "현재가": "1,017,000원"
    }
   },
@@ -8402,13 +7678,13 @@
     }
    ],
    "metrics": {
-    "PER": "18.73배",
+    "PER": "18.90배",
     "EPS": "3,503원",
-    "추정PER": "14.23배",
+    "추정PER": "14.36배",
     "추정EPS": "4,610원",
-    "PBR": "2.55배",
+    "PBR": "2.58배",
     "BPS": "25,690원",
-    "배당수익률": "0.69%",
+    "배당수익률": "0.68%",
     "현재가": "65,600원"
    }
   },
@@ -8432,13 +7708,13 @@
     }
    ],
    "metrics": {
-    "PER": "14.64배",
+    "PER": "14.79배",
     "EPS": "6,503원",
-    "추정PER": "10.18배",
-    "추정EPS": "9,349원",
+    "추정PER": "10.31배",
+    "추정EPS": "9,333원",
     "PBR": "0.62배",
     "BPS": "154,751원",
-    "배당수익률": "3.57%",
+    "배당수익률": "3.53%",
     "현재가": "95,200원"
    }
   },
@@ -8481,13 +7757,13 @@
     }
    ],
    "metrics": {
-    "PER": "8.80배",
+    "PER": "8.88배",
     "EPS": "5,141원",
-    "추정PER": "8.01배",
+    "추정PER": "8.08배",
     "추정EPS": "5,647원",
-    "PBR": "0.58배",
+    "PBR": "0.59배",
     "BPS": "77,912원",
-    "배당수익률": "5.30%",
+    "배당수익률": "5.26%",
     "현재가": "45,250원"
    }
   },
@@ -8530,13 +7806,13 @@
     }
    ],
    "metrics": {
-    "PER": "5.03배",
+    "PER": "5.00배",
     "EPS": "16,386원",
-    "추정PER": "4.54배",
+    "추정PER": "4.51배",
     "추정EPS": "18,184원",
     "PBR": "0.85배",
     "BPS": "96,934원",
-    "배당수익률": "4.85%",
+    "배당수익률": "4.88%",
     "현재가": "82,500원"
    }
   },
@@ -8579,13 +7855,13 @@
     }
    ],
    "metrics": {
-    "PER": "10.57배",
+    "PER": "10.65배",
     "EPS": "9,563원",
-    "추정PER": "10.23배",
+    "추정PER": "10.30배",
     "추정EPS": "9,885원",
-    "PBR": "1.86배",
+    "PBR": "1.87배",
     "BPS": "54,488원",
-    "배당수익률": "1.94%",
+    "배당수익률": "1.92%",
     "현재가": "101,100원"
    }
   },
@@ -8628,63 +7904,14 @@
     }
    ],
    "metrics": {
-    "PER": "102.87배",
+    "PER": "92.56배",
     "EPS": "941원",
-    "추정PER": "62.90배",
+    "추정PER": "56.60배",
     "추정EPS": "1,539원",
-    "PBR": "6.21배",
+    "PBR": "5.59배",
     "BPS": "15,580원",
-    "배당수익률": "1.39%",
+    "배당수익률": "1.55%",
     "현재가": "96,800원"
-   }
-  },
-  {
-   "id": "kr-earn-est-082740-2026-11-09",
-   "date": "2026-11-09",
-   "market": "KR",
-   "cat": "earnings",
-   "title": "한화엔진 실적발표 예상",
-   "ticker": "082740",
-   "session": "unknown",
-   "imp": 2,
-   "status": "estimated",
-   "index": [
-    "코스피 시총상위"
-   ],
-   "desc": "국내는 실적발표일을 사전 공표하는 제도가 없어, 과거 2년간 잠정실적 공시일을 기준으로 추정한 일정입니다. 발표 시각(장전·장마감 후)도 사전 확인이 불가하며 국내 잠정실적은 통상 장중~장 마감 후에 공시됩니다. 고객 안내 전 기업 IR 확인이 필요합니다.",
-   "checklist": [
-    "기업 IR 또는 유선으로 실제 발표일 확인",
-    "컨센서스와 직전 분기 수치 비교표 준비",
-    "동일 업종 선행 발표 기업의 결과·가이던스 확인"
-   ],
-   "source": "과거 잠정실적 공시일 기반 추정 (잠정)",
-   "links": [
-    {
-     "label": "네이버 금융",
-     "url": "https://finance.naver.com/item/main.naver?code=082740"
-    },
-    {
-     "label": "종목 공시·뉴스",
-     "url": "https://finance.naver.com/item/news_notice.naver?code=082740"
-    },
-    {
-     "label": "컨센서스·기업분석",
-     "url": "https://finance.naver.com/item/coinfo.naver?code=082740"
-    },
-    {
-     "label": "DART 공시 검색",
-     "url": "https://dart.fss.or.kr/dsab007/main.do?textCrpNm=%ED%95%9C%ED%99%94%EC%97%94%EC%A7%84"
-    }
-   ],
-   "metrics": {
-    "PER": "12.68배",
-    "EPS": "2,623원",
-    "추정PER": "14.82배",
-    "추정EPS": "2,243원",
-    "PBR": "4.27배",
-    "BPS": "7,788원",
-    "배당수익률": "N/A",
-    "현재가": "33,250원"
    }
   },
   {
@@ -8726,23 +7953,23 @@
     }
    ],
    "metrics": {
-    "PER": "14.96배",
+    "PER": "14.62배",
     "EPS": "7,832원",
-    "추정PER": "14.01배",
-    "추정EPS": "8,365원",
-    "PBR": "2.76배",
+    "추정PER": "13.69배",
+    "추정EPS": "8,363원",
+    "PBR": "2.70배",
     "BPS": "42,430원",
-    "배당수익률": "0.74%",
+    "배당수익률": "0.76%",
     "현재가": "117,200원"
    }
   },
   {
-   "id": "kr-earn-est-004170-2026-11-09",
+   "id": "kr-earn-est-082740-2026-11-09",
    "date": "2026-11-09",
    "market": "KR",
    "cat": "earnings",
-   "title": "신세계 실적발표 예상",
-   "ticker": "004170",
+   "title": "한화엔진 실적발표 예상",
+   "ticker": "082740",
    "session": "unknown",
    "imp": 2,
    "status": "estimated",
@@ -8759,30 +7986,30 @@
    "links": [
     {
      "label": "네이버 금융",
-     "url": "https://finance.naver.com/item/main.naver?code=004170"
+     "url": "https://finance.naver.com/item/main.naver?code=082740"
     },
     {
      "label": "종목 공시·뉴스",
-     "url": "https://finance.naver.com/item/news_notice.naver?code=004170"
+     "url": "https://finance.naver.com/item/news_notice.naver?code=082740"
     },
     {
      "label": "컨센서스·기업분석",
-     "url": "https://finance.naver.com/item/coinfo.naver?code=004170"
+     "url": "https://finance.naver.com/item/coinfo.naver?code=082740"
     },
     {
      "label": "DART 공시 검색",
-     "url": "https://dart.fss.or.kr/dsab007/main.do?textCrpNm=%EC%8B%A0%EC%84%B8%EA%B3%84"
+     "url": "https://dart.fss.or.kr/dsab007/main.do?textCrpNm=%ED%95%9C%ED%99%94%EC%97%94%EC%A7%84"
     }
    ],
    "metrics": {
-    "PER": "14.50배",
-    "EPS": "17,615원",
-    "추정PER": "5.81배",
-    "추정EPS": "43,954원",
-    "PBR": "0.41배",
-    "BPS": "616,162원",
-    "배당수익률": "2.04%",
-    "현재가": "255,500원"
+    "PER": "11.69배",
+    "EPS": "2,623원",
+    "추정PER": "13.66배",
+    "추정EPS": "2,243원",
+    "PBR": "3.94배",
+    "BPS": "7,788원",
+    "배당수익률": "N/A",
+    "현재가": "33,250원"
    }
   },
   {
@@ -8826,12 +8053,61 @@
    "metrics": {
     "PER": "4.47배",
     "EPS": "13,659원",
-    "추정PER": "4.95배",
-    "추정EPS": "12,335원",
+    "추정PER": "4.90배",
+    "추정EPS": "12,470원",
     "PBR": "1.11배",
     "BPS": "54,907원",
     "배당수익률": "4.42%",
     "현재가": "61,100원"
+   }
+  },
+  {
+   "id": "kr-earn-est-004170-2026-11-09",
+   "date": "2026-11-09",
+   "market": "KR",
+   "cat": "earnings",
+   "title": "신세계 실적발표 예상",
+   "ticker": "004170",
+   "session": "unknown",
+   "imp": 2,
+   "status": "estimated",
+   "index": [
+    "코스피 시총상위"
+   ],
+   "desc": "국내는 실적발표일을 사전 공표하는 제도가 없어, 과거 2년간 잠정실적 공시일을 기준으로 추정한 일정입니다. 발표 시각(장전·장마감 후)도 사전 확인이 불가하며 국내 잠정실적은 통상 장중~장 마감 후에 공시됩니다. 고객 안내 전 기업 IR 확인이 필요합니다.",
+   "checklist": [
+    "기업 IR 또는 유선으로 실제 발표일 확인",
+    "컨센서스와 직전 분기 수치 비교표 준비",
+    "동일 업종 선행 발표 기업의 결과·가이던스 확인"
+   ],
+   "source": "과거 잠정실적 공시일 기반 추정 (잠정)",
+   "links": [
+    {
+     "label": "네이버 금융",
+     "url": "https://finance.naver.com/item/main.naver?code=004170"
+    },
+    {
+     "label": "종목 공시·뉴스",
+     "url": "https://finance.naver.com/item/news_notice.naver?code=004170"
+    },
+    {
+     "label": "컨센서스·기업분석",
+     "url": "https://finance.naver.com/item/coinfo.naver?code=004170"
+    },
+    {
+     "label": "DART 공시 검색",
+     "url": "https://dart.fss.or.kr/dsab007/main.do?textCrpNm=%EC%8B%A0%EC%84%B8%EA%B3%84"
+    }
+   ],
+   "metrics": {
+    "PER": "13.94배",
+    "EPS": "17,615원",
+    "추정PER": "5.59배",
+    "추정EPS": "43,954원",
+    "PBR": "0.40배",
+    "BPS": "616,162원",
+    "배당수익률": "2.12%",
+    "현재가": "255,500원"
    }
   },
   {
@@ -8873,13 +8149,13 @@
     }
    ],
    "metrics": {
-    "PER": "28.47배",
+    "PER": "26.91배",
     "EPS": "3,526원",
-    "추정PER": "23.15배",
+    "추정PER": "21.88배",
     "추정EPS": "4,337원",
-    "PBR": "4.55배",
+    "PBR": "4.30배",
     "BPS": "22,064원",
-    "배당수익률": "0.20%",
+    "배당수익률": "0.21%",
     "현재가": "100,400원"
    }
   },
@@ -8922,13 +8198,13 @@
     }
    ],
    "metrics": {
-    "PER": "12.83배",
+    "PER": "12.31배",
     "EPS": "2,104원",
-    "추정PER": "12.32배",
+    "추정PER": "11.82배",
     "추정EPS": "2,192원",
-    "PBR": "3.20배",
+    "PBR": "3.07배",
     "BPS": "8,426원",
-    "배당수익률": "3.70%",
+    "배당수익률": "3.86%",
     "현재가": "27,000원"
    }
   },
@@ -8971,13 +8247,13 @@
     }
    ],
    "metrics": {
-    "PER": "19.12배",
+    "PER": "18.84배",
     "EPS": "1,757원",
-    "추정PER": "N/A",
-    "추정EPS": "N/A",
-    "PBR": "1.47배",
+    "추정PER": "16.73배",
+    "추정EPS": "1,978원",
+    "PBR": "1.45배",
     "BPS": "22,802원",
-    "배당수익률": "2.98%",
+    "배당수익률": "3.02%",
     "현재가": "33,600원"
    }
   },
@@ -9003,13 +8279,13 @@
     }
    ],
    "metrics": {
-    "PER": "10.33배",
+    "PER": "10.15배",
     "EPS": "17,700원",
-    "추정PER": "10.75배",
+    "추정PER": "10.56배",
     "추정EPS": "17,010원",
-    "PBR": "1.10배",
+    "PBR": "1.08배",
     "BPS": "165,959원",
-    "배당수익률": "1.23%",
+    "배당수익률": "1.25%",
     "현재가": "182,800원"
    }
   },
@@ -9037,11 +8313,11 @@
    "metrics": {
     "PER": "N/A",
     "EPS": "-41,473원",
-    "추정PER": "10.34배",
+    "추정PER": "10.35배",
     "추정EPS": "16,447원",
-    "PBR": "0.36배",
+    "PBR": "0.37배",
     "BPS": "466,060원",
-    "배당수익률": "3.53%",
+    "배당수익률": "3.52%",
     "현재가": "170,100원"
    }
   },
@@ -9065,9 +8341,9 @@
     }
    ],
    "metrics": {
-    "PER": "6.61배",
+    "PER": "6.58배",
     "EPS": "9,773원",
-    "추정PER": "7.87배",
+    "추정PER": "7.83배",
     "추정EPS": "8,207원",
     "PBR": "0.31배",
     "BPS": "209,877원",
@@ -9095,13 +8371,13 @@
     }
    ],
    "metrics": {
-    "PER": "23.31배",
+    "PER": "22.27배",
     "EPS": "2,124원",
-    "추정PER": "15.42배",
+    "추정PER": "14.73배",
     "추정EPS": "3,211원",
-    "PBR": "1.01배",
+    "PBR": "0.97배",
     "BPS": "48,960원",
-    "배당수익률": "1.01%",
+    "배당수익률": "1.06%",
     "현재가": "49,500원"
    }
   },
@@ -9125,11 +8401,11 @@
     }
    ],
    "metrics": {
-    "PER": "9.56배",
+    "PER": "9.42배",
     "EPS": "3,100원",
-    "추정PER": "13.10배",
+    "추정PER": "12.90배",
     "추정EPS": "2,263원",
-    "PBR": "1.73배",
+    "PBR": "1.71배",
     "BPS": "17,091원",
     "배당수익률": "N/A",
     "현재가": "29,650원"
@@ -9174,13 +8450,13 @@
     }
    ],
    "metrics": {
-    "PER": "15.95배",
+    "PER": "15.43배",
     "EPS": "16,236원",
-    "추정PER": "16.56배",
+    "추정PER": "16.02배",
     "추정EPS": "15,638원",
-    "PBR": "4.54배",
+    "PBR": "4.40배",
     "BPS": "56,990원",
-    "배당수익률": "1.27%",
+    "배당수익률": "1.32%",
     "현재가": "259,000원"
    }
   },
@@ -9223,13 +8499,13 @@
     }
    ],
    "metrics": {
-    "PER": "8.86배",
+    "PER": "8.42배",
     "EPS": "3,368원",
-    "추정PER": "8.41배",
+    "추정PER": "7.99배",
     "추정EPS": "3,548원",
-    "PBR": "2.84배",
+    "PBR": "2.69배",
     "BPS": "10,525원",
-    "배당수익률": "1.03%",
+    "배당수익률": "1.08%",
     "현재가": "29,850원"
    }
   },
@@ -9262,8 +8538,8 @@
     "컨센서스 EPS": "$1.15",
     "전년 동기 EPS": "$0.81",
     "결산 분기": "Oct/2026",
-    "현재가": "$110.14 (-1.11%)",
-    "시가총액": "434,118,240,586",
+    "현재가": "$110.29 (-0.98%)",
+    "시가총액": "434,827,906,223",
     "1년 목표주가": "$135.00",
     "연간 배당금": "$1.68",
     "배당수익률": "1.51%",
@@ -9292,13 +8568,13 @@
     }
    ],
    "metrics": {
-    "PER": "9.20배",
+    "PER": "8.85배",
     "EPS": "4,397원",
-    "추정PER": "5.91배",
+    "추정PER": "5.68배",
     "추정EPS": "6,847원",
-    "PBR": "0.31배",
+    "PBR": "0.30배",
     "BPS": "131,757원",
-    "배당수익률": "3.21%",
+    "배당수익률": "3.34%",
     "현재가": "40,450원"
    }
   },
@@ -9322,13 +8598,13 @@
     }
    ],
    "metrics": {
-    "PER": "5.91배",
+    "PER": "5.84배",
     "EPS": "2,911원",
-    "추정PER": "7.71배",
+    "추정PER": "7.62배",
     "추정EPS": "2,230원",
-    "PBR": "0.61배",
+    "PBR": "0.60배",
     "BPS": "28,372원",
-    "배당수익률": "1.76%",
+    "배당수익률": "1.78%",
     "현재가": "17,200원"
    }
   },
@@ -9352,13 +8628,13 @@
     }
    ],
    "metrics": {
-    "PER": "7.20배",
+    "PER": "7.09배",
     "EPS": "1,896원",
     "추정PER": "N/A",
     "추정EPS": "N/A",
-    "PBR": "1.17배",
+    "PBR": "1.15배",
     "BPS": "11,691원",
-    "배당수익률": "2.16%",
+    "배당수익률": "2.20%",
     "현재가": "13,660원"
    }
   },
@@ -9386,7 +8662,7 @@
     "EPS": "-540원",
     "추정PER": "N/A",
     "추정EPS": "N/A",
-    "PBR": "0.74배",
+    "PBR": "0.72배",
     "BPS": "5,304원",
     "배당수익률": "N/A",
     "현재가": "3,920원"
@@ -9431,11 +8707,11 @@
     }
    ],
    "metrics": {
-    "PER": "208.39배",
+    "PER": "204.90배",
     "EPS": "429원",
     "추정PER": "N/A",
     "추정EPS": "N/A",
-    "PBR": "7.23배",
+    "PBR": "7.11배",
     "BPS": "12,361원",
     "배당수익률": "0.28%",
     "현재가": "89,400원"
@@ -9480,13 +8756,13 @@
     }
    ],
    "metrics": {
-    "PER": "80.16배",
+    "PER": "79.46배",
     "EPS": "426원",
     "추정PER": "N/A",
     "추정EPS": "N/A",
-    "PBR": "7.63배",
+    "PBR": "7.57배",
     "BPS": "4,474원",
-    "배당수익률": "1.28%",
+    "배당수익률": "1.29%",
     "현재가": "34,150원"
    }
   },
@@ -9519,8 +8795,8 @@
     "컨센서스 EPS": "$4.06",
     "전년 동기 EPS": "$2.17",
     "결산 분기": "Oct/2026",
-    "현재가": "$412.50 (+4.19%)",
-    "시가총액": "327,358,945,238",
+    "현재가": "$416.00 (+5.07%)",
+    "시가총액": "330,136,536,288",
     "1년 목표주가": "$610.00",
     "연간 배당금": "$2.12",
     "배당수익률": "0.54%",
@@ -9551,13 +8827,13 @@
     }
    ],
    "metrics": {
-    "PER": "20.67배",
+    "PER": "20.58배",
     "EPS": "4,813원",
-    "추정PER": "13.45배",
+    "추정PER": "13.39배",
     "추정EPS": "7,400원",
     "PBR": "0.49배",
     "BPS": "201,266원",
-    "배당수익률": "3.12%",
+    "배당수익률": "3.13%",
     "현재가": "99,500원"
    }
   },
@@ -9613,13 +8889,13 @@
     }
    ],
    "metrics": {
-    "PER": "31.80배",
+    "PER": "31.70배",
     "EPS": "992원",
-    "추정PER": "14.91배",
+    "추정PER": "14.86배",
     "추정EPS": "2,116원",
     "PBR": "0.37배",
     "BPS": "84,138원",
-    "배당수익률": "4.12%",
+    "배당수익률": "4.13%",
     "현재가": "31,550원"
    }
   },
@@ -9643,11 +8919,11 @@
     }
    ],
    "metrics": {
-    "PER": "3.92배",
+    "PER": "3.84배",
     "EPS": "2,865원",
     "추정PER": "N/A",
     "추정EPS": "N/A",
-    "PBR": "0.32배",
+    "PBR": "0.31배",
     "BPS": "35,000원",
     "배당수익률": "N/A",
     "현재가": "11,220원"
@@ -9673,13 +8949,13 @@
     }
    ],
    "metrics": {
-    "PER": "16.77배",
+    "PER": "16.19배",
     "EPS": "8,801원",
-    "추정PER": "13.88배",
+    "추정PER": "13.40배",
     "추정EPS": "10,636원",
-    "PBR": "7.27배",
+    "PBR": "7.02배",
     "BPS": "20,290원",
-    "배당수익률": "1.78%",
+    "배당수익률": "1.85%",
     "현재가": "147,600원"
    }
   },
@@ -9722,9 +8998,9 @@
     }
    ],
    "metrics": {
-    "PER": "5.98배",
+    "PER": "5.97배",
     "EPS": "6,152원",
-    "추정PER": "2.94배",
+    "추정PER": "2.93배",
     "추정EPS": "12,532원",
     "PBR": "0.27배",
     "BPS": "134,750원",
@@ -9771,13 +9047,13 @@
     }
    ],
    "metrics": {
-    "PER": "13.04배",
+    "PER": "12.68배",
     "EPS": "3,057원",
-    "추정PER": "12.50배",
-    "추정EPS": "3,188원",
-    "PBR": "2.04배",
+    "추정PER": "12.33배",
+    "추정EPS": "3,144원",
+    "PBR": "1.98배",
     "BPS": "19,575원",
-    "배당수익률": "2.20%",
+    "배당수익률": "2.26%",
     "현재가": "39,850원"
    }
   },
@@ -9820,13 +9096,13 @@
     }
    ],
    "metrics": {
-    "PER": "19.81배",
+    "PER": "19.45배",
     "EPS": "14,011원",
-    "추정PER": "16.50배",
-    "추정EPS": "16,820원",
+    "추정PER": "15.83배",
+    "추정EPS": "17,213원",
     "PBR": "0.34배",
     "BPS": "806,566원",
-    "배당수익률": "1.91%",
+    "배당수익률": "1.95%",
     "현재가": "277,500원"
    }
   },
@@ -9869,13 +9145,13 @@
     }
    ],
    "metrics": {
-    "PER": "14.29배",
+    "PER": "14.68배",
     "EPS": "44,006원",
-    "추정PER": "12.35배",
+    "추정PER": "12.69배",
     "추정EPS": "50,924원",
-    "PBR": "0.74배",
+    "PBR": "0.76배",
     "BPS": "850,986원",
-    "배당수익률": "3.10%",
+    "배당수익률": "3.02%",
     "현재가": "629,000원"
    }
   },
@@ -9918,11 +9194,11 @@
     }
    ],
    "metrics": {
-    "PER": "8.86배",
+    "PER": "9.31배",
     "EPS": "13,881원",
-    "추정PER": "8.28배",
+    "추정PER": "8.70배",
     "추정EPS": "14,858원",
-    "PBR": "1.75배",
+    "PBR": "1.84배",
     "BPS": "70,331원",
     "배당수익률": "N/A",
     "현재가": "123,000원"
@@ -9967,13 +9243,13 @@
     }
    ],
    "metrics": {
-    "PER": "2.35배",
+    "PER": "2.32배",
     "EPS": "12,213원",
-    "추정PER": "4.71배",
-    "추정EPS": "6,089원",
+    "추정PER": "4.76배",
+    "추정EPS": "5,949원",
     "PBR": "0.36배",
     "BPS": "78,939원",
-    "배당수익률": "5.38%",
+    "배당수익률": "5.45%",
     "현재가": "28,650원"
    }
   },
@@ -10016,13 +9292,13 @@
     }
    ],
    "metrics": {
-    "PER": "6.79배",
+    "PER": "6.94배",
     "EPS": "26,361원",
-    "추정PER": "6.73배",
+    "추정PER": "6.87배",
     "추정EPS": "26,621원",
-    "PBR": "0.78배",
+    "PBR": "0.79배",
     "BPS": "230,365원",
-    "배당수익률": "4.24%",
+    "배당수익률": "4.15%",
     "현재가": "179,100원"
    }
   },
@@ -10065,11 +9341,11 @@
     }
    ],
    "metrics": {
-    "PER": "3.19배",
+    "PER": "3.21배",
     "EPS": "13,238원",
-    "추정PER": "3.40배",
+    "추정PER": "3.42배",
     "추정EPS": "12,440원",
-    "PBR": "0.51배",
+    "PBR": "0.52배",
     "BPS": "82,565원",
     "배당수익률": "N/A",
     "현재가": "42,250원"
@@ -10114,11 +9390,11 @@
     }
    ],
    "metrics": {
-    "PER": "27.59배",
+    "PER": "27.42배",
     "EPS": "698원",
     "추정PER": "N/A",
     "추정EPS": "N/A",
-    "PBR": "0.87배",
+    "PBR": "0.86배",
     "BPS": "22,147원",
     "배당수익률": "N/A",
     "현재가": "19,260원"
@@ -10163,13 +9439,13 @@
     }
    ],
    "metrics": {
-    "PER": "5.65배",
+    "PER": "5.68배",
     "EPS": "2,458원",
     "추정PER": "N/A",
     "추정EPS": "N/A",
     "PBR": "0.61배",
     "BPS": "22,747원",
-    "배당수익률": "4.11%",
+    "배당수익률": "4.08%",
     "현재가": "13,880원"
    }
   },
@@ -10201,8 +9477,8 @@
     "컨센서스 EPS": "$3.86",
     "전년 동기 EPS": "$3.74",
     "결산 분기": "Oct/2026",
-    "현재가": "$318.15 (-0.11%)",
-    "시가총액": "317,414,954,512",
+    "현재가": "$317.56 (-0.30%)",
+    "시가총액": "316,826,317,633",
     "1년 목표주가": "$395.00",
     "52주 범위": "$397.63/$277.15",
     "섹터": "Consumer Discretionary",
@@ -10237,8 +9513,8 @@
     "컨센서스 EPS": "$2.02",
     "전년 동기 EPS": "$0.62",
     "결산 분기": "Sep/2026",
-    "현재가": "$58.79 (-2.50%)",
-    "시가총액": "16,792,646,732",
+    "현재가": "$58.94 (-2.26%)",
+    "시가총액": "16,835,492,404",
     "1년 목표주가": "$89.00",
     "52주 범위": "$98/$43.35",
     "섹터": "Industrials",
@@ -10273,7 +9549,7 @@
     "컨센서스 EPS": "$1.68",
     "전년 동기 EPS": "$1.11",
     "결산 분기": "Sep/2026",
-    "현재가": "$109.055 (-1.07%)",
+    "현재가": "$109.04 (-1.08%)",
     "시가총액": "188,277,939,794",
     "1년 목표주가": "$130.00",
     "52주 범위": "$117.0888/$92.185",
@@ -10309,8 +9585,8 @@
     "컨센서스 EPS": "$1.34",
     "전년 동기 EPS": "$1.36",
     "결산 분기": "Oct/2026",
-    "현재가": "$95.29 (+1.43%)",
-    "시가총액": "121,876,258,159",
+    "현재가": "$94.78 (+0.88%)",
+    "시가총액": "121,236,689,214",
     "1년 목표주가": "$105.00",
     "52주 범위": "$106.33/$73.31",
     "섹터": "Health Care",
@@ -10346,8 +9622,8 @@
     "컨센서스 EPS": "$2.49",
     "전년 동기 EPS": "$1.24",
     "결산 분기": "Oct/2026",
-    "현재가": "$217.48 (-0.21%)",
-    "시가총액": "5,241,750,000,000",
+    "현재가": "$215.38 (-1.17%)",
+    "시가총액": "5,190,658,000,000",
     "1년 목표주가": "$315.00",
     "연간 배당금": "$1.00",
     "배당수익률": "0.46%",
@@ -10385,8 +9661,8 @@
     "컨센서스 EPS": "$0.52",
     "전년 동기 EPS": "$0.53",
     "결산 분기": "Oct/2026",
-    "현재가": "$396.805 (-1.22%)",
-    "시가총액": "324,586,490,000",
+    "현재가": "$394.49 (-1.79%)",
+    "시가총액": "322,692,820,000",
     "1년 목표주가": "$415.00",
     "52주 범위": "$432.325/$139.5706",
     "섹터": "Technology",
@@ -10421,8 +9697,8 @@
     "컨센서스 EPS": "$1.33",
     "전년 동기 EPS": "$1.28",
     "결산 분기": "Oct/2026",
-    "현재가": "$139.195 (-0.72%)",
-    "시가총액": "153,127,389,032",
+    "현재가": "$138.39 (-1.29%)",
+    "시가총액": "152,225,410,302",
     "1년 목표주가": "$175.00",
     "52주 범위": "$170/$122.78",
     "섹터": "Consumer Discretionary",
@@ -10468,13 +9744,13 @@
     }
    ],
    "metrics": {
-    "PER": "10.52배",
+    "PER": "10.64배",
     "EPS": "10,602원",
-    "추정PER": "9.45배",
+    "추정PER": "9.56배",
     "추정EPS": "11,802원",
-    "PBR": "1.08배",
+    "PBR": "1.10배",
     "BPS": "102,850원",
-    "배당수익률": "3.14%",
+    "배당수익률": "3.10%",
     "현재가": "111,500원"
    }
   },
@@ -10507,8 +9783,8 @@
     "컨센서스 EPS": "$0.64",
     "전년 동기 EPS": "$0.62",
     "결산 분기": "Oct/2026",
-    "현재가": "$118.73 (-0.49%)",
-    "시가총액": "941,973,691,194",
+    "현재가": "$118.77 (-0.46%)",
+    "시가총액": "942,291,041,044",
     "1년 목표주가": "$130.00",
     "연간 배당금": "$0.99",
     "배당수익률": "0.83%",
@@ -10545,8 +9821,8 @@
     "컨센서스 EPS": "$6.41",
     "전년 동기 EPS": "$2.35",
     "결산 분기": "Oct/2026",
-    "현재가": "$496.89 (-1.01%)",
-    "시가총액": "315,928,997,348",
+    "현재가": "$493.79 (-1.63%)",
+    "시가총액": "313,957,977,823",
     "1년 목표주가": "$600.00",
     "52주 범위": "$595.51/$110.22",
     "섹터": "Technology",
@@ -10582,8 +9858,8 @@
     "컨센서스 EPS": "$3.89",
     "전년 동기 EPS": "$2.26",
     "결산 분기": "Oct/2026",
-    "현재가": "$422.73 (-0.62%)",
-    "시가총액": "204,840,359,019",
+    "현재가": "$428.27 (+0.69%)",
+    "시가총액": "207,524,851,696",
     "1년 목표주가": "$467.50",
     "연간 배당금": "$4.40",
     "배당수익률": "1.03%",
@@ -10620,8 +9896,8 @@
     "컨센서스 EPS": "$4.07",
     "전년 동기 EPS": "$3.93",
     "결산 분기": "Oct/2026",
-    "현재가": "$641.11 (+0.24%)",
-    "시가총액": "172,859,547,887",
+    "현재가": "$640.67 (+0.17%)",
+    "시가총액": "172,740,912,706",
     "1년 목표주가": "$715.00",
     "52주 범위": "$721.22/$454.5",
     "섹터": "Industrials",
@@ -10657,8 +9933,8 @@
     "컨센서스 EPS": "$0",
     "전년 동기 EPS": "N/A",
     "결산 분기": "Oct/2026",
-    "현재가": "$265.59 (-0.91%)",
-    "시가총액": "271,946,854,687",
+    "현재가": "$266.66 (-0.51%)",
+    "시가총액": "273,042,464,968",
     "1년 목표주가": "$250.00",
     "52주 범위": "$286.9899/$85.68",
     "섹터": "Technology",
@@ -10694,8 +9970,8 @@
     "컨센서스 EPS": "$0.79",
     "전년 동기 EPS": "$0.62",
     "결산 분기": "Oct/2026",
-    "현재가": "$249.26 (+2.34%)",
-    "시가총액": "218,576,094,000",
+    "현재가": "$251.65 (+3.32%)",
+    "시가총액": "220,671,885,000",
     "1년 목표주가": "$350.00",
     "연간 배당금": "$0.24",
     "배당수익률": "0.1%",
@@ -10732,8 +10008,8 @@
     "컨센서스 EPS": "$2.41",
     "전년 동기 EPS": "$2.66",
     "결산 분기": "Oct/2026",
-    "현재가": "$240.95 (+0.02%)",
-    "시가총액": "198,301,850,000",
+    "현재가": "$242.11 (+0.51%)",
+    "시가총액": "199,256,530,000",
     "1년 목표주가": "$289.50",
     "52주 범위": "$269.11/$146.32",
     "섹터": "Technology",
@@ -10768,8 +10044,8 @@
     "컨센서스 EPS": "$1.57",
     "전년 동기 EPS": "$1.95",
     "결산 분기": "Nov/2026",
-    "현재가": "$130.16 (-0.28%)",
-    "시가총액": "393,554,359,080",
+    "현재가": "$144.54 (+10.73%)",
+    "시가총액": "437,050,801,440",
     "1년 목표주가": "$225.00",
     "52주 범위": "$285.46/$114.5",
     "섹터": "Technology",
@@ -10805,8 +10081,8 @@
     "컨센서스 EPS": "$3.09",
     "전년 동기 EPS": "$1.90",
     "결산 분기": "Oct/2026",
-    "현재가": "$478.835 (+0.93%)",
-    "시가총액": "91,762,333,387",
+    "현재가": "$481.89 (+1.57%)",
+    "시가총액": "92,347,783,341",
     "1년 목표주가": "$600.00",
     "52주 범위": "$539.48/$362.55",
     "섹터": "Technology",
@@ -10842,8 +10118,8 @@
     "컨센서스 EPS": "$3.45",
     "전년 동기 EPS": "$1.61",
     "결산 분기": "Oct/2026",
-    "현재가": "$346.18 (+1.12%)",
-    "시가총액": "1,652,822,559,184",
+    "현재가": "$351.81 (+2.77%)",
+    "시가총액": "1,679,410,722,806",
     "1년 목표주가": "$530.00",
     "연간 배당금": "$2.60",
     "배당수익률": "0.76%",
@@ -10881,8 +10157,8 @@
     "컨센서스 EPS": "$4.87",
     "전년 동기 EPS": "$4.34",
     "결산 분기": "Nov/2026",
-    "현재가": "$983.75 (-0.84%)",
-    "시가총액": "435,941,790,959",
+    "현재가": "$982.73 (-0.95%)",
+    "시가총액": "435,476,505,143",
     "1년 목표주가": "$1,100.00",
     "연간 배당금": "$5.88",
     "배당수익률": "0.59%",
@@ -10920,8 +10196,8 @@
     "컨센서스 EPS": "$37.93",
     "전년 동기 EPS": "$4.61",
     "결산 분기": "Nov/2026",
-    "현재가": "$971.14 (+4.56%)",
-    "시가총액": "1,098,634,567,316",
+    "현재가": "$983.23 (+5.86%)",
+    "시가총액": "1,112,449,244,735",
     "1년 목표주가": "$1,500.00",
     "연간 배당금": "$0.60",
     "배당수익률": "0.06%",
@@ -10958,8 +10234,8 @@
     "컨센서스 EPS": "$3.90",
     "전년 동기 EPS": "$3.94",
     "결산 분기": "Nov/2026",
-    "현재가": "$245.20 (+4.27%)",
-    "시가총액": "163,970,833,993",
+    "현재가": "$243.40 (+3.50%)",
+    "시가총액": "162,767,132,928",
     "1년 목표주가": "$237.50",
     "52주 범위": "$291.09/$118.15",
     "섹터": "Consumer Discretionary",
@@ -11005,14 +10281,63 @@
     }
    ],
    "metrics": {
-    "PER": "19.77배",
+    "PER": "18.45배",
     "EPS": "23,602원",
-    "추정PER": "18.21배",
-    "추정EPS": "25,623원",
-    "PBR": "7.45배",
+    "추정PER": "17.95배",
+    "추정EPS": "24,260원",
+    "PBR": "6.95배",
     "BPS": "62,651원",
-    "배당수익률": "1.52%",
+    "배당수익률": "1.63%",
     "현재가": "466,500원"
+   }
+  },
+  {
+   "id": "kr-earn-est-207940-2027-01-21",
+   "date": "2027-01-21",
+   "market": "KR",
+   "cat": "earnings",
+   "title": "삼성바이오로직스 실적발표 예상",
+   "ticker": "207940",
+   "session": "unknown",
+   "imp": 2,
+   "status": "estimated",
+   "index": [
+    "코스피 시총상위"
+   ],
+   "desc": "국내는 실적발표일을 사전 공표하는 제도가 없어, 과거 2년간 잠정실적 공시일을 기준으로 추정한 일정입니다. 발표 시각(장전·장마감 후)도 사전 확인이 불가하며 국내 잠정실적은 통상 장중~장 마감 후에 공시됩니다. 고객 안내 전 기업 IR 확인이 필요합니다.",
+   "checklist": [
+    "기업 IR 또는 유선으로 실제 발표일 확인",
+    "컨센서스와 직전 분기 수치 비교표 준비",
+    "동일 업종 선행 발표 기업의 결과·가이던스 확인"
+   ],
+   "source": "과거 잠정실적 공시일 기반 추정 (잠정)",
+   "links": [
+    {
+     "label": "네이버 금융",
+     "url": "https://finance.naver.com/item/main.naver?code=207940"
+    },
+    {
+     "label": "종목 공시·뉴스",
+     "url": "https://finance.naver.com/item/news_notice.naver?code=207940"
+    },
+    {
+     "label": "컨센서스·기업분석",
+     "url": "https://finance.naver.com/item/coinfo.naver?code=207940"
+    },
+    {
+     "label": "DART 공시 검색",
+     "url": "https://dart.fss.or.kr/dsab007/main.do?textCrpNm=%EC%82%BC%EC%84%B1%EB%B0%94%EC%9D%B4%EC%98%A4%EB%A1%9C%EC%A7%81%EC%8A%A4"
+    }
+   ],
+   "metrics": {
+    "PER": "38.47배",
+    "EPS": "35,900원",
+    "추정PER": "34.93배",
+    "추정EPS": "39,538원",
+    "PBR": "7.70배",
+    "BPS": "179,329원",
+    "배당수익률": "N/A",
+    "현재가": "1,371,000원"
    }
   },
   {
@@ -11054,13 +10379,13 @@
     }
    ],
    "metrics": {
-    "PER": "64.20배",
+    "PER": "59.88배",
     "EPS": "2,592원",
-    "추정PER": "44.71배",
+    "추정PER": "41.70배",
     "추정EPS": "3,722원",
-    "PBR": "11.62배",
+    "PBR": "10.84배",
     "BPS": "14,317원",
-    "배당수익률": "0.36%",
+    "배당수익률": "0.39%",
     "현재가": "166,400원"
    }
   },
@@ -11103,11 +10428,11 @@
     }
    ],
    "metrics": {
-    "PER": "81.75배",
+    "PER": "79.37배",
     "EPS": "2,734원",
-    "추정PER": "51.43배",
+    "추정PER": "49.93배",
     "추정EPS": "4,346원",
-    "PBR": "29.23배",
+    "PBR": "28.38배",
     "BPS": "7,646원",
     "배당수익률": "0.13%",
     "현재가": "223,500원"
@@ -11152,14 +10477,63 @@
     }
    ],
    "metrics": {
-    "PER": "76.41배",
+    "PER": "73.02배",
     "EPS": "354원",
-    "추정PER": "68.31배",
+    "추정PER": "65.28배",
     "추정EPS": "396원",
-    "PBR": "2.18배",
+    "PBR": "2.08배",
     "BPS": "12,432원",
-    "배당수익률": "0.59%",
+    "배당수익률": "0.62%",
     "현재가": "27,050원"
+   }
+  },
+  {
+   "id": "kr-earn-est-055550-2027-02-05",
+   "date": "2027-02-05",
+   "market": "KR",
+   "cat": "earnings",
+   "title": "신한지주 실적발표 예상",
+   "ticker": "055550",
+   "session": "unknown",
+   "imp": 2,
+   "status": "estimated",
+   "index": [
+    "코스피 시총상위"
+   ],
+   "desc": "국내는 실적발표일을 사전 공표하는 제도가 없어, 과거 2년간 잠정실적 공시일을 기준으로 추정한 일정입니다. 발표 시각(장전·장마감 후)도 사전 확인이 불가하며 국내 잠정실적은 통상 장중~장 마감 후에 공시됩니다. 고객 안내 전 기업 IR 확인이 필요합니다.",
+   "checklist": [
+    "기업 IR 또는 유선으로 실제 발표일 확인",
+    "컨센서스와 직전 분기 수치 비교표 준비",
+    "동일 업종 선행 발표 기업의 결과·가이던스 확인"
+   ],
+   "source": "과거 잠정실적 공시일 기반 추정 (잠정)",
+   "links": [
+    {
+     "label": "네이버 금융",
+     "url": "https://finance.naver.com/item/main.naver?code=055550"
+    },
+    {
+     "label": "종목 공시·뉴스",
+     "url": "https://finance.naver.com/item/news_notice.naver?code=055550"
+    },
+    {
+     "label": "컨센서스·기업분석",
+     "url": "https://finance.naver.com/item/coinfo.naver?code=055550"
+    },
+    {
+     "label": "DART 공시 검색",
+     "url": "https://dart.fss.or.kr/dsab007/main.do?textCrpNm=%EC%8B%A0%ED%95%9C%EC%A7%80%EC%A3%BC"
+    }
+   ],
+   "metrics": {
+    "PER": "7.93배",
+    "EPS": "11,174원",
+    "추정PER": "7.21배",
+    "추정EPS": "12,293원",
+    "PBR": "0.69배",
+    "BPS": "128,024원",
+    "배당수익률": "2.92%",
+    "현재가": "87,600원"
    }
   },
   {
@@ -11205,10 +10579,108 @@
     "EPS": "-453원",
     "추정PER": "N/A",
     "추정EPS": "N/A",
-    "PBR": "2.49배",
+    "PBR": "2.46배",
     "BPS": "49,695원",
     "배당수익률": "0.29%",
     "현재가": "123,800원"
+   }
+  },
+  {
+   "id": "kr-earn-est-029780-2027-02-05",
+   "date": "2027-02-05",
+   "market": "KR",
+   "cat": "earnings",
+   "title": "삼성카드 실적발표 예상",
+   "ticker": "029780",
+   "session": "unknown",
+   "imp": 2,
+   "status": "estimated",
+   "index": [
+    "코스피 시총상위"
+   ],
+   "desc": "국내는 실적발표일을 사전 공표하는 제도가 없어, 과거 2년간 잠정실적 공시일을 기준으로 추정한 일정입니다. 발표 시각(장전·장마감 후)도 사전 확인이 불가하며 국내 잠정실적은 통상 장중~장 마감 후에 공시됩니다. 고객 안내 전 기업 IR 확인이 필요합니다.",
+   "checklist": [
+    "기업 IR 또는 유선으로 실제 발표일 확인",
+    "컨센서스와 직전 분기 수치 비교표 준비",
+    "동일 업종 선행 발표 기업의 결과·가이던스 확인"
+   ],
+   "source": "과거 잠정실적 공시일 기반 추정 (잠정)",
+   "links": [
+    {
+     "label": "네이버 금융",
+     "url": "https://finance.naver.com/item/main.naver?code=029780"
+    },
+    {
+     "label": "종목 공시·뉴스",
+     "url": "https://finance.naver.com/item/news_notice.naver?code=029780"
+    },
+    {
+     "label": "컨센서스·기업분석",
+     "url": "https://finance.naver.com/item/coinfo.naver?code=029780"
+    },
+    {
+     "label": "DART 공시 검색",
+     "url": "https://dart.fss.or.kr/dsab007/main.do?textCrpNm=%EC%82%BC%EC%84%B1%EC%B9%B4%EB%93%9C"
+    }
+   ],
+   "metrics": {
+    "PER": "7.63배",
+    "EPS": "5,358원",
+    "추정PER": "8.20배",
+    "추정EPS": "4,985원",
+    "PBR": "0.49배",
+    "BPS": "83,446원",
+    "배당수익률": "6.85%",
+    "현재가": "40,900원"
+   }
+  },
+  {
+   "id": "kr-earn-est-175330-2027-02-05",
+   "date": "2027-02-05",
+   "market": "KR",
+   "cat": "earnings",
+   "title": "JB금융지주 실적발표 예상",
+   "ticker": "175330",
+   "session": "unknown",
+   "imp": 2,
+   "status": "estimated",
+   "index": [
+    "코스피 시총상위"
+   ],
+   "desc": "국내는 실적발표일을 사전 공표하는 제도가 없어, 과거 2년간 잠정실적 공시일을 기준으로 추정한 일정입니다. 발표 시각(장전·장마감 후)도 사전 확인이 불가하며 국내 잠정실적은 통상 장중~장 마감 후에 공시됩니다. 고객 안내 전 기업 IR 확인이 필요합니다.",
+   "checklist": [
+    "기업 IR 또는 유선으로 실제 발표일 확인",
+    "컨센서스와 직전 분기 수치 비교표 준비",
+    "동일 업종 선행 발표 기업의 결과·가이던스 확인"
+   ],
+   "source": "과거 잠정실적 공시일 기반 추정 (잠정)",
+   "links": [
+    {
+     "label": "네이버 금융",
+     "url": "https://finance.naver.com/item/main.naver?code=175330"
+    },
+    {
+     "label": "종목 공시·뉴스",
+     "url": "https://finance.naver.com/item/news_notice.naver?code=175330"
+    },
+    {
+     "label": "컨센서스·기업분석",
+     "url": "https://finance.naver.com/item/coinfo.naver?code=175330"
+    },
+    {
+     "label": "DART 공시 검색",
+     "url": "https://dart.fss.or.kr/dsab007/main.do?textCrpNm=JB%EA%B8%88%EC%9C%B5%EC%A7%80%EC%A3%BC"
+    }
+   ],
+   "metrics": {
+    "PER": "6.61배",
+    "EPS": "3,821원",
+    "추정PER": "6.45배",
+    "추정EPS": "3,917원",
+    "PBR": "0.77배",
+    "BPS": "32,702원",
+    "배당수익률": "4.52%",
+    "현재가": "24,400원"
    }
   },
   {
@@ -11250,13 +10722,13 @@
     }
    ],
    "metrics": {
-    "PER": "38.58배",
+    "PER": "38.01배",
     "EPS": "963원",
     "추정PER": "N/A",
     "추정EPS": "N/A",
-    "PBR": "3.66배",
+    "PBR": "3.61배",
     "BPS": "10,150원",
-    "배당수익률": "0.53%",
+    "배당수익률": "0.54%",
     "현재가": "37,150원"
    }
   }
