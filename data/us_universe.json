@@ -1597,55 +1597,55 @@
  "MSTR": [
   "NDX"
  ],
- "ASML": [
-  "NDX"
- ],
- "SPCX": [
-  "NDX"
- ],
- "ALNY": [
-  "NDX"
- ],
- "QQQ": [
-  "NDX"
- ],
- "CRWV": [
-  "NDX"
- ],
- "TRI": [
-  "NDX"
- ],
- "ALAB": [
-  "NDX"
- ],
- "PDD": [
-  "NDX"
- ],
  "NBIS": [
-  "NDX"
- ],
- "SHOP": [
-  "NDX"
- ],
- "FER": [
-  "NDX"
- ],
- "MELI": [
   "NDX"
  ],
  "SPY": [
   "NDX"
  ],
- "ARM": [
+ "ASML": [
   "NDX"
  ],
- "DIA": [
+ "MELI": [
+  "NDX"
+ ],
+ "CRWV": [
+  "NDX"
+ ],
+ "PDD": [
+  "NDX"
+ ],
+ "SHOP": [
+  "NDX"
+ ],
+ "QQQ": [
+  "NDX"
+ ],
+ "ALAB": [
+  "NDX"
+ ],
+ "ARM": [
   "NDX"
  ],
  "RKLB": [
   "NDX"
  ],
+ "ALNY": [
+  "NDX"
+ ],
+ "DIA": [
+  "NDX"
+ ],
+ "FER": [
+  "NDX"
+ ],
  "CCEP": [
+  "NDX"
+ ],
+ "TRI": [
+  "NDX"
+ ],
+ "SPCX": [
   "NDX"
  ]
 }
