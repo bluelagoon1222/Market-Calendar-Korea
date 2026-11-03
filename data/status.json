@@ -1,6 +1,6 @@
 {
  "version": "v6",
- "started_at": "2026-11-02T18:52:11",
+ "started_at": "2026-11-03T03:41:49",
  "steps": {
   "universe.csv": {
    "source": "main",
@@ -27,13 +27,13 @@
    "cutoff_usd_bn": 116.4
   },
   "us_earnings.nasdaq": {
-   "raw_rows": 3399,
-   "matched": 43,
-   "dropped_outside_focus": 182,
-   "events": 43
+   "raw_rows": 3252,
+   "matched": 40,
+   "dropped_outside_focus": 167,
+   "events": 40
   },
   "us_quotes": {
-   "tickers": 43
+   "tickers": 40
   },
   "kr_universe.api.코스피 시총상위": {
    "tickers": 150
@@ -44,31 +44,34 @@
   "kr_universe.total": {
    "tickers": 220
   },
+  "corp_codes": {
+   "listed": 3938
+  },
   "corp.filings": {
-   "count": 1477
+   "count": 1439
   },
   "corp.targets": {
-   "count": 35,
-   "skipped_outside_universe": 615,
+   "count": 34,
+   "skipped_outside_universe": 594,
    "universe": 219
   },
   "corp.events": {
-   "count": 26,
-   "from_targets": 35
+   "count": 24,
+   "from_targets": 34
   },
   "kr_earnings.notice_filings": {
-   "count": 135
+   "count": 136
   },
   "kr_earnings.confirmed": {
-   "count": 90
+   "count": 83
   },
   "kr_earnings.estimated": {
-   "count": 120,
-   "newly_fetched": 0,
-   "companies_with_history": 240
+   "count": 123,
+   "newly_fetched": 219,
+   "companies_with_history": 241
   },
   "kr_quotes": {
-   "tickers": 210
+   "tickers": 206
   }
  },
  "errors": [],
@@ -114,12 +117,12 @@
    "삼성SDI"
   ]
  },
- "finished_at": "2026-11-02T19:03:09",
- "elapsed_sec": 658,
+ "finished_at": "2026-11-03T04:03:02",
+ "elapsed_sec": 1272,
  "counts": {
-  "earnings": 253,
-  "us": 43,
-  "kr": 210,
-  "corp": 26
+  "earnings": 246,
+  "us": 40,
+  "kr": 206,
+  "corp": 24
  }
 }
