@@ -1597,16 +1597,10 @@
  "CCEP": [
   "NDX"
  ],
- "DIA": [
+ "ASML": [
   "NDX"
  ],
- "SHOP": [
-  "NDX"
- ],
- "RKLB": [
-  "NDX"
- ],
- "NBIS": [
+ "ALAB": [
   "NDX"
  ],
  "FER": [
@@ -1615,37 +1609,43 @@
  "TRI": [
   "NDX"
  ],
- "QQQ": [
-  "NDX"
- ],
- "SPY": [
-  "NDX"
- ],
- "ALAB": [
+ "DIA": [
   "NDX"
  ],
  "CRWV": [
   "NDX"
  ],
- "MSTR": [
-  "NDX"
- ],
- "ASML": [
-  "NDX"
- ],
  "MELI": [
+  "NDX"
+ ],
+ "SHOP": [
+  "NDX"
+ ],
+ "MSTR": [
   "NDX"
  ],
  "ALNY": [
   "NDX"
  ],
- "SPCX": [
+ "QQQ": [
+  "NDX"
+ ],
+ "NBIS": [
   "NDX"
  ],
  "PDD": [
   "NDX"
  ],
+ "SPY": [
+  "NDX"
+ ],
  "ARM": [
+  "NDX"
+ ],
+ "SPCX": [
+  "NDX"
+ ],
+ "RKLB": [
   "NDX"
  ]
 }
