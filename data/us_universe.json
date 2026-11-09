@@ -1594,43 +1594,16 @@
  "ZTS": [
   "SP500"
  ],
- "CRWV": [
-  "NDX"
- ],
- "ALAB": [
-  "NDX"
- ],
- "QQQ": [
-  "NDX"
- ],
- "SHOP": [
-  "NDX"
- ],
- "DIA": [
-  "NDX"
- ],
- "SPCX": [
-  "NDX"
- ],
- "ALNY": [
-  "NDX"
- ],
- "CCEP": [
-  "NDX"
- ],
- "TRI": [
+ "ASML": [
   "NDX"
  ],
  "NBIS": [
   "NDX"
  ],
- "SPY": [
+ "ALNY": [
   "NDX"
  ],
- "FER": [
-  "NDX"
- ],
- "MELI": [
+ "ALAB": [
   "NDX"
  ],
  "RKLB": [
@@ -1639,13 +1612,40 @@
  "ARM": [
   "NDX"
  ],
- "PDD": [
-  "NDX"
- ],
  "MSTR": [
   "NDX"
  ],
- "ASML": [
+ "SHOP": [
+  "NDX"
+ ],
+ "CCEP": [
+  "NDX"
+ ],
+ "SPY": [
+  "NDX"
+ ],
+ "CRWV": [
+  "NDX"
+ ],
+ "QQQ": [
+  "NDX"
+ ],
+ "PDD": [
+  "NDX"
+ ],
+ "DIA": [
+  "NDX"
+ ],
+ "MELI": [
+  "NDX"
+ ],
+ "FER": [
+  "NDX"
+ ],
+ "TRI": [
+  "NDX"
+ ],
+ "SPCX": [
   "NDX"
  ]
 }
