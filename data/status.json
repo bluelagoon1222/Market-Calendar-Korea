@@ -1,6 +1,6 @@
 {
  "version": "v6",
- "started_at": "2026-11-10T04:19:18",
+ "started_at": "2026-11-10T16:37:15",
  "steps": {
   "universe.csv": {
    "source": "main",
@@ -17,17 +17,17 @@
    "tickers": 521
   },
   "us_marketcaps": {
-   "tickers": 5811
+   "tickers": 5816
   },
   "us_focus": {
    "top_pct": 0.2,
    "top_n": 104,
    "always": 40,
    "total": 121,
-   "cutoff_usd_bn": 120.2
+   "cutoff_usd_bn": 121.6
   },
   "us_earnings.nasdaq": {
-   "raw_rows": 1582,
+   "raw_rows": 1631,
    "matched": 23,
    "dropped_outside_focus": 46,
    "events": 23
@@ -44,30 +44,27 @@
   "kr_universe.total": {
    "tickers": 220
   },
-  "corp_codes": {
-   "listed": 3939
-  },
   "corp.filings": {
-   "count": 1459
+   "count": 1492
   },
   "corp.targets": {
-   "count": 37,
-   "skipped_outside_universe": 583,
+   "count": 38,
+   "skipped_outside_universe": 599,
    "universe": 220
   },
   "corp.events": {
-   "count": 24,
-   "from_targets": 37
+   "count": 28,
+   "from_targets": 38
   },
   "kr_earnings.notice_filings": {
-   "count": 108
+   "count": 103
   },
   "kr_earnings.confirmed": {
    "count": 27
   },
   "kr_earnings.estimated": {
    "count": 138,
-   "newly_fetched": 220,
+   "newly_fetched": 0,
    "companies_with_history": 250
   },
   "kr_quotes": {
@@ -99,8 +96,8 @@
    "AMZN",
    "SPCX",
    "META",
-   "TSLA",
-   "AVGO"
+   "AVGO",
+   "TSLA"
   ],
   "kr_universe": [
    "삼성전자",
@@ -117,12 +114,12 @@
    "신한지주"
   ]
  },
- "finished_at": "2026-11-10T04:54:15",
- "elapsed_sec": 2097,
+ "finished_at": "2026-11-10T16:47:45",
+ "elapsed_sec": 629,
  "counts": {
   "earnings": 188,
   "us": 23,
   "kr": 165,
-  "corp": 24
+  "corp": 28
  }
 }
