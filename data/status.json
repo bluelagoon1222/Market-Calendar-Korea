@@ -1,6 +1,6 @@
 {
  "version": "v6",
- "started_at": "2026-11-18T03:51:12",
+ "started_at": "2026-11-18T17:36:37",
  "steps": {
   "universe.csv": {
    "source": "main",
@@ -17,23 +17,23 @@
    "tickers": 522
   },
   "us_marketcaps": {
-   "tickers": 5813
+   "tickers": 5812
   },
   "us_focus": {
    "top_pct": 0.2,
    "top_n": 104,
    "always": 40,
-   "total": 121,
-   "cutoff_usd_bn": 117.2
+   "total": 120,
+   "cutoff_usd_bn": 115.8
   },
   "us_earnings.nasdaq": {
-   "raw_rows": 637,
-   "matched": 17,
-   "dropped_outside_focus": 41,
-   "events": 17
+   "raw_rows": 588,
+   "matched": 18,
+   "dropped_outside_focus": 43,
+   "events": 18
   },
   "us_quotes": {
-   "tickers": 17
+   "tickers": 18
   },
   "kr_universe.api.코스피 시총상위": {
    "tickers": 150
@@ -44,34 +44,31 @@
   "kr_universe.total": {
    "tickers": 220
   },
-  "corp_codes": {
-   "listed": 3942
-  },
   "corp.filings": {
-   "count": 1450
+   "count": 1477
   },
   "corp.targets": {
-   "count": 42,
-   "skipped_outside_universe": 568,
+   "count": 41,
+   "skipped_outside_universe": 585,
    "universe": 220
   },
   "corp.events": {
-   "count": 28,
-   "from_targets": 42
+   "count": 27,
+   "from_targets": 41
   },
   "kr_earnings.notice_filings": {
-   "count": 48
+   "count": 42
   },
   "kr_earnings.confirmed": {
    "count": 0
   },
   "kr_earnings.estimated": {
-   "count": 142,
-   "newly_fetched": 220,
+   "count": 141,
+   "newly_fetched": 3,
    "companies_with_history": 253
   },
   "kr_quotes": {
-   "tickers": 68
+   "tickers": 141
   }
  },
  "errors": [],
@@ -98,8 +95,8 @@
    "GOOG",
    "AMZN",
    "SPCX",
-   "META",
    "AVGO",
+   "META",
    "TSLA"
   ],
   "kr_universe": [
@@ -117,12 +114,12 @@
    "신한지주"
   ]
  },
- "finished_at": "2026-11-18T04:27:12",
- "elapsed_sec": 2160,
+ "finished_at": "2026-11-18T17:45:31",
+ "elapsed_sec": 533,
  "counts": {
   "earnings": 159,
-  "us": 17,
-  "kr": 142,
-  "corp": 28
+  "us": 18,
+  "kr": 141,
+  "corp": 27
  }
 }
