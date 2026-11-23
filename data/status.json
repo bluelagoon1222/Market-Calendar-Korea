@@ -1,6 +1,6 @@
 {
  "version": "v6",
- "started_at": "2026-11-23T03:06:55",
+ "started_at": "2026-11-23T20:36:47",
  "steps": {
   "universe.csv": {
    "source": "main",
@@ -17,19 +17,19 @@
    "tickers": 522
   },
   "us_marketcaps": {
-   "tickers": 5809
+   "tickers": 5808
   },
   "us_focus": {
    "top_pct": 0.2,
    "top_n": 104,
    "always": 40,
-   "total": 120,
-   "cutoff_usd_bn": 118.9
+   "total": 122,
+   "cutoff_usd_bn": 110.0
   },
   "us_earnings.nasdaq": {
-   "raw_rows": 495,
+   "raw_rows": 531,
    "matched": 17,
-   "dropped_outside_focus": 36,
+   "dropped_outside_focus": 40,
    "events": 17
   },
   "us_quotes": {
@@ -44,30 +44,27 @@
   "kr_universe.total": {
    "tickers": 220
   },
-  "corp_codes": {
-   "listed": 3944
-  },
   "corp.filings": {
-   "count": 1425
+   "count": 1456
   },
   "corp.targets": {
-   "count": 41,
-   "skipped_outside_universe": 567,
+   "count": 42,
+   "skipped_outside_universe": 582,
    "universe": 220
   },
   "corp.events": {
-   "count": 22,
-   "from_targets": 41
+   "count": 25,
+   "from_targets": 42
   },
   "kr_earnings.notice_filings": {
-   "count": 26
+   "count": 24
   },
   "kr_earnings.confirmed": {
    "count": 0
   },
   "kr_earnings.estimated": {
    "count": 142,
-   "newly_fetched": 220,
+   "newly_fetched": 2,
    "companies_with_history": 253
   },
   "kr_quotes": {
@@ -93,9 +90,9 @@
   "us_focus_top": [
    "AAPL",
    "MSFT",
-   "NVDA",
    "GOOGL",
    "GOOG",
+   "NVDA",
    "AMZN",
    "SPCX",
    "AVGO",
@@ -117,12 +114,12 @@
    "신한지주"
   ]
  },
- "finished_at": "2026-11-23T03:26:41",
- "elapsed_sec": 1186,
+ "finished_at": "2026-11-23T20:44:28",
+ "elapsed_sec": 460,
  "counts": {
   "earnings": 159,
   "us": 17,
   "kr": 142,
-  "corp": 22
+  "corp": 25
  }
 }
