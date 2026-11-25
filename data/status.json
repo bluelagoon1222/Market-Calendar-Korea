@@ -1,6 +1,6 @@
 {
  "version": "v6",
- "started_at": "2026-11-25T05:01:30",
+ "started_at": "2026-11-25T18:51:05",
  "steps": {
   "universe.csv": {
    "source": "main",
@@ -17,23 +17,23 @@
    "tickers": 522
   },
   "us_marketcaps": {
-   "tickers": 5836
+   "tickers": 5839
   },
   "us_focus": {
    "top_pct": 0.2,
    "top_n": 104,
    "always": 40,
-   "total": 120,
-   "cutoff_usd_bn": 119.0
+   "total": 121,
+   "cutoff_usd_bn": 114.1
   },
   "us_earnings.nasdaq": {
-   "raw_rows": 437,
-   "matched": 13,
-   "dropped_outside_focus": 31,
-   "events": 13
+   "raw_rows": 468,
+   "matched": 14,
+   "dropped_outside_focus": 39,
+   "events": 14
   },
   "us_quotes": {
-   "tickers": 13
+   "tickers": 14
   },
   "kr_universe.api.코스피 시총상위": {
    "tickers": 150
@@ -44,15 +44,12 @@
   "kr_universe.total": {
    "tickers": 220
   },
-  "corp_codes": {
-   "listed": 3945
-  },
   "corp.filings": {
-   "count": 1506
+   "count": 1529
   },
   "corp.targets": {
    "count": 44,
-   "skipped_outside_universe": 607,
+   "skipped_outside_universe": 617,
    "universe": 220
   },
   "corp.events": {
@@ -60,18 +57,18 @@
    "from_targets": 44
   },
   "kr_earnings.notice_filings": {
-   "count": 19
+   "count": 16
   },
   "kr_earnings.confirmed": {
    "count": 0
   },
   "kr_earnings.estimated": {
-   "count": 144,
-   "newly_fetched": 220,
+   "count": 143,
+   "newly_fetched": 2,
    "companies_with_history": 253
   },
   "kr_quotes": {
-   "tickers": 89
+   "tickers": 143
   }
  },
  "errors": [],
@@ -92,14 +89,14 @@
   ],
   "us_focus_top": [
    "AAPL",
-   "NVDA",
    "MSFT",
+   "NVDA",
    "GOOGL",
    "GOOG",
    "AMZN",
    "SPCX",
-   "META",
    "TSLA",
+   "META",
    "AVGO"
   ],
   "kr_universe": [
@@ -113,16 +110,16 @@
    "KB금융",
    "셀트리온",
    "삼성생명",
-   "삼성물산",
-   "신한지주"
+   "신한지주",
+   "삼성물산"
   ]
  },
- "finished_at": "2026-11-25T05:37:30",
- "elapsed_sec": 2160,
+ "finished_at": "2026-11-25T18:58:36",
+ "elapsed_sec": 450,
  "counts": {
   "earnings": 157,
-  "us": 13,
-  "kr": 144,
+  "us": 14,
+  "kr": 143,
   "corp": 27
  }
 }
