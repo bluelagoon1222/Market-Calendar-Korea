@@ -1,6 +1,6 @@
 {
  "version": "v6",
- "started_at": "2026-11-25T18:51:05",
+ "started_at": "2026-11-26T04:22:51",
  "steps": {
   "universe.csv": {
    "source": "main",
@@ -27,7 +27,7 @@
    "cutoff_usd_bn": 114.1
   },
   "us_earnings.nasdaq": {
-   "raw_rows": 468,
+   "raw_rows": 436,
    "matched": 14,
    "dropped_outside_focus": 39,
    "events": 14
@@ -44,31 +44,34 @@
   "kr_universe.total": {
    "tickers": 220
   },
+  "corp_codes": {
+   "listed": 3945
+  },
   "corp.filings": {
-   "count": 1529
+   "count": 1534
   },
   "corp.targets": {
-   "count": 44,
-   "skipped_outside_universe": 617,
+   "count": 46,
+   "skipped_outside_universe": 618,
    "universe": 220
   },
   "corp.events": {
    "count": 27,
-   "from_targets": 44
+   "from_targets": 46
   },
   "kr_earnings.notice_filings": {
-   "count": 16
+   "count": 15
   },
   "kr_earnings.confirmed": {
    "count": 0
   },
   "kr_earnings.estimated": {
-   "count": 143,
-   "newly_fetched": 2,
-   "companies_with_history": 253
+   "count": 145,
+   "newly_fetched": 220,
+   "companies_with_history": 254
   },
   "kr_quotes": {
-   "tickers": 143
+   "tickers": 145
   }
  },
  "errors": [],
@@ -110,16 +113,16 @@
    "KB금융",
    "셀트리온",
    "삼성생명",
-   "신한지주",
-   "삼성물산"
+   "삼성물산",
+   "신한지주"
   ]
  },
- "finished_at": "2026-11-25T18:58:36",
- "elapsed_sec": 450,
+ "finished_at": "2026-11-26T04:43:02",
+ "elapsed_sec": 1211,
  "counts": {
-  "earnings": 157,
+  "earnings": 159,
   "us": 14,
-  "kr": 143,
+  "kr": 145,
   "corp": 27
  }
 }
