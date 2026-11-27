@@ -1,6 +1,6 @@
 {
  "version": "v6",
- "started_at": "2026-11-27T04:31:33",
+ "started_at": "2026-11-27T18:29:03",
  "steps": {
   "universe.csv": {
    "source": "main",
@@ -27,13 +27,13 @@
    "cutoff_usd_bn": 113.2
   },
   "us_earnings.nasdaq": {
-   "raw_rows": 485,
-   "matched": 17,
-   "dropped_outside_focus": 46,
-   "events": 17
+   "raw_rows": 513,
+   "matched": 21,
+   "dropped_outside_focus": 47,
+   "events": 21
   },
   "us_quotes": {
-   "tickers": 17
+   "tickers": 21
   },
   "kr_universe.api.코스피 시총상위": {
    "tickers": 150
@@ -44,30 +44,27 @@
   "kr_universe.total": {
    "tickers": 220
   },
-  "corp_codes": {
-   "listed": 3945
-  },
   "corp.filings": {
-   "count": 1589
+   "count": 1625
   },
   "corp.targets": {
-   "count": 48,
-   "skipped_outside_universe": 636,
+   "count": 49,
+   "skipped_outside_universe": 648,
    "universe": 220
   },
   "corp.events": {
-   "count": 31,
-   "from_targets": 48
+   "count": 33,
+   "from_targets": 49
   },
   "kr_earnings.notice_filings": {
-   "count": 12
+   "count": 7
   },
   "kr_earnings.confirmed": {
    "count": 0
   },
   "kr_earnings.estimated": {
    "count": 142,
-   "newly_fetched": 220,
+   "newly_fetched": 0,
    "companies_with_history": 255
   },
   "kr_quotes": {
@@ -119,12 +116,12 @@
    "신한지주"
   ]
  },
- "finished_at": "2026-11-27T05:06:39",
- "elapsed_sec": 2105,
+ "finished_at": "2026-11-27T18:36:51",
+ "elapsed_sec": 467,
  "counts": {
-  "earnings": 159,
-  "us": 17,
+  "earnings": 163,
+  "us": 21,
   "kr": 142,
-  "corp": 31
+  "corp": 33
  }
 }
